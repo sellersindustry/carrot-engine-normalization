@@ -1,10 +1,11 @@
 # normalization-tts
-- word (consider can't)
+- words
     - acronym
     - initialism
-    - abbreviation (puncuation)
+    - abbreviation (Puncuation)
 - Categorization
     - Puncuation
+    - unit ("m" or "k" or "b" after a number)
 
 
 ## Issues

@@ -14,7 +14,7 @@ func word(buffer string) *token.Model {
 
 
 func wordGeneral(buffer string) *token.Model {
-	regexp := `^[a-zA-Z]+(\-[a-zA-Z]+)?(\'[a-zA-Z]+)?`;
+	regexp := `^[a-zA-Z]+(\-[a-zA-Z]+)*(\'[a-zA-Z]+)?`;
 	return utility.DetectTokenGeneral(buffer, regexp, token.Word);
 }
 

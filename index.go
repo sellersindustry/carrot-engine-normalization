@@ -8,5 +8,5 @@ import (
 
 
 func main() {
-    fmt.Print(detect.Process("Hello world! How are you're you today? That's pretty nice!"));
+    fmt.Print(detect.Process("Hello world! How are you're you today? That's pretty nice! sellers' and evan's but not nice'"));
 }
