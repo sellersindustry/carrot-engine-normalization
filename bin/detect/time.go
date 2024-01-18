@@ -1,16 +1,12 @@
 package detect
 
 import (
-	"regexp"
-
 	"github.com/sellersindustry/normalization-tts/bin/token"
+	"github.com/sellersindustry/normalization-tts/bin/utility"
 )
 
-func Time(buffer string) *token.Model {
-	r, _  := regexp.Compile(`^[0-9]{1,2}:[0-9]{2}`);
-	match := r.FindStringIndex(buffer);
-	if (len(match) > 0) {
-		return token.New(buffer[match[0]:match[1]], token.Time);
-	}
-	return nil;
+
+func time(buffer string) *token.Model {
+	regexp := `^[0-9]{1,2}:[0-9]{2}\b`;
+	return utility.DetectTokenGeneral(buffer, regexp, token.Time);
 }

@@ -2,7 +2,9 @@ package detect
 
 import (
 	"github.com/sellersindustry/normalization-tts/bin/token"
+	"github.com/sellersindustry/normalization-tts/bin/utility"
 )
+
 
 func Process(buffer string) *[]token.Model {
 	var tokens []token.Model;
@@ -14,65 +16,24 @@ func Process(buffer string) *[]token.Model {
 	return &tokens;
 }
 
+
 func nextToken(buffer string) *token.Model {
-	nextToken := Space(buffer);
-	if (nextToken != nil) {
-		return nextToken;
+	_token := utility.DetectReturnFirstNonNullToken(buffer,
+		space,
+		control,
+		hashtag,
+		email,
+		url,
+		phone,
+		date,
+		time,
+		number,
+		word,
+	);
+	if (_token == nil) {
+		return token.NewGeneral(buffer[0:1], token.Symbol);
+	} else {
+		return _token
 	}
-	nextToken = Control(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = Hashtag(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = Email(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = URL(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = Phone(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = Date(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = Time(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = Currency(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = Currency(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = NumberRoman(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = NumberPlural(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = NumberOrdinal(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	nextToken = NumberNominal(buffer);
-	if (nextToken != nil) {
-		return nextToken;
-	}
-	// number Cardinal - 2/3 and 1,324
-	// word
-	return token.New(buffer, token.Word);
 }
 

@@ -8,5 +8,5 @@ import (
 
 
 func main() {
-    fmt.Print(detect.Process(" {{PAUSE}} $24.5343 1980s #nice19s 90s sellersew@gmail.com (317) 555-1234 IXV I Hello World"));
+    fmt.Print(detect.Process("Hello world! How are you're you today? That's pretty nice!"));
 }
