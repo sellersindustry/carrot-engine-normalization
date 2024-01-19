@@ -6,4 +6,5 @@ type Model struct {
 	Subclasses     Subclass
 	Text           []string
 	Original       string
+	IsSilent       bool
 }
