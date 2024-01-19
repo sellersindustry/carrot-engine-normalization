@@ -1,4 +1,4 @@
-package token
+package Token
 
 
 func NewGeneral(orginal string, class Class) *Model {

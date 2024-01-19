@@ -1,4 +1,4 @@
-package token
+package Token
 
 type Class int8
 type Subclass int8
@@ -14,13 +14,16 @@ const (
 	Phone          Class = iota
 	URL            Class = iota
 	Number         Class = iota
-	NumberCurrency Class = iota
+	RomanNumeral   Class = iota
 	Word           Class = iota
 	Symbol         Class = iota
+	Punctuation    Class = iota
 )
 
 
 const (
-	None Subclass = iota
+	None          Subclass = iota
+	NumberPlural  Subclass = iota
+	NumberOrdinal Subclass = iota
 )
 

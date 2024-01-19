@@ -1,41 +1,44 @@
-package detect
+package Detect
 
-import "github.com/sellersindustry/normalization-tts/bin/token"
+import "github.com/sellersindustry/normalization-tts/bin/Token"
 
 
-var patterns = []*Pattern {
+var PATTERNS = []*Pattern {
 	{
 		Regexp: `^(\{\{)[\w\=\-\s]+(\}\})`,
-		Class:  token.Control,
+		Class:  Token.Control,
 	}, {
 		Regexp: `^[\n\s\t]+`,
-		Class:  token.Space,
+		Class:  Token.Space,
 	}, {
 		Regexp: `^#[a-zA-Z0-9-_]*[a-zA-Z0-9]`,
-		Class:  token.Hashtag,
+		Class:  Token.Hashtag,
 	}, {
 		Regexp: `^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,64}`,
-		Class:  token.Email,
+		Class:  Token.Email,
 	}, {
 		Regexp: `^([A-Za-z0-9]+:\/\/)?([A-Za-z0-9]+(\.[A-Za-z0-9]+)+)(([\/\?])([\S]*[0-9A-Za-z\/])?)?`,
-		Class:  token.URL,
+		Class:  Token.URL,
+	}, {
+		Regexp: `^([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)\b`,
+		Class:  Token.RomanNumeral,
 	}, {
 		Regexp: `^([\+][\s]?[0-9]{1,3}[\s]?)?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}\b`,
-		Class:  token.Phone,
+		Class:  Token.Phone,
 	}, {
 		Regexp: `^[0-9]{1,4}[\.\/-][0-9]{1,2}[\.\/-]\d{1,4}\b`,
-		Class:  token.Date,
+		Class:  Token.Date,
 	}, {
 		Regexp: `^[0-9]{1,2}:[0-9]{2}\b`,
-		Class:  token.Time,
-	}, {
-		Regexp: `^((\$)|(€)|(ƒ)|(¥)|(JP¥)|(CN¥))?[0-9]*(\,[0-9]{3})*(\.[0-9]+)*`,
-		Class:  token.NumberCurrency,
+		Class:  Token.Time,
 	}, {
 		Regexp: `^[0-9]*(\,[0-9]{3})*(\.[0-9]+)*`,
-		Class:  token.Number,
+		Class:  Token.Number,
 	}, {
 		Regexp: `^[a-zA-Z]+(\-[a-zA-Z]+)*(\'[a-zA-Z]+)?`,
-		Class:  token.Word,
+		Class:  Token.Word,
+	}, {
+		Regexp: `^[,.!?]`,
+		Class:  Token.Punctuation,
 	},
 }

@@ -1,10 +1,10 @@
-package detect
+package Detect
 
-import "github.com/sellersindustry/normalization-tts/bin/token"
+import "github.com/sellersindustry/normalization-tts/bin/Token"
 
 
 type Pattern struct {
 	Regexp   string
-	Class    token.Class
+	Class    Token.Class
 }
 

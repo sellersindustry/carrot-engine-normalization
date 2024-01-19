@@ -1,9 +1,9 @@
-package token
+package Token
 
 
 type Model struct {
 	Class          Class
-	Subclasses     Subclass
+	Subclass       Subclass
 	Text           []string
 	Original       string
 	IsSilent       bool

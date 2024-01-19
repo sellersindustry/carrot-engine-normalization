@@ -3,13 +3,17 @@ package main
 import (
 	"fmt"
 
-	"github.com/sellersindustry/normalization-tts/bin/detect"
+	"github.com/sellersindustry/normalization-tts/bin/Classify"
+	"github.com/sellersindustry/normalization-tts/bin/Detect"
 )
 
-
 // var text = "Hello world! How are you're you today? That's pretty nice! sellers' and evan's but not nice'";
-var text = "This is a great world sellersew@gmail.com 695.5435, $134"
+var text = "1980s and 1990s. 15th, 2nd, 1ST"
 
 func main() {
-    fmt.Println(detect.Process(text));
+	gtokens     := Detect.Process(text);
+    fmt.Println(gtokens);
+	fmt.Println("");
+	Classify.Process(gtokens);
+	fmt.Println(gtokens);
 }
