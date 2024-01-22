@@ -1,24 +1,19 @@
 # normalization-tts
 - Step 1 - Detect
-    - add punctuation
-    - add roman numerals
     - acronym
     - initialism
     - abbreviation (punctuation)
 - Step 2 - Classification
     - word
         - unit
-            - overlapping units
-            - m, k, b (after number)
-            - cm, km (meters or millions???)
-        - proper nouns
-    - dates ??
+            - cm, km (meters)
+        - proper nouns (for roman numerals)
+        - initialism
+        - abbreivations
+    - dates
     - numbers
         - Roman Numeral `John XI` -> `John the nineth`
-            - make posesive roman numeral
         - phone numbers (Phone number 911 or 311)
-        - years
-            - remove years from the other classification
     - symbols
         - punctuation
         - math operator (numbers both sides)
@@ -53,7 +48,6 @@
     - url
     - phone
     - dates
-    - numbers
 - Step 4 - Expansion
 - Step 5 - Grouping
     - math equations
@@ -69,6 +63,7 @@
 - "m" or "k" or "b" after a number
 - quote, end quote
 - colloquial terms - `9/11` -> `9 11`
+- Pause for (hello)
 
 
 ## Notes
