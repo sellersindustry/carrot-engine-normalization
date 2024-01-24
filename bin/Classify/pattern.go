@@ -1,6 +1,9 @@
 package Classify
 
-import "github.com/sellersindustry/normalization-tts/bin/Token"
+import (
+	"github.com/sellersindustry/normalization-tts/bin/Token"
+	"github.com/sellersindustry/normalization-tts/bin/Utility"
+)
 
 
 var REGEX_QUOTE      = "/^\"|'$/";
@@ -141,12 +144,19 @@ var PATTERNS = []*Pattern {
 		Current:       "/^(k|m|b|t)$/",
 		Prefix:        []string{ IGNORE_SPACES, string(Token.NumberCurrency) },
 		SetSubclassTo: Token.Scale,
-	//! Posesive Roman numeral prefix (space, Capital word regex)
-	//! units (%)
+	}, {
+		Current:       string(Token.RomanNumeral),
+		Prefix:        []string{ "/^[A-Z]([a-zA-Z])+$/i", string(Token.Space) },
+		SetSubclassTo: Token.RomanNumeralPossessive,
 	//! abbreviations
 	}, {
+		// Units
+		Current:       `/^` + Utility.RegexWordListOr(Utility.GetWordsetBoth("./bin/wordsets/units.txt")) + `$/i`,
+		Prefix:        []string{ IGNORE_SPACES, string(Token.Number) },
+		SetSubclassTo: Token.Unit,
+	}, {
 		// Non-Silent Symbols
-		Current:       "^[^A-Za-z@#$&-=]$",
+		Current:       "/^[^A-Za-z@#$&-=]$/",
 		SetSubclassTo: Token.None,
 		SetIsSilentTo: true,
 	},

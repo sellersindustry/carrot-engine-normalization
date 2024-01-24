@@ -5,16 +5,20 @@ import (
 
 	"github.com/sellersindustry/normalization-tts/bin/Classify"
 	"github.com/sellersindustry/normalization-tts/bin/Detect"
+	"github.com/sellersindustry/normalization-tts/bin/Transform"
+	"github.com/sellersindustry/normalization-tts/bin/Utility"
 )
 
 // var text = "Hello world! How are you're you today? That's pretty nice! sellers' and evan's but not nice'";
 // var text = "1980s and 1990s. 15th, 2nd, 1ST"
-var text = "+ 12.23 - 30"
+var text = "118 - 32"
+
 
 func main() {
+	fmt.Println(Utility.RegexWordListOr([]string{"in."}));
 	gtokens     := Detect.Process(text);
-    fmt.Println(gtokens);
-	fmt.Println("");
 	Classify.Process(gtokens);
+	fmt.Println(gtokens);
+	Transform.Process(gtokens);
 	fmt.Println(gtokens);
 }

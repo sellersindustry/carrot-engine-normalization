@@ -1,6 +1,9 @@
 package Detect
 
-import "github.com/sellersindustry/normalization-tts/bin/Token"
+import (
+	"github.com/sellersindustry/normalization-tts/bin/Token"
+	"github.com/sellersindustry/normalization-tts/bin/Utility"
+)
 
 
 var PATTERNS = []*Pattern {
@@ -20,7 +23,7 @@ var PATTERNS = []*Pattern {
 		Regexp: `^([\+][\s]?[0-9]{1,3}[\s]?)?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}\b`,
 		Class:  Token.Phone,
 	}, {
-		Regexp: `^[0-9]*(\,[0-9]{3})*(\.[0-9]+)*`,
+		Regexp: `^[0-9]*(\,[0-9]{3})*(\.[0-9]+)?`,
 		Class:  Token.Number,
 	}, {
 		Regexp: `^#[a-zA-Z0-9-_]*[a-zA-Z0-9]`,
@@ -34,6 +37,9 @@ var PATTERNS = []*Pattern {
 	}, {
 		Regexp: `^([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)\b`,
 		Class:  Token.RomanNumeral,
+	}, {
+		Regexp: `^` + Utility.RegexWordListOr(Utility.GetWordsetKeys("./bin/wordsets/units.txt")) + `\b`,
+		Class:  Token.Word,
 	}, {
 		Regexp: `^[a-zA-Z]+(\-[a-zA-Z]+)*(\'[a-zA-Z]+)?`,
 		Class:  Token.Word,

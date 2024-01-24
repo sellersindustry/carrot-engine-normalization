@@ -132,8 +132,14 @@ func matchToken(index int, tokens *[]Token.Model, keywords *[]string) bool {
 			return (*tokens)[index].Subclass == Token.Subclass(keyword)
 		}
 		if (isKeywordRegex(&keyword)) {
-			if (keywordGetRegex(&keyword).Match([]byte(buffer))) {
-				return true;
+			if (strings.HasSuffix(keyword, "/i")) {
+				if (keywordGetRegex(&keyword).Match([]byte(*&(*tokens)[index].Original))) {
+					return true;
+				}
+			} else {
+				if (keywordGetRegex(&keyword).Match([]byte(buffer))) {
+					return true;
+				}
 			}
 		}
 		if buffer == keyword {
@@ -145,12 +151,12 @@ func matchToken(index int, tokens *[]Token.Model, keywords *[]string) bool {
 
 
 func isKeywordRegex(keyword *string) bool {
-	return keyword != nil && len(*keyword) > 2 && strings.HasPrefix(*keyword, "/") && strings.HasSuffix(*keyword, "/");
+	return keyword != nil && len(*keyword) > 2 && strings.HasPrefix(*keyword, "/") && (strings.HasSuffix(*keyword, "/") || strings.HasSuffix(*keyword, "/i"));
 }
 
 
 func keywordGetRegex(keyword *string) *regexp.Regexp {
-	pattern := strings.TrimPrefix(strings.TrimSuffix(*keyword, "/"), "/");
+	pattern := strings.TrimPrefix(strings.TrimSuffix(strings.TrimSuffix(*keyword, "/i"), "/"), "/");
 	return Utility.CompileRegex(pattern);
 }
 

@@ -1,0 +1,7 @@
+@		at
+$		dollars
+%		precent
+&		and
+-		to
+=		is
+(		{{PAUSE}}

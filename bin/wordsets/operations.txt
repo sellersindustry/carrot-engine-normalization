@@ -1,0 +1,7 @@
++		plus
+-		minus
+*		times
+x		times
+/		divided by
+^		to the power of
+=		equals

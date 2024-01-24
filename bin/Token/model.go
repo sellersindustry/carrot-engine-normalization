@@ -4,7 +4,7 @@ package Token
 type Model struct {
 	Class          Class
 	Subclass       Subclass
-	Text           []string
+	Text           string
 	Original       string
 	IsSilent       bool
 }

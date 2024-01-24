@@ -1,0 +1,205 @@
+%		percent
+°C		degrees Celsius
+°F		degrees Fahrenheit
+F		Fahrenheit
+°Re		degrees Reaumur
+amu		atomic mass units
+atm		atmospheres
+au		astronomical units
+BTC		Bitcoins
+bps		bits per second
+Bq		becquerels
+BTU		British Thermal Units
+B/s		bytes per second
+bu		bushels
+cbl		cable lengths
+cal		calories
+ct		carats
+cc		cubic centimeters
+ccf		centum cubic feet
+cg		centigrams
+cl		centilitres
+cm		centimeters
+cm²		square centimeters
+cm2		square centimeters
+cm^2		square centimeters
+cu		cubits
+dm³		cubic decimeters
+dm3		cubic decimeters
+dm^3		cubic decimeters
+cm³		cubic centimeters
+cm3		cubic centimeters
+cm^3		cubic centimeters
+ft³		cubic feet
+ft3		cubic feet
+ft^3		cubic feet
+in³		cubic inches
+in3		cubic inches
+in^3		cubic inches
+km³		cubic kilometers
+km3		cubic kilometers
+km^3		cubic kilometers
+m³		cubic meters
+m3		cubic meters
+m^3		cubic meters
+mi³		cubic miles
+mi3		cubic miles
+mi^3		cubic miles
+mm³		cubic millimeters
+mm3		cubic millimeters
+mm^3		cubic millimeters
+pc³		cubic parsecs
+pc3		cubic parsecs
+pc^3		cubic parsecs
+yd³		cubic yards
+yd3		cubic yards
+yd^3		cubic yards
+Ci		curies
+dN		decanewtons
+dl		decilitres
+dm		decimeters
+deg		degrees
+dr		drams
+eV		electronvolts
+fath		fathoms
+ft		feet
+ft²		square feet
+ft2		square feet
+ft^2		square feet
+fur		furlongs
+g		grams
+gal		gallons
+Gal		Galileos
+Gb		gigabytes
+GiB		gigabytes
+Gbit		gigabits
+Gibit		gigabits
+GBq		gigabecquerels
+gf		gravet-force
+Gf		grave-force
+gph		gallons per hour
+gpm		gallons per minute
+gps		gallons per second
+Gy		grays
+hd		hands
+ha		hectares
+hl		hectolitres
+hPa		hectopascals
+hp		horsepower
+hZ		hertz
+in		inches
+in²		square inches
+in2		square inches
+in^2		square inches
+in³		cubic inches
+in3		cubic inches
+in^3		cubic inches
+J		joules
+K		kelvin
+kHz		kilohertz
+Kb		kilobytes
+KiB		kilobytes
+Kbit		kilobits
+Kibit		kilobits
+kbps		kilobits per second
+kBq		kilobecquerels
+kcal		kilocalories
+kg		kilograms
+kJ		kilojoules
+kN		kilonewtons
+kPa		kilopascals
+kW		kilowatts
+km		kilometers
+km²		square kilometers
+km2		square kilometers
+km^2		square kilometers
+km³		cubic kilometers
+km3		cubic kilometers
+km^3		cubic kilometers
+kn		knots
+l		litres
+L		Planck length
+L²		Planck area
+L2		Planck area
+L^2		Planck area
+L³		Planck volume
+L3		Planck volume
+L^3		Planck volume
+lb		pounds
+m		meters
+M		Planck mass
+m²		square meters
+m2		square meters
+m^2		square meters
+Mb		megabytes
+MiB		megabytes
+Mbps		megabytes per second
+Mcal		megacalories
+mcg		micrograms
+mCi		millicuries
+MBq		megabecquerels
+Mbit		megabits
+Mibit		megabits
+MJ		megajoules
+MN		meganewtons
+Mpa		megapascals
+MW		megawatts
+mkg		metre-kilograms
+mg		milligrams
+RT		metric refrigeration tonnes
+mi		miles
+MHz		megahertz
+GHz		gigahertz
+mi³		cubic miles
+mi3		cubic miles
+mi^3		cubic miles
+mpg		miles per gallon
+mph		miles per hour
+m.p.h		miles per hour
+ml		millilitres
+mm		millimeters
+mN		millinewtons
+min		minutes
+mm²		square millimeters
+mm2		square millimeters
+mm^2		square millimeters
+mol		moles
+N		newtons
+nm		nanometers
+Ncm		newton centimeters
+Nm		newton meters
+oz		ounces
+ozf		ounce force
+Pa		pascals
+plm		palms
+pc		parsecs
+ppm		parts per million
+ppb		parts per billion
+Pb		petabytes
+pc³		cubic parsecs
+pc3		cubic parsecs
+pc^3		cubic parsecs
+pdl		poundals
+pt		pints
+px		pixels
+qt		quarts
+rad		radians
+rd		rods
+s		seconds
+Sv		sieverts
+dm²		square decimeters
+dm2		square decimeters
+dm^2		square decimeters
+yd²		square yards
+yd2		square yards
+yd^2		square yards
+T		Planck time
+Tbit		terabits
+Tb		terabytes
+tsp		teaspoons
+tbsp		tablespoons
+th		thou
+VA		volt-amperes
+V		volts
+W		watts
+yd		yards

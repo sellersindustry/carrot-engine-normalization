@@ -1,0 +1,4 @@
+k		thousands
+m		millions
+b		billions
+t		trillions
