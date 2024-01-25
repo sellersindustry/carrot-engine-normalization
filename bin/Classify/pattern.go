@@ -8,7 +8,7 @@ import (
 
 var REGEX_QUOTE      = "/^\"|'$/";
 var REGEX_CURRENCY   = "/^[$£]$/";
-var REGEX_OPERATIONS = "/^[+-^*x\\/=]$/";
+var REGEX_OPERATIONS = "/^[\\+\\-\\^\\*\\/\\=x]$/";
 
 
 var PATTERNS = []*Pattern {

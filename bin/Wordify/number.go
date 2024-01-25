@@ -5,6 +5,7 @@ import (
 	"strings"
 
 	"github.com/divan/num2words"
+	"github.com/gertd/go-pluralize"
 )
 
 
@@ -19,11 +20,13 @@ func NumberOrdinal(text string) string {
 
 
 func NumberPlural(text string) string {
-	//! "8s" -> "eights", "80s" -> "eighties", "1970s" -> "1970s"
-	//! if its a 4 digit year just assume it's a year and parse it using year
-	//! pluralify the word given
-	word := Number(text);
-	return word;
+	var numWord string;
+	if len(text) == 4 {
+		numWord = NumberYear(text);
+	} else {
+		numWord = Number(text);
+	}
+	return pluralize.NewClient().Plural(numWord);
 }
 
 

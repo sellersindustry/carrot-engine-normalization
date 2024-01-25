@@ -11,7 +11,7 @@ import (
 
 // var text = "Hello world! How are you're you today? That's pretty nice! sellers' and evan's but not nice'";
 // var text = "1980s and 1990s. 15th, 2nd, 1ST"
-var text = "118 - 32"
+var text = "foo nice 180 - 5 nice foo"
 
 
 func main() {

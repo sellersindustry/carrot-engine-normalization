@@ -100,6 +100,7 @@ func matchRangeTokens(tokenIndex int, tokens *[]Token.Model, pattern *PatternSca
 		}
 		if &(*pattern).NotExists != nil {
 			if matchToken(_tokenIndex, tokens, &(*pattern).NotExists) {
+				fmt.Println("Not Exists Failed", (*tokens)[_tokenIndex].Original, &(*pattern).NotExists);
 				return false
 			}
 		}

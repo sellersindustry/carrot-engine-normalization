@@ -1,0 +1,100 @@
+------INPUT------
+The element is normally found in association with other base metals such as copper and lead in ores.
+------INPUT------
+Zinc is a chalcophile, meaning the element has a low affinity for oxides and prefers to bond with sulfides.
+------INPUT------
+Chalcophiles formed as the crust solidified under the reducing conditions of the early Earth's atmosphere.
+------INPUT------
+Sphalerite, which is a form of zinc sulfide, is the most heavily mined zinc-containing ore because its concentrate contains 60–62% zinc.
+------INPUT------
+Other minerals, from which zinc is extracted, include smithsonite (zinc carbonate), hemimorphite (zinc silicate), wurtzite (another zinc sulfide), and sometimes hydrozincite (basic zinc carbonate).
+------INPUT------
+With the exception of wurtzite, all these other minerals were formed as a result of weathering processes on the primordial zinc sulfides. Identified world zinc resources total about 1.9 billion tonnes.
+------INPUT------
+Large deposits are in Australia, Canada and the United States with the largest reserves in Iran.
+------INPUT------
+At the current rate of consumption, these reserves are estimated to be depleted sometime between 2027 and 2055.
+------INPUT------
+About 346 million tonnes have been extracted throughout history to 2002, and one estimate found that about 109 million tonnes of that remains in use.
+------INPUT------
+Section 1.3 Isotopes Five isotopes of zinc occur in nature.
+------INPUT------
+64 Zn is the most abundant isotope (48.63%natural abundance).
+------INPUT------
+This isotope has such a long half-life, at 4.3x10^18 years, that its radioactivity can be ignored.
+------INPUT------
+Similarly, 70Zn (0.6%), with a half-life of 1.3x10^16 years is not usually considered to be radioactive.
+------INPUT------
+The other isotopes found in nature are 66Zn (28%), 67Zn (4%) and 68Zn (19%).
+------INPUT------
+Several dozen radioisotopes have been characterized. 65Zn, which has a half-life of 243.66 days, is the most long-lived isotope, followed by 72Zn with a half-life of 46.5 hours.
+------INPUT------
+Zinc has 10 nuclear isomers.
+------INPUT------
+69m Zn has the longest half-life, 13.76h.
+------INPUT------
+The superscript m indicates a metastable isotope.
+------INPUT------
+The nucleus of a metastable isotope is in an excited state and will return to the ground state by emitting a photon in the form of a gamma ray.
+------INPUT------
+61Zn has three excited states and 73Zn has two.
+------INPUT------
+The isotopes 65Zn, 71Zn, 77Zn and 78Zn each have only one excited state.
+------INPUT------
+The most common decay mode of a radioisotope of zinc with a mass number lower than 66is electron capture.
+------INPUT------
+The decay product resulting from electron capture is an isotope of copper.
+------INPUT------
+The most common decay mode of a radioisotope of zinc with mass number higher than 66is beta decay (_–), which produces an isotope of gallium.
+------INPUT------
+Section 2 Creation Zinc is too large and heavy to form in stars using the silicon burning process.
+------INPUT------
+The stable form of zinc is created in supernovas via the r-process.
+------INPUT------
+Section 3 Compounds and chemistry Section 3.1 Reactivity Zinc has an electron configuration of [Ar]3d104s2 and is a member of the group 12of the periodic table.
+------INPUT------
+It is a moderately reactive metal and strong reducing agent.
+------INPUT------
+The surface of the pure metal tarnishes quickly, eventually forming a protective passivating layer of the basic zinc carbonate, Zn 5(OH) 6(CO 3) 2, by reaction with atmospheric carbon dioxide.
+------INPUT------
+This layer helps prevent further reaction with air and water.
+------INPUT------
+Zinc burns in air with a bright bluish-green flame, giving off fumes of zinc oxide.
+------INPUT------
+Zinc reacts readily with acids, alkalis and other non-metals.
+------INPUT------
+Extremely pure zinc reacts only slowly at room temperature with acids.
+------INPUT------
+Strong acids, such as hydrochloric or sulfuric acid, can remove the passivating layer and subsequent reaction with water releases hydrogen gas.
+------INPUT------
+The chemistry of zinc is dominated by the +2oxidation state.
+------INPUT------
+When compounds in this oxidation state are formed the outer shell s electrons are lost, which yields a bare zinc ion with the electronic configuration [Ar]3d10.
+------INPUT------
+This allows for the formation of four covalent bonds by accepting four electron pairs and thus obeying the octet rule.
+------INPUT------
+The stereochemistry is therefore tetrahedral and the bonds may be described as being formed from sp3 hybrid orbitals on the zinc ion.
+------INPUT------
+In aqueous solution an octahedral complex, [Zn(H2O) 6]2+ is the predominant species.
+------INPUT------
+The volatilization of zinc in combination with zinc chloride at temperatures above 285°C indicates the formation of Zn2Cl2, a zinc compound with a +1oxidation state.
+------INPUT------
+No compounds of zinc in oxidation states other than +1 or +2 are known.
+------INPUT------
+Calculations indicate that a zinc compound with the oxidation state of +4 is unlikely to exist.
+------INPUT------
+Zinc chemistry is similar to the chemistry of the late first-row transition metals nickel and copper, though it has a filled d-shell, so its compounds are diamagnetic and mostly colorless.
+------INPUT------
+The ionic radii of zinc and magnesium happen to be nearly identical.
+------INPUT------
+Because of this some of their salts have the same crystal structure and in circumstances where ionic radius is a determining factor zinc and magnesium chemistries have much in common.
+------INPUT------
+Otherwise there is little similarity.
+------INPUT------
+Zinc tends to form bonds with a greater degree of covalency and it forms much more stable complexes with N and S donors.
+------INPUT------
+Complexes of zinc are mostly 4- or 6- coordinate although 5-coordinate complexes are known.
+------INPUT------
+See also Clemmensen reduction.
+------INPUT------
+Section 3.2 Compounds Binary compounds of zinc are known for most of the metalloids and all the nonmetals except the noble gases.
