@@ -1,0 +1,100 @@
+------INPUT------
+The author John Fowles lives in Lyme Regis. 
+------INPUT------
+Dorset is also the birthplace of artist Sir James Thornhill, musicians P.J. Harvey and Robert Fripp, paleontologist Mary Anning and archbishops John Morton and William Wake. 
+------INPUT------
+Explorer Sir Walter Raleigh lived in Dorset for a time. 
+------INPUT------
+Scientist and philosopher Robert Boyle lived in Stalbridge Manor for a time. 
+------INPUT------
+Singer-songwriter Billy Bragg lives in Burton Bradstock, near Bridport. 
+------INPUT------
+Settlements List of places in Dorset. 
+------INPUT------
+Dorset is largely rural with many small villages, few large towns, and no cities. 
+------INPUT------
+The largest town is the south-east coastal conurbation consisting of the seaside resort of Bournemouth, the historic port of Poole and the town of Christchurch plus many villages. 
+------INPUT------
+The conurbation is the only settlement in Dorset that could be described as a city (though it does not legally have city status), but in the mid19thcentury there was little more than a small town on Poole quay. 
+------INPUT------
+Bournemouth was created in the Victorian era when sea bathing became popular. 
+------INPUT------
+As an example of how affluent the area has become, Sandbanks in Poole was worthless land unwanted by farmers in the 19th century, but is now boasts the third highest land value by area in the world. 
+------INPUT------
+Bournemouth and Christchurch were added to the county from Hampshire in the county boundary changes of 1974. 
+------INPUT------
+The other two major settlements in the county are Dorchester, the county town, and Weymouth, one of the first tourist towns, frequented by George III, and still popular. Blandford Forum, Sherborne, Gillingham, Shaftesbury and Sturminster Newton are historical market towns which serve the farms and villages of the Blackmore Vale (Hardy's Vale of the Little Dairies). 
+------INPUT------
+Blandford is home to the Badger brewery of Hall and Woodhouse. 
+------INPUT------
+Bridport, Lyme Regis and Wareham are also market towns. 
+------INPUT------
+Currently in construction on the western edge of Dorchester is the experimental new town of Poundbury, commissioned and co-designed by Prince Charles. 
+------INPUT------
+The suburb is designed to integrate residential and retail buildings and counter the growth of dormitory towns and car-orientated development. 
+------INPUT------
+Zinc Zinc (/_z__k/ ZINGK; from German: Zink), or spelter (which may also refer to zinc alloys), is a metallic chemical element; it has the symbol Zn and atomic number 30. 
+------INPUT------
+It is the first element in group 12 of the periodic table. 
+------INPUT------
+Zinc is, in some respects, chemically similar to magnesium, because its ion is of similar size and its only common oxidation state is +2. 
+------INPUT------
+Zinc is the 24th most abundant element in the Earth's crust and has five stable isotopes. 
+------INPUT------
+The most common zinc ore is sphalerite (zinc blende), a zinc sulfide mineral. 
+------INPUT------
+The largest mineable amounts are found in Australia, Asia, and the United States. 
+------INPUT------
+Zinc production includes froth flotation of the ore, roasting, and final extraction using electricity (electrowinning). 
+------INPUT------
+Brass, which is an alloy of copper and zinc, has been used since at least the 10th century BC. 
+------INPUT------
+Impure zinc metal was not produced in large scale until the 13th century in India, while the metal was unknown to Europe until the end of the 16th century. 
+------INPUT------
+Alchemists burned zinc in air to form what they called philosopher'swoolor whitesnow. 
+------INPUT------
+The element was probably named by the alchemist Paracelsus after the German word Zinke. 
+------INPUT------
+German chemist Andreas Sigismund Marggraf is normally given credit for discovering pure metallic zinc in 1746. 
+------INPUT------
+Work by Luigi Galvani and Alessandro Volta uncovered the electrochemical properties of zinc by 1800. 
+------INPUT------
+Corrosion-resistant zinc plating of steel (hot-dip galvanizing) is the major application for zinc. 
+------INPUT------
+Other applications are in batteries and alloys, such as brass. 
+------INPUT------
+A variety of zinc compounds are commonly used, such as zinc carbonate and zinc gluconate (as dietary supplements), zinc chloride (in deodorants), zinc pyrithione (anti-dandruff shampoos), zinc sulfide (in luminescent paints), and zinc methyl or zinc diethyl in the organic laboratory. 
+------INPUT------
+Zinc is an essential mineral of exceptional biological and public health importance. 
+------INPUT------
+Zinc deficiency affects about two billion people in the developing world and is associated with many diseases. 
+------INPUT------
+In children it causes growth retardation, delayed sexual maturation, infection susceptibility, and diarrhea, contributing to the death of about 800000children worldwide per year. 
+------INPUT------
+Enzymes with a zinc atom in the reactive center are widespread in biochemistry, such as alcohol dehydrogenase in humans. 
+------INPUT------
+Consumption of excess zinc can cause ataxia, lethargy and copper deficiency. Section 1Characteristics Section 1.1 Physical properties Zinc, also referred to in nonscientific contexts as spelter, is a bluish-white, lustrous, diamagnetic metal, though most common commercial grades of the metal have a dull finish. 
+------INPUT------
+It is somewhat less dense than iron and has a hexagonal crystal structure. 
+------INPUT------
+The metal is hard and brittle at most temperatures but becomes malleable between 100 and 150°C. 
+------INPUT------
+Above 210°C, the metal becomes brittle again and can be pulverized by beating. 
+------INPUT------
+Zinc is a fair conductor of electricity. 
+------INPUT------
+For a metal, zinc has relatively low melting (419.5°C, 787.1F) and boiling points (907°C). 
+------INPUT------
+Its melting point is the lowest of all the transition metals aside from mercury and cadmium. 
+------INPUT------
+Many alloys contain zinc, including brass, an alloy of zinc and copper. 
+------INPUT------
+Other metals long known to form binary alloys with zinc are aluminium, antimony, bismuth, gold, iron, lead, mercury, silver, tin, magnesium, cobalt, nickel, tellurium and sodium. 
+------INPUT------
+While neither zinc nor zirconium are ferromagnetic, their alloy ZrZn2exhibits ferromagnetism below 35K. 
+------INPUT------
+Section 1.1O ccurrence Zinc makes up about 75ppm (0.0075%) of the Earth's crust, making it the 24th most abundant element.
+------INPUT------
+Soil contains 5–770 ppm of zinc with an average of 64ppm. 
+------INPUT------
+Seawater has only 30ppb zinc and the atmosphere contains 0.1–4 µg/m3. 
