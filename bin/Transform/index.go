@@ -23,12 +23,8 @@ func transform(index int, tokens *[]Token.Model) {
 
 
 func transformByPattern(index int, tokens *[]Token.Model, pattern *Pattern) bool {
-	if (&(*tokens)[index].IsSilent != nil && (*tokens)[index].IsSilent == true) {
-		if ((*tokens)[index].Class == Token.Punctuation || (*tokens)[index].Class == Token.Space) {
-			(*tokens)[index].Text = (*tokens)[index].Original;
-		} else {
-			(*tokens)[index].Text = "";
-		}
+	if (&(*tokens)[index].IsInactive != nil && (*tokens)[index].IsInactive == true && (*tokens)[index].Class != Token.Space) {
+		(*tokens)[index].Text = "";
 		return true;
 	}
 	if (pattern.Class != "" && pattern.Class == (*tokens)[index].Class) {

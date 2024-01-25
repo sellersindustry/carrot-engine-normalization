@@ -6,6 +6,7 @@ import (
 
 	"github.com/divan/num2words"
 	"github.com/gertd/go-pluralize"
+	"github.com/brandenc40/romannumeral"
 )
 
 
@@ -78,15 +79,16 @@ func parseInt(text string) int {
 
 
 func RomanNumeralPossessive(text string) string {
-	//! take in number, parse number, return words
-	//! just add the before the number and call the other one
-	return "";
+	return "the " + RomanNumeral(text);
 }
 
 
 func RomanNumeral(text string) string {
-	//! take in number, parse number, return words
-	return "";
+	integer, err := romannumeral.StringToInt(text)
+	if err != nil {
+		return "zero";
+	}
+	return Number(num2words.ConvertAnd(integer));
 }
 
 

@@ -19,10 +19,10 @@ var PATTERNS = []*Pattern {
 		SetSubclassTo: Token.NumberPlural,
 	}, {
 		// Number Plural - After (s)
-		Current:       "s",
-		Prefix:        []string{ string(Token.Number) },
-		SetSubclassTo: Token.Unit,
-		SetIsSilentTo: true,
+		Current:         "s",
+		Prefix:          []string{ string(Token.Number) },
+		SetSubclassTo:   Token.Unit,
+		SetIsInactiveTo: true,
 	}, {
 		// Number Ordinal - Before (Number)
 		Current:       string(Token.Number),
@@ -30,16 +30,16 @@ var PATTERNS = []*Pattern {
 		SetSubclassTo: Token.NumberOrdinal,
 	}, {
 		// Number Ordinal - After (st, nd, rd, th)
-		Current:       "/^(st|nd|rd|th)$/",
-		Prefix:        []string{ string(Token.Number) },
-		SetSubclassTo: Token.Unit,
-		SetIsSilentTo: true,
+		Current:         "/^(st|nd|rd|th)$/",
+		Prefix:          []string{ string(Token.Number) },
+		SetSubclassTo:   Token.Unit,
+		SetIsInactiveTo: true,
 	}, {
 		// Number Currency - Symbol
-		Current:       REGEX_CURRENCY,
-		SetSubclassTo: Token.Unit,
-		Suffix:        []string{ string(Token.Number) },
-		SetIsSilentTo: true,
+		Current:         REGEX_CURRENCY,
+		SetSubclassTo:   Token.Unit,
+		Suffix:          []string{ string(Token.Number) },
+		SetIsInactiveTo: true,
 	}, {
 		// Number Currency Range - Number 1st
 		Current:       string(Token.Number),
@@ -76,16 +76,16 @@ var PATTERNS = []*Pattern {
 		SetSubclassTo: Token.QuoteStartShort,
 	}, {
 		// Quote Short - End (1 Word)
-		Current:       REGEX_QUOTE,
-		Prefix: 	   []string{ IGNORE_SPACES, REGEX_QUOTE, string(Token.Word) },
-		SetSubclassTo: Token.QuoteEnd,
-		SetIsSilentTo: true,
+		Current:         REGEX_QUOTE,
+		Prefix: 	     []string{ IGNORE_SPACES, REGEX_QUOTE, string(Token.Word) },
+		SetSubclassTo:   Token.QuoteEnd,
+		SetIsInactiveTo: true,
 	}, {
 		// Quote Short - End (2 Word)
-		Current:       REGEX_QUOTE,
-		Prefix: 	   []string{ IGNORE_SPACES, REGEX_QUOTE, string(Token.Word), string(Token.Word) },
-		SetSubclassTo: Token.QuoteEnd,
-		SetIsSilentTo: true,
+		Current:         REGEX_QUOTE,
+		Prefix: 	     []string{ IGNORE_SPACES, REGEX_QUOTE, string(Token.Word), string(Token.Word) },
+		SetSubclassTo:   Token.QuoteEnd,
+		SetIsInactiveTo: true,
 	}, {
 		// Quote - Start
 		Current:       `/^\"$/`,
@@ -149,16 +149,29 @@ var PATTERNS = []*Pattern {
 		Prefix:        []string{ "/^[A-Z]([a-zA-Z])+$/i", string(Token.Space) },
 		SetSubclassTo: Token.RomanNumeralPossessive,
 	//! abbreviations
+	//! PERIODS IN BETWEEN ACRYONMS
 	}, {
 		// Units
 		Current:       `/^` + Utility.RegexWordListOr(Utility.GetWordsetBoth("./bin/wordsets/units.txt")) + `$/i`,
 		Prefix:        []string{ IGNORE_SPACES, string(Token.Number) },
 		SetSubclassTo: Token.Unit,
 	}, {
-		// Non-Silent Symbols
-		Current:       "/^[^A-Za-z@#$&-=]$/",
+		// Punctuation
+		Current:       "/^[.!?;,:]$/",
+		SetSubclassTo: Token.Punctuation,
+		Prefix:        []string{ `/^[^\s]+$/` },
+		Suffix:        []string{ string(Token.Space) },
+	}, {
+		// Punctuation - End of Sentence
+		Current:       "/^[.!?;,:]$/",
+		SetSubclassTo: Token.Punctuation,
+		Prefix:        []string{ `/^[^\s]$/` },
+		//! FIXME to end of sentence detection
+	}, {
+		// Silent Symbols
+		Current:       `/^[^.@#$%&+\-=~0-9\s]$/`,
 		SetSubclassTo: Token.None,
-		SetIsSilentTo: true,
+		SetIsInactiveTo: true,
 	},
 }
 

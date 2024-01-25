@@ -17,7 +17,6 @@ const (
 	RomanNumeral   Class = "{{CLASS:ROMAN_NUMERAL}}"
 	Word           Class = "{{CLASS:WORD}}"
 	Symbol         Class = "{{CLASS:SYMBOL}}"
-	Punctuation    Class = "{{CLASS:PUNCTUATION}}"
 )
 
 
@@ -29,6 +28,7 @@ const (
 	NumberCurrency         Subclass = "{{SUBCLASS:NUMBER_CURRENCY}}"
 	NumberYear             Subclass = "{{SUBCLASS:NUMBER_YEAR}}"
 	RomanNumeralPossessive Subclass = "{{SUBCLASS:ROMAN_NUMERAL_POSSESSIVE}}"
+	Punctuation            Subclass = "{{SUBCLASS:PUNCTUATION}}"
 	Unit                   Subclass = "{{SUBCLASS:UNIT}}"
 	Scale                  Subclass = "{{SUBCLASS:SCALE}}"
 	Range                  Subclass = "{{SUBCLASS:RANGE}}"

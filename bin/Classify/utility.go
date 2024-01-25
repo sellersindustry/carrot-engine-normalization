@@ -1,7 +1,6 @@
 package Classify
 
 import (
-	"fmt"
 	"regexp"
 	"strings"
 
@@ -77,7 +76,6 @@ func matchRangeTokens(tokenIndex int, tokens *[]Token.Model, pattern *PatternSca
 	if (pattern == nil) {
 		return true;
 	}
-	fmt.Println(pattern, isPrefix);
 	ignoreSpaces := pattern.IgnoreSpaces;
 	offsetIndex  := 1
 	rangeIndex   := 0
@@ -100,7 +98,6 @@ func matchRangeTokens(tokenIndex int, tokens *[]Token.Model, pattern *PatternSca
 		}
 		if &(*pattern).NotExists != nil {
 			if matchToken(_tokenIndex, tokens, &(*pattern).NotExists) {
-				fmt.Println("Not Exists Failed", (*tokens)[_tokenIndex].Original, &(*pattern).NotExists);
 				return false
 			}
 		}

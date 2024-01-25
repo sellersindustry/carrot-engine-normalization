@@ -6,5 +6,5 @@ type Model struct {
 	Subclass       Subclass
 	Text           string
 	Original       string
-	IsSilent       bool
+	IsInactive     bool
 }

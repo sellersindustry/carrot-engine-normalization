@@ -1,4 +1,8 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/brandenc40/romannumeral v1.1.5 h1:X9vvg5iJATxGzs0u4p1StxlFixPdDcHT44eBv4T5kRk=
+github.com/brandenc40/romannumeral v1.1.5/go.mod h1:BGaddAnc6x74z0muZeTu0Z+OMhQXfd8U76vkSLIPvxk=
+github.com/codycollier/wer v0.0.0-20201114000249-55e36670fdc8 h1:+2xiU1DwRZGVFhmAvOAGJGA7SaBmk6TFNGN16Wf0Yqc=
+github.com/codycollier/wer v0.0.0-20201114000249-55e36670fdc8/go.mod h1:s/vSjWh7C0TtptrxuHisyeMuXX6sLfJUqmzZUEdiQq4=
 github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d/go.mod h1:maD7wRr/U5Z6m/iR4s+kqSMx2CaBsrgA7czyZG/E6dU=
 github.com/cpuguy83/go-md2man/v2 v2.0.0 h1:EoUDS0afbrsXAZ9YQ9jdu/mZ2sXgT1/2yyNng4PGlyM=
 github.com/cpuguy83/go-md2man/v2 v2.0.0/go.mod h1:maD7wRr/U5Z6m/iR4s+kqSMx2CaBsrgA7czyZG/E6dU=

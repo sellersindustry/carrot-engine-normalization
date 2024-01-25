@@ -22,7 +22,7 @@ func classify(index int, tokens *[]Token.Model) {
 
 
 func classifyByPattern(index int, tokens *[]Token.Model, pattern *Pattern) bool {
-	if (&(*tokens)[index].IsSilent != nil && (*tokens)[index].IsSilent == true) {
+	if (&(*tokens)[index].IsInactive != nil && (*tokens)[index].IsInactive == true) {
 		return false;
 	}
 	if (!isTokenMatch(index, tokens, pattern)) {
@@ -31,8 +31,8 @@ func classifyByPattern(index int, tokens *[]Token.Model, pattern *Pattern) bool 
 	if (&pattern.SetSubclassTo != nil) {
 		(*tokens)[index].Subclass = pattern.SetSubclassTo;
 	}
-	if (&pattern.SetIsSilentTo != nil) {
-		(*tokens)[index].IsSilent = pattern.SetIsSilentTo;
+	if (&pattern.SetIsInactiveTo != nil) {
+		(*tokens)[index].IsInactive = pattern.SetIsInactiveTo;
 	}
 	return true;
 }

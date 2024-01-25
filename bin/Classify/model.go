@@ -12,12 +12,12 @@ type PatternScan struct {
 
 
 type Pattern struct {
-	Current       string
-	Prefix        []string
-	Suffix        []string
-	ScanBefore    *PatternScan
-	ScanAfter     *PatternScan
-	SetSubclassTo Token.Subclass
-	SetIsSilentTo bool
+	Current         string
+	Prefix          []string
+	Suffix          []string
+	ScanBefore      *PatternScan
+	ScanAfter       *PatternScan
+	SetSubclassTo   Token.Subclass
+	SetIsInactiveTo bool
 }
 

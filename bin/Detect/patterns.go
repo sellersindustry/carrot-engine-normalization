@@ -43,8 +43,5 @@ var PATTERNS = []*Pattern {
 	}, {
 		Regexp: `^[a-zA-Z]+(\-[a-zA-Z]+)*(\'[a-zA-Z]+)?`,
 		Class:  Token.Word,
-	}, {
-		Regexp: `^[,.!?]`,
-		Class:  Token.Punctuation,
 	},
 }
