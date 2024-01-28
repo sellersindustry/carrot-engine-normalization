@@ -176,7 +176,7 @@ var PATTERNS = []*Pattern {
 		Suffix:        []string{ string(Token.Termination) },
 	}, {
 		// Silent Symbols
-		Current:       `/^[^.@#$%&+=~0-9\s]$/`,
+		Current:       `/^[^.@#$%&+=~0-9\sa-zA-Z]$/`,
 		SetSubclassTo: Token.None,
 		SetIsInactiveTo: true,
 	},

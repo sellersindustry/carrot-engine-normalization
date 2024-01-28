@@ -10,6 +10,7 @@ import (
 	"github.com/sellersindustry/normalization-tts/bin/Detect"
 	"github.com/sellersindustry/normalization-tts/bin/Token"
 	"github.com/sellersindustry/normalization-tts/bin/Transform"
+	"github.com/sellersindustry/normalization-tts/bin/Utility"
 )
 
 
@@ -62,7 +63,7 @@ func sentenize(tokens *[]Token.Model, hasControls bool) []string {
 		}
 	}
 	sentences[len(sentences)-1] = trimAllSpace(sentences[len(sentences)-1])
-	return sentences;
+	return Utility.FilterNonEmptyStrings(sentences);
 }
 
 

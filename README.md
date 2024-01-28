@@ -2,6 +2,7 @@
 
 
 ## TODO
+- Convert "heelo (food) nice" -> "hello, food, nice"
 - Ensure Bullet points work
 - Tranformation
     - Currency

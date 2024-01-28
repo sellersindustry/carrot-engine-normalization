@@ -1,100 +1,200 @@
 ------INPUT------
 The oxide ZnO is a white powder that is nearly insoluble in neutral aqueous solutions, but is amphoteric, dissolving in both strong basic and acidic solutions.
+------OUTPUT------
+The oxide ZnO is a white powder that is nearly insoluble in neutral aqueous solutions, but is amphoteric, dissolving in both strong basic and acidic solutions.
 ------INPUT------
 The other chalcogenides (ZnS, ZnSe, and ZnTe) have varied applications in electronics and optics.
+------OUTPUT------
+The other chalcogenides, zinc sulfide, zinc selenide, and zinc telluride, have varied applications in electronics and optics.
 ------INPUT------
 HTTP COOKIE HTTP cookie A cookie, also known as an HTTP cookie, web cookie, Internet cookie, or browser cookie, is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website.
+------OUTPUT------
+HTTP cookie. HTTP cookie. A cookie, also known as an HTTP cookie, web cookie, Internet cookie, or browser cookie, is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website.
 ------INPUT------
+Every time the user loads the website, the browser sends the cookie back to the server to notify the website of the user's previous activity.
+------OUTPUT------
 Every time the user loads the website, the browser sends the cookie back to the server to notify the website of the user's previous activity.
 ------INPUT------
 Cookies were designed to be a reliable mechanism for websites to remember stateful information (such as items in a shopping cart) or to record the user's browsing activity (including clicking particular buttons, logging in, or recording which pages were visited by the user as far back as months or years ago).
+------OUTPUT------
+Cookies were designed to be a reliable mechanism for websites to remember stateful information, such as items in a shopping cart, or to record the user's browsing activity, including clicking particular buttons, logging in, or recording which pages were visited by the user as far back as months or years ago.
 ------INPUT------
 Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories-apotential privacy concern that prompted European and U.S. law makers to take action in 2011.
+------OUTPUT------
+Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories, a potential privacy concern that prompted European and U.S. lawmakers to take action in two thousand and eleven.
 ------INPUT------
+Cookies can also store passwords and form content a user has previously entered, such as a credit card number or an address. Other kinds of cookies perform essential functions in the modern web.
+------OUTPUT------
 Cookies can also store passwords and form content a user has previously entered, such as a credit card number or an address. Other kinds of cookies perform essential functions in the modern web.
 ------INPUT------
 Perhaps most importantly, cookies are the most common method used by web servers to know whether the user is logged in or not, and which account they are logged in with.
+------OUTPUT------
+Perhaps most importantly, cookies are the most common method used by web servers to know whether the user is logged in or not, and which account they are logged in with.
 ------INPUT------
+Without such a mechanism, the site would not know whether to send a page containing sensitive information, or require the user to authenticate themselves by logging in.
+------OUTPUT------
 Without such a mechanism, the site would not know whether to send a page containing sensitive information, or require the user to authenticate themselves by logging in.
 ------INPUT------
 The security of an authentication cookie generally depends on the security of the issuing website and the user's web browser, and on whether the cookie data is encrypted.
+------OUTPUT------
+The security of an authentication cookie generally depends on the security of the issuing website and the user's web browser, and on whether the cookie data is encrypted.
 ------INPUT------
 Security vulnerabilities may allow a cookie's data to be read by a hacker, used to gain access to user data, or used to gain access (with the user's credentials) to the website to which the cookie belongs (see cross-site scripting and cross-site request forgery for examples).
+------OUTPUT------
+Security vulnerabilities may allow a cookie's data to be read by a hacker, used to gain access to user data, or used to gain access (with the user's credentials) to the website to which the cookie belongs. See cross-site scripting and cross-site request forgery for examples.
 ------INPUT------
 History The term "cookie" was derived from "magic cookie", which is the packet of data a program receives and sends again unchanged.
+------OUTPUT------
+History. The term "cookie" was derived from "magic cookie", which is the packet of data a program receives and sends again unchanged.
 ------INPUT------
 Magic cookies were already used in computing when computer programmer Lou Montulli had the idea of using them in web communications in June 1994.
+------OUTPUT------
+Magic cookies were already used in computing when computer programmer Lou Montulli had the idea of using them in web communications in June nineteen ninety four.
 ------INPUT------
 At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for MCI.
+------OUTPUT------
+At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for M C I.
 ------INPUT------
 Vint Cerf and John Klensin represented MCI in technical discussions with Netscape Communications.
+------OUTPUT------
+Vint Cerf and John Klensin represented M C I in technical discussions with Netscape Communications.
 ------INPUT------
 Not wanting the MCI servers to have to retain partial transaction states led to MCI's request to Netscape to find a way to store that state in each user's computer.
+------OUTPUT------
+Not wanting the M C I servers to have to retain partial transaction states led to M C I's request to Netscape to find a way to store that state in each user's computer.
 ------INPUT------
+Cookies provided a solution to the problem of reliably implementing a virtual shopping cart.
+------OUTPUT------
 Cookies provided a solution to the problem of reliably implementing a virtual shopping cart.
 ------INPUT------
 Together with John Giannandrea, Montulli wrote the initial Netscape cookie specification the same year.
+------OUTPUT------
+Together with John Giannandrea, Montulli wrote the initial Netscape cookie specification the same year.
 ------INPUT------
 Version 0.9 beta of Mosaic Netscape, released on October 13, 1994, supported cookies.
+------OUTPUT------
+Version zero point nine beta of Mosaic Netscape, released on October thirteenth, nineteen ninety four, supported cookies.
 ------INPUT------
 The first use of cookies (out of the labs) was checking whether visitors to the Netscape website had already visited the site.
+------OUTPUT------
+The first use of cookies, out of the labs, was checking whether visitors to the Netscape website had already visited the site.
 ------INPUT------
 Montulli applied for a patent for the cookie technology in 1995, and US 5774670 was granted in 1998.
+------OUTPUT------
+Montulli applied for a patent for the cookie technology in nineteen ninety five, and U S five seven seven four six seven zero was granted in nineteen ninety eight.
 ------INPUT------
 Support for cookies was integrated in Internet Explorer in version 2, released in October 1995.
+------OUTPUT------
+Support for cookies was integrated in Internet Explorer in version two, released in October nineteen ninety five.
 ------INPUT------
+The introduction of cookies was not widely known to the public at the time.
+------OUTPUT------
 The introduction of cookies was not widely known to the public at the time.
 ------INPUT------
 In particular, cookies were accepted by default, and users were not notified of their presence.
+------OUTPUT------
+In particular, cookies were accepted by default, and users were not notified of their presence.
 ------INPUT------
 The general public learned about cookies after the Financial Times published an article about them on February 12, 1996.
+------OUTPUT------
+The general public learned about cookies after the Financial Times published an article about them on February twelfth, nineteen ninety six.
 ------INPUT------
+In the same year, cookies received a lot of media attention, especially because of potential privacy implications.
+------OUTPUT------
 In the same year, cookies received a lot of media attention, especially because of potential privacy implications.
 ------INPUT------
 Cookies were discussed in two U.S. Federal Trade Commission hearings in 1996 and 1997.
+------OUTPUT------
+Cookies were discussed in two United States Federal Trade Commission hearings in nineteen ninety six and nineteen ninety seven.
 ------INPUT------
+The development of the formal cookie specifications was already ongoing.
+------OUTPUT------
 The development of the formal cookie specifications was already ongoing.
 ------INPUT------
 In particular, the first discussions about a formal specification started in April 1995 on the www-talk mailing list.
+------OUTPUT------
+In particular, the first discussions about a formal specification started in April nineteen ninety five on the W W W talk mailing list.
 ------INPUT------
 A special working group within the IETF was formed.
+------OUTPUT------
+A special working group within the Internet Engineering Task Force was formed.
 ------INPUT------
+Two alternative proposals for introducing state in HTTP transactions had been proposed by Brian Behlendorf and David Kristol respectively, but the group, headed by Kristol himself and Aron Afatsuom, soon decided to use the Netscape specification as a starting point.
+------OUTPUT------
 Two alternative proposals for introducing state in HTTP transactions had been proposed by Brian Behlendorf and David Kristol respectively, but the group, headed by Kristol himself and Aron Afatsuom, soon decided to use the Netscape specification as a starting point.
 ------INPUT------
 In February 1996, the working group identified third-party cookies as a considerable privacy threat.
+------OUTPUT------
+In February nineteen ninety six, the working group identified third-party cookies as a considerable privacy threat.
 ------INPUT------
 The specification produced by the group was eventually published as RFC 2109 in February 1997.
+------OUTPUT------
+The specification produced by the group was eventually published as R F C two one zero nine in February nineteen ninety seven.
 ------INPUT------
 It specifies that third-party cookies were either not allowed at all, or at least not enabled by default.
+------OUTPUT------
+It specifies that third party cookies were either not allowed at all, or at least not enabled by default.
 ------INPUT------
 At this time, advertising companies were already using third-party cookies.
+------OUTPUT------
+At this time, advertising companies were already using third party cookies.
 ------INPUT------
 The recommendation about third-party cookies of RFC 2109 was not followed by Netscape and Internet Explorer.
+------OUTPUT------
+The recommendation about third party cookies of R F C two one zero nine was not followed by Netscape and Internet Explorer.
 ------INPUT------
 RFC 2109 was superseded by RFC 2965in October 2000.
+------OUTPUT------
+R F C two one zero nine was superseded by RFC two nine six five in October two thousand.
 ------INPUT------
 A definitive specification for cookies as used in the real world was published as RFC 6265 in April 2011.
+------OUTPUT------
+A definitive specification for cookies as used in the real world was published as R F C six two six five in April two thousand and eleven.
 ------INPUT------
 Session cookie A session cookie, also known as an in-memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
+------OUTPUT------
+Session cookie. A session cookie, also known as an in-memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
 ------INPUT------
+Web browsers normally delete session cookies when the user closes the browser.
+------OUTPUT------
 Web browsers normally delete session cookies when the user closes the browser.
 ------INPUT------
 Secure cookie A secure cookie has the secure attribute enabled and is only used via HTTPS, ensuring that the cookie is always encrypted when transmitting from client to server.
+------OUTPUT------
+A secure cookie has the secure attribute enabled and is only used via H T T P S, ensuring that the cookie is always encrypted when transmitting from client to server.
 ------INPUT------
 This makes the cookie less likely to be exposed to cookie theft via eaves dropping.
+------OUTPUT------
+This makes the cookie less likely to be exposed to cookie theft via eavesdropping.
 ------INPUT------
 HttpOnly cookie The HttpOnly attribute is supported by most modern browsers.
+------OUTPUT------
+Http only cookie. The Http only attribute is supported by most modern browsers.
 ------INPUT------
 On a supported browser, an HttpOnly session cookie will be used only when transmitting HTTP (or HTTPS) requests, thus restricting access from other, non-HTTP APIs such as JavaScript.
+------OUTPUT------
+On a supported browser, an HTTP only session cookie will be used only when transmitting HTTP or HTTPS requests, thus restricting access from other, non-HTTP APIs such as JavaScript.
 ------INPUT------
 This restriction mitigates but does not eliminate the threat of session cookie theft via cross-site scripting (XSS).
+------OUTPUT------
+This restriction mitigates but does not eliminate the threat of session cookie theft via cross site scripting.
 ------INPUT------
 Third-party cookie First-party cookies are cookies that belong to the same domain that is shown in the browser's address bar (or that belong to the sub domain of the domain in the address bar).
+------OUTPUT------
+Third party cookie First party cookies are cookies that belong to the same domain that is shown in the browser's address bar or that belong to the sub domain of the domain in the address bar.
 ------INPUT------
 Third-party cookies are cookies that belong to domains different from the one shown in the address bar.
+------OUTPUT------
+Third party cookies are cookies that belong to domains different from the one shown in the address bar.
 ------INPUT------
 Web pages can feature content from third-party domains (such as banner ads), which opens up the potential for tracking the user's browsing history.
+------OUTPUT------
+Web pages can feature content from third party domains, such as banner ads, which opens up the potential for tracking the user's browsing history.
 ------INPUT------
 Privacy setting options in most modern browsers allow the blocking of third-party tracking cookies.
+------OUTPUT------
+Privacy setting options in most modern browsers allow the blocking of third party tracking cookies.
 ------INPUT------
 As an example, suppose a user visits www.example1.com.
+------OUTPUT------
+As an example, suppose a user visits w w w dot example one dot com.

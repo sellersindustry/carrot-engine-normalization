@@ -18,3 +18,13 @@ func KeywordMapping(buffer string, keys []string, values []string, caseSensitive
 	return buffer;
 }
 
+
+func FilterNonEmptyStrings(input []string) []string {
+	var result []string
+	for _, str := range input {
+		if len(str) > 0 {
+			result = append(result, str)
+		}
+	}
+	return result
+}
