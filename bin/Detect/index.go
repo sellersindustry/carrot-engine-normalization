@@ -13,6 +13,7 @@ func Process(buffer string) *[]Token.Model {
 		tokens     = append(tokens, *nextToken);
 		buffer     = buffer[len(nextToken.Original):];
 	}
+	tokens = append(tokens, *Token.NewGeneral("", Token.Termination));
 	return &tokens
 }
 

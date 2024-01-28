@@ -26,8 +26,8 @@ task = """
 
 
 examples =[[
-	"The new race-car that I bought is really fast. It only cost about $123.43 and it a 2024 model. Mr. Bob III does all the maintance work on the car for only about $20-30/year. You can reach out to him at (123) 456-7890 or bob3rd@gmail.com.",
-	"The new race car that I bought is really fast. It only cost about one hundred and twenty three dollars and four three cents and it a twenty twenty four model. Mister Bob the third does all the maintance work on the car for only about twenty to thirty dollars per year. You can reach out to him at one two three, four five six, seven eight nine zero or bob three r d at g mail dot com."
+	"The new race-car that I bought is really fast. It only cost about $123.43 and it a 2024 model. Mr. Bob III does all the maintenance work on the car for only about $20-30/year. You can reach out to him at (123) 456-7890 or bob3rd@gmail.com.",
+	"The new race car that I bought is really fast. It only cost about one hundred and twenty three dollars and four three cents and it a twenty twenty four model. Mister Bob the third does all the maintenance work on the car for only about twenty to thirty dollars per year. You can reach out to him at one two three, four five six, seven eight nine zero or bob three r d at g mail dot com."
 ], [
 	"-1 + 32 ^ 123",
 	"negative one plus three to the power of one hundred and twenty three"

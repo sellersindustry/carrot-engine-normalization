@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/sellersindustry/normalization-tts/bin/Classify"
 	"github.com/sellersindustry/normalization-tts/bin/Detect"
@@ -51,15 +52,16 @@ func sentenize(tokens *[]Token.Model, hasControls bool) []string {
 		if (*tokens)[index].IsInactive {
 			continue
 		}
-		if len(sentences[len(sentences)-1]) == 0 && (*tokens)[index].Class == Token.Space {
-			continue
+		if len(sentences[len(sentences)-1]) != 0 && (*tokens)[index].Subclass != Token.Punctuation {
+			sentences[len(sentences)-1] += " "
 		}
 		sentences[len(sentences)-1] += (*tokens)[index].Text
 		if isSentenceEnd(&(*tokens)[index]) {
+			sentences[len(sentences)-1] = trimAllSpace(sentences[len(sentences)-1])
 			sentences = append(sentences, "")
 		}
-
 	}
+	sentences[len(sentences)-1] = trimAllSpace(sentences[len(sentences)-1])
 	return sentences;
 }
 
@@ -69,5 +71,10 @@ func isSentenceEnd(token *Token.Model) bool {
 		return false;
 	}
 	return token.Text == "." || token.Text == "!" || token.Text == "?"
+}
+
+
+func trimAllSpace(s string) string {
+    return strings.Join(strings.Fields(s), " ")
 }
 

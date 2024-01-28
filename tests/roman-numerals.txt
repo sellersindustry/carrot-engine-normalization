@@ -1,0 +1,400 @@
+------INPUT------
+I
+------OUTPUT------
+one
+------INPUT------
+II
+------OUTPUT------
+two
+------INPUT------
+III
+------OUTPUT------
+three
+------INPUT------
+IV
+------OUTPUT------
+four
+------INPUT------
+V
+------OUTPUT------
+five
+------INPUT------
+VI
+------OUTPUT------
+six
+------INPUT------
+VII
+------OUTPUT------
+seven
+------INPUT------
+VIII
+------OUTPUT------
+eight
+------INPUT------
+IX
+------OUTPUT------
+nine
+------INPUT------
+X
+------OUTPUT------
+ten
+------INPUT------
+XI
+------OUTPUT------
+eleven
+------INPUT------
+XII
+------OUTPUT------
+twelve
+------INPUT------
+XIII
+------OUTPUT------
+thirteen
+------INPUT------
+XIV
+------OUTPUT------
+fourteen
+------INPUT------
+XV
+------OUTPUT------
+fifteen
+------INPUT------
+XVI
+------OUTPUT------
+sixteen
+------INPUT------
+XVII
+------OUTPUT------
+seventeen
+------INPUT------
+XVIII
+------OUTPUT------
+eighteen
+------INPUT------
+XIX
+------OUTPUT------
+nineteen
+------INPUT------
+XX
+------OUTPUT------
+twenty
+------INPUT------
+XXI
+------OUTPUT------
+twenty one
+------INPUT------
+XXII
+------OUTPUT------
+twenty two
+------INPUT------
+XXIII
+------OUTPUT------
+twenty three
+------INPUT------
+XXIV
+------OUTPUT------
+twenty four
+------INPUT------
+XXV
+------OUTPUT------
+twenty five
+------INPUT------
+XXVI
+------OUTPUT------
+twenty six
+------INPUT------
+XXVII
+------OUTPUT------
+twenty seven
+------INPUT------
+XXVIII
+------OUTPUT------
+twenty eight
+------INPUT------
+XXIX
+------OUTPUT------
+twenty nine
+------INPUT------
+XXX
+------OUTPUT------
+thirty
+------INPUT------
+XXXI
+------OUTPUT------
+thirty one
+------INPUT------
+XXXII
+------OUTPUT------
+thirty two
+------INPUT------
+XXXIII
+------OUTPUT------
+thirty three
+------INPUT------
+XXXIV
+------OUTPUT------
+thirty four
+------INPUT------
+XXXV
+------OUTPUT------
+thirty five
+------INPUT------
+XXXVI
+------OUTPUT------
+thirty six
+------INPUT------
+XXXVII
+------OUTPUT------
+thirty seven
+------INPUT------
+XXXVIII
+------OUTPUT------
+thirty eight
+------INPUT------
+XXXIX
+------OUTPUT------
+thirty nine
+------INPUT------
+XL
+------OUTPUT------
+forty
+------INPUT------
+XLI
+------OUTPUT------
+forty one
+------INPUT------
+XLII
+------OUTPUT------
+forty two
+------INPUT------
+XLIII
+------OUTPUT------
+forty three
+------INPUT------
+XLIV
+------OUTPUT------
+forty four
+------INPUT------
+XLV
+------OUTPUT------
+forty five
+------INPUT------
+XLVI
+------OUTPUT------
+forty six
+------INPUT------
+XLVII
+------OUTPUT------
+forty seven
+------INPUT------
+XLVIII
+------OUTPUT------
+forty eight
+------INPUT------
+XLIX
+------OUTPUT------
+forty nine
+------INPUT------
+L
+------OUTPUT------
+fifty
+------INPUT------
+LI
+------OUTPUT------
+fifty one
+------INPUT------
+LII
+------OUTPUT------
+fifty two
+------INPUT------
+LIII
+------OUTPUT------
+fifty three
+------INPUT------
+LIV
+------OUTPUT------
+fifty four
+------INPUT------
+LV
+------OUTPUT------
+fifty five
+------INPUT------
+LVI
+------OUTPUT------
+fifty six
+------INPUT------
+LVII
+------OUTPUT------
+fifty seven
+------INPUT------
+LVIII
+------OUTPUT------
+fifty eight
+------INPUT------
+LIX
+------OUTPUT------
+fifty nine
+------INPUT------
+LX
+------OUTPUT------
+sixty
+------INPUT------
+LXI
+------OUTPUT------
+sixty one
+------INPUT------
+LXII
+------OUTPUT------
+sixty two
+------INPUT------
+LXIII
+------OUTPUT------
+sixty three
+------INPUT------
+LXIV
+------OUTPUT------
+sixty four
+------INPUT------
+LXV
+------OUTPUT------
+sixty five
+------INPUT------
+LXVI
+------OUTPUT------
+sixty six
+------INPUT------
+LXVII
+------OUTPUT------
+sixty seven
+------INPUT------
+LXVIII
+------OUTPUT------
+sixty eight
+------INPUT------
+LXIX
+------OUTPUT------
+sixty nine
+------INPUT------
+LXX
+------OUTPUT------
+seventy
+------INPUT------
+LXXI
+------OUTPUT------
+seventy one
+------INPUT------
+LXXII
+------OUTPUT------
+seventy two
+------INPUT------
+LXXIII
+------OUTPUT------
+seventy three
+------INPUT------
+LXXIV
+------OUTPUT------
+seventy four
+------INPUT------
+LXXV
+------OUTPUT------
+seventy five
+------INPUT------
+LXXVI
+------OUTPUT------
+seventy six
+------INPUT------
+LXXVII
+------OUTPUT------
+seventy seven
+------INPUT------
+LXXVIII
+------OUTPUT------
+seventy eight
+------INPUT------
+LXXIX
+------OUTPUT------
+seventy nine
+------INPUT------
+LXXX
+------OUTPUT------
+eighty
+------INPUT------
+LXXXI
+------OUTPUT------
+eighty one
+------INPUT------
+LXXXII
+------OUTPUT------
+eighty two
+------INPUT------
+LXXXIII
+------OUTPUT------
+eighty three
+------INPUT------
+LXXXIV
+------OUTPUT------
+eighty four
+------INPUT------
+LXXXV
+------OUTPUT------
+eighty five
+------INPUT------
+LXXXVI
+------OUTPUT------
+eighty six
+------INPUT------
+LXXXVII
+------OUTPUT------
+eighty seven
+------INPUT------
+LXXXVIII
+------OUTPUT------
+eighty eight
+------INPUT------
+LXXXIX
+------OUTPUT------
+eighty nine
+------INPUT------
+XC
+------OUTPUT------
+ninety
+------INPUT------
+XCI
+------OUTPUT------
+ninety one
+------INPUT------
+XCII
+------OUTPUT------
+ninety two
+------INPUT------
+XCIII
+------OUTPUT------
+ninety three
+------INPUT------
+XCIV
+------OUTPUT------
+ninety four
+------INPUT------
+XCV
+------OUTPUT------
+ninety five
+------INPUT------
+XCVI
+------OUTPUT------
+ninety six
+------INPUT------
+XCVII
+------OUTPUT------
+ninety seven
+------INPUT------
+XCVIII
+------OUTPUT------
+ninety eight
+------INPUT------
+XCIX
+------OUTPUT------
+ninety nine
+------INPUT------
+C
+------OUTPUT------
+one hundred

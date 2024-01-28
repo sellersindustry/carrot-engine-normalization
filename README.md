@@ -1,4 +1,30 @@
 # normalization-tts
+
+
+## TODO
+- Ensure Bullet points work
+- Tranformation
+    - Currency
+    - Number Year
+    - Number Currency
+    - Phone
+    - Date
+    - Special - Email, URL, HashTag (Chuncking - de-camelcase)
+- Classify ranges to use contextual words
+- Implement Abbreivations (Classify, Tranformation)
+- Implement Initialism w/ period (Classify)
+- Implement Initialism w/o periods (Classify, Tranformation)
+- Word De-camelcase
+- Groupings (Spaces don't matter)
+    - math equations
+    - unit
+    - dollars
+    - ()
+    - nouns and posessive roman numerals
+- CLI
+
+
+## Process
 - Step 1 - Detect
     - acronym
     - initialism
@@ -53,17 +79,6 @@
     - math equations
     - unit
     - nouns and posessive roman numerals
-
-
-## Issues
-- Roman Numeral or `I`
-- Roman Numeral `John XI` -> `John the nineth`
-- Phone number 911 or 311
-- Dates desifer
-- "m" or "k" or "b" after a number
-- quote, end quote
-- colloquial terms - `9/11` -> `9 11`
-- Pause for (hello)
 
 
 ## Notes

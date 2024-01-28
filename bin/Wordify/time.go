@@ -1,5 +1,11 @@
 package Wordify
 
+import "strings"
+
 func Time(text string) string {
-	return "";
+	sections := strings.Split(text, ":")
+	if len(sections) != 2 {
+		return "";
+	}
+	return Number(sections[0]) + " " + Number(sections[1])
 }

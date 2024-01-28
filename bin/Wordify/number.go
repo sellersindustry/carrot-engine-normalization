@@ -1,22 +1,39 @@
 package Wordify
 
 import (
+	"fmt"
 	"strconv"
 	"strings"
 
+	"github.com/brandenc40/romannumeral"
 	"github.com/divan/num2words"
 	"github.com/gertd/go-pluralize"
-	"github.com/brandenc40/romannumeral"
 )
 
 
+var ordinalNumberSuffixes = []string{
+	"first", "second", "third", "fourth", "fifth", "sixth", "seventh",
+	"eighth", "ninth", "eleventh", "twelfth", "thirteenth", "fourteenth",
+	"fifteenth", "sixteenth", "seventeenth", "eighteenth", "nineteenth",
+	"twentieth",
+}
+
 
 func NumberOrdinal(text string) string {
-	//! "6" -> "sixth", "8" -> "eighth", "1" -> "first"
-	//! parse number
-	//! based on number st, th, nd ify the number ...
-	word := Number(text);
-	return word;
+	integer   := parseInt(text);
+	lastDigit := integer % 10;
+	fmt.Println(integer, lastDigit);
+	if lastDigit != 0 {
+		if integer <= 20 {
+			return ordinalNumberSuffixes[integer - 1];
+		}
+		return Number(strconv.Itoa(integer - lastDigit)) + " " + ordinalNumberSuffixes[lastDigit - 1];
+	}
+	word := Number(strconv.Itoa(integer))
+	if strings.HasSuffix(word, "y") {
+		return strings.TrimSuffix(word, "y") + "ieth";
+	}
+	return word + "th";
 }
 
 
@@ -79,7 +96,11 @@ func parseInt(text string) int {
 
 
 func RomanNumeralPossessive(text string) string {
-	return "the " + RomanNumeral(text);
+	integer, err := romannumeral.StringToInt(text)
+	if err != nil {
+		return "zero";
+	}
+	return "the " + NumberOrdinal(strconv.Itoa(integer));
 }
 
 

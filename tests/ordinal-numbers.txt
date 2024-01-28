@@ -1,0 +1,596 @@
+------INPUT------
+1st
+------OUTPUT------
+first
+------INPUT------
+2nd
+------OUTPUT------
+second
+------INPUT------
+3rd
+------OUTPUT------
+third
+------INPUT------
+4th
+------OUTPUT------
+fourth
+------INPUT------
+5th
+------OUTPUT------
+fifth
+------INPUT------
+6th
+------OUTPUT------
+sixth
+------INPUT------
+7th
+------OUTPUT------
+seventh
+------INPUT------
+8th
+------OUTPUT------
+eighth
+------INPUT------
+9th
+------OUTPUT------
+ninth
+------INPUT------
+10th
+------OUTPUT------
+tenth
+------INPUT------
+11th
+------OUTPUT------
+eleventh
+------INPUT------
+12th
+------OUTPUT------
+twelfth
+------INPUT------
+13th
+------OUTPUT------
+thirteenth
+------INPUT------
+14th
+------OUTPUT------
+fourteenth
+------INPUT------
+15th
+------OUTPUT------
+fifteenth
+------INPUT------
+16th
+------OUTPUT------
+sixteenth
+------INPUT------
+17th
+------OUTPUT------
+seventeenth
+------INPUT------
+18th
+------OUTPUT------
+eighteenth
+------INPUT------
+19th
+------OUTPUT------
+nineteenth
+------INPUT------
+20th
+------OUTPUT------
+twentieth
+------INPUT------
+21st
+------OUTPUT------
+twenty first
+------INPUT------
+22nd
+------OUTPUT------
+twenty second
+------INPUT------
+23rd
+------OUTPUT------
+twenty third
+------INPUT------
+24th
+------OUTPUT------
+twenty fourth
+------INPUT------
+25th
+------OUTPUT------
+twenty fifth
+------INPUT------
+26th
+------OUTPUT------
+twenty sixth
+------INPUT------
+27th
+------OUTPUT------
+twenty seventh
+------INPUT------
+28th
+------OUTPUT------
+twenty eighth
+------INPUT------
+29th
+------OUTPUT------
+twenty ninth
+------INPUT------
+30th
+------OUTPUT------
+thirtieth
+------INPUT------
+31st
+------OUTPUT------
+thirty first
+------INPUT------
+32nd
+------OUTPUT------
+thirty second
+------INPUT------
+33rd
+------OUTPUT------
+thirty third
+------INPUT------
+34th
+------OUTPUT------
+thirty fourth
+------INPUT------
+35th
+------OUTPUT------
+thirty fifth
+------INPUT------
+36th
+------OUTPUT------
+thirty sixth
+------INPUT------
+37th
+------OUTPUT------
+thirty seventh
+------INPUT------
+38th
+------OUTPUT------
+thirty eighth
+------INPUT------
+39th
+------OUTPUT------
+thirty ninth
+------INPUT------
+40th
+------OUTPUT------
+fortieth
+------INPUT------
+41st
+------OUTPUT------
+forty first
+------INPUT------
+42nd
+------OUTPUT------
+forty second
+------INPUT------
+43rd
+------OUTPUT------
+forty third
+------INPUT------
+44th
+------OUTPUT------
+forty fourth
+------INPUT------
+45th
+------OUTPUT------
+forty fifth
+------INPUT------
+46th
+------OUTPUT------
+forty sixth
+------INPUT------
+47th
+------OUTPUT------
+forty seventh
+------INPUT------
+48th
+------OUTPUT------
+forty eighth
+------INPUT------
+49th
+------OUTPUT------
+forty ninth
+------INPUT------
+50th
+------OUTPUT------
+fiftieth
+------INPUT------
+51st
+------OUTPUT------
+fifty first
+------INPUT------
+52nd
+------OUTPUT------
+fifty second
+------INPUT------
+53rd
+------OUTPUT------
+fifty third
+------INPUT------
+54th
+------OUTPUT------
+fifty fourth
+------INPUT------
+55th
+------OUTPUT------
+fifty fifth
+------INPUT------
+56th
+------OUTPUT------
+fifty sixth
+------INPUT------
+57th
+------OUTPUT------
+fifty seventh
+------INPUT------
+58th
+------OUTPUT------
+fifty eighth
+------INPUT------
+59th
+------OUTPUT------
+fifty ninth
+------INPUT------
+60th
+------OUTPUT------
+sixtieth
+------INPUT------
+61st
+------OUTPUT------
+sixty first
+------INPUT------
+62nd
+------OUTPUT------
+sixty second
+------INPUT------
+63rd
+------OUTPUT------
+sixty third
+------INPUT------
+64th
+------OUTPUT------
+sixty fourth
+------INPUT------
+65th
+------OUTPUT------
+sixty fifth
+------INPUT------
+66th
+------OUTPUT------
+sixty sixth
+------INPUT------
+67th
+------OUTPUT------
+sixty seventh
+------INPUT------
+68th
+------OUTPUT------
+sixty eighth
+------INPUT------
+69th
+------OUTPUT------
+sixty ninth
+------INPUT------
+70th
+------OUTPUT------
+seventieth
+------INPUT------
+71st
+------OUTPUT------
+seventy first
+------INPUT------
+72nd
+------OUTPUT------
+seventy second
+------INPUT------
+73rd
+------OUTPUT------
+seventy third
+------INPUT------
+74th
+------OUTPUT------
+seventy fourth
+------INPUT------
+75th
+------OUTPUT------
+seventy fifth
+------INPUT------
+76th
+------OUTPUT------
+seventy sixth
+------INPUT------
+77th
+------OUTPUT------
+seventy seventh
+------INPUT------
+78th
+------OUTPUT------
+seventy eighth
+------INPUT------
+79th
+------OUTPUT------
+seventy ninth
+------INPUT------
+80th
+------OUTPUT------
+eightieth
+------INPUT------
+81st
+------OUTPUT------
+eighty first
+------INPUT------
+82nd
+------OUTPUT------
+eighty second
+------INPUT------
+83rd
+------OUTPUT------
+eighty third
+------INPUT------
+84th
+------OUTPUT------
+eighty fourth
+------INPUT------
+85th
+------OUTPUT------
+eighty fifth
+------INPUT------
+86th
+------OUTPUT------
+eighty sixth
+------INPUT------
+87th
+------OUTPUT------
+eighty seventh
+------INPUT------
+88th
+------OUTPUT------
+eighty eighth
+------INPUT------
+89th
+------OUTPUT------
+eighty ninth
+------INPUT------
+90th
+------OUTPUT------
+ninetieth
+------INPUT------
+91st
+------OUTPUT------
+ninety first
+------INPUT------
+92nd
+------OUTPUT------
+ninety second
+------INPUT------
+93rd
+------OUTPUT------
+ninety third
+------INPUT------
+94th
+------OUTPUT------
+ninety fourth
+------INPUT------
+95th
+------OUTPUT------
+ninety fifth
+------INPUT------
+96th
+------OUTPUT------
+ninety sixth
+------INPUT------
+97th
+------OUTPUT------
+ninety seventh
+------INPUT------
+98th
+------OUTPUT------
+ninety eighth
+------INPUT------
+99th
+------OUTPUT------
+ninety ninth
+------INPUT------
+100th
+------OUTPUT------
+one hundredth
+------INPUT------
+101st
+------OUTPUT------
+one hundred first
+------INPUT------
+172nd
+------OUTPUT------
+one hundred seventy second
+------INPUT------
+245th
+------OUTPUT------
+two hundred forty fifth
+------INPUT------
+310th
+------OUTPUT------
+three hundred tenth
+------INPUT------
+421st
+------OUTPUT------
+four hundred twenty first
+------INPUT------
+512th
+------OUTPUT------
+five hundred twelfth
+------INPUT------
+633rd
+------OUTPUT------
+six hundred thirty third
+------INPUT------
+714th
+------OUTPUT------
+seven hundred fourteenth
+------INPUT------
+829th
+------OUTPUT------
+eight hundred twenty ninth
+------INPUT------
+903rd
+------OUTPUT------
+nine hundred third
+------INPUT------
+105th
+------OUTPUT------
+one hundred fifth
+------INPUT------
+166th
+------OUTPUT------
+one hundred sixty sixth
+------INPUT------
+282nd
+------OUTPUT------
+two hundred eighty second
+------INPUT------
+394th
+------OUTPUT------
+three hundred ninety fourth
+------INPUT------
+489th
+------OUTPUT------
+four hundred eighty ninth
+------INPUT------
+560th
+------OUTPUT------
+five hundred sixtieth
+------INPUT------
+677th
+------OUTPUT------
+six hundred seventy seventh
+------INPUT------
+749th
+------OUTPUT------
+seven hundred forty ninth
+------INPUT------
+822nd
+------OUTPUT------
+eight hundred twenty second
+------INPUT------
+934th
+------OUTPUT------
+nine hundred thirty fourth
+------INPUT------
+102nd
+------OUTPUT------
+one hundred second
+------INPUT------
+211th
+------OUTPUT------
+two hundred eleventh
+------INPUT------
+334th
+------OUTPUT------
+three hundred thirty fourth
+------INPUT------
+407th
+------OUTPUT------
+four hundred seventh
+------INPUT------
+520th
+------OUTPUT------
+five hundred twentieth
+------INPUT------
+651st
+------OUTPUT------
+six hundred fifty first
+------INPUT------
+724th
+------OUTPUT------
+seven hundred twenty fourth
+------INPUT------
+837th
+------OUTPUT------
+eight hundred thirty seventh
+------INPUT------
+903rd
+------OUTPUT------
+nine hundred third
+------INPUT------
+105th
+------OUTPUT------
+one hundred fifth
+------INPUT------
+166th
+------OUTPUT------
+one hundred sixty sixth
+------INPUT------
+282nd
+------OUTPUT------
+two hundred eighty second
+------INPUT------
+394th
+------OUTPUT------
+three hundred ninety fourth
+------INPUT------
+489th
+------OUTPUT------
+four hundred eighty ninth
+------INPUT------
+560th
+------OUTPUT------
+five hundred sixtieth
+------INPUT------
+677th
+------OUTPUT------
+six hundred seventy seventh
+------INPUT------
+749th
+------OUTPUT------
+seven hundred forty ninth
+------INPUT------
+822nd
+------OUTPUT------
+eight hundred twenty second
+------INPUT------
+934th
+------OUTPUT------
+nine hundred thirty fourth
+------INPUT------
+1002nd
+------OUTPUT------
+one thousand second
+------INPUT------
+113th
+------OUTPUT------
+one hundred thirteenth
+------INPUT------
+246th
+------OUTPUT------
+two hundred forty sixth
+------INPUT------
+399th
+------OUTPUT------
+three hundred ninety ninth
+------INPUT------
+512th
+------OUTPUT------
+five hundred twelfth
+------INPUT------
+643rd
+------OUTPUT------
+six hundred forty third
+------INPUT------
+757th
+------OUTPUT------
+seven hundred fifty seventh
+------INPUT------
+888th
+------OUTPUT------
+eight hundred eighty eighth
+------INPUT------
+921st
+------OUTPUT------
+nine hundred twenty first
+------INPUT------
+1000th
+------OUTPUT------
+one thousandth

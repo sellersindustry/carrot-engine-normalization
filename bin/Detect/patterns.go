@@ -26,17 +26,17 @@ var PATTERNS = []*Pattern {
 		Regexp: `^[0-9]*(\,[0-9]{3})*(\.[0-9]+)?`,
 		Class:  Token.Number,
 	}, {
+		// Hashtag
 		Regexp: `^#[a-zA-Z0-9-_]*[a-zA-Z0-9]`,
-		Class:  Token.Hashtag,
+		Class:  Token.Special,
 	}, {
+		// Email
 		Regexp: `^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,64}`,
-		Class:  Token.Email,
+		Class:  Token.Special,
 	}, {
+		// URL
 		Regexp: `^([A-Za-z0-9]+:\/\/)?([A-Za-z0-9]+(\.[A-Za-z0-9]+)+)(([\/\?])([\S]*[0-9A-Za-z\/])?)?`,
-		Class:  Token.URL,
-	}, {
-		Regexp: `^([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)\b`,
-		Class:  Token.RomanNumeral,
+		Class:  Token.Special,
 	}, {
 		Regexp: `^` + Utility.RegexWordListOr(Utility.GetWordsetKeys("./bin/wordsets/units.txt")) + `\b`,
 		Class:  Token.Word,

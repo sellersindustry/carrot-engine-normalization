@@ -1,21 +1,24 @@
 package main
 
 import (
-	Normalize "github.com/sellersindustry/normalization-tts/bin"
+	"fmt"
+
+	"github.com/sellersindustry/normalization-tts/bin"
 )
 
-
-// var text = "foo nice 180 - 5 nice foo.\nThat's pretty nice!! {{HELLO}}"
+var text = "Hello world! \"Test Test Test\""
 
 func main() {
-	Normalize.ExecuteTests();
-	// output := Normalize.Process(text, false);
+	// Normalize.ExecuteTests();
+	output := Normalize.Process(text, false);
 	// for _, _token := range output.Tokens {
-	// 	fmt.Println(_token);
+	// 	fmt.Println(_token.);
 	// }
 	// fmt.Println("\n");
-	// for _, sentence := range output.Sentences {
-	// 	fmt.Println("\"" + sentence + "\"");
-	// }
+	fmt.Println(output.Tokens);
+	for _, sentence := range output.Sentences {
+		fmt.Println(sentence);
+	}
+	// fmt.Println(strings.Join(output.Sentences, " "));
 	// fmt.Println(Normalize.ProcessJSON(text, false))
 }

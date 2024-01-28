@@ -35,11 +35,6 @@ var PATTERNS = []*Pattern {
 			return Wordify.NumberYear((*tokens)[index].Original);
 		},
 	}, {
-		Subclass: Token.RomanNumeralPossessive,
-		Function: func (index int, tokens *[]Token.Model) string {
-			return Wordify.RomanNumeralPossessive((*tokens)[index].Original);
-		},
-	}, {
 		Subclass: Token.Unit,
 		Function: func (index int, tokens *[]Token.Model) string {
 			keys, values := Utility.GetWordset("./bin/wordsets/units.txt");
@@ -91,12 +86,6 @@ var PATTERNS = []*Pattern {
 			return Utility.KeywordMapping((*tokens)[index].Original, keys, values, false);
 		},
 	}, {
-		Class: Token.Space,
-		Function: func (index int, tokens *[]Token.Model) string {
-			//! DEAL WITH EXTRA PAUSE FOR NEW LINES...
-			return " ";
-		},
-	}, {
 		Class: Token.Date,
 		Function: func (index int, tokens *[]Token.Model) string {
 			return Wordify.Phone((*tokens)[index].Original);
@@ -117,24 +106,29 @@ var PATTERNS = []*Pattern {
 			return Wordify.Phone((*tokens)[index].Original);
 		},
 	}, {
-		Class: Token.RomanNumeral,
+		Subclass: Token.RomanNumeralPossessive,
+		Function: func (index int, tokens *[]Token.Model) string {
+			return Wordify.RomanNumeralPossessive((*tokens)[index].Original);
+		},
+	}, {
+		Subclass: Token.RomanNumeral,
 		Function: func (index int, tokens *[]Token.Model) string {
 			return Wordify.RomanNumeral((*tokens)[index].Original);
 		},
 	}, {
-		Class: Token.Hashtag,
+		Class: Token.Special,
 		Function: func (index int, tokens *[]Token.Model) string {
 			return Wordify.Special((*tokens)[index].Original);
 		},
 	}, {
-		Class: Token.Email,
+		Subclass: Token.NewParagraph,
 		Function: func (index int, tokens *[]Token.Model) string {
-			return Wordify.Special((*tokens)[index].Original);
+			return "{{PAUSE}}";
 		},
 	}, {
-		Class: Token.URL,
+		Class: Token.Space,
 		Function: func (index int, tokens *[]Token.Model) string {
-			return Wordify.Special((*tokens)[index].Original);
+			return " ";
 		},
 	}, {
 		Class: Token.Symbol,

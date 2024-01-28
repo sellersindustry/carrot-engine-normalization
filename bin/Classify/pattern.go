@@ -6,9 +6,11 @@ import (
 )
 
 
-var REGEX_QUOTE      = "/^\"|'$/";
-var REGEX_CURRENCY   = "/^[$£]$/";
-var REGEX_OPERATIONS = "/^[\\+\\-\\^\\*\\/\\=x]$/";
+var REGEX_QUOTE       = "/^\"|'$/";
+var REGEX_CURRENCY    = "/^[$£]$/";
+var REGEX_OPERATIONS  = "/^[\\+\\-\\^\\*\\/\\=x]$/";
+var REGEX_ROMAN_NUM   = "/^([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)$/";
+var REGEX_PUNCTUATION = "/^[\\.,\\?\\!\\:\\;]$/";
 
 
 var PATTERNS = []*Pattern {
@@ -65,35 +67,32 @@ var PATTERNS = []*Pattern {
 		Current:       "/^[0-9]{4}$/",
 		SetSubclassTo: Token.NumberYear,
 	}, {
-		// Quote Short - Start (1 Word)
+		// Quote Short - Start (1-2 Words)
 		Current:       REGEX_QUOTE,
-		Suffix: 	   []string{ IGNORE_SPACES, string(Token.Word), REGEX_QUOTE },
+		Suffix: 	   []string{ string(Token.Word) },
+		ScanAfter:     &PatternScan{
+			Exists: []string{ REGEX_QUOTE },
+			Range: 3,
+			IgnoreSpaces: true,
+		},
 		SetSubclassTo: Token.QuoteStartShort,
 	}, {
-		// Quote Short - Start (2 Word)
+		// Quote Short - End (1-2 Words)
 		Current:       REGEX_QUOTE,
-		Suffix: 	   []string{ IGNORE_SPACES, string(Token.Word), string(Token.Word), REGEX_QUOTE },
-		SetSubclassTo: Token.QuoteStartShort,
-	}, {
-		// Quote Short - End (1 Word)
-		Current:         REGEX_QUOTE,
-		Prefix: 	     []string{ IGNORE_SPACES, REGEX_QUOTE, string(Token.Word) },
-		SetSubclassTo:   Token.QuoteEnd,
-		SetIsInactiveTo: true,
-	}, {
-		// Quote Short - End (2 Word)
-		Current:         REGEX_QUOTE,
-		Prefix: 	     []string{ IGNORE_SPACES, REGEX_QUOTE, string(Token.Word), string(Token.Word) },
-		SetSubclassTo:   Token.QuoteEnd,
+		ScanBefore:    &PatternScan{
+			Exists: []string{ string(Token.QuoteStartShort) },
+			Range: 3,
+			IgnoreSpaces: true,
+		},
 		SetIsInactiveTo: true,
 	}, {
 		// Quote - Start
-		Current:       `/^\"$/`,
+		Current:       REGEX_QUOTE,
 		Suffix: 	   []string{ string(Token.Word) },
 		SetSubclassTo: Token.QuoteStart,
 	}, {
 		// Quote - End
-		Current:       "/^\"|'$/",
+		Current:       REGEX_QUOTE,
 		SetSubclassTo: Token.QuoteEnd,
 	}, {
 		// Range
@@ -136,7 +135,7 @@ var PATTERNS = []*Pattern {
 	}, {
 		// Per Per Number
 		Current:       "/",
-		Prefix:        []string{ string(Token.Per), string(Token.Word) },
+		Prefix:        []string{ string(Token.Per) },
 		Suffix:        []string{ string(Token.Word) },
 		SetSubclassTo: Token.Per,
 	}, {
@@ -145,33 +144,43 @@ var PATTERNS = []*Pattern {
 		Prefix:        []string{ IGNORE_SPACES, string(Token.NumberCurrency) },
 		SetSubclassTo: Token.Scale,
 	}, {
-		Current:       string(Token.RomanNumeral),
+		// Roman Numeral Possessive
+		Current:       REGEX_ROMAN_NUM,
 		Prefix:        []string{ "/^[A-Z]([a-zA-Z])+$/i", string(Token.Space) },
 		SetSubclassTo: Token.RomanNumeralPossessive,
-	//! abbreviations
-	//! PERIODS IN BETWEEN ACRYONMS
+	}, {
+		// Roman Numeral
+		Current:       REGEX_ROMAN_NUM,
+		SetSubclassTo: Token.RomanNumeral,
 	}, {
 		// Units
 		Current:       `/^` + Utility.RegexWordListOr(Utility.GetWordsetBoth("./bin/wordsets/units.txt")) + `$/i`,
 		Prefix:        []string{ IGNORE_SPACES, string(Token.Number) },
 		SetSubclassTo: Token.Unit,
 	}, {
+		// New Pharagraph
+		Current:       `/^\s*\n\s*$/`,
+		Prefix:        []string{ string(Token.Punctuation) },
+		SetSubclassTo: Token.NewParagraph,
+	}, {
 		// Punctuation
-		Current:       "/^[.!?;,:]$/",
+		Current:       REGEX_PUNCTUATION,
 		SetSubclassTo: Token.Punctuation,
 		Prefix:        []string{ `/^[^\s]+$/` },
 		Suffix:        []string{ string(Token.Space) },
 	}, {
-		// Punctuation - End of Sentence
-		Current:       "/^[.!?;,:]$/",
+		// Punctuation - End of Text
+		Current:       REGEX_PUNCTUATION,
 		SetSubclassTo: Token.Punctuation,
-		Prefix:        []string{ `/^[^\s]$/` },
-		//! FIXME to end of sentence detection
+		Prefix:        []string{ `/^[^\s]+$/` },
+		Suffix:        []string{ string(Token.Termination) },
 	}, {
 		// Silent Symbols
-		Current:       `/^[^.@#$%&+\-=~0-9\s]$/`,
+		Current:       `/^[^.@#$%&+=~0-9\s]$/`,
 		SetSubclassTo: Token.None,
 		SetIsInactiveTo: true,
 	},
+	//! abbreviations
+	//! PERIODS IN BETWEEN ACRYONMS
 }
 
