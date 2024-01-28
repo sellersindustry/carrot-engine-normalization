@@ -16,12 +16,13 @@ task = """
 	Step 4 - Convert quotes short quotes under 2 words to say "quote on quote" and then the phrase.
 	Step 5 - Convert longer quotes to say "quote" at the begining and "end quote" at the end.
 	Step 6 - Convert all numbers and roman numerals to words. For example "4" to "four", "10" to "ten"
-	Step 7 - Convert all years to the appropiate word. For example "1984" to "Nineteen Eighty Four".
-	Step 8 - Convert all dates to their spoken form. For example "1984/4/12" to "April twelveth, Nineteen Eighty Four"
-    Step 9 - Convert all intialisms to seperation for each letter. For example "FBI" should become "F B I", "U.S.A" should be "U S A" 
-    Step 10 - Convert unit to full word. For example "cm" to "centimeter", "ft" to "feet" 
-	Step 11 - Convert abbreviation to full word. For example "Mr." to "mister".
-    Step 11 - Convert math symbol. For example "+" to plus, "*" to "multiply".
+	Step 7 - Convert all time to the appropiate word. For example "12:00" to "Twelve o'clock", "12:50" to "Twelve fifty".
+	Step 8 - Convert all years to the appropiate word. For example "1984" to "Nineteen Eighty Four".
+	Step 9 - Convert all dates to their spoken form. For example "1984/4/12" to "April twelveth, Nineteen Eighty Four"
+    Step 10 - Convert all intialisms to seperation for each letter. For example "FBI" should become "F B I", "U.S.A" should be "U S A" 
+    Step 11 - Convert unit to full word. For example "cm" to "centimeter", "ft" to "feet" 
+	Step 12 - Convert abbreviation to full word. For example "Mr." to "mister".
+    Step 13 - Convert math symbol. For example "+" to plus, "*" to "multiply".
 """
 
 
