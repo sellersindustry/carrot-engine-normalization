@@ -15,21 +15,21 @@ The advertiser can then use these cookies to build up a browsing history of the 
 ------OUTPUT------
 The advertiser can then use these cookies to build up a browsing history of the user across all the websites that have ads from this advertiser.
 ------INPUT------
-As of 2014, some websites were setting cookies readable for over 100third-party domains.
+As of 2014, some websites were setting cookies readable for over 100 third-party domains.
 ------OUTPUT------
-As of two thousand and fourteen, some websites were setting cookies readable for over one hundred third party domains.
+As of twenty fourteen, some websites were setting cookies readable for over one hundred third-party domains.
 ------INPUT------
 On average, a single website was setting 10 cookies, with maximum number of cookies (first and third-party) reaching over 800.
 ------OUTPUT------
-On average, a single website was setting ten cookies, with the maximum number of cookies, first and third party, reaching over eight hundred.
+On average, a single website was setting ten cookies, with the maximum number of cookies, first and third-party, reaching over eight hundred.
 ------INPUT------
 Supercookie A "supercookie" is a cookie with an origin of a Top-Level Domain (such as .com) or a Public Suffix (such as .co.uk).
 ------OUTPUT------
-Supercookie. A quote on quote supercookie is a cookie with an origin of a Top-Level Domain, such as dot com, or a Public Suffix, such as dot co dot uk.
+Supercookie A quote on quote supercookie is a cookie with an origin of a Top-Level Domain, such as dot com, or a Public Suffix, such as dot co dot uk.
 ------INPUT------
 It is important that supercookies are blocked by browsers, due to the security holes they introduce.
 ------OUTPUT------
-It is important that super cookies are blocked by browsers, due to the security holes they introduce.
+It is important that supercookies are blocked by browsers, due to the security holes they introduce.
 ------INPUT------
 If unblocked, an attacker in control of a malicious website could set a supercookie and potentially disrupt or impersonate legitimate user requests to another website that shares the same Top-Level Domain or Public Suffix as the malicious website.
 ------OUTPUT------
@@ -49,7 +49,7 @@ The Public Suffix List is a cross-vendor initiative to provide an accurate list 
 ------INPUT------
 Older versions of browsers may not have the most up-to-date list, and will therefore be vulnerable to supercookies from certain domains.
 ------OUTPUT------
-Older versions of browsers may not have the most up to date list, and will therefore be vulnerable to super cookies from certain domains.
+Older versions of browsers may not have the most up-to-date list, and will therefore be vulnerable to supercookies from certain domains.
 ------INPUT------
 Supercookie (other uses). The term "supercookie" is sometimes used for tracking technologies that do not rely on HTTP cookies.
 ------OUTPUT------
@@ -59,13 +59,13 @@ Two such "supercookie" mechanisms were found on Microsoft websites: cookie synci
 ------OUTPUT------
 Two such quote on quote supercookie mechanisms were found on Microsoft websites: cookie syncing that respawned MUID quote on quote Machine Unique Identifier cookies, and ETag cookies. Due to media attention, Microsoft later disabled this code.
 ------INPUT------
-Zombie cookie Some cookies are automatically recreated after a user has deleted them; these are called zombie cookies.
+Zombie cookie. Some cookies are automatically recreated after a user has deleted them; these are called zombie cookies.
 ------OUTPUT------
 Zombie cookie. Some cookies are automatically recreated after a user has deleted them. These are called zombie cookies.
 ------INPUT------
 This is accomplished by a script storing the content of the cookie in some other locations, such as the local storage available to Flash content, HTML5 storages and other client-side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.
 ------OUTPUT------
-This is accomplished by a script storing the content of the cookie in some other locations, such as the local storage available to Flash content, H T M L five storages and other client side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.
+This is accomplished by a script storing the content of the cookie in some other locations, such as the local storage available to Flash content, H T M L five storages and other client-side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.
 ------INPUT------
 Structure A cookie consists of seven components: (name, value) pair of the cookie (i.e. name=value) Expiry of the cookie Path the cookie is good for Domain the cookie is good for Need for a secure connection to use the cookie Whether or not the cookie can be accessed through other means than HTTP (i.e., JavaScript) The first component (name, value) is required to be explicitly set.
 ------OUTPUT------
@@ -73,7 +73,7 @@ Structure. A cookie consists of seven components: a (name, value) pair of the co
 ------INPUT------
 Tracking Tracking cookies may be used to track internet users' web browsing.
 ------OUTPUT------
-Tracking Tracking cookies may be used to track internet users' web browsing.
+Tracking Tracking cookies may be used to track internet users web browsing.
 ------INPUT------
 This can also be done in part by using the IP address of the computer requesting the page or the referrer field of the HTTP request header, but cookies allow for greater precision.
 ------OUTPUT------
@@ -93,7 +93,7 @@ Setting a cookie Transfer of Web pages follows the Hyper Text Transfer Protocol,
 ------INPUT------
 Regardless of cookies, browsers request a page from web servers by sending them a usually short text called 'HTTP request'.
 ------OUTPUT------
-Regardless of cookies, browsers request a page from web servers by sending them a usually short text called HTTP request.
+Regardless of cookies, browsers request a page from web servers by sending them a usually short text called quote on quote H T T P request.
 ------INPUT------
 For example, to access the page http://www.example.org/index.html, browsers connect to the server www.example.org sending it a request that looks like the following one: The server replies by sending the requested page preceded by a similar packet of text, called 'HTTP response'.
 ------OUTPUT------
@@ -101,7 +101,7 @@ For example, to access the page http colon slash slash www dot example dot org s
 ------INPUT------
 This packet may contain lines requesting the browser to store cookies: The server sends lines of Set-Cookie only if the server wishes the browser to store cookies.
 ------OUTPUT------
-This packet may contain lines requesting the browser to store cookies. The server sends lines of Set-Cookie only if the server wishes the browser to store cookies.
+This packet may contain lines requesting the browser to store cookies: The server sends lines of Set-Cookie only if the server wishes the browser to store cookies.
 ------INPUT------
 Set-Cookie is a directive for the browser to store the cookie and send it back in future requests to the server (subject to expiration time or other cookie attributes), if the browser supports cookies and cookies are enabled.
 ------OUTPUT------

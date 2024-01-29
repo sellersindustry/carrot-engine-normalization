@@ -1,6 +1,8 @@
 package Transform
 
 import (
+	"strings"
+
 	"github.com/sellersindustry/normalization-tts/bin/Token"
 	"github.com/sellersindustry/normalization-tts/bin/Utility"
 	"github.com/sellersindustry/normalization-tts/bin/Wordify"
@@ -26,8 +28,18 @@ var PATTERNS = []*Pattern {
 	}, {
 		Subclass: Token.NumberCurrency,
 		Function: func (index int, tokens *[]Token.Model) string {
-			//! FIXME GET CURRENCY SYMBOL
-			return Wordify.NumberCurrency((*tokens)[index].Original, "USD");
+			for offset := 1; offset <= 3; offset++ {
+				if offset > 0 {
+					continue;
+				}
+				if (*tokens)[index - offset].Original == "$" {
+					return Wordify.NumberCurrency((*tokens)[index].Original, "$");
+				}
+				if (*tokens)[index - offset].Original == "€" {
+					return Wordify.NumberCurrency((*tokens)[index].Original, "$");
+				}
+			}
+			return Wordify.NumberCurrency((*tokens)[index].Original, "");
 		},
 	}, {
 		Subclass: Token.NumberYear,
@@ -114,6 +126,11 @@ var PATTERNS = []*Pattern {
 		Subclass: Token.RomanNumeral,
 		Function: func (index int, tokens *[]Token.Model) string {
 			return Wordify.RomanNumeral((*tokens)[index].Original);
+		},
+	}, {
+		Subclass: Token.Initialism,
+		Function: func (index int, tokens *[]Token.Model) string {
+			return strings.Join(strings.Split((*tokens)[index].Original, ""), " ");
 		},
 	}, {
 		Class: Token.Special,

@@ -30,6 +30,18 @@ func isTokenMatch(index int, tokens *[]Token.Model, pattern *Pattern) bool {
 
 
 func detectCurrent(index int, tokens *[]Token.Model, pattern *Pattern) bool {
+	if detectCurrentBy(index, tokens, pattern) {
+		if (*pattern).Filter != nil {
+			return (*pattern).Filter((*tokens)[index].Original)
+		}
+		return true
+	} else {
+		return false
+	}
+}
+
+
+func detectCurrentBy(index int, tokens *[]Token.Model, pattern *Pattern) bool {
 	if pattern.CurrentByRegexp != nil {
 		return pattern.CurrentByRegexp.Match([]byte(*&(*tokens)[index].Original));
 	} else if string(pattern.CurrentByClass) != "" {

@@ -17,9 +17,9 @@ Scientist and philosopher Robert Boyle lived in Stalbridge Manor for a time.
 ------INPUT------
 Singer-songwriter Billy Bragg lives in Burton Bradstock, near Bridport.
 ------OUTPUT------
-Singer songwriter Billy Bragg lives in Burton Bradstock, near Bridport.
+Singer-songwriter Billy Bragg lives in Burton Bradstock, near Bridport.
 ------INPUT------
-Settlements List of places in Dorset.
+Settlements, a list of places in Dorset.
 ------OUTPUT------
 Settlements, a list of places in Dorset.
 ------INPUT------
@@ -27,9 +27,9 @@ Dorset is largely rural with many small villages, few large towns, and no cities
 ------OUTPUT------
 Dorset is largely rural with many small villages, few large towns, and no cities.
 ------INPUT------
-The largest town is the south-east coastal conurbation consisting of the seaside resort of Bournemouth, the historic port of Poole and the town of Christchurch plus many villages.
+The largest town is the south-east coastal conurbation consisting of the seaside resort of Bournemouth, the historic port of Poole, and the town of Christchurch plus many villages.
 ------OUTPUT------
-The largest town is the south east coastal conurbation consisting of the seaside resort of Bournemouth, the historic port of Poole, and the town of Christchurch plus many villages.
+The largest town is the south-east coastal conurbation consisting of the seaside resort of Bournemouth, the historic port of Poole, and the town of Christchurch plus many villages.
 ------INPUT------
 The conurbation is the only settlement in Dorset that could be described as a city (though it does not legally have city status), but in the mid19thcentury there was little more than a small town on Poole quay.
 ------OUTPUT------
@@ -41,11 +41,11 @@ Bournemouth was created in the Victorian era when sea bathing became popular.
 ------INPUT------
 As an example of how affluent the area has become, Sandbanks in Poole was worthless land unwanted by farmers in the 19th century, but is now boasts the third highest land value by area in the world.
 ------OUTPUT------
-As an example of how affluent the area has become, Sandbanks in Poole was worthless land unwanted by farmers in the nineteenth century, but now boasts the third highest land value by area in the world.
+As an example of how affluent the area has become, Sandbanks in Poole was worthless land unwanted by farmers in the nineteenth century, but is now boasts the third highest land value by area in the world.
 ------INPUT------
 Bournemouth and Christchurch were added to the county from Hampshire in the county boundary changes of 1974.
 ------OUTPUT------
-Bournemouth and Christchurch were added to the county from Hampshire in the county boundary changes of nineteen seventy four.
+Bournemouth and Christchurch were added to the county from Hampshire in the county boundary changes of nineteen seventy-four.
 ------INPUT------
 The other two major settlements in the county are Dorchester, the county town, and Weymouth, one of the first tourist towns, frequented by George III, and still popular. Blandford Forum, Sherborne, Gillingham, Shaftesbury and Sturminster Newton are historical market towns which serve the farms and villages of the Blackmore Vale (Hardy's Vale of the Little Dairies).
 ------OUTPUT------
@@ -55,7 +55,7 @@ Blandford is home to the Badger brewery of Hall and Woodhouse.
 ------OUTPUT------
 Blandford is home to the Badger brewery of Hall and Woodhouse.
 ------INPUT------
-Bridport, Lyme Regis and Wareham are also market towns.
+Bridport, Lyme Regis, and Wareham are also market towns.
 ------OUTPUT------
 Bridport, Lyme Regis, and Wareham are also market towns.
 ------INPUT------
@@ -65,7 +65,7 @@ Currently in construction on the western edge of Dorchester is the experimental 
 ------INPUT------
 The suburb is designed to integrate residential and retail buildings and counter the growth of dormitory towns and car-orientated development.
 ------OUTPUT------
-The suburb is designed to integrate residential and retail buildings and counter the growth of dormitory towns and car-oriented development.
+The suburb is designed to integrate residential and retail buildings and counter the growth of dormitory towns and car-orientated development.
 ------INPUT------
 Zinc Zinc, or spelter (which may also refer to zinc alloys), is a metallic chemical element; it has the symbol Zn and atomic number 30.
 ------OUTPUT------
@@ -77,7 +77,7 @@ It is the first element in group twelve of the periodic table.
 ------INPUT------
 Zinc is, in some respects, chemically similar to magnesium, because its ion is of similar size and its only common oxidation state is +2.
 ------OUTPUT------
-Zinc is, in some respects, chemically similar to magnesium, because its ion is of similar size and its only common oxidation state is plus two.
+Zinc is, in some respects, chemically similar to magnesium, because its ion is of similar size and its only common oxidation state is positive two.
 ------INPUT------
 Zinc is the 24th most abundant element in the Earth's crust and has five stable isotopes.
 ------OUTPUT------
@@ -97,15 +97,15 @@ Zinc production includes froth flotation of the ore, roasting, and final extract
 ------INPUT------
 Brass, which is an alloy of copper and zinc, has been used since at least the 10th century BC.
 ------OUTPUT------
-Brass, which is an alloy of copper and zinc, has been used since at least the tenth century Before Christ.
+Brass, which is an alloy of copper and zinc, has been used since at least the tenth century B C.
 ------INPUT------
 Impure zinc metal was not produced in large scale until the 13th century in India, while the metal was unknown to Europe until the end of the 16th century.
 ------OUTPUT------
 Impure zinc metal was not produced in large scale until the thirteenth century in India, while the metal was unknown to Europe until the end of the sixteenth century.
 ------INPUT------
-Alchemists burned zinc in air to form what they called philosopher'swoolor whitesnow.
+Alchemists burned zinc in air to form what they called philosopher's wool or white-snow.
 ------OUTPUT------
-Alchemists burned zinc in air to form what they called philosopher's wool or white snow.
+Alchemists burned zinc in air to form what they called philosopher's wool or white-snow.
 ------INPUT------
 The element was probably named by the alchemist Paracelsus after the German word Zinke.
 ------OUTPUT------
@@ -113,7 +113,7 @@ The element was probably named by the alchemist Paracelsus after the German word
 ------INPUT------
 German chemist Andreas Sigismund Marggraf is normally given credit for discovering pure metallic zinc in 1746.
 ------OUTPUT------
-German chemist Andreas Sigismund Marggraf is normally given credit for discovering pure metallic zinc in seventeen forty six.
+German chemist Andreas Sigismund Marggraf is normally given credit for discovering pure metallic zinc in seventeen forty-six.
 ------INPUT------
 Work by Luigi Galvani and Alessandro Volta uncovered the electrochemical properties of zinc by 1800.
 ------OUTPUT------
@@ -121,7 +121,7 @@ Work by Luigi Galvani and Alessandro Volta uncovered the electrochemical propert
 ------INPUT------
 Corrosion-resistant zinc plating of steel (hot-dip galvanizing) is the major application for zinc.
 ------OUTPUT------
-Corrosion resistant zinc plating of steel, hot-dip galvanizing, is the major application for zinc.
+Corrosion-resistant zinc plating of steel, hot-dip galvanizing, is the major application for zinc.
 ------INPUT------
 Other applications are in batteries and alloys, such as brass.
 ------OUTPUT------
@@ -139,7 +139,7 @@ Zinc deficiency affects about two billion people in the developing world and is 
 ------OUTPUT------
 Zinc deficiency affects about two billion people in the developing world and is associated with many diseases.
 ------INPUT------
-In children it causes growth retardation, delayed sexual maturation, infection susceptibility, and diarrhea, contributing to the death of about 800000children worldwide per year.
+In children, it causes growth retardation, delayed sexual maturation, infection susceptibility, and diarrhea, contributing to the death of about 800,000 children worldwide per year.
 ------OUTPUT------
 In children, it causes growth retardation, delayed sexual maturation, infection susceptibility, and diarrhea, contributing to the death of about eight hundred thousand children worldwide per year.
 ------INPUT------
@@ -157,7 +157,7 @@ It is somewhat less dense than iron and has a hexagonal crystal structure.
 ------INPUT------
 The metal is hard and brittle at most temperatures but becomes malleable between 100 and 150°C.
 ------OUTPUT------
-The metal is hard and brittle at most temperatures but becomes malleable between one hundred and one hundred fifty degrees Celsius.
+The metal is hard and brittle at most temperatures but becomes malleable between one hundred and one hundred and fifty degrees Celsius.
 ------INPUT------
 Above 210°C, the metal becomes brittle again and can be pulverized by beating.
 ------OUTPUT------
@@ -169,7 +169,7 @@ Zinc is a fair conductor of electricity.
 ------INPUT------
 For a metal, zinc has relatively low melting (419.5°C, 787.1F) and boiling points (907°C).
 ------OUTPUT------
-For a metal, zinc has relatively low melting (four hundred and nineteen point five degrees Celsius, seven hundred and eighty seven point one degrees Fahrenheit) and boiling points (nine hundred and seven degrees Celsius).
+For a metal, zinc has relatively low melting (four hundred and nineteen point five degrees Celsius, seven hundred and eighty-seven point one degrees Fahrenheit) and boiling points (nine hundred and seven degrees Celsius).
 ------INPUT------
 Its melting point is the lowest of all the transition metals aside from mercury and cadmium.
 ------OUTPUT------
@@ -179,21 +179,21 @@ Many alloys contain zinc, including brass, an alloy of zinc and copper.
 ------OUTPUT------
 Many alloys contain zinc, including brass, an alloy of zinc and copper.
 ------INPUT------
-Other metals long known to form binary alloys with zinc are aluminium, antimony, bismuth, gold, iron, lead, mercury, silver, tin, magnesium, cobalt, nickel, tellurium and sodium.
+Other metals long known to form binary alloys with zinc are aluminium, antimony, bismuth, gold, iron, lead, mercury, silver, tin, magnesium, cobalt, nickel, tellurium, and sodium.
 ------OUTPUT------
 Other metals long known to form binary alloys with zinc are aluminium, antimony, bismuth, gold, iron, lead, mercury, silver, tin, magnesium, cobalt, nickel, tellurium, and sodium.
 ------INPUT------
 While neither zinc nor zirconium are ferromagnetic, their alloy ZrZn2exhibits ferromagnetism below 35K.
 ------OUTPUT------
-While neither zinc nor zirconium are ferromagnetic, their alloy ZrZn2 exhibits ferromagnetism below thirty five Kelvin.
+While neither zinc nor zirconium are ferromagnetic, their alloy ZrZn2 exhibits ferromagnetism below thirty-five Kelvin.
 ------INPUT------
 Section 1.1O ccurrence Zinc makes up about 75ppm (0.0075%) of the Earth's crust, making it the 24th most abundant element.
 ------OUTPUT------
-Section one point one O ccurrence Zinc makes up about seventy five parts per million (zero point zero zero seven five percent) of the Earth's crust, making it the twenty fourth most abundant element.
+Section one point one O ccurrence Zinc makes up about seventy-five parts per million, zero point zero zero seven five percent, of the Earth's crust, making it the twenty-fourth most abundant element.
 ------INPUT------
 Soil contains 5–770 ppm of zinc with an average of 64ppm.
 ------OUTPUT------
-Soil contains five to seven hundred and seventy parts per million of zinc with an average of sixty four parts per million.
+Soil contains five to seven hundred and seventy parts per million of zinc with an average of sixty-four parts per million.
 ------INPUT------
 Seawater has only 30ppb zinc and the atmosphere contains 0.1–4 µg/m3.
 ------OUTPUT------

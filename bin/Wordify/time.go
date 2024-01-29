@@ -7,5 +7,8 @@ func Time(text string) string {
 	if len(sections) != 2 {
 		return "";
 	}
+	if sections[1] == "00" {
+		Number(sections[0])
+	}
 	return Number(sections[0]) + " " + Number(sections[1])
 }

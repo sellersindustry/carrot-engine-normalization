@@ -9,8 +9,12 @@ I got three cakes for his third birthday. I hope he likes them!
 ------INPUT------
 The new race-car that I bought is really fast. It only cost about $123.43 and it a 2024 model.
 ------OUTPUT------
-The new race car that I bought is really fast. It only cost about one hundrend and twenty three dollars and forty three cents and it a twenty twenty four model.
+The new race-car that I bought is really fast. It only cost about one hundred and twenty-three dollars and forty-three cents and it a twenty twenty-four model.
 ------INPUT------
 Mr. Bob III does all the maintenance work on the car for only about $20-30/year.
 ------OUTPUT------
 Mister Bob the third does all the maintenance work on the car for only about twenty to thirty dollars per year.
+------INPUT------
+The serial number for the computer is 324254334345.
+------OUTPUT------
+The serial number for the computer is three two four two five four three three four three four five.

@@ -29,6 +29,7 @@ const (
 	RomanNumeral           Subclass = "{{SUBCLASS:ROMAN_NUMERAL}}"
 	RomanNumeralPossessive Subclass = "{{SUBCLASS:ROMAN_NUMERAL_POSSESSIVE}}"
 	Punctuation            Subclass = "{{SUBCLASS:PUNCTUATION}}"
+	Initialism             Subclass = "{{SUBCLASS:INITIALISM}}"
 	Unit                   Subclass = "{{SUBCLASS:UNIT}}"
 	Scale                  Subclass = "{{SUBCLASS:SCALE}}"
 	Range                  Subclass = "{{SUBCLASS:RANGE}}"

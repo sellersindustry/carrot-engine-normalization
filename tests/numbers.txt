@@ -1,0 +1,152 @@
+------INPUT------
+The population of the city reached 1,500,000 by the end of the decade.
+------OUTPUT------
+The population of the city reached one million five hundred thousand by the end of the decade.
+------INPUT------
+She completed the marathon in 3 hours and 45 minutes.
+------OUTPUT------
+She completed the marathon in three hours and forty-five minutes.
+------INPUT------
+The temperature soared to 32.5 degrees Celsius during the heatwave.
+------OUTPUT------
+The temperature soared to thirty-two point five degrees Celsius during the heatwave.
+------INPUT------
+The car's top speed was 200 kilometers per hour.
+------OUTPUT------
+The car's top speed was two hundred kilometers per hour.
+------INPUT------
+The book had 500 pages, making it a substantial read.
+------OUTPUT------
+The book had five hundred pages, making it a substantial read.
+------INPUT------
+The company reported a revenue of $5.6 million in the last quarter.
+------OUTPUT------
+The company reported a revenue of five point six million dollars in the last quarter.
+------INPUT------
+The package contained 2.5 kilograms of fresh strawberries.
+------OUTPUT------
+The package contained two point five kilograms of fresh strawberries.
+------INPUT------
+The distance between the two cities was 350 miles.
+------OUTPUT------
+The distance between the two cities was three hundred and fifty miles.
+------INPUT------
+The baby's weight at birth was 3.2 kilograms.
+------OUTPUT------
+The baby's weight at birth was three point two kilograms.
+------INPUT------
+The stock market index rose by 150 points in a single day.
+------OUTPUT------
+The stock market index rose by one hundred and fifty points in a single day.
+------INPUT------
+The smartphone's screen size was 6.4 inches diagonally.
+------OUTPUT------
+The smartphone's screen size was six point four inches diagonally.
+------INPUT------
+The research study involved a sample size of 1,000 participants.
+------OUTPUT------
+The research study involved a sample size of one thousand participants.
+------INPUT------
+The recipe called for 0.5 cups of olive oil.
+------OUTPUT------
+The recipe called for half a cup of olive oil.
+------INPUT------
+The winning team scored a total of 78 points in the basketball game.
+------OUTPUT------
+The winning team scored a total of seventy-eight points in the basketball game.
+------INPUT------
+The duration of the movie was 2 hours and 15 minutes.
+------OUTPUT------
+The duration of the movie was two hours and fifteen minutes.
+------INPUT------
+The laptop's storage capacity was 512 gigabytes.
+------OUTPUT------
+The laptop's storage capacity was five hundred and twelve gigabytes.
+------INPUT------
+The garden was planted with 75 tulip bulbs.
+------OUTPUT------
+The garden was planted with seventy-five tulip bulbs.
+------INPUT------
+The speed limit on the highway was 65 miles per hour.
+------OUTPUT------
+The speed limit on the highway was sixty-five miles per hour.
+------INPUT------
+The school has an enrollment of 2,500 students.
+------OUTPUT------
+The school has an enrollment of two thousand five hundred students.
+------INPUT------
+The marathon route spans 26.2 miles.
+------OUTPUT------
+The marathon route spans twenty-six point two miles.
+------INPUT------
+The temperature dropped to -5.8 degrees Celsius last night.
+------OUTPUT------
+The temperature dropped to negative five point eight degrees Celsius last night.
+------INPUT------
+The car's fuel efficiency was 30.5 miles per gallon.
+------OUTPUT------
+The car's fuel efficiency was thirty point five miles per gallon.
+------INPUT------
+The library boasts a collection of 150,000 books.
+------OUTPUT------
+The library boasts a collection of one hundred and fifty thousand books.
+------INPUT------
+She completed the puzzle in 500 minutes.
+------OUTPUT------
+She completed the puzzle in five hundred minutes.
+------INPUT------
+The weight of the elephant was 8,750 kilograms.
+------OUTPUT------
+The weight of the elephant was eight thousand seven hundred and fifty kilograms.
+------INPUT------
+The concert venue can accommodate 3,000 people.
+------OUTPUT------
+The concert venue can accommodate three thousand people.
+------INPUT------
+The annual rainfall in the region is 45.6 inches.
+------OUTPUT------
+The annual rainfall in the region is forty-five point six inches.
+------INPUT------
+The company reported a profit margin of 12.5%.
+------OUTPUT------
+The company reported a profit margin of twelve point five percent.
+------INPUT------
+The river's width is approximately 150 meters.
+------OUTPUT------
+The river's width is approximately one hundred and fifty meters.
+------INPUT------
+The smartphone's screen resolution is 1080 x 2340 pixels.
+------OUTPUT------
+The smartphone's screen resolution is one thousand and eighty by two thousand three hundred and forty pixels.
+------INPUT------
+The recipe calls for 1.5 teaspoons of vanilla extract.
+------OUTPUT------
+The recipe calls for one and a half teaspoons of vanilla extract.
+------INPUT------
+The winning team scored a total of 78 points in the game.
+------OUTPUT------
+The winning team scored a total of seventy-eight points in the game.
+------INPUT------
+The flight duration is 7.5 hours.
+------OUTPUT------
+The flight duration is seven point five hours.
+------INPUT------
+The laptop's storage capacity is 512 gigabytes.
+------OUTPUT------
+The laptop's storage capacity is five hundred and twelve gigabytes.
+------INPUT------
+The garden is planted with 75 sunflower seeds.
+------OUTPUT------
+The garden is planted with seventy-five sunflower seeds.
+------INPUT------
+The speed limit on the highway is 65 miles per hour.
+------OUTPUT------
+The speed limit on the highway is sixty-five miles per hour.
+------INPUT------
+The skyscraper has 80 floors.
+------OUTPUT------
+The skyscraper has eighty floors.
+------INPUT------
+The temperature rose by 3.5 degrees Celsius in just one hour.
+------OUTPUT------
+The temperature rose by three point five degrees Celsius in just one hour.

@@ -11,24 +11,23 @@ task = """
 	text-to-speech system. Ensure only letters, commas, and puncuations is left,
 	no symbols or numbers. Ensure the following steps are followed.
     Step 1 - Keep only letters, commas and puncuations. Convert all symbols to their words forms based on the context.
-    Step 2 - Remove dashes in words. For example "4-year-old boy" to "4 year old boy".
-    Step 3 - Convert special symbols for example "$" to "dollar", "%" to "percent"
-	Step 4 - Convert quotes short quotes under 2 words to say "quote on quote" and then the phrase.
-	Step 5 - Convert longer quotes to say "quote" at the begining and "end quote" at the end.
-	Step 6 - Convert all numbers and roman numerals to words. For example "4" to "four", "10" to "ten"
-	Step 7 - Convert all time to the appropiate word. For example "12:00" to "Twelve o'clock", "12:50" to "Twelve fifty".
-	Step 8 - Convert all years to the appropiate word. For example "1984" to "Nineteen Eighty Four".
-	Step 9 - Convert all dates to their spoken form. For example "1984/4/12" to "April twelveth, Nineteen Eighty Four"
-    Step 10 - Convert all intialisms to seperation for each letter. For example "FBI" should become "F B I", "U.S.A" should be "U S A" 
-    Step 11 - Convert unit to full word. For example "cm" to "centimeter", "ft" to "feet" 
-	Step 12 - Convert abbreviation to full word. For example "Mr." to "mister".
-    Step 13 - Convert math symbol. For example "+" to plus, "*" to "multiply".
+    Step 2 - Convert special symbols for example "$" to "dollar", "%" to "percent"
+	Step 3 - Convert quotes short quotes under 2 words to say "quote on quote" and then the phrase.
+	Step 4 - Convert longer quotes to say "quote" at the begining and "end quote" at the end.
+	Step 5 - Convert all numbers and roman numerals to words. For example "4" to "four", "10" to "ten"
+	Step 6 - Convert all time to the appropiate word. For example "12:00" to "Twelve o'clock", "12:50" to "Twelve fifty".
+	Step 7 - Convert all years to the appropiate word. For example "1984" to "Nineteen Eighty Four".
+	Step 8 - Convert all dates to their spoken form. For example "1984/4/12" to "April twelveth, Nineteen Eighty Four"
+    Step 9 - Convert all intialisms to seperation for each letter. For example "FBI" should become "F B I", "U.S.A" should be "U S A" 
+    Step 10 - Convert unit to full word. For example "cm" to "centimeter", "ft" to "feet" 
+	Step 11 - Convert abbreviation to full word. For example "Mr." to "mister".
+    Step 12 - Convert math symbol. For example "+" to plus, "*" to "multiply".
 """
 
 
 examples =[[
 	"The new race-car that I bought is really fast. It only cost about $123.43 and it a 2024 model. Mr. Bob III does all the maintenance work on the car for only about $20-30/year. You can reach out to him at (123) 456-7890 or bob3rd@gmail.com.",
-	"The new race car that I bought is really fast. It only cost about one hundred and twenty three dollars and four three cents and it a twenty twenty four model. Mister Bob the third does all the maintenance work on the car for only about twenty to thirty dollars per year. You can reach out to him at one two three, four five six, seven eight nine zero or bob three r d at g mail dot com."
+	"The new race-car that I bought is really fast. It only cost about one hundred and twenty three dollars and four three cents and it a twenty twenty four model. Mister Bob the third does all the maintenance work on the car for only about twenty to thirty dollars per year. You can reach out to him at one two three, four five six, seven eight nine zero or bob three r d at g mail dot com."
 ], [
 	"-1 + 32 ^ 123",
 	"negative one plus three to the power of one hundred and twenty three"

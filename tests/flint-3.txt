@@ -17,7 +17,7 @@ However, some of the replaced currencies had widely-used high-value notes, inclu
 ------INPUT------
 Spain in particular now has a quarter of all these high-value bills within its borders.
 ------OUTPUT------
-Spain in particular now has a quarter of all these high value bills within its borders.
+Spain in particular now has a quarter of all these high-value bills within its borders.
 ------INPUT------
 This is far more than expected for an economy of its size and they are rarely seen in every-day commerce – they have been nicknamed "bin Ladens" by the populace (as everyone knows they are there and what they look like but they have never seen them).
 ------OUTPUT------
@@ -45,7 +45,7 @@ The European Union directive two thousand and five slash zero six E C on the pre
 ------INPUT------
 Circulation As of October 2011, there were approximately 594,833,600 €500 in circulation around the Eurozone, therefore it is the second-least circulated banknote in the Eurozone.
 ------OUTPUT------
-Circulation As of October two thousand and eleven, there were approximately five hundred ninety four million eight hundred thirty three thousand six hundred five hundred euro in circulation around the Eurozone, therefore it is the second-least circulated banknote in the Eurozone.
+Circulation As of October two thousand and eleven, there were approximately five hundred ninety-four million eight hundred thirty-three thousand six hundred five hundred euro in circulation around the Eurozone, therefore it is the second-least circulated banknote in the Eurozone.
 ------INPUT------
 That is approximately worth of €500. The European Central Bank closely monitors the stock and circulation of euro notes and coins.
 ------OUTPUT------
@@ -77,7 +77,7 @@ Their aim is to record details about its spread and to generate statistics and r
 ------INPUT------
 EuroBillTracker had registered over 96 million notes as of October 2011.
 ------OUTPUT------
-Euro Bill Tracker had registered over ninety six million notes as of October two thousand and eleven.
+Euro Bill Tracker had registered over ninety-six million notes as of October two thousand and eleven.
 ------INPUT------
 Dorset (pronounced Dorsit, sometimes in the past called Dorsetshire) is a county in the southwest of England, on the English Channel coast.
 ------OUTPUT------
@@ -85,15 +85,15 @@ Dorset, pronounced Dorsit, sometimes in the past called Dorsetshire, is a county
 ------INPUT------
 The county town is Dorchester, centred in the south of the county at 50°43′00″N 02°26′00″W.
 ------OUTPUT------
-The county town is Dorchester, centred in the south of the county at fifty degrees forty three minutes zero seconds north, two degrees twenty six minutes zero seconds west.
+The county town is Dorchester, centred in the south of the county at fifty degrees forty-three minutes zero seconds north, two degrees twenty-six minutes zero seconds west.
 ------INPUT------
 At the widest points, the county is 50 miles (80km) from east to west and 40 miles (64km) from north south, with an area of 1024square miles(2653km²).
 ------OUTPUT------
 At the widest points, the county is fifty miles (eighty kilometers) from east to west and forty miles (sixty-four kilometers) from north to south, with an area of one thousand and twenty-four square miles (two thousand six hundred and fifty-three square kilometers).
 ------INPUT------
-The county borders Devon to the west, Somerset to the north-west, Wiltshire to the north-east and Hampshire to the east.
+The county borders Devon to the west, Somerset to the north-west, Wiltshire to the north-east, and Hampshire to the east.
 ------OUTPUT------
-The county borders Devon to the west, Somerset to the north west, Wiltshire to the north east, and Hampshire to the east.
+The county borders Devon to the west, Somerset to the north-west, Wiltshire to the north-east, and Hampshire to the east.
 ------INPUT------
 The county is largely rural with a low population and population density.
 ------OUTPUT------
@@ -121,7 +121,7 @@ Table of contents
 
 Demographics
 
-Dorset has a population of three hundred and ninety thousand nine hundred and eighty, plus one hundred and sixty three thousand four hundred and forty four in Bournemouth and one hundred and thirty eight thousand two hundred and eighty eight in Poole (total six hundred and ninety two thousand seven hundred and twelve).
+Dorset has a population of three hundred and ninety thousand nine hundred and eighty, plus one hundred and sixty-three thousand four hundred and forty-four in Bournemouth and one hundred and thirty-eight thousand two hundred and eighty-eight in Poole (total six hundred and ninety-two thousand seven hundred and twelve).
 ------INPUT------
 The following statistics exclude Poole and Bournemouth, which are no longer part of the administrative county.
 ------OUTPUT------
@@ -129,23 +129,23 @@ The following statistics exclude Poole and Bournemouth, which are no longer part
 ------INPUT------
 91.3% of Dorset's population were born in England and 95.2% were born within the United Kingdom.
 ------OUTPUT------
-ninety one point three percent of Dorset's population were born in England and ninety five point two percent were born within the United Kingdom.
+ninety-one point three percent of Dorset's population were born in England and ninety-five point two percent were born within the United Kingdom.
 ------INPUT------
 98.8% are indigenous, an extreme example of the disproportionately small ethnic minority population in rural areas.
 ------OUTPUT------
-Ninety eight point eight percent are indigenous, an extreme example of the disproportionately small ethnic minority population in rural areas.
+ninety-eight point eight percent are indigenous, an extreme example of the disproportionately small ethnic minority population in rural areas.
 ------INPUT------
 78% of the population are Christian, 13.7% are not religious.
 ------OUTPUT------
-seventy eight percent of the population are Christian, thirteen point seven percent are not religious.
+seventy-eight percent of the population are Christian, thirteen point seven percent are not religious.
 ------INPUT------
 Dorset has the second highest proportion of elderly people of any county in Britain, second only to East Sussex, with 25.9% of the population over 65 and 13.9% of the 16–74 age range retired.
 ------OUTPUT------
-Dorset has the second highest proportion of elderly people of any county in Britain, second only to East Sussex, with twenty five point nine percent of the population over sixty five and thirteen point nine percent of the sixteen to seventy four age range retired.
+Dorset has the second highest proportion of elderly people of any county in Britain, second only to East Sussex, with twenty-five point nine percent of the population over sixty-five and thirteen point nine percent of the sixteen to seventy-four age range retired.
 ------INPUT------
 The county has the lowest birth rate of the 34 English counties, at 9.6 births per 1000.
 ------OUTPUT------
-The county has the lowest birth rate of the thirty four English counties, at nine point six births per one thousand.
+The county has the lowest birth rate of the thirty-four English counties, at nine point six births per ten hundred.
 ------INPUT------
 It has the third highest mortality rate, behind East Sussex and Devon.
 ------OUTPUT------
@@ -153,7 +153,7 @@ It has the third highest mortality rate, behind East Sussex and Devon.
 ------INPUT------
 In 1996, deaths exceeded births by 1056, giving a natural population decline of 2.7per 1000, however, in 1997 there were 7200 migrants moving to Dorset and the Poole-Bournemouth conurbation, giving Dorset the second highest net population-growth, behind Cambridgeshire, at 17.3%.
 ------OUTPUT------
-In nineteen ninety six, deaths exceeded births by one thousand and fifty six, giving a natural population decline of two point seven per one thousand. However, in nineteen ninety seven, there were seven thousand two hundred migrants moving to Dorset and the Poole-Bournemouth conurbation, giving Dorset the second highest net population growth, behind Cambridgeshire, at seventeen point three percent.
+In nineteen ninety-six, deaths exceeded births by one thousand and fifty six, giving a natural population decline of two point seven per one thousand. However, in nineteen ninety-seven, there were seven thousand two hundred migrants moving to Dorset and the Poole-Bournemouth conurbation, giving Dorset the second highest net population growth, behind Cambridgeshire, at seventeen point three percent.
 ------INPUT------
 Data taken from the 2001 census and the Dorset Keyfacts.
 ------OUTPUT------
@@ -165,7 +165,7 @@ Politics Dorset County Council is based at County Hall in central Dorchester.
 ------INPUT------
 As of 2005 23 Conservative, thirteen Liberal Democrat, four Labour and one independent councillor sit on the county council.
 ------OUTPUT------
-As of two thousand and five, twenty three Conservative, thirteen Liberal Democrat, four Labour and one independent councillor sit on the county council.
+As of two thousand and five twenty-three Conservative, thirteen Liberal Democrat, four Labour and one independent councillor sit on the county council.
 ------INPUT------
 All Labour councillors were elected in the built up area of Weymouth and Portland, with rural areas returning Conservatives and Liberal Democrat councillors.
 ------OUTPUT------
@@ -179,15 +179,15 @@ Before the dissolution of Parliament for the 2005 general election Dorset South 
 ------OUTPUT------
 Before the dissolution of Parliament for the two thousand and five general election Dorset South was represented by Labour Member of Parliament Jim Knight, though this constituency was Labour's smallest majority and is one of the most fiercely contested seats in the election.
 ------INPUT------
-In all other Dorset constituencies, the Conservatives and Liberal Democrats are the most succesful parties, with Mid-Dorset and North Poole being represented by the Liberal Democrats, and West Dorset, Christchurch and North Dorset by the Conservatives.
+In all other Dorset constituencies, the Conservatives and Liberal Democrats are the most successful parties, with Mid-Dorset and North Poole being represented by the Liberal Democrats, and West Dorset, Christchurch and North Dorset by the Conservatives.
 ------OUTPUT------
-In all other Dorset constituencies, the Conservatives and Liberal Democrats are the most successful parties, with Mid-Dorset and North Poole being represented by the Liberal Democrats, and West Dorset, Christchurch, and North Dorset by the Conservatives.
+In all other Dorset constituencies, the Conservatives and Liberal Democrats are the most successful parties, with Mid-Dorset and North Poole being represented by the Liberal Democrats, and West Dorset, Christchurch and North Dorset by the Conservatives.
 ------INPUT------
 In West Dorset, the Conservative front bencher Oliver Letwin has a small majority threatened by the Liberal Democrats who are being helped with a tactical voting campaign led by West Dorset resident and political campaigner Billy Bragg.
 ------OUTPUT------
 In West Dorset, the Conservative front bencher Oliver Letwin has a small majority threatened by the Liberal Democrats who are being helped with a tactical voting campaign led by West Dorset resident and political campaigner Billy Bragg.
 ------INPUT------
-Geology, landscape and ecology Most of Dorset's landscape falls into two categories, determined by the underlying geology.
+Geology, landscape, and ecology. Most of Dorset's landscape falls into two categories, determined by the underlying geology.
 ------OUTPUT------
 Geology, landscape, and ecology. Most of Dorset's landscape falls into two categories, determined by the underlying geology.
 ------INPUT------
@@ -195,9 +195,9 @@ There are a number of large ridges of limestone downland, much of which were cle
 ------OUTPUT------
 There are a number of large ridges of limestone downland, much of which were cleared of the native forest hundreds or even thousands of years ago and are mostly grassland and some arable agriculture.
 ------INPUT------
-These limestone areas include a band of chalk which crosses the county from south-west to north-east incorporating Cranborne Chase, the Dorset Downs and Purbeck Hills.
+These limestone areas include a band of chalk which crosses the county from south-west to north-east incorporating Cranborne Chase, the Dorset Downs, and Purbeck Hills.
 ------OUTPUT------
-These limestone areas include a band of chalk which crosses the county from southwest to northeast incorporating Cranborne Chase, the Dorset Downs, and Purbeck Hills.
+These limestone areas include a band of chalk which crosses the county from south-west to north-east incorporating Cranborne Chase, the Dorset Downs, and Purbeck Hills.
 ------INPUT------
 Between the areas of downland are large, wide clay vales (primarily Oxford Clay with some Weald Clay and London Clay) with wide flood plains.
 ------OUTPUT------

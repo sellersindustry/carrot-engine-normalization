@@ -1,8 +1,4 @@
 ------INPUT------
-I
-------OUTPUT------
-one
-------INPUT------
 II
 ------OUTPUT------
 two
@@ -81,39 +77,39 @@ twenty
 ------INPUT------
 XXI
 ------OUTPUT------
-twenty one
+twenty-one
 ------INPUT------
 XXII
 ------OUTPUT------
-twenty two
+twenty-two
 ------INPUT------
 XXIII
 ------OUTPUT------
-twenty three
+twenty-three
 ------INPUT------
 XXIV
 ------OUTPUT------
-twenty four
+twenty-four
 ------INPUT------
 XXV
 ------OUTPUT------
-twenty five
+twenty-five
 ------INPUT------
 XXVI
 ------OUTPUT------
-twenty six
+twenty-six
 ------INPUT------
 XXVII
 ------OUTPUT------
-twenty seven
+twenty-seven
 ------INPUT------
 XXVIII
 ------OUTPUT------
-twenty eight
+twenty-eight
 ------INPUT------
 XXIX
 ------OUTPUT------
-twenty nine
+twenty-nine
 ------INPUT------
 XXX
 ------OUTPUT------
@@ -121,39 +117,39 @@ thirty
 ------INPUT------
 XXXI
 ------OUTPUT------
-thirty one
+thirty-one
 ------INPUT------
 XXXII
 ------OUTPUT------
-thirty two
+thirty-two
 ------INPUT------
 XXXIII
 ------OUTPUT------
-thirty three
+thirty-three
 ------INPUT------
 XXXIV
 ------OUTPUT------
-thirty four
+thirty-four
 ------INPUT------
 XXXV
 ------OUTPUT------
-thirty five
+thirty-five
 ------INPUT------
 XXXVI
 ------OUTPUT------
-thirty six
+thirty-six
 ------INPUT------
 XXXVII
 ------OUTPUT------
-thirty seven
+thirty-seven
 ------INPUT------
 XXXVIII
 ------OUTPUT------
-thirty eight
+thirty-eight
 ------INPUT------
 XXXIX
 ------OUTPUT------
-thirty nine
+thirty-nine
 ------INPUT------
 XL
 ------OUTPUT------
@@ -161,39 +157,39 @@ forty
 ------INPUT------
 XLI
 ------OUTPUT------
-forty one
+forty-one
 ------INPUT------
 XLII
 ------OUTPUT------
-forty two
+forty-two
 ------INPUT------
 XLIII
 ------OUTPUT------
-forty three
+forty-three
 ------INPUT------
 XLIV
 ------OUTPUT------
-forty four
+forty-four
 ------INPUT------
 XLV
 ------OUTPUT------
-forty five
+forty-five
 ------INPUT------
 XLVI
 ------OUTPUT------
-forty six
+forty-six
 ------INPUT------
 XLVII
 ------OUTPUT------
-forty seven
+forty-seven
 ------INPUT------
 XLVIII
 ------OUTPUT------
-forty eight
+forty-eight
 ------INPUT------
 XLIX
 ------OUTPUT------
-forty nine
+forty-nine
 ------INPUT------
 L
 ------OUTPUT------
@@ -201,39 +197,39 @@ fifty
 ------INPUT------
 LI
 ------OUTPUT------
-fifty one
+fifty-one
 ------INPUT------
 LII
 ------OUTPUT------
-fifty two
+fifty-two
 ------INPUT------
 LIII
 ------OUTPUT------
-fifty three
+fifty-three
 ------INPUT------
 LIV
 ------OUTPUT------
-fifty four
+fifty-four
 ------INPUT------
 LV
 ------OUTPUT------
-fifty five
+fifty-five
 ------INPUT------
 LVI
 ------OUTPUT------
-fifty six
+fifty-six
 ------INPUT------
 LVII
 ------OUTPUT------
-fifty seven
+fifty-seven
 ------INPUT------
 LVIII
 ------OUTPUT------
-fifty eight
+fifty-eight
 ------INPUT------
 LIX
 ------OUTPUT------
-fifty nine
+fifty-nine
 ------INPUT------
 LX
 ------OUTPUT------
@@ -241,39 +237,39 @@ sixty
 ------INPUT------
 LXI
 ------OUTPUT------
-sixty one
+sixty-one
 ------INPUT------
 LXII
 ------OUTPUT------
-sixty two
+sixty-two
 ------INPUT------
 LXIII
 ------OUTPUT------
-sixty three
+sixty-three
 ------INPUT------
 LXIV
 ------OUTPUT------
-sixty four
+sixty-four
 ------INPUT------
 LXV
 ------OUTPUT------
-sixty five
+sixty-five
 ------INPUT------
 LXVI
 ------OUTPUT------
-sixty six
+sixty-six
 ------INPUT------
 LXVII
 ------OUTPUT------
-sixty seven
+sixty-seven
 ------INPUT------
 LXVIII
 ------OUTPUT------
-sixty eight
+sixty-eight
 ------INPUT------
 LXIX
 ------OUTPUT------
-sixty nine
+sixty-nine
 ------INPUT------
 LXX
 ------OUTPUT------
@@ -281,39 +277,39 @@ seventy
 ------INPUT------
 LXXI
 ------OUTPUT------
-seventy one
+seventy-one
 ------INPUT------
 LXXII
 ------OUTPUT------
-seventy two
+seventy-two
 ------INPUT------
 LXXIII
 ------OUTPUT------
-seventy three
+seventy-three
 ------INPUT------
 LXXIV
 ------OUTPUT------
-seventy four
+seventy-four
 ------INPUT------
 LXXV
 ------OUTPUT------
-seventy five
+seventy-five
 ------INPUT------
 LXXVI
 ------OUTPUT------
-seventy six
+seventy-six
 ------INPUT------
 LXXVII
 ------OUTPUT------
-seventy seven
+seventy-seven
 ------INPUT------
 LXXVIII
 ------OUTPUT------
-seventy eight
+seventy-eight
 ------INPUT------
 LXXIX
 ------OUTPUT------
-seventy nine
+seventy-nine
 ------INPUT------
 LXXX
 ------OUTPUT------
@@ -321,39 +317,39 @@ eighty
 ------INPUT------
 LXXXI
 ------OUTPUT------
-eighty one
+eighty-one
 ------INPUT------
 LXXXII
 ------OUTPUT------
-eighty two
+eighty-two
 ------INPUT------
 LXXXIII
 ------OUTPUT------
-eighty three
+eighty-three
 ------INPUT------
 LXXXIV
 ------OUTPUT------
-eighty four
+eighty-four
 ------INPUT------
 LXXXV
 ------OUTPUT------
-eighty five
+eighty-five
 ------INPUT------
 LXXXVI
 ------OUTPUT------
-eighty six
+eighty-six
 ------INPUT------
 LXXXVII
 ------OUTPUT------
-eighty seven
+eighty-seven
 ------INPUT------
 LXXXVIII
 ------OUTPUT------
-eighty eight
+eighty-eight
 ------INPUT------
 LXXXIX
 ------OUTPUT------
-eighty nine
+eighty-nine
 ------INPUT------
 XC
 ------OUTPUT------
@@ -361,39 +357,39 @@ ninety
 ------INPUT------
 XCI
 ------OUTPUT------
-ninety one
+ninety-one
 ------INPUT------
 XCII
 ------OUTPUT------
-ninety two
+ninety-two
 ------INPUT------
 XCIII
 ------OUTPUT------
-ninety three
+ninety-three
 ------INPUT------
 XCIV
 ------OUTPUT------
-ninety four
+ninety-four
 ------INPUT------
 XCV
 ------OUTPUT------
-ninety five
+ninety-five
 ------INPUT------
 XCVI
 ------OUTPUT------
-ninety six
+ninety-six
 ------INPUT------
 XCVII
 ------OUTPUT------
-ninety seven
+ninety-seven
 ------INPUT------
 XCVIII
 ------OUTPUT------
-ninety eight
+ninety-eight
 ------INPUT------
 XCIX
 ------OUTPUT------
-ninety nine
+ninety-nine
 ------INPUT------
 C
 ------OUTPUT------

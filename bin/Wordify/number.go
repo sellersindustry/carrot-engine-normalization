@@ -50,8 +50,6 @@ func NumberPlural(text string) string {
 }
 
 
-// Fail - 257
-// Fail - 278
 func NumberYear(text string) string {
 	if len(text) != 4 {
 		return Number(text);
@@ -72,17 +70,30 @@ func NumberYear(text string) string {
 
 
 func NumberCurrency(text string, currency string) string {
-	//! parse number add the unit behind it dollars
-	//! ensure cents are taken care of
-	//! what are cents in other currencys? What currencies do we need to support??
-	//! $ and £
-	return "";
+	if currency == "$" {
+		if strings.Contains(text, ".") {
+			dollars := strings.Split(text, ".")[0]
+			cents   := strings.Split(text, ".")[1]
+			return Number(dollars) + " dollars and " + Number(cents) + " cents";
+		} else {
+			return Number(text) + " dollars";
+		}
+	} else if currency == "£" {
+		if strings.Contains(text, ".") {
+			pounds := strings.Split(text, ".")[0]
+			pence  := strings.Split(text, ".")[1]
+			return Number(pounds) + " pounds and " + Number(pence) + " pence";
+		} else {
+			return Number(text) + " pounds";
+		}
+	}
+	return Number(text);
 }
 
 
 func Number(text string) string {
 	parts := strings.Split(strings.ReplaceAll(text, ",", ""), ".")
-	full  := strings.ReplaceAll(num2words.ConvertAnd(parseInt(parts[0])), "-", " ");
+	full  := num2words.ConvertAnd(parseInt(parts[0]));
 	if len(parts) > 1 {
 		return full + " point " + NumberNominal(parts[1]);
 	} else {

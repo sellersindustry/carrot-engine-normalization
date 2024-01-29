@@ -29,11 +29,11 @@ By twenty twenty, the C O V I D nineteen pandemic had altered the course of hist
 ------INPUT------
 In 2023, efforts to develop sustainable energy solutions accelerated as the world faced environmental challenges.
 ------OUTPUT------
-In twenty twenty three, efforts to develop sustainable energy solutions accelerated as the world faced environmental challenges.
+In twenty twenty-three, efforts to develop sustainable energy solutions accelerated as the world faced environmental challenges.
 ------INPUT------
 The year 2025 marked the launch of the first commercial space tourism flights.
 ------OUTPUT------
-The year twenty twenty five marked the launch of the first commercial space tourism flights.
+The year twenty twenty-five marked the launch of the first commercial space tourism flights.
 ------INPUT------
 In 2030, advancements in medical research led to breakthroughs in treating previously incurable diseases.
 ------OUTPUT------
@@ -41,15 +41,15 @@ In twenty thirty, advancements in medical research led to breakthroughs in treat
 ------INPUT------
 By 2033, virtual reality had become an integral part of education and entertainment.
 ------OUTPUT------
-By twenty thirty three, virtual reality had become an integral part of education and entertainment.
+By twenty thirty-three, virtual reality had become an integral part of education and entertainment.
 ------INPUT------
 The year 2035 witnessed the establishment of the first human settlement on Mars.
 ------OUTPUT------
-The year twenty thirty five witnessed the establishment of the first human settlement on Mars.
+The year twenty thirty-five witnessed the establishment of the first human settlement on Mars.
 ------INPUT------
 In 2038, quantum computing revolutionized the field of information processing.
 ------OUTPUT------
-In twenty thirty eight, quantum computing revolutionized the field of information processing.
+In twenty thirty-eight, quantum computing revolutionized the field of information processing.
 ------INPUT------
 The 2002 Winter Olympics were held in Salt Lake City, showcasing global athletic talent.
 ------OUTPUT------
@@ -57,27 +57,27 @@ The two thousand and two Winter Olympics were held in Salt Lake City, showcasing
 ------INPUT------
 2007 marked the release of the first iPhone, transforming the way people interacted with technology.
 ------OUTPUT------
-Two thousand and seven marked the release of the first iPhone, transforming the way people interacted with technology.
+two thousand and seven marked the release of the first iPhone, transforming the way people interacted with technology.
 ------INPUT------
 The year 2012 saw the successful landing of NASA's Curiosity rover on Mars.
 ------OUTPUT------
-The year two thousand and twelve saw the successful landing of N A S A's Curiosity rover on Mars.
+The year twenty twelve saw the successful landing of NASA's Curiosity rover on Mars.
 ------INPUT------
 By 2017, renewable energy sources had become more economically viable, driving a shift away from fossil fuels.
 ------OUTPUT------
-By two thousand and seventeen, renewable energy sources had become more economically viable, driving a shift away from fossil fuels.
+By twenty seventeen, renewable energy sources had become more economically viable, driving a shift away from fossil fuels.
 ------INPUT------
 In 2021, the development of mRNA vaccines played a crucial role in managing the COVID-19 pandemic.
 ------OUTPUT------
-In two thousand and twenty one, the development of messenger RNA vaccines played a crucial role in managing the C O V I D nineteen pandemic.
+In twenty twenty-one, the development of messenger RNA vaccines played a crucial role in managing the C O V I D nineteen pandemic.
 ------INPUT------
 The 2027 inauguration of the first fully autonomous electric vehicle marked a milestone in transportation.
 ------OUTPUT------
-The twenty twenty seven inauguration of the first fully autonomous electric vehicle marked a milestone in transportation.
+The twenty twenty-seven inauguration of the first fully autonomous electric vehicle marked a milestone in transportation.
 ------INPUT------
 By 2031, advances in biotechnology allowed for the creation of artificial organs, revolutionizing healthcare.
 ------OUTPUT------
-By twenty thirty one, advances in biotechnology allowed for the creation of artificial organs, revolutionizing healthcare.
+By twenty thirty-one, advances in biotechnology allowed for the creation of artificial organs, revolutionizing healthcare.
 ------INPUT------
 In 1500, the Renaissance was in full swing, bringing about a cultural rebirth across Europe.
 ------OUTPUT------
@@ -93,11 +93,11 @@ By sixteen o seven, English settlers established the Jamestown colony in North A
 ------INPUT------
 In 1642, the English Civil War erupted, pitting Royalists against Parliamentarians.
 ------OUTPUT------
-In sixteen forty two, the English Civil War erupted, pitting Royalists against Parliamentarians.
+In sixteen forty-two, the English Civil War erupted, pitting Royalists against Parliamentarians.
 ------INPUT------
 The Great Fire of London in 1666 devastated the city, leading to significant urban redevelopment.
 ------OUTPUT------
-The Great Fire of London in sixteen sixty six devastated the city, leading to significant urban redevelopment.
+The Great Fire of London in sixteen sixty-six devastated the city, leading to significant urban redevelopment.
 ------INPUT------
 The year 1707 saw the Act of Union, merging the Kingdom of England and the Kingdom of Scotland to form Great Britain.
 ------OUTPUT------
@@ -105,15 +105,15 @@ The year seventeen o seven saw the Act of Union, merging the Kingdom of England 
 ------INPUT------
 In 1754, tensions between European powers ignited the Seven Years' War, a global conflict.
 ------OUTPUT------
-In seventeen fifty four, tensions between European powers ignited the Seven Years' War, a global conflict.
+In seventeen fifty-four, tensions between European powers ignited the Seven Years War, a global conflict.
 ------INPUT------
 The American Revolutionary War began in 1775, ultimately leading to the United States' independence in 1783.
 ------OUTPUT------
-The American Revolutionary War began in seventeen seventy five, ultimately leading to the United States' independence in seventeen eighty three.
+The American Revolutionary War began in seventeen seventy-five, ultimately leading to the United States' independence in seventeen eighty-three.
 ------INPUT------
 The French Revolution, starting in 1789, marked a period of radical political and social upheaval in France.
 ------OUTPUT------
-The French Revolution, starting in seventeen eighty nine, marked a period of radical political and social upheaval in France.
+The French Revolution, starting in seventeen eighty-nine, marked a period of radical political and social upheaval in France.
 ------INPUT------
 In 1804, Napoleon Bonaparte crowned himself Emperor of the French, solidifying his dominance.
 ------OUTPUT------
@@ -121,43 +121,43 @@ In eighteen o four, Napoleon Bonaparte crowned himself Emperor of the French, so
 ------INPUT------
 The War of 1812 between the United States and Britain highlighted geopolitical tensions.
 ------OUTPUT------
-The War of Eighteen Twelve between the United States and Britain highlighted geopolitical tensions.
+The War of eighteen twelve between the United States and Britain highlighted geopolitical tensions.
 ------INPUT------
 In 1836, the Battle of the Alamo became a symbol of Texan resistance during the Texas Revolution.
 ------OUTPUT------
-In eighteen thirty six, the Battle of the Alamo became a symbol of Texan resistance during the Texas Revolution.
+In eighteen thirty-six, the Battle of the Alamo became a symbol of Texan resistance during the Texas Revolution.
 ------INPUT------
 The year 1848 witnessed widespread political upheavals across Europe in the wave of revolutions.
 ------OUTPUT------
-The year eighteen forty eight witnessed widespread political upheavals across Europe in the wave of revolutions.
+The year eighteen forty-eight witnessed widespread political upheavals across Europe in the wave of revolutions.
 ------INPUT------
 Gold was discovered in California in 1849, sparking the famous Gold Rush.
 ------OUTPUT------
-Gold was discovered in California in eighteen forty nine, sparking the famous Gold Rush.
+Gold was discovered in California in eighteen forty-nine, sparking the famous Gold Rush.
 ------INPUT------
 The year 1863 saw the issuance of the Emancipation Proclamation by U.S. President Abraham Lincoln.
 ------OUTPUT------
-The year eighteen sixty three saw the issuance of the Emancipation Proclamation by U S President Abraham Lincoln.
+The year eighteen sixty-three saw the issuance of the Emancipation Proclamation by U S President Abraham Lincoln.
 ------INPUT------
 In 1876, Alexander Graham Bell received the patent for the invention of the telephone.
 ------OUTPUT------
-In eighteen seventy six, Alexander Graham Bell received the patent for the invention of the telephone.
+In eighteen seventy-six, Alexander Graham Bell received the patent for the invention of the telephone.
 ------INPUT------
 The eruption of Krakatoa in 1883 had global climatic effects due to the massive release of volcanic ash.
 ------OUTPUT------
-The eruption of Krakatoa in eighteen eighty three had global climatic effects due to the massive release of volcanic ash.
+The eruption of Krakatoa in eighteen eighty-three had global climatic effects due to the massive release of volcanic ash.
 ------INPUT------
 In 1893, New Zealand became the first country to grant women the right to vote.
 ------OUTPUT------
-In eighteen ninety three, New Zealand became the first country to grant women the right to vote.
+In eighteen ninety-three, New Zealand became the first country to grant women the right to vote.
 ------INPUT------
 The Klondike Gold Rush in 1896 drew prospectors to the Yukon Territory in search of fortune.
 ------OUTPUT------
-The Klondike Gold Rush in eighteen ninety six drew prospectors to the Yukon Territory in search of fortune.
+The Klondike Gold Rush in eighteen ninety-six drew prospectors to the Yukon Territory in search of fortune.
 ------INPUT------
 The Spanish-American War erupted in 1898, leading to the United States acquiring territories in the Pacific and Caribbean.
 ------OUTPUT------
-The Spanish American War erupted in eighteen ninety eight, leading to the United States acquiring territories in the Pacific and Caribbean.
+The Spanish-American War erupted in eighteen ninety-eight, leading to the United States acquiring territories in the Pacific and Caribbean.
 ------INPUT------
 In 500 BC, the Persian Empire under Darius the Great reached its zenith.
 ------OUTPUT------
@@ -169,7 +169,7 @@ The construction of the Great Wall of China began around two hundred and fourtee
 ------INPUT------
 Julius Caesar was assassinated in 44 BC, marking a pivotal moment in Roman history.
 ------OUTPUT------
-Julius Caesar was assassinated in forty four B C, marking a pivotal moment in Roman history.
+Julius Caesar was assassinated in forty-four B C, marking a pivotal moment in Roman history.
 ------INPUT------
 In 30 BC, Cleopatra VII, the last Pharaoh of Egypt, met her tragic end.
 ------OUTPUT------
@@ -185,7 +185,7 @@ In seventy A D, the Romans destroyed the Second Temple in Jerusalem during the S
 ------INPUT------
 The eruption of Mount Vesuvius in 79 AD buried the Roman cities of Pompeii and Herculaneum.
 ------OUTPUT------
-The eruption of Mount Vesuvius in seventy nine A D buried the Roman cities of Pompeii and Herculaneum.
+The eruption of Mount Vesuvius in seventy-nine A D buried the Roman cities of Pompeii and Herculaneum.
 ------INPUT------
 In 200 AD, the Gupta Empire flourished as a golden age of Indian civilization.
 ------OUTPUT------
@@ -193,23 +193,23 @@ In two hundred A D, the Gupta Empire flourished as a golden age of Indian civili
 ------INPUT------
 The Battle of Adrianople in 378 AD was a significant defeat for the Roman Empire against the Goths.
 ------OUTPUT------
-The Battle of Adrianople in three seventy eight A D was a significant defeat for the Roman Empire against the Goths.
+The Battle of Adrianople in three seventy-eight A D was a significant defeat for the Roman Empire against the Goths.
 ------INPUT------
 In 476 AD, the Western Roman Empire officially fell, marking the end of ancient Rome.
 ------OUTPUT------
-In four seventy six A D, the Western Roman Empire officially fell, marking the end of ancient Rome.
+In four seventy-six A D, the Western Roman Empire officially fell, marking the end of ancient Rome.
 ------INPUT------
 The founding of the city of Baghdad in 762 AD marked the beginning of the Islamic Golden Age.
 ------OUTPUT------
-The founding of the city of Baghdad in seven hundred and sixty two A D marked the beginning of the Islamic Golden Age.
+The founding of the city of Baghdad in seven hundred and sixty-two A D marked the beginning of the Islamic Golden Age.
 ------INPUT------
 The Viking raids on Lindisfarne in 793 AD are often considered the start of the Viking Age.
 ------OUTPUT------
-The Viking raids on Lindisfarne in seven hundred and ninety three A D are often considered the start of the Viking Age.
+The Viking raids on Lindisfarne in seven hundred and ninety-three A D are often considered the start of the Viking Age.
 ------INPUT------
 In 1066 AD, the Battle of Hastings resulted in the Norman conquest of England.
 ------OUTPUT------
-In ten sixty six A D, the Battle of Hastings resulted in the Norman conquest of England.
+In ten sixty-six A D, the Battle of Hastings resulted in the Norman conquest of England.
 ------INPUT------
 The construction of the Angkor Wat temple complex in Cambodia began in the early 12th century.
 ------OUTPUT------
@@ -225,16 +225,16 @@ The Black Death, a devastating pandemic, swept through Europe in the mid fourtee
 ------INPUT------
 In 1492 AD, Christopher Columbus reached the Americas, initiating European exploration.
 ------OUTPUT------
-In fourteen ninety two, A D, Christopher Columbus reached the Americas, initiating European exploration.
+In fourteen ninety-two A D, Christopher Columbus reached the Americas, initiating European exploration.
 ------INPUT------
 The Battle of Lepanto in 1571 AD marked a decisive victory for the Holy League against the Ottoman Empire.
 ------OUTPUT------
-The Battle of Lepanto in fifteen seventy one A D marked a decisive victory for the Holy League against the Ottoman Empire.
+The Battle of Lepanto in fifteen seventy-one A D marked a decisive victory for the Holy League against the Ottoman Empire.
 ------INPUT------
 In 1776 AD, the United States Declaration of Independence was adopted, proclaiming independence from British rule.
 ------OUTPUT------
-In seventeen seventy six, A D, the United States Declaration of Independence was adopted, proclaiming independence from British rule.
+In seventeen seventy-six A D, the United States Declaration of Independence was adopted, proclaiming independence from British rule.
 ------INPUT------
 The French Revolution erupted in 1789 AD, leading to profound social and political changes in France.
 ------OUTPUT------
-The French Revolution erupted in seventeen eighty nine A D, leading to profound social and political changes in France.
+The French Revolution erupted in seventeen eighty-nine A D, leading to profound social and political changes in France.

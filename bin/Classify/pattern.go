@@ -7,7 +7,7 @@ import (
 
 
 var REGEX_QUOTE       = "/^\"|'$/";
-var REGEX_ROMAN_NUM   = "/^([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)$/";
+var REGEX_ROMAN_NUM   = "/^(([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)|(III)|(II))$/";
 var REGEX_CURRENCY    = "/^[$£]$/";
 var REGEX_OPERATIONS  = "/^[\\+\\-\\^\\*\\/\\=x]$/";
 var REGEX_PUNCTUATION = "/^[\\.,\\?\\!\\:\\;]$/";
@@ -60,7 +60,7 @@ var PATTERNS = []*Pattern {
 		SetSubclassTo:      Token.NumberCurrency,
 	}, {
 		// Number Nominal - Address, Phone, Large Number
-		CurrentByRegexp:    Utility.CompileRegex("/^[0-9]{,5}$/"),
+		CurrentByRegexp:    Utility.CompileRegex("/^[0-9]{5,}$/"),
 		SetSubclassTo:      Token.NumberNominal,
 	}, {
 		// Number Year
@@ -91,8 +91,22 @@ var PATTERNS = []*Pattern {
 		HasSuffix: 	        []string{ string(Token.Word) },
 		SetSubclassTo:      Token.QuoteStart,
 	}, {
+		// Quote - End (1-2 Words)
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_QUOTE),
+		ScanBefore: &PatternScan{
+			Exists: []string{ string(Token.QuoteStart) },
+			Range: 100,
+			IgnoreSpaces: true,
+		},
+		SetSubclassTo:      Token.QuoteEnd,
+	}, {
 		// Quote - End
 		CurrentByRegexp:    Utility.CompileRegex(REGEX_QUOTE),
+		ScanBefore: &PatternScan{
+			Exists: []string{ string(Token.QuoteStartShort) },
+			Range: 100,
+			IgnoreSpaces: true,
+		},
 		SetSubclassTo:      Token.QuoteEnd,
 	}, {
 		// Range
@@ -179,6 +193,13 @@ var PATTERNS = []*Pattern {
 		CurrentByRegexp:    Utility.CompileRegex(`/^[^.@#$%&+=~0-9\/\sa-zA-Z]$/`),
 		SetSubclassTo:      Token.None,
 		SetIsInactiveTo:    true,
+	}, {
+		// Initialism
+		CurrentByRegexp:    Utility.CompileRegex(`/^[A-Z]{2,}$/`),
+		Filter: func (text string) bool {
+			return Utility.IsInitialism(text);
+		},
+		SetSubclassTo:      Token.Initialism,
 	},
 	//! abbreviations
 	//! PERIODS IN BETWEEN ACRYONMS

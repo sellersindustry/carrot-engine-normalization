@@ -1,24 +1,28 @@
 package main
 
 import (
+	"fmt"
+	"strings"
+
 	"github.com/sellersindustry/normalization-tts/bin"
 )
 
-var text = "Hello World."
+
+var text = "Hello world FBI ate a WHAT."
+var isTest = true;
+
 
 func main() {
-	Normalize.ExecuteTests();
+	if isTest {
+		Normalize.ExecuteTests();
+	} else {
+		output := Normalize.Process(text, false);
+		for _, _token := range output.Tokens {
+			fmt.Println(_token);
+		}
 
-	// output := Normalize.Process(text, false);
-	// for _, _token := range output.Tokens {
-	// 	fmt.Println(_token);
-	// }
-
-	// fmt.Println("\n");
-	// fmt.Println(output.Tokens);
-	// for _, sentence := range output.Sentences {
-	// 	fmt.Println(sentence);
-	// }
-	// fmt.Println(strings.Join(output.Sentences, " "));
-	// fmt.Println(Normalize.ProcessJSON(text, false))
+		fmt.Println("\n");
+		fmt.Println(text);
+		fmt.Println(strings.Join(output.Sentences, " "));
+	}
 }

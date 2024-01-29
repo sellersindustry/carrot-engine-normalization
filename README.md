@@ -2,24 +2,28 @@
 
 
 ## TODO
+- Fix Euro VS Pound
+- Generate Test
+    - currency ($ and Euro)
+    - Quotes
+    - Math Questions
+    - Time
+    - Initialism
+- Convert "heelo (food) nice" -> "hello, food, nice" consider "foo (food)." -> "foo, food"
+- Implement Abbreivations (Classify, Tranformation)
+- Implement Initialism w/ period (Classify)
 - Ensure Bullet points work
 - Tranformation
-    - Currency ($ and Euro)
     - Phone
     - Date
     - Special - Email, URL, HashTag (Chuncking - de-camelcase)
 - Classify ranges to use contextual words
-- Implement Abbreivations (Classify, Tranformation)
-- Implement Initialism w/ period (Classify)
-- Implement Initialism w/o periods (Classify, Tranformation)
-- Lemmenizer - https://github.com/aaaton/golem
 - Word De-camelcase
 - CLI
 - coloclio terms
     - 9/11
     - ww1
     - ww2
-- Convert "heelo (food) nice" -> "hello, food, nice" consider "foo (food)." -> "foo, food"
 
 
 ## Process

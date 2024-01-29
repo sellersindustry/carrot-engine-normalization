@@ -13,7 +13,7 @@ Chalcophiles formed as the crust solidified under the reducing conditions of the
 ------INPUT------
 Sphalerite, which is a form of zinc sulfide, is the most heavily mined zinc-containing ore because its concentrate contains 60–62% zinc.
 ------OUTPUT------
-Sphalerite, which is a form of zinc sulfide, is the most heavily mined zinc-containing ore because its concentrate contains sixty to sixty two percent zinc.
+Sphalerite, which is a form of zinc sulfide, is the most heavily mined zinc-containing ore because its concentrate contains sixty to sixty-two percent zinc.
 ------INPUT------
 Other minerals, from which zinc is extracted, include smithsonite (zinc carbonate), hemimorphite (zinc silicate), wurtzite (another zinc sulfide), and sometimes hydrozincite (basic zinc carbonate).
 ------OUTPUT------
@@ -29,11 +29,11 @@ Large deposits are in Australia, Canada and the United States with the largest r
 ------INPUT------
 At the current rate of consumption, these reserves are estimated to be depleted sometime between 2027 and 2055.
 ------OUTPUT------
-At the current rate of consumption, these reserves are estimated to be depleted sometime between twenty twenty seven and twenty fifty five.
+At the current rate of consumption, these reserves are estimated to be depleted sometime between twenty twenty-seven and twenty fifty-five.
 ------INPUT------
 About 346 million tonnes have been extracted throughout history to 2002, and one estimate found that about 109 million tonnes of that remains in use.
 ------OUTPUT------
-About three hundred and forty six million tonnes have been extracted throughout history to two thousand and two, and one estimate found that about one hundred and nine million tonnes of that remains in use.
+About three hundred and forty-six million tonnes have been extracted throughout history to two thousand and two, and one estimate found that about one hundred and nine million tonnes of that remains in use.
 ------INPUT------
 Section 1.3 Isotopes Five isotopes of zinc occur in nature.
 ------OUTPUT------
@@ -41,7 +41,7 @@ Section one point three Isotopes Five isotopes of zinc occur in nature.
 ------INPUT------
 64 Zn is the most abundant isotope (48.63%natural abundance).
 ------OUTPUT------
-Sixty four Zn is the most abundant isotope, with a natural abundance of forty eight point six three percent.
+Sixty-four Zn is the most abundant isotope, with a natural abundance of forty-eight point six three percent.
 ------INPUT------
 This isotope has such a long half-life, at 4.3x10^18 years, that its radioactivity can be ignored.
 ------OUTPUT------
@@ -53,7 +53,7 @@ Similarly, seventy Zn (zero point six percent), with a half-life of one point th
 ------INPUT------
 The other isotopes found in nature are 66Zn (28%), 67Zn (4%) and 68Zn (19%).
 ------OUTPUT------
-The other isotopes found in nature are sixty six Zn, twenty eight percent, sixty seven Zn, four percent, and sixty eight Zn, nineteen percent.
+The other isotopes found in nature are sixty-six Zn, twenty-eight percent, sixty-seven Zn, four percent, and sixty-eight Zn, nineteen percent.
 ------INPUT------
 Several dozen radioisotopes have been characterized. 65Zn, which has a half-life of 243.66 days, is the most long-lived isotope, followed by 72Zn with a half-life of 46.5 hours.
 ------OUTPUT------
@@ -65,7 +65,7 @@ Zinc has ten nuclear isomers.
 ------INPUT------
 69m Zn has the longest half-life, 13.76h.
 ------OUTPUT------
-Sixty nine meters Zinc has the longest half-life, thirteen point seven six hours.
+sixty-nine meters Zn has the longest half-life, thirteen point seven six h.
 ------INPUT------
 The superscript m indicates a metastable isotope.
 ------OUTPUT------
@@ -77,15 +77,15 @@ The nucleus of a metastable isotope is in an excited state and will return to th
 ------INPUT------
 61Zn has three excited states and 73Zn has two.
 ------OUTPUT------
-Sixty one zinc has three excited states and seventy three zinc has two.
+sixty-one Zn has three excited states and seventy-three zinc has two.
 ------INPUT------
-The isotopes 65Zn, 71Zn, 77Zn and 78Zn each have only one excited state.
+The isotopes 65Zn, 71Zn, 77Zn, and 78Zn each have only one excited state.
 ------OUTPUT------
-The isotopes sixty five Zn, seventy one Zn, seventy seven Zn, and seventy eight Zn each have only one excited state.
+The isotopes sixty-five Zn, seventy-one Zn, seventy-seven Zn, and seventy-eight Zn each have only one excited state.
 ------INPUT------
 The most common decay mode of a radioisotope of zinc with a mass number lower than 66is electron capture.
 ------OUTPUT------
-The most common decay mode of a radioisotope of zinc with a mass number lower than sixty six is electron capture.
+The most common decay mode of a radioisotope of zinc with a mass number lower than sixty-six is electron capture.
 ------INPUT------
 The decay product resulting from electron capture is an isotope of copper.
 ------OUTPUT------
@@ -93,15 +93,15 @@ The decay product resulting from electron capture is an isotope of copper.
 ------INPUT------
 The most common decay mode of a radioisotope of zinc with mass number higher than 66is beta decay (_–), which produces an isotope of gallium.
 ------OUTPUT------
-The most common decay mode of a radioisotope of zinc with mass number higher than sixty six is beta decay, which produces an isotope of gallium.
+The most common decay mode of a radioisotope of zinc with mass number higher than sixty-six is beta decay, which produces an isotope of gallium.
 ------INPUT------
 Section 2 Creation Zinc is too large and heavy to form in stars using the silicon burning process.
 ------OUTPUT------
-Section two creation zinc is too large and heavy to form in stars using the silicon burning process.
+Section two Creation Zinc is too large and heavy to form in stars using the silicon burning process.
 ------INPUT------
 The stable form of zinc is created in supernovas via the r-process.
 ------OUTPUT------
-The stable form of zinc is created in supernovas via the r process.
+The stable form of zinc is created in supernovas via the r-process.
 ------INPUT------
 Section 3 Compounds and chemistry Section 3.1 Reactivity Zinc has an electron configuration of [Ar]3d104s2 and is a member of the group 12of the periodic table.
 ------OUTPUT------
@@ -121,11 +121,11 @@ This layer helps prevent further reaction with air and water.
 ------INPUT------
 Zinc burns in air with a bright bluish-green flame, giving off fumes of zinc oxide.
 ------OUTPUT------
-Zinc burns in air with a bright bluish green flame, giving off fumes of zinc oxide.
+Zinc burns in air with a bright bluish-green flame, giving off fumes of zinc oxide.
 ------INPUT------
-Zinc reacts readily with acids, alkalis and other non-metals.
+Zinc reacts readily with acids, alkalis, and other non-metals.
 ------OUTPUT------
-Zinc reacts readily with acids, alkalis, and other nonmetals.
+Zinc reacts readily with acids, alkalis, and other non-metals.
 ------INPUT------
 Extremely pure zinc reacts only slowly at room temperature with acids.
 ------OUTPUT------
@@ -137,9 +137,9 @@ Strong acids, such as hydrochloric or sulfuric acid, can remove the passivating 
 ------INPUT------
 The chemistry of zinc is dominated by the +2oxidation state.
 ------OUTPUT------
-The chemistry of zinc is dominated by the plus two oxidation state.
+The chemistry of zinc is dominated by the positive two oxidation state.
 ------INPUT------
-When compounds in this oxidation state are formed the outer shell s electrons are lost, which yields a bare zinc ion with the electronic configuration [Ar]3d10.
+When compounds in this oxidation state are formed, the outer shell's electrons are lost, which yields a bare zinc ion with the electronic configuration [Ar]3d10.
 ------OUTPUT------
 When compounds in this oxidation state are formed, the outer shell's electrons are lost, which yields a bare zinc ion with the electronic configuration argon three d ten.
 ------INPUT------
@@ -157,37 +157,37 @@ In aqueous solution, an octahedral complex, zinc hexaaqua ion, is the predominan
 ------INPUT------
 The volatilization of zinc in combination with zinc chloride at temperatures above 285°C indicates the formation of Zn2Cl2, a zinc compound with a +1oxidation state.
 ------OUTPUT------
-The volatilization of zinc in combination with zinc chloride at temperatures above two hundred and eighty five degrees Celsius indicates the formation of Zn two Cl two, a zinc compound with a plus one oxidation state.
+The volatilization of zinc in combination with zinc chloride at temperatures above two hundred and eighty-five degrees Celsius indicates the formation of Zn two Cl two, a zinc compound with a plus one oxidation state.
 ------INPUT------
 No compounds of zinc in oxidation states other than +1 or +2 are known.
 ------OUTPUT------
-No compounds of zinc in oxidation states other than plus one or plus two are known.
+No compounds of zinc in oxidation states other than positive one or positive two are known.
 ------INPUT------
 Calculations indicate that a zinc compound with the oxidation state of +4 is unlikely to exist.
 ------OUTPUT------
-Calculations indicate that a zinc compound with the oxidation state of plus four is unlikely to exist.
+Calculations indicate that a zinc compound with the oxidation state of positive four is unlikely to exist.
 ------INPUT------
 Zinc chemistry is similar to the chemistry of the late first-row transition metals nickel and copper, though it has a filled d-shell, so its compounds are diamagnetic and mostly colorless.
 ------OUTPUT------
-Zinc chemistry is similar to the chemistry of the late first row transition metals nickel and copper, though it has a filled d shell, so its compounds are diamagnetic and mostly colorless.
+Zinc chemistry is similar to the chemistry of the late first row transition metals nickel and copper, though it has a filled d-shell, so its compounds are diamagnetic and mostly colorless.
 ------INPUT------
 The ionic radii of zinc and magnesium happen to be nearly identical.
 ------OUTPUT------
 The ionic radii of zinc and magnesium happen to be nearly identical.
 ------INPUT------
-Because of this some of their salts have the same crystal structure and in circumstances where ionic radius is a determining factor zinc and magnesium chemistries have much in common.
+Because of this, some of their salts have the same crystal structure, and in circumstances where ionic radius is a determining factor, zinc and magnesium chemistries have much in common.
 ------OUTPUT------
 Because of this, some of their salts have the same crystal structure, and in circumstances where ionic radius is a determining factor, zinc and magnesium chemistries have much in common.
 ------INPUT------
-Otherwise there is little similarity.
+Otherwise, there is little similarity.
 ------OUTPUT------
 Otherwise, there is little similarity.
 ------INPUT------
 Zinc tends to form bonds with a greater degree of covalency and it forms much more stable complexes with N and S donors.
 ------OUTPUT------
-Zinc tends to form bonds with a greater degree of covalency and it forms much more stable complexes with nitrogen and sulfur donors.
+Zinc tends to form bonds with a greater degree of covalency and it forms much more stable complexes with N and S donors.
 ------INPUT------
-Complexes of zinc are mostly 4- or 6- coordinate although 5-coordinate complexes are known.
+Complexes of zinc are mostly 4- or 6- coordinate, although 5-coordinate complexes are known.
 ------OUTPUT------
 Complexes of zinc are mostly four or six coordinate, although five coordinate complexes are known.
 ------INPUT------

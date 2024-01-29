@@ -6,7 +6,7 @@ replaced the BBC Home Service in 1967. The station controller is Gwyneth
 Williams, and the station is part of BBC Radio and the BBC Audio & Music
 department.
 ------OUTPUT------
-B B C Radio four B B C Radio four is a British domestic radio station, operated and owned by the British Broadcasting Corporation B B C, that broadcasts a wide variety of spoken word programmes, including news, drama, comedy, science and history. It replaced the B B C Home Service in one thousand nine hundred and sixty seven. The station controller is Gwyneth Williams, and the station is part of B B C Radio and the B B C Audio and Music department.
+B B C Radio four B B C Radio four is a British domestic radio station, operated and owned by the British Broadcasting Corporation B B C, that broadcasts a wide variety of spoken word programmes, including news, drama, comedy, science and history. It replaced the B B C Home Service in one thousand nine hundred and sixty-seven. The station controller is Gwyneth Williams, and the station is part of B B C Radio and the B B C Audio and Music department.
 ------INPUT------
 The station is broadcast from the BBC's headquarters at Broadcasting House,
 London. BBC Radio 4 is the second most popular domestic radio station in the UK,
@@ -46,7 +46,7 @@ comparable British commercial network as Channel 4 abandoned plans to launch
 its own speech-based digital radio station in October 2008 as part of a £100m
 cost cutting review.
 ------OUTPUT------
-Costing seventy one point four million pounds, two thousand and five slash six, it is the BBC's most expensive national radio network and is considered by many to be the corporation's flagship. There is no comparable British commercial network as Channel four abandoned plans to launch its own speech-based digital radio station in October two thousand and eight as part of a one hundred million pound cost cutting review.
+Costing seventy-one point four million pounds, two thousand and five slash six, it is the BBC's most expensive national radio network and is considered by many to be the corporation's flagship. There is no comparable British commercial network as Channel four abandoned plans to launch its own speech-based digital radio station in October two thousand and eight as part of a one hundred million pound cost cutting review.
 ------INPUT------
 In 2010, Gwyneth Williams replaced Mark Damazer as Radio 4 controller.
 ------OUTPUT------
@@ -91,7 +91,7 @@ Radio 4 has carried these regular weather forecasts for shipping and gale
 warnings since its move to the Long Wave frequency in 1978 because the long-wave
 service can be received clearly at sea around the coasts of Britain and Ireland.
 ------OUTPUT------
-Radio four has carried these regular weather forecasts for shipping and gale warnings since its move to the long wave frequency in nineteen seventy eight because the long wave service can be received clearly at sea around the coasts of Britain and Ireland.
+Radio four has carried these regular weather forecasts for shipping and gale warnings since its move to the long wave frequency in nineteen seventy-eight because the long wave service can be received clearly at sea around the coasts of Britain and Ireland.
 ------INPUT------
 The station has also been designated as the UK's national broadcaster in times
 of national emergency such as a war: if all other radio stations were forced to
@@ -122,19 +122,19 @@ The station is available on FM, in most of Great Britain, parts of Ireland, and 
 ------INPUT------
 Section 2 History The BBC Home Service was the predecessor of Radio 4 and broadcast between 1939 and 1967.
 ------OUTPUT------
-Section two, history. The B B C Home Service was the predecessor of Radio four and broadcast between nineteen thirty nine and nineteen sixty seven.
+Section two, history. The B B C Home Service was the predecessor of Radio four and broadcast between nineteen thirty-nine and nineteen sixty-seven.
 ------INPUT------
 It had regional variations and was broadcast on medium wave with a network of VHF FM transmitters being added from 1955 onwards.
 ------OUTPUT------
-It had regional variations and was broadcast on medium wave with a network of VHF FM transmitters being added from nineteen fifty five onwards.
+It had regional variations and was broadcast on medium wave with a network of V H F F M transmitters being added from nineteen fifty-five onwards.
 ------INPUT------
 Radio 4 replaced the Home Service on 30 September 1967, when the BBC renamed many of its domestic radio stations, in response to the challenge of offshore radio.
 ------OUTPUT------
-Radio four replaced the Home Service on thirty September nineteen sixty seven, when the BBC renamed many of its domestic radio stations, in response to the challenge of offshore radio.
+Radio four replaced the Home Service on thirty September nineteen sixty-seven, when the B B C renamed many of its domestic radio stations, in response to the challenge of offshore radio.
 ------INPUT------
 It moved to long wave in 1978, taking over the 200 kHz frequency previously held by Radio 2, and later moved to 198kHz as a result of international agreements aimed at avoiding interference.
 ------OUTPUT------
-It moved to long wave in nineteen seventy eight, taking over the two hundred kilohertz frequency previously held by Radio two, and later moved to one hundred and ninety eight kilohertz as a result of international agreements aimed at avoiding interference.
+It moved to long wave in nineteen seventy-eight, taking over the two hundred kilohertz frequency previously held by Radio two, and later moved to one hundred and ninety eight kilohertz as a result of international agreements aimed at avoiding interference.
 ------INPUT------
 For a time during the 1970s Radio 4 still carried some regional variations for parts of England not served by BBC Local Radio stations.
 ------OUTPUT------
@@ -142,11 +142,11 @@ For a time during the nineteen seventies Radio four still carried some regional 
 ------INPUT------
 These included Roundabout East Anglia, a VHF opt-out of the Today programme broadcast from BBC East's studios in Norwich each weekday morning from 6:45am to 8:45am.
 ------OUTPUT------
-These included Roundabout East Anglia, a V H F opt-out of the Today programme broadcast from B B C East's studios in Norwich each weekday morning from six forty five a m to eight forty five a m.
+These included Roundabout East Anglia, a V H F opt-out of the Today programme broadcast from B B C East's studios in Norwich each weekday morning from six forty-five a m to eight forty-five a m.
 ------INPUT------
 Roundabout East Anglia came to an end in 1980, when local radio services were introduced to East Anglia with the launch of BBC Radio Norfolk.
 ------OUTPUT------
-Roundabout East Anglia came to an end in nineteen eighty, when local radio services were introduced to East Anglia with the launch of BBC Radio Norfolk.
+Roundabout East Anglia came to an end in nineteen eighty, when local radio services were introduced to East Anglia with the launch of B B C Radio Norfolk.
 ------INPUT------
 Until 1990 Radio 4's FM frequencies broadcast Open University, schools programming and the "Study on 4" adult education slot at various times on VHF/FM because until the 1990s, Radio 4 was not available on FM in much of Scotland, Wales and Northern Ireland.
 ------OUTPUT------
@@ -158,11 +158,11 @@ The launch of Radio five in September nineteen nineties saw the removal of all t
 ------INPUT------
 However, between 17 January 1991 and 2 March 1991, the FM broadcasts were replaced by a continuous news service devoted to the Gulf War, nicknamed "Scud FM", again with the main Radio 4 service being exclusively on long wave.
 ------OUTPUT------
-However, between seventeen January nineteen ninety one and two March nineteen ninety one, the F M broadcasts were replaced by a continuous news service devoted to the Gulf War, nicknamed "Scud F M", again with the main Radio four service being exclusively on long wave.
+However, between seventeen January nineteen ninety-one and two March nineteen ninety-one, the F M broadcasts were replaced by a continuous news service devoted to the Gulf War, nicknamed "Scud F M", again with the main Radio four service being exclusively on long wave.
 ------INPUT------
 In September 1991 bosses decided that the main Radio 4 service would be on FM as FM coverage had by now been extended to cover almost all of the UK.
 ------OUTPUT------
-In September nineteen ninety one bosses decided that the main Radio four service would be on F M as F M coverage had by now been extended to cover almost all of the U K.
+In September nineteen ninety-one bosses decided that the main Radio four service would be on F M as F M coverage had by now been extended to cover almost all of the U K.
 ------INPUT------
 At this point, opt-outs were transferred to long wave, which are currently Test Match Special, extra shipping forecasts, The Daily Service and Yesterday in Parliament.
 ------OUTPUT------
@@ -170,19 +170,19 @@ At this point, opt-outs were transferred to long wave, which are currently Test 
 ------INPUT------
 Long wave also very occasionally opts out at other times, such as to broadcast special services, the most recent being when the Pope visited Britain in 2010.
 ------OUTPUT------
-Long wave also very occasionally opts out at other times, such as to broadcast special services, the most recent being when the Pope visited Britain in two thousand and ten.
+Long wave also very occasionally opts out at other times, such as to broadcast special services, the most recent being when the Pope visited Britain in twenty and ten.
 ------INPUT------
 Radio 4 is part of the Royal Navy's system of Last Resort Letters. In the event of a suspected catastrophic attack on the United Kingdom, submarine commanders, in addition to carrying out other checks, would check for a broadcast signal from Radio 4to verify the annihilation of civilisation in the United Kingdom.
 ------OUTPUT------
 Radio four is part of the Royal Navy's system of Last Resort Letters. In the event of a suspected catastrophic attack on the United Kingdom, submarine commanders, in addition to carrying out other checks, would check for a broadcast signal from Radio four to verify the annihilation of civilization in the United Kingdom.
 ------INPUT------
-Section 3 Programmes and schedules Section 3.1Daily schedule The night-time feed from the BBC World Service ends at 05:20, with a brief introduction from the early shift continuity announcer.
+Section 3 Programmes and schedules. Section 3.1 Daily schedule. The night-time feed from the BBC World Service ends at 05:20, with a brief introduction from the early shift continuity announcer.
 ------OUTPUT------
 Section three programmes and schedules. Section three point one daily schedule. The night time feed from the B B C World Service ends at zero five twenty, with a brief introduction from the early shift continuity announcer.
 ------INPUT------
 The five-minute Radio 4 UK Theme (composed by Fritz Spiegl) followed this for 28 years until April 2006.
 ------OUTPUT------
-The five minute Radio four UK Theme composed by Fritz Spiegl followed this for twenty eight years until April two thousand and six.
+The five minute Radio four U K Theme composed by Fritz Spiegl followed this for twenty-eight years until April two thousand and six.
 ------INPUT------
 It was replaced by an extension to the early news bulletin, despite some public opposition and a campaign to save it.
 ------OUTPUT------
@@ -212,10 +212,10 @@ At weekends the schedule is different, but also has its 'fixtures' at various ti
 ------OUTPUT------
 At weekends the schedule is different, but also has its quote on quote fixtures at various times.
 ------INPUT------
-On or after the hour, a news bulletin is broadcast-thisis sometimes a two-minute summary, a longer piece as part of a current affairs programme, or a 30 minute broadcast on weekdays at 18:00 and midnight.
+On or after the hour, a news bulletin is broadcast. This is sometimes a two-minute summary, a longer piece as part of a current affairs programme, or a 30 minute broadcast on weekdays at 18:00 and midnight.
 ------OUTPUT------
-On or after the hour, a news bulletin is broadcast. This is sometimes a two minute summary, a longer piece as part of a current affairs programme, or a thirty minute broadcast on weekdays at eighteen hundred and midnight.
+On or after the hour, a news bulletin is broadcast. This is sometimes a two-minute summary, a longer piece as part of a current affairs programme, or a thirty minute broadcast on weekdays at eighteen hundred and midnight.
 ------INPUT------
 At 12:00, FM has a four-minute bulletin while long wave has the headlines and then the Shipping Forecast; for the same reason, long wave leaves PM on weekdays at 17:54.------OUTPUT------
 ------OUTPUT------
-At twelve o'clock, FM has a four minute bulletin while long wave has the headlines and then the Shipping Forecast; for the same reason, long wave leaves PM on weekdays at seventeen fifty four.
+At twelve o'clock, FM has a four minute bulletin while long wave has the headlines and then the Shipping Forecast; for the same reason, long wave leaves PM on weekdays at seventeen fifty-four.

@@ -10,6 +10,8 @@ require (
 )
 
 require (
+	github.com/aaaton/golem/v4 v4.0.1 // indirect
+	github.com/aaaton/golem/v4/dicts/en v1.0.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/urfave/cli v1.22.5 // indirect

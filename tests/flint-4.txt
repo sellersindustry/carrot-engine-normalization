@@ -1,7 +1,7 @@
 ------INPUT------
-These vales are primarily used for dairy agriculture, dotted with small villages, farms and coppices.
+These vales are primarily used for dairy agriculture, dotted with small villages, farms, and coppices.
 ------OUTPUT------
-These values are primarily used for dairy agriculture, dotted with small villages, farms, and coppices.
+These vales are primarily used for dairy agriculture, dotted with small villages, farms, and coppices.
 ------INPUT------
 They include the Blackmore Vale (Stour valley) and Frome valley.
 ------OUTPUT------
@@ -11,7 +11,7 @@ South-east Dorset, around Poole and Bournemouth, lies on very nonresistant Eocen
 ------OUTPUT------
 South-east Dorset, around Poole and Bournemouth, lies on very nonresistant Eocene clays, mainly London Clay and Gault Clay, sands and gravels.
 ------INPUT------
-These thin soils support a heathland habitat which supports all seven native British reptile species.
+These thin soils support a heathland habitat, which supports all seven native British reptile species.
 ------OUTPUT------
 These thin soils support a heathland habitat, which supports all seven native British reptile species.
 ------INPUT------
@@ -33,7 +33,7 @@ The harbour, and the chalk and limestone hills of the Purbecks to the south, lie
 ------INPUT------
 The field, operated by BP from Wytch Farm, produces a high-quality oil and boasts the world's oldest continuously pumping well (Kimmeridge, since the early 1960s) and longest horizontal drill (5 miles, ending underneath Bournemouth pier).
 ------OUTPUT------
-The field, operated by B P from Wytch Farm, produces a high quality oil and boasts the world's oldest continuously pumping well (Kimmeridge, since the early nineteen sixties) and longest horizontal drill (five miles, ending underneath Bournemouth pier).
+The field, operated by B P from Wytch Farm, produces a high-quality oil and boasts the world's oldest continuously pumping well (Kimmeridge, since the early nineteen sixties) and longest horizontal drill (five miles, ending underneath Bournemouth pier).
 ------INPUT------
 The clay pottery produced by Poole Pottery from the local clays is famous for its quality.
 ------OUTPUT------
@@ -43,7 +43,7 @@ Most of Dorset's coastline was designated a World Heritage Site in 2001 because 
 ------OUTPUT------
 Most of Dorset's coastline was designated a World Heritage Site in two thousand and one because of its unique geological landforms.
 ------INPUT------
-The coast documents the entire Mesozoic era from Triassic to Cretaceous, and has yielded many important fossils, including the first complete Ichthyosaur and fossilised Jurassic trees.
+The coast documents the entire Mesozoic era from Triassic to Cretaceous, and has yielded many important fossils, including the first complete Ichthyosaur and fossilized Jurassic trees.
 ------OUTPUT------
 The coast documents the entire Mesozoic era from Triassic to Cretaceous, and has yielded many important fossils, including the first complete Ichthyosaur and fossilized Jurassic trees.
 ------INPUT------
@@ -51,13 +51,13 @@ The coast also features examples of most notable coastal landforms, including a 
 ------OUTPUT------
 The coast also features examples of most notable coastal landforms, including a textbook example of cove, Lulworth Cove, and natural arch. Jutting out into the English Channel is a limestone island, the Isle of Portland, connected to the mainland by Chesil Beach, a tombolo.
 ------INPUT------
-In the west of the county the chalk and clay of south-east England begin to give way to the marl and granite of neighbouring Devon.
+In the west of the county, the chalk and clay of south-east England begin to give way to the marl and granite of neighboring Devon.
 ------OUTPUT------
-In the west of the county, the chalk and clay of southeast England begin to give way to the marl and granite of neighboring Devon.
+In the west of the county, the chalk and clay of south-east England begin to give way to the marl and granite of neighboring Devon.
 ------INPUT------
 Pilsdon Pen, the highest hill in Dorset at 909ft (277m), is situated here. History
 ------OUTPUT------
-Pilsdon Pen, the highest hill in Dorset at nine hundred and nine feet (two hundred and seventy seven meters), is situated here. History.
+Pilsdon Pen, the highest hill in Dorset at nine hundred and nine feet, two hundred and seventy-seven meters, is situated here. History.
 ------INPUT------
 The earliest recorded use of the name was in A.D.940 as Dorseteschire meaning the dwellers (saete) of Dornuuarana (Dorchester), the place of fisticuffs (Celtic: Dwrn, "fist" and gwarae, "play").
 ------OUTPUT------
@@ -67,7 +67,7 @@ The first known settlement of Dorset was by Mesolithic hunters, from around 8000
 ------OUTPUT------
 The first known settlement of Dorset was by Mesolithic hunters, from around eight thousand BCE.
 ------INPUT------
-Their populations were small and concentrated along the coast in the Isle of Purbeck, Weymouth and Chesil Beach and along the Stour valley.
+Their populations were small and concentrated along the coast in the Isle of Purbeck, Weymouth and Chesil Beach, and along the Stour valley.
 ------OUTPUT------
 Their populations were small and concentrated along the coast in the Isle of Purbeck, Weymouth and Chesil Beach, and along the Stour valley.
 ------INPUT------
@@ -85,7 +85,7 @@ The chalk downs would have been deforested in these times, making way for farmla
 ------INPUT------
 Dorset has many notable Roman artifacts, particularly around the Roman town Dorchester, where Maiden Castle was captured from the Celtic Durotriges by Vespasian in AD 54, early in the Roman occupation.
 ------OUTPUT------
-Dorset has many notable Roman artifacts, particularly around the Roman town Dorchester, where Maiden Castle was captured from the Celtic Durotriges by Vespasian in Anno Domini fifty four, early in the Roman occupation.
+Dorset has many notable Roman artifacts, particularly around the Roman town Dorchester, where Maiden Castle was captured from the Celtic Durotriges by Vespasian in A D fifty-four, early in the Roman occupation.
 ------INPUT------
 Roman roads radiated from Dorchester, following the tops of the chalk ridges to the many small Roman villages around the county.
 ------OUTPUT------
@@ -111,7 +111,7 @@ Over the next few centuries the settlers established the pattern of farmland whi
 ------OUTPUT------
 Over the next few centuries the settlers established the pattern of farmland which prevailed into the nineteenth century, as well as many monasteries, which were important landowners and centres of power.
 ------INPUT------
-In the 12th century civil war, Dorset was fortified with the construction of the defensive castles at Corfe Castle, Powerstock, Wareham and Shaftesbury, and the strengthening of the monasteries such as at Abbotsbury.
+In the 12th century civil war, Dorset was fortified with the construction of the defensive castles at Corfe Castle, Powerstock, Wareham, and Shaftesbury, and the strengthening of the monasteries such as at Abbotsbury.
 ------OUTPUT------
 In the twelfth century civil war, Dorset was fortified with the construction of the defensive castles at Corfe Castle, Powerstock, Wareham, and Shaftesbury, and the strengthening of the monasteries such as at Abbotsbury.
 ------INPUT------
@@ -121,7 +121,7 @@ In the seventeenth century English Civil War, Dorset had a number of royalist st
 ------INPUT------
 In the intervening years, the county was used by the monarchy and nobility for hunting and the county still have a number of Deer Parks.
 ------OUTPUT------
-In the intervening years, the county was used by the monarchy and nobility for hunting and the county still has a number of Deer Parks.
+In the intervening years, the county was used by the monarchy and nobility for hunting and the county still have a number of Deer Parks.
 ------INPUT------
 Throughout the late Medieval times, the remaining hilltop settlements shrank further and disappeared.
 ------OUTPUT------
@@ -129,7 +129,7 @@ Throughout the late Medieval times, the remaining hilltop settlements shrank fur
 ------INPUT------
 From the Tudor to Georgian periods, farms specialised and the monastic estates were broke up, leading to an increase in population and settlement size.
 ------OUTPUT------
-From the Tudor to Georgian periods, farms specialised and the monastic estates were broken up, leading to an increase in population and settlement size.
+From the Tudor to Georgian periods, farms specialised and the monastic estates were broke up, leading to an increase in population and settlement size.
 ------INPUT------
 During the industrial revolution, Dorset remained largely rural and still retains its agricultural economy.
 ------OUTPUT------
@@ -139,7 +139,7 @@ The Tolpuddle Martyrs lived in Dorset, and the farming economy of Dorset was cen
 ------OUTPUT------
 The Tolpuddle Martyrs lived in Dorset, and the farming economy of Dorset was central in the formation of the trade union movement.
 ------INPUT------
-Trade, industry and tourism The principal industry in Dorset has traditionally been agriculture.
+Trade, industry, and tourism. The principal industry in Dorset has traditionally been agriculture.
 ------OUTPUT------
 Trade, industry, and tourism. The principal industry in Dorset has traditionally been agriculture.
 ------INPUT------
@@ -153,11 +153,11 @@ Agriculture has become less profitable in recent years and the industry has decl
 ------INPUT------
 In 2002, 1903km² of the county was in agricultural use, down from 1986km² in 1989, although the figure has fluctuated somewhat.
 ------OUTPUT------
-In two thousand and two, one thousand nine hundred and three square kilometers of the county was in agricultural use, down from one thousand nine hundred and eighty six square kilometers in one thousand nine hundred and eighty nine, although the figure has fluctuated somewhat.
+In two thousand and two, one thousand nine hundred and three square kilometers of the county was in agricultural use, down from one thousand nine hundred and eighty-six square kilometers in one thousand nine hundred and eighty-nine, although the figure has fluctuated somewhat.
 ------INPUT------
 Cattle, the principal animal stock in the county, fell from 240413 to 178328 in the same period, the dairy herds falling from 102589 - 73476.
 ------OUTPUT------
-Cattle, the principal animal stock in the county, fell from two hundred and forty thousand four hundred and thirteen to one hundred and seventy eight thousand three hundred and twenty eight in the same period, the dairy herds falling from one hundred and two thousand five hundred and eighty nine to seventy three thousand four hundred and seventy six.
+Cattle, the principal animal stock in the county, fell from two hundred and forty thousand four hundred and thirteen to one hundred and seventy-eight thousand three hundred and twenty eight in the same period, the dairy herds falling from one hundred and two thousand five hundred and eighty-nine to seventy-three thousand four hundred and seventy-six.
 ------INPUT------
 Sheep and pig farming has declined in a similar fashion. Tourism has grown as a major industry in Dorset since the early 19th century.
 ------OUTPUT------
@@ -165,11 +165,11 @@ Sheep and pig farming has declined in a similar fashion. Tourism has grown as a 
 ------INPUT------
 4.2 million British tourists and 260000 foreign tourists visited the county in 2002, spending a combined total of £768 million.
 ------OUTPUT------
-Four point two million British tourists and two hundred and sixty thousand foreign tourists visited the county in two thousand and two, spending a combined total of seven hundred and sixty eight million pounds.
+Four point two million British tourists and two hundred and sixty thousand foreign tourists visited the county in two thousand and two, spending a combined total of seven hundred and sixty-eight million pounds.
 ------INPUT------
 Foreign tourism declined in 1999 (310000, down from 410000 in 1998), and again in 2002 (down from 320000), the latter decline being blamed on the effects of the global economy and security at that time.
 ------OUTPUT------
-Foreign tourism declined in nineteen ninety nine (three hundred and ten thousand, down from four hundred and ten thousand in nineteen ninety eight), and again in two thousand and two (down from three hundred and twenty thousand), the latter decline being blamed on the effects of the global economy and security at that time.
+Foreign tourism declined in nineteen ninety-nine (three hundred and ten thousand, down from four hundred and ten thousand in nineteen ninety-eight), and again in two thousand and two (down from three hundred and twenty thousand), the latter decline being blamed on the effects of the global economy and security at that time.
 ------INPUT------
 Dorset has little manufacturing industry, at 14.6% of employment (compared to 18.8% for the UK), and is ranked 30th out the 34English counties.
 ------OUTPUT------
@@ -177,9 +177,9 @@ Dorset has little manufacturing industry, at fourteen point six percent of emplo
 ------INPUT------
 The gross domestic product for the county is 84% that of the national average.
 ------OUTPUT------
-The gross domestic product for the county is eighty four percent that of the national average.
+The gross domestic product for the county is eighty-four percent that of the national average.
 ------INPUT------
-Dorset people Dorset is famed in literature for being the native county of author and poet Thomas Hardy.
+Dorset people, Dorset is famed in literature for being the native county of author and poet Thomas Hardy.
 ------OUTPUT------
 Dorset people, Dorset is famed in literature for being the native county of author and poet Thomas Hardy.
 ------INPUT------

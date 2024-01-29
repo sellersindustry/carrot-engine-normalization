@@ -20,6 +20,7 @@ type Pattern struct {
 	CurrentByClass		Token.Class
 	CurrentBySubclass	Token.Subclass
 	CurrentByWords      []string
+	Filter				func (text string) bool
 
 	HasPrefix           []string
 	HasSuffix           []string
