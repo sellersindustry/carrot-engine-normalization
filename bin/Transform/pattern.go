@@ -131,6 +131,11 @@ var PATTERNS = []*Pattern {
 			return " ";
 		},
 	}, {
+		Subclass: Token.Punctuation,
+		Function: func (index int, tokens *[]Token.Model) string {
+			return (*tokens)[index].Original;
+		},
+	}, {
 		Class: Token.Symbol,
 		Function: func (index int, tokens *[]Token.Model) string {
 			keys, values := Utility.GetWordset("./bin/wordsets/symbols-sentence.txt");

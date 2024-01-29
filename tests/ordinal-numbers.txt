@@ -401,195 +401,195 @@ one hundredth
 ------INPUT------
 101st
 ------OUTPUT------
-one hundred first
+one hundred and first
 ------INPUT------
 172nd
 ------OUTPUT------
-one hundred seventy second
+one hundred and seventy second
 ------INPUT------
 245th
 ------OUTPUT------
-two hundred forty fifth
+two hundred and forty fifth
 ------INPUT------
 310th
 ------OUTPUT------
-three hundred tenth
+three hundred and tenth
 ------INPUT------
 421st
 ------OUTPUT------
-four hundred twenty first
+four hundred and twenty first
 ------INPUT------
 512th
 ------OUTPUT------
-five hundred twelfth
+five hundred and twelfth
 ------INPUT------
 633rd
 ------OUTPUT------
-six hundred thirty third
+six hundred and thirty third
 ------INPUT------
 714th
 ------OUTPUT------
-seven hundred fourteenth
+seven hundred and fourteenth
 ------INPUT------
 829th
 ------OUTPUT------
-eight hundred twenty ninth
+eight hundred and twenty ninth
 ------INPUT------
 903rd
 ------OUTPUT------
-nine hundred third
+nine hundred and third
 ------INPUT------
 105th
 ------OUTPUT------
-one hundred fifth
+one hundred and fifth
 ------INPUT------
 166th
 ------OUTPUT------
-one hundred sixty sixth
+one hundred and sixty sixth
 ------INPUT------
 282nd
 ------OUTPUT------
-two hundred eighty second
+two hundred and eighty second
 ------INPUT------
 394th
 ------OUTPUT------
-three hundred ninety fourth
+three hundred and ninety fourth
 ------INPUT------
 489th
 ------OUTPUT------
-four hundred eighty ninth
+four hundred and eighty ninth
 ------INPUT------
 560th
 ------OUTPUT------
-five hundred sixtieth
+five hundred and sixtieth
 ------INPUT------
 677th
 ------OUTPUT------
-six hundred seventy seventh
+six hundred and seventy seventh
 ------INPUT------
 749th
 ------OUTPUT------
-seven hundred forty ninth
+seven hundred and forty ninth
 ------INPUT------
 822nd
 ------OUTPUT------
-eight hundred twenty second
+eight hundred and twenty second
 ------INPUT------
 934th
 ------OUTPUT------
-nine hundred thirty fourth
+nine hundred and thirty fourth
 ------INPUT------
 102nd
 ------OUTPUT------
-one hundred second
+one hundred and second
 ------INPUT------
 211th
 ------OUTPUT------
-two hundred eleventh
+two hundred and eleventh
 ------INPUT------
 334th
 ------OUTPUT------
-three hundred thirty fourth
+three hundred and thirty fourth
 ------INPUT------
 407th
 ------OUTPUT------
-four hundred seventh
+four hundred and seventh
 ------INPUT------
 520th
 ------OUTPUT------
-five hundred twentieth
+five hundred and twentieth
 ------INPUT------
 651st
 ------OUTPUT------
-six hundred fifty first
+six hundred and fifty first
 ------INPUT------
 724th
 ------OUTPUT------
-seven hundred twenty fourth
+seven hundred and twenty fourth
 ------INPUT------
 837th
 ------OUTPUT------
-eight hundred thirty seventh
+eight hundred and thirty seventh
 ------INPUT------
 903rd
 ------OUTPUT------
-nine hundred third
+nine hundred and third
 ------INPUT------
 105th
 ------OUTPUT------
-one hundred fifth
+one hundred and fifth
 ------INPUT------
 166th
 ------OUTPUT------
-one hundred sixty sixth
+one hundred and sixty sixth
 ------INPUT------
 282nd
 ------OUTPUT------
-two hundred eighty second
+two hundred and eighty second
 ------INPUT------
 394th
 ------OUTPUT------
-three hundred ninety fourth
+three hundred and ninety fourth
 ------INPUT------
 489th
 ------OUTPUT------
-four hundred eighty ninth
+four hundred and eighty ninth
 ------INPUT------
 560th
 ------OUTPUT------
-five hundred sixtieth
+five hundred and sixtieth
 ------INPUT------
 677th
 ------OUTPUT------
-six hundred seventy seventh
+six hundred and seventy seventh
 ------INPUT------
 749th
 ------OUTPUT------
-seven hundred forty ninth
+seven hundred and forty ninth
 ------INPUT------
 822nd
 ------OUTPUT------
-eight hundred twenty second
+eight hundred and twenty second
 ------INPUT------
 934th
 ------OUTPUT------
-nine hundred thirty fourth
+nine hundred and thirty fourth
 ------INPUT------
 1002nd
 ------OUTPUT------
-one thousand second
+one thousand and second
 ------INPUT------
 113th
 ------OUTPUT------
-one hundred thirteenth
+one hundred and thirteenth
 ------INPUT------
 246th
 ------OUTPUT------
-two hundred forty sixth
+two hundred and forty sixth
 ------INPUT------
 399th
 ------OUTPUT------
-three hundred ninety ninth
+three hundred and ninety ninth
 ------INPUT------
 512th
 ------OUTPUT------
-five hundred twelfth
+five hundred and twelfth
 ------INPUT------
 643rd
 ------OUTPUT------
-six hundred forty third
+six hundred and forty third
 ------INPUT------
 757th
 ------OUTPUT------
-seven hundred fifty seventh
+seven hundred and fifty seventh
 ------INPUT------
 888th
 ------OUTPUT------
-eight hundred eighty eighth
+eight hundred and eighty eighth
 ------INPUT------
 921st
 ------OUTPUT------
-nine hundred twenty first
+nine hundred and twenty first
 ------INPUT------
 1000th
 ------OUTPUT------

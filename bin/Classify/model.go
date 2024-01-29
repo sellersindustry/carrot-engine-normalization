@@ -1,6 +1,10 @@
 package Classify
 
-import "github.com/sellersindustry/normalization-tts/bin/Token"
+import (
+	"regexp"
+
+	"github.com/sellersindustry/normalization-tts/bin/Token"
+)
 
 
 type PatternScan struct {
@@ -12,12 +16,18 @@ type PatternScan struct {
 
 
 type Pattern struct {
-	Current         string
-	Prefix          []string
-	Suffix          []string
-	ScanBefore      *PatternScan
-	ScanAfter       *PatternScan
-	SetSubclassTo   Token.Subclass
-	SetIsInactiveTo bool
+	CurrentByRegexp     *regexp.Regexp
+	CurrentByClass		Token.Class
+	CurrentBySubclass	Token.Subclass
+	CurrentByWords      []string
+
+	HasPrefix           []string
+	HasSuffix           []string
+
+	ScanBefore          *PatternScan
+	ScanAfter           *PatternScan
+	
+	SetSubclassTo       Token.Subclass
+	SetIsInactiveTo     bool
 }
 

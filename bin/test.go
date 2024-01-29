@@ -5,30 +5,33 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/codycollier/wer"
 )
 
 
 func ExecuteTests() {
+	start    := time.Now()
 	wers     := []float64{};
 	pass     := 0;
 	fail     := 0;
 	failText := [][]string{};
 	for _, entry := range getEntries() {
-		wer, output, target := processEntry(entry);
+		wer, input, output, target := processEntry(entry);
 		if wer == 0.0 {
 			pass += 1;
 		} else {
 			fail += 1;
-			failText = append(failText, []string{output, target})
+			failText = append(failText, []string{input, output, target})
 		}
 		wers = append(wers, wer);
 	}
 
 	for _, entry := range failText {
-		fmt.Println("OUTPUT: ", entry[0]);
-		fmt.Println("TARGET: ", entry[1]);
+		fmt.Println("INPUT : ", entry[0]);
+		fmt.Println("OUTPUT: ", entry[1]);
+		fmt.Println("TARGET: ", entry[2]);
 		fmt.Println("");
 	}
 
@@ -36,15 +39,16 @@ func ExecuteTests() {
 	fmt.Println("PASS: ", pass)
 	fmt.Println("FAIL: ", fail)
 	fmt.Println("WER:  ", avgFloats(wers))
+	fmt.Printf("TIME:  %v", time.Since(start))
 }
 
 
-func processEntry(entry []string) (float64, string, string) {
+func processEntry(entry []string) (float64, string, string, string) {
 	input  := entry[0];
 	output := strings.Join(Process(input, true).Sentences, " ");
 	target := entry[1];
 	wer, _ := wer.WER(strings.Split(target, " "), strings.Split(output, " "))
-	return wer, output, target
+	return wer, input, output, target
 }
 
 
@@ -57,7 +61,7 @@ func getEntries() [][]string {
 			if len(sections) != 2 {
 				continue
 			}
-			sections[0] = strings.Trim(sections[1], "\n\r")
+			sections[0] = strings.Trim(sections[0], "\n\r")
 			sections[1] = strings.Trim(sections[1], "\n\r")
 			entries = append(entries, []string{sections[0], sections[1]})
 		}

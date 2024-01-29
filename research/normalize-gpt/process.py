@@ -18,4 +18,4 @@ def process_file(input, output):
     inputFile.close()
 
 
-# process_file("../../tests/flint-8.txt", "../../tests/flint-8-output.txt")
+process_file("../../tests/years.txt", "../../tests/years-output.txt")

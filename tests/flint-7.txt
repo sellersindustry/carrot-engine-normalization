@@ -21,7 +21,7 @@ Cookies were designed to be a reliable mechanism for websites to remember statef
 ------INPUT------
 Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories-apotential privacy concern that prompted European and U.S. law makers to take action in 2011.
 ------OUTPUT------
-Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories, a potential privacy concern that prompted European and U.S. lawmakers to take action in two thousand and eleven.
+Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third party tracking cookies are commonly used as ways to compile long term records of individuals' browsing histories apotential privacy concern that prompted European and U S lawmakers to take action in twenty eleven.
 ------INPUT------
 Cookies can also store passwords and form content a user has previously entered, such as a credit card number or an address. Other kinds of cookies perform essential functions in the modern web.
 ------OUTPUT------
@@ -41,11 +41,11 @@ The security of an authentication cookie generally depends on the security of th
 ------INPUT------
 Security vulnerabilities may allow a cookie's data to be read by a hacker, used to gain access to user data, or used to gain access (with the user's credentials) to the website to which the cookie belongs (see cross-site scripting and cross-site request forgery for examples).
 ------OUTPUT------
-Security vulnerabilities may allow a cookie's data to be read by a hacker, used to gain access to user data, or used to gain access (with the user's credentials) to the website to which the cookie belongs. See cross-site scripting and cross-site request forgery for examples.
+Security vulnerabilities may allow a cookie's data to be read by a hacker, used to gain access to user data, or used to gain access, with the user's credentials, to the website to which the cookie belongs, see cross-site scripting and cross-site request forgery for examples.
 ------INPUT------
 History The term "cookie" was derived from "magic cookie", which is the packet of data a program receives and sends again unchanged.
 ------OUTPUT------
-History. The term "cookie" was derived from "magic cookie", which is the packet of data a program receives and sends again unchanged.
+History. The term quote on quote cookie was derived from quote on quote magic cookie, which is the packet of data a program receives and sends again unchanged.
 ------INPUT------
 Magic cookies were already used in computing when computer programmer Lou Montulli had the idea of using them in web communications in June 1994.
 ------OUTPUT------
@@ -153,7 +153,7 @@ A definitive specification for cookies as used in the real world was published a
 ------INPUT------
 Session cookie A session cookie, also known as an in-memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
 ------OUTPUT------
-Session cookie. A session cookie, also known as an in-memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
+Session cookie. A session cookie, also known as an in memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
 ------INPUT------
 Web browsers normally delete session cookies when the user closes the browser.
 ------OUTPUT------

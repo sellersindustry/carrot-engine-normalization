@@ -4,7 +4,7 @@ import (
 	"github.com/sellersindustry/normalization-tts/bin"
 )
 
-var text = "Test a ouput 1."
+var text = "Hello World."
 
 func main() {
 	Normalize.ExecuteTests();

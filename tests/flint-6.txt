@@ -25,7 +25,7 @@ With the exception of wurtzite, all these other minerals were formed as a result
 ------INPUT------
 Large deposits are in Australia, Canada and the United States with the largest reserves in Iran.
 ------OUTPUT------
-Large deposits are in Australia, Canada, and the United States with the largest reserves in Iran.
+Large deposits are in Australia, Canada and the United States with the largest reserves in Iran.
 ------INPUT------
 At the current rate of consumption, these reserves are estimated to be depleted sometime between 2027 and 2055.
 ------OUTPUT------
@@ -37,7 +37,7 @@ About three hundred and forty six million tonnes have been extracted throughout 
 ------INPUT------
 Section 1.3 Isotopes Five isotopes of zinc occur in nature.
 ------OUTPUT------
-Section one point three. Isotopes. Five isotopes of zinc occur in nature.
+Section one point three Isotopes Five isotopes of zinc occur in nature.
 ------INPUT------
 64 Zn is the most abundant isotope (48.63%natural abundance).
 ------OUTPUT------

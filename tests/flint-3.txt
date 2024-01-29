@@ -33,7 +33,7 @@ As of the twentieth of April, two thousand and ten, money exchange offices in th
 ------INPUT------
 The Serious Organised Crime Agency claimed that "90% of all €500 sold in the UK are in the hands of organised crime", revealed during an eight month analysis.
 ------OUTPUT------
-The Serious Organised Crime Agency claimed that "ninety percent of all five hundred euro sold in the UK are in the hands of organised crime", revealed during an eight month analysis.
+The Serious Organised Crime Agency claimed that quote ninety percent of all five hundred euros sold in the U K are in the hands of organised crime end quote, revealed during an eight month analysis.
 ------INPUT------
 The € 500 note is worth in the region of £430 depending on exchange rates (more than eight times the value of the Bank of England's largest publicly-circulated note), and had become the currency choice for gangs to hide their profits.
 ------OUTPUT------
@@ -101,7 +101,7 @@ The county is largely rural with a low population and population density.
 ------INPUT------
 The county motto is "Who's Afear'd".
 ------OUTPUT------
-The county motto is quote on quote "Who's Afear'd".
+The county motto is quote on quote Who's Afear'd.
 ------INPUT------
 Dorset is famous for its picturesque coastline, the Jurassic Coast, which features unique landforms such as Lulworth Cove and the Isle of Portland, as well as the holiday resorts of Weymouth and Bournemouth.
 ------OUTPUT------

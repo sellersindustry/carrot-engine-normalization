@@ -1,10 +1,15 @@
 package Detect
 
-import "github.com/sellersindustry/normalization-tts/bin/Token"
+import (
+	"regexp"
+
+	"github.com/sellersindustry/normalization-tts/bin/Token"
+)
 
 
 type Pattern struct {
-	Regexp   string
-	Class    Token.Class
+	DetectRegexp   *regexp.Regexp
+	DetectWords    []string
+	Class          Token.Class
 }
 

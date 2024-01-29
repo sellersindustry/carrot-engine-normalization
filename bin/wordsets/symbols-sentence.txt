@@ -2,6 +2,9 @@
 $		dollars
 %		precent
 &		and
--		to
 =		is
-(		{{PAUSE}}
+.		dot
+~		about
+#		hashtag
++		plus
+/		slash

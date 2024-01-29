@@ -1,7 +1,6 @@
 package Wordify
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 
@@ -13,21 +12,24 @@ import (
 
 var ordinalNumberSuffixes = []string{
 	"first", "second", "third", "fourth", "fifth", "sixth", "seventh",
-	"eighth", "ninth", "eleventh", "twelfth", "thirteenth", "fourteenth",
+	"eighth", "ninth", "tenth", "eleventh", "twelfth", "thirteenth", "fourteenth",
 	"fifteenth", "sixteenth", "seventeenth", "eighteenth", "nineteenth",
 	"twentieth",
 }
 
 
 func NumberOrdinal(text string) string {
-	integer   := parseInt(text);
-	lastDigit := integer % 10;
-	fmt.Println(integer, lastDigit);
+	integer     := parseInt(text);
+	lastDigit   := integer % 10;
+	last2Digits := integer % 100;
 	if lastDigit != 0 {
 		if integer <= 20 {
 			return ordinalNumberSuffixes[integer - 1];
+		} else if last2Digits <= 20 {
+			return Number(strconv.Itoa(integer - last2Digits)) + " and " + ordinalNumberSuffixes[last2Digits - 1];
+		} else {
+			return Number(strconv.Itoa(integer - lastDigit)) + " " + ordinalNumberSuffixes[lastDigit - 1];
 		}
-		return Number(strconv.Itoa(integer - lastDigit)) + " " + ordinalNumberSuffixes[lastDigit - 1];
 	}
 	word := Number(strconv.Itoa(integer))
 	if strings.HasSuffix(word, "y") {
@@ -48,11 +50,24 @@ func NumberPlural(text string) string {
 }
 
 
+// Fail - 257
+// Fail - 278
 func NumberYear(text string) string {
-	//! "2001" -> "two thousand and one", "2023" -> "twenty twenty-three"
-	//! this below might help
-	//! https://learningenglish.voanews.com/a/pronouncing-years-in-american-english/7045997.html
-	return "";
+	if len(text) != 4 {
+		return Number(text);
+	}
+	firstHalf  := parseInt(text[0:2]);
+	secondHalf := parseInt(text[2:4]);
+	if firstHalf == 20 && secondHalf >= 0 && secondHalf <= 9 {
+		return Number(text);
+	}
+	if firstHalf > 10 && secondHalf >= 0 && secondHalf <= 9 {
+		return Number(strconv.Itoa(firstHalf)) + " o " + Number(strconv.Itoa(secondHalf));
+	}
+	if firstHalf > 0 && secondHalf == 0 {
+		return Number(strconv.Itoa(firstHalf)) + " hundred";
+	}
+	return Number(strconv.Itoa(firstHalf)) + " " + Number(strconv.Itoa(secondHalf));
 }
 
 
@@ -109,7 +124,7 @@ func RomanNumeral(text string) string {
 	if err != nil {
 		return "zero";
 	}
-	return Number(num2words.ConvertAnd(integer));
+	return Number(strconv.Itoa(integer));
 }
 
 

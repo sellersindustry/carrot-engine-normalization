@@ -1,7 +1,7 @@
 ------INPUT------
 This web site contains an advert from ad.foxytracking.com, which, when downloaded, sets a cookie belonging to the advert's domain (ad.foxytracking.com).
 ------OUTPUT------
-This web site contains an advert from ad dot foxytracking dot com, which, when downloaded, sets a cookie belonging to the advert's domain (ad dot foxytracking dot com).
+This web site contains an advert from ad dot foxytracking dot com, which, when downloaded, sets a cookie belonging to the advert's domain, ad dot foxytracking dot com.
 ------INPUT------
 Then, the user visits another website, www.example2.com, which also contains an advert from ad.foxytracking.com, and which also sets a cookie belonging to that domain (ad.foxytracking.com).
 ------OUTPUT------
@@ -19,9 +19,9 @@ As of 2014, some websites were setting cookies readable for over 100third-party 
 ------OUTPUT------
 As of two thousand and fourteen, some websites were setting cookies readable for over one hundred third party domains.
 ------INPUT------
-On average, a single website was setting 10 cookies, with maximum number of cookies (first- and third-party) reaching over 800.
+On average, a single website was setting 10 cookies, with maximum number of cookies (first and third-party) reaching over 800.
 ------OUTPUT------
-On average, a single website was setting ten cookies, with the maximum number of cookies (first and third party) reaching over eight hundred.
+On average, a single website was setting ten cookies, with the maximum number of cookies, first and third party, reaching over eight hundred.
 ------INPUT------
 Supercookie A "supercookie" is a cookie with an origin of a Top-Level Domain (such as .com) or a Public Suffix (such as .co.uk).
 ------OUTPUT------
@@ -51,9 +51,9 @@ Older versions of browsers may not have the most up-to-date list, and will there
 ------OUTPUT------
 Older versions of browsers may not have the most up to date list, and will therefore be vulnerable to super cookies from certain domains.
 ------INPUT------
-Supercookie (other uses) The term "supercookie" is sometimes used for tracking technologies that do not rely on HTTP cookies.
+Supercookie (other uses). The term "supercookie" is sometimes used for tracking technologies that do not rely on HTTP cookies.
 ------OUTPUT------
-Supercookie, other uses. The term "supercookie" is sometimes used for tracking technologies that do not rely on H T T P cookies.
+Supercookie, other uses. The term quote on quote supercookie is sometimes used for tracking technologies that do not rely on H T T P cookies.
 ------INPUT------
 Two such "supercookie" mechanisms were found on Microsoft websites: cookie syncing that respawned MUID (Machine Unique Identifier) cookies, and ETag cookies. Due to media attention, Microsoft later disabled this code.
 ------OUTPUT------
@@ -65,7 +65,7 @@ Zombie cookie. Some cookies are automatically recreated after a user has deleted
 ------INPUT------
 This is accomplished by a script storing the content of the cookie in some other locations, such as the local storage available to Flash content, HTML5 storages and other client-side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.
 ------OUTPUT------
-This is accomplished by a script storing the content of the cookie in some other locations, such as the local storage available to Flash content, HTML5 storages, and other client-side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.
+This is accomplished by a script storing the content of the cookie in some other locations, such as the local storage available to Flash content, H T M L five storages and other client side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.
 ------INPUT------
 Structure A cookie consists of seven components: (name, value) pair of the cookie (i.e. name=value) Expiry of the cookie Path the cookie is good for Domain the cookie is good for Need for a secure connection to use the cookie Whether or not the cookie can be accessed through other means than HTTP (i.e., JavaScript) The first component (name, value) is required to be explicitly set.
 ------OUTPUT------
@@ -73,7 +73,7 @@ Structure. A cookie consists of seven components: a (name, value) pair of the co
 ------INPUT------
 Tracking Tracking cookies may be used to track internet users' web browsing.
 ------OUTPUT------
-Tracking cookies may be used to track internet users' web browsing.
+Tracking Tracking cookies may be used to track internet users' web browsing.
 ------INPUT------
 This can also be done in part by using the IP address of the computer requesting the page or the referrer field of the HTTP request header, but cookies allow for greater precision.
 ------OUTPUT------
@@ -89,7 +89,7 @@ By analyzing the log file collected in the process, it is then possible to find 
 ------INPUT------
 Setting a cookie Transfer of Web pages follows the HyperText Transfer Protocol (HTTP).
 ------OUTPUT------
-Setting a cookie. Transfer of Web pages follows the HyperText Transfer Protocol, HTTP.
+Setting a cookie Transfer of Web pages follows the Hyper Text Transfer Protocol, H T T P.
 ------INPUT------
 Regardless of cookies, browsers request a page from web servers by sending them a usually short text called 'HTTP request'.
 ------OUTPUT------
@@ -113,7 +113,7 @@ For example, the browser requests the page http colon slash slash www dot exampl
 ------INPUT------
 This way, the server knows that this request is related to the previous one.
 ------OUTPUT------
-This way comma the server knows that this request is related to the previous one.
+This way, the server knows that this request is related to the previous one.
 ------INPUT------
 The server answers by sending the requested page, possibly adding other cookies as well.
 ------OUTPUT------
@@ -121,7 +121,7 @@ The server answers by sending the requested page, possibly adding other cookies 
 ------INPUT------
 The value of a cookie can be modified by the server by sending a new Set-Cookie: name=newvalue line in response of a page request.
 ------OUTPUT------
-The value of a cookie can be modified by the server by sending a new "Set-Cookie: name=new value" line in response of a page request.
+The value of a cookie can be modified by the server by sending a new quote Set-Cookie: name is new value end quote line in response of a page request.
 ------INPUT------
 The browser then replaces the old value with the new one.
 ------OUTPUT------

@@ -1,8 +1,9 @@
 package Detect
 
 import (
+	"strings"
+
 	"github.com/sellersindustry/normalization-tts/bin/Token"
-	"github.com/sellersindustry/normalization-tts/bin/Utility"
 )
 
 
@@ -20,7 +21,7 @@ func Process(buffer string) *[]Token.Model {
 
 func getNextToken(buffer string, patterns []*Pattern) *Token.Model {
 	for _, pattern := range patterns {
-		token := extractByPattern(buffer, pattern.Regexp, pattern.Class);
+		token := extractByPattern(buffer, pattern);
 		if (token != nil) {
 			return token
 		}
@@ -29,13 +30,21 @@ func getNextToken(buffer string, patterns []*Pattern) *Token.Model {
 }
 
 
-func extractByPattern(buffer string, regex string, class Token.Class) *Token.Model {
-	pattern := Utility.CompileRegex(regex);
-	match   := pattern.FindStringIndex(buffer)
-	if (len(match) > 0) {
-		text := buffer[match[0]:match[1]]
-		if (len(text) > 0) {
-			return Token.NewGeneral(text, class)
+func extractByPattern(buffer string, pattern *Pattern) *Token.Model {
+	if (pattern.DetectWords != nil) {
+		for _, word := range pattern.DetectWords {
+			if strings.EqualFold(buffer, word) {
+				return Token.NewGeneral(buffer, pattern.Class)
+			}
+		}
+	}
+	if (pattern.DetectRegexp != nil) {
+		match := pattern.DetectRegexp.FindStringIndex(buffer)
+		if (len(match) > 0) {
+			text := buffer[match[0]:match[1]]
+			if (len(text) > 0) {
+				return Token.NewGeneral(text, pattern.Class)
+			}
 		}
 	}
 	return nil;

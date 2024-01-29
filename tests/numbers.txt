@@ -1,4 +1,0 @@
-------INPUT------
-Test 1.
-------OUTPUT------
-Test one.

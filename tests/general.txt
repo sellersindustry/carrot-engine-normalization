@@ -1,0 +1,16 @@
+------INPUT------
+This is an example test system to see how the system performs.
+------OUTPUT------
+This is an example test system to see how the system performs.
+------INPUT------
+I got 3 cakes for his 3rd birthday. I hope he likes them!
+------OUTPUT------
+I got three cakes for his third birthday. I hope he likes them!
+------INPUT------
+The new race-car that I bought is really fast. It only cost about $123.43 and it a 2024 model.
+------OUTPUT------
+The new race car that I bought is really fast. It only cost about one hundrend and twenty three dollars and forty three cents and it a twenty twenty four model.
+------INPUT------
+Mr. Bob III does all the maintenance work on the car for only about $20-30/year.
+------OUTPUT------
+Mister Bob the third does all the maintenance work on the car for only about twenty to thirty dollars per year.

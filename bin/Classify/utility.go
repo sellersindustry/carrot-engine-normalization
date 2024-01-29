@@ -10,13 +10,13 @@ import (
 
 
 func isTokenMatch(index int, tokens *[]Token.Model, pattern *Pattern) bool {
-	if !matchToken(index, tokens, &[]string{(*pattern).Current}) {
+	if !detectCurrent(index, tokens, pattern) {
 		return false
 	}
-	if !matchAdjecentTokens(index, tokens, &(*pattern).Prefix, true) {
+	if !matchAdjecentTokens(index, tokens, &(*pattern).HasPrefix, true) {
 		return false
 	}
-	if !matchAdjecentTokens(index, tokens, &(*pattern).Suffix, false) {
+	if !matchAdjecentTokens(index, tokens, &(*pattern).HasSuffix, false) {
 		return false
 	}
 	if !matchRangeTokens(index, tokens, (*pattern).ScanBefore, true) {
@@ -26,6 +26,20 @@ func isTokenMatch(index int, tokens *[]Token.Model, pattern *Pattern) bool {
 		return false
 	}
 	return true
+}
+
+
+func detectCurrent(index int, tokens *[]Token.Model, pattern *Pattern) bool {
+	if pattern.CurrentByRegexp != nil {
+		return pattern.CurrentByRegexp.Match([]byte(*&(*tokens)[index].Original));
+	} else if string(pattern.CurrentByClass) != "" {
+		return pattern.CurrentByClass == (*tokens)[index].Class
+	} else if string(pattern.CurrentBySubclass) != "" {
+		return pattern.CurrentBySubclass == (*tokens)[index].Subclass
+	} else if pattern.CurrentByWords != nil {
+		return Utility.Contains(pattern.CurrentByWords, strings.ToLower((*tokens)[index].Original))
+	}
+	return false;
 }
 
 
@@ -154,7 +168,7 @@ func isKeywordRegex(keyword *string) bool {
 
 
 func keywordGetRegex(keyword *string) *regexp.Regexp {
-	pattern := strings.TrimPrefix(strings.TrimSuffix(strings.TrimSuffix(*keyword, "/i"), "/"), "/");
+	pattern := strings.TrimSuffix(strings.TrimSuffix(*keyword, "/i"), "/") + "/";
 	return Utility.CompileRegex(pattern);
 }
 

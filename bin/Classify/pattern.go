@@ -7,178 +7,178 @@ import (
 
 
 var REGEX_QUOTE       = "/^\"|'$/";
+var REGEX_ROMAN_NUM   = "/^([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)$/";
 var REGEX_CURRENCY    = "/^[$£]$/";
 var REGEX_OPERATIONS  = "/^[\\+\\-\\^\\*\\/\\=x]$/";
-var REGEX_ROMAN_NUM   = "/^([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)$/";
 var REGEX_PUNCTUATION = "/^[\\.,\\?\\!\\:\\;]$/";
 
 
 var PATTERNS = []*Pattern {
 	{
 		// Number Plural - Before (Number)
-		Current:       string(Token.Number),
-		Suffix:        []string{ "s" },
-		SetSubclassTo: Token.NumberPlural,
+		CurrentByClass:     Token.Number,
+		HasSuffix:          []string{ "s" },
+		SetSubclassTo:      Token.NumberPlural,
 	}, {
 		// Number Plural - After (s)
-		Current:         "s",
-		Prefix:          []string{ string(Token.Number) },
-		SetSubclassTo:   Token.Unit,
-		SetIsInactiveTo: true,
+		CurrentByRegexp:    Utility.CompileRegex(`/^(s)$/`),
+		HasPrefix:          []string{ string(Token.Number) },
+		SetSubclassTo:      Token.Unit,
+		SetIsInactiveTo:    true,
 	}, {
 		// Number Ordinal - Before (Number)
-		Current:       string(Token.Number),
-		Suffix:        []string{ "/^(st|nd|rd|th)$/" },
-		SetSubclassTo: Token.NumberOrdinal,
+		CurrentByClass:     Token.Number,
+		HasSuffix:          []string{ "/^(st|nd|rd|th)$/" },
+		SetSubclassTo:      Token.NumberOrdinal,
 	}, {
 		// Number Ordinal - After (st, nd, rd, th)
-		Current:         "/^(st|nd|rd|th)$/",
-		Prefix:          []string{ string(Token.Number) },
-		SetSubclassTo:   Token.Unit,
-		SetIsInactiveTo: true,
+		CurrentByRegexp:    Utility.CompileRegex(`/^(st|nd|rd|th)$/`),
+		HasPrefix:          []string{ string(Token.Number) },
+		SetSubclassTo:      Token.Unit,
+		SetIsInactiveTo:    true,
 	}, {
 		// Number Currency - Symbol
-		Current:         REGEX_CURRENCY,
-		SetSubclassTo:   Token.Unit,
-		Suffix:          []string{ string(Token.Number) },
-		SetIsInactiveTo: true,
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_CURRENCY),
+		SetSubclassTo:      Token.Unit,
+		HasSuffix:          []string{ string(Token.Number) },
+		SetIsInactiveTo:    true,
 	}, {
 		// Number Currency Range - Number 1st
-		Current:       string(Token.Number),
-		Prefix:        []string{ REGEX_CURRENCY },
-		Suffix:        []string{ IGNORE_SPACES, "-", string(Token.Number) },
-		SetSubclassTo: Token.None,
+		CurrentByClass:     Token.Number,
+		HasPrefix:          []string{ REGEX_CURRENCY },
+		HasSuffix:          []string{ IGNORE_SPACES, "-", string(Token.Number) },
+		SetSubclassTo:      Token.None,
 	}, {
 		// Number Currency - Number
-		Current:       string(Token.Number),
-		Prefix:        []string{ REGEX_CURRENCY },
-		SetSubclassTo: Token.NumberCurrency,
+		CurrentByClass:     Token.Number,
+		HasPrefix:          []string{ REGEX_CURRENCY },
+		SetSubclassTo:      Token.NumberCurrency,
 	}, {
 		// Number Currency Range - Number 2nd
-		Current:       string(Token.Number),
-		Prefix:        []string{ IGNORE_SPACES, REGEX_CURRENCY, string(Token.Number), "-" },
-		SetSubclassTo: Token.NumberCurrency,
+		CurrentByClass:     Token.Number,
+		HasPrefix:          []string{ IGNORE_SPACES, REGEX_CURRENCY, string(Token.Number), "-" },
+		SetSubclassTo:      Token.NumberCurrency,
 	}, {
 		// Number Nominal - Address, Phone, Large Number
-		Current:       "/^[0-9]{,5}$/",
-		SetSubclassTo: Token.NumberNominal,
+		CurrentByRegexp:    Utility.CompileRegex("/^[0-9]{,5}$/"),
+		SetSubclassTo:      Token.NumberNominal,
 	}, {
 		// Number Year
-		Current:       "/^[0-9]{4}$/",
-		SetSubclassTo: Token.NumberYear,
+		CurrentByRegexp:    Utility.CompileRegex("/^[0-9]{4}$/"),
+		SetSubclassTo:      Token.NumberYear,
 	}, {
 		// Quote Short - Start (1-2 Words)
-		Current:       REGEX_QUOTE,
-		Suffix: 	   []string{ string(Token.Word) },
-		ScanAfter:     &PatternScan{
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_QUOTE),
+		HasSuffix: 	        []string{ string(Token.Word) },
+		ScanAfter: &PatternScan{
 			Exists: []string{ REGEX_QUOTE },
 			Range: 3,
 			IgnoreSpaces: true,
 		},
-		SetSubclassTo: Token.QuoteStartShort,
+		SetSubclassTo:      Token.QuoteStartShort,
 	}, {
 		// Quote Short - End (1-2 Words)
-		Current:       REGEX_QUOTE,
-		ScanBefore:    &PatternScan{
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_QUOTE),
+		ScanBefore: &PatternScan{
 			Exists: []string{ string(Token.QuoteStartShort) },
 			Range: 3,
 			IgnoreSpaces: true,
 		},
-		SetIsInactiveTo: true,
+		SetIsInactiveTo:    true,
 	}, {
 		// Quote - Start
-		Current:       REGEX_QUOTE,
-		Suffix: 	   []string{ string(Token.Word) },
-		SetSubclassTo: Token.QuoteStart,
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_QUOTE),
+		HasSuffix: 	        []string{ string(Token.Word) },
+		SetSubclassTo:      Token.QuoteStart,
 	}, {
 		// Quote - End
-		Current:       REGEX_QUOTE,
-		SetSubclassTo: Token.QuoteEnd,
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_QUOTE),
+		SetSubclassTo:      Token.QuoteEnd,
 	}, {
 		// Range
-		Current:       "-",
-		Prefix:        []string{ IGNORE_SPACES, string(Token.Number) },
-		Suffix:        []string{ IGNORE_SPACES, string(Token.Number) },
-		ScanBefore:    &PatternScan{
+		CurrentByWords:     []string{ "-" },
+		HasPrefix:          []string{ IGNORE_SPACES, string(Token.Number) },
+		HasSuffix:          []string{ IGNORE_SPACES, string(Token.Number) },
+		ScanBefore: &PatternScan{
+			NotExists: []string{ REGEX_OPERATIONS },
+			Range: 2,
+			IgnoreSpaces:   true,
+		},
+		ScanAfter: &PatternScan{
 			NotExists: []string{ REGEX_OPERATIONS },
 			Range: 2,
 			IgnoreSpaces: true,
 		},
-		ScanAfter:     &PatternScan{
-			NotExists: []string{ REGEX_OPERATIONS },
-			Range: 2,
-			IgnoreSpaces: true,
-		},
-		SetSubclassTo: Token.Range,
+		SetSubclassTo:      Token.Range,
 	}, {
 		// Math Operation
-		Current:       REGEX_OPERATIONS,
-		Prefix:        []string{ IGNORE_SPACES, string(Token.Number) },
-		Suffix:        []string{ IGNORE_SPACES, string(Token.Number) },
-		SetSubclassTo: Token.MathOperation,
+		CurrentByWords:     []string{ "-" },
+		HasPrefix:          []string{ IGNORE_SPACES, string(Token.Number) },
+		HasSuffix:          []string{ IGNORE_SPACES, string(Token.Number) },
+		SetSubclassTo:      Token.MathOperation,
 	}, {
 		// Number Prefixes
-		Current:       "/^[+-]$/",
-		Suffix:        []string{ IGNORE_SPACES, string(Token.Number) },
-		SetSubclassTo: Token.MathPrefix,
+		CurrentByWords:     []string{ "-", "+"},
+		HasSuffix:          []string{ IGNORE_SPACES, string(Token.Number) },
+		SetSubclassTo:      Token.MathPrefix,
 	}, {
 		// Number Currency Prefixes
-		Current:       "/^[+-]$/",
-		Suffix:        []string{ IGNORE_SPACES, REGEX_CURRENCY, string(Token.Number) },
-		SetSubclassTo: Token.MathPrefix,
+		CurrentByWords:     []string{ "-", "+" },
+		HasSuffix:          []string{ IGNORE_SPACES, REGEX_CURRENCY, string(Token.Number) },
+		SetSubclassTo:      Token.MathPrefix,
 	}, {
 		// Per Number
-		Current:       "/",
-		Prefix:        []string{ IGNORE_SPACES, string(Token.Number) },
-		Suffix:        []string{ string(Token.Word) },
-		SetSubclassTo: Token.Per,
+		CurrentByWords:     []string{ "/" },
+		HasPrefix:          []string{ IGNORE_SPACES, string(Token.Number) },
+		HasSuffix:          []string{ string(Token.Word) },
+		SetSubclassTo:      Token.Per,
 	}, {
 		// Per Per Number
-		Current:       "/",
-		Prefix:        []string{ string(Token.Per) },
-		Suffix:        []string{ string(Token.Word) },
-		SetSubclassTo: Token.Per,
+		CurrentByWords:     []string{ "/" },
+		HasPrefix:          []string{ string(Token.Per) },
+		HasSuffix:          []string{ string(Token.Word) },
+		SetSubclassTo:      Token.Per,
 	}, {
 		// Number Currency Scale
-		Current:       "/^(k|m|b|t)$/",
-		Prefix:        []string{ IGNORE_SPACES, string(Token.NumberCurrency) },
-		SetSubclassTo: Token.Scale,
+		CurrentByWords:     []string{ "k", "m", "b", "t" },
+		HasPrefix:          []string{ IGNORE_SPACES, string(Token.NumberCurrency) },
+		SetSubclassTo:      Token.Scale,
 	}, {
 		// Roman Numeral Possessive
-		Current:       REGEX_ROMAN_NUM,
-		Prefix:        []string{ "/^[A-Z]([a-zA-Z])+$/i", string(Token.Space) },
-		SetSubclassTo: Token.RomanNumeralPossessive,
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_ROMAN_NUM),
+		HasPrefix:          []string{ "/^[A-Z]([a-zA-Z])+$/i", string(Token.Space) },
+		SetSubclassTo:      Token.RomanNumeralPossessive,
 	}, {
 		// Roman Numeral
-		Current:       REGEX_ROMAN_NUM,
-		SetSubclassTo: Token.RomanNumeral,
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_ROMAN_NUM),
+		SetSubclassTo:      Token.RomanNumeral,
 	}, {
 		// Units
-		Current:       `/^` + Utility.RegexWordListOr(Utility.GetWordsetBoth("./bin/wordsets/units.txt")) + `$/i`,
-		Prefix:        []string{ IGNORE_SPACES, string(Token.Number) },
-		SetSubclassTo: Token.Unit,
+		CurrentByWords:     Utility.GetWordsetBoth("./bin/wordsets/units.txt"),
+		HasPrefix:          []string{ IGNORE_SPACES, string(Token.Number) },
+		SetSubclassTo:      Token.Unit,
 	}, {
 		// New Pharagraph
-		Current:       `/^\s*\n\s*$/`,
-		Prefix:        []string{ string(Token.Punctuation) },
-		SetSubclassTo: Token.NewParagraph,
+		CurrentByRegexp:    Utility.CompileRegex(`/^\s*\n\s*$/`),
+		HasPrefix:          []string{ string(Token.Punctuation) },
+		SetSubclassTo:      Token.NewParagraph,
 	}, {
 		// Punctuation
-		Current:       REGEX_PUNCTUATION,
-		SetSubclassTo: Token.Punctuation,
-		Prefix:        []string{ `/^[^\s]+$/` },
-		Suffix:        []string{ string(Token.Space) },
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_PUNCTUATION),
+		SetSubclassTo:      Token.Punctuation,
+		HasPrefix:          []string{ `/^[^\s]+$/` },
+		HasSuffix:          []string{ string(Token.Space) },
 	}, {
 		// Punctuation - End of Text
-		Current:       REGEX_PUNCTUATION,
-		SetSubclassTo: Token.Punctuation,
-		Prefix:        []string{ `/^[^\s]+$/` },
-		Suffix:        []string{ string(Token.Termination) },
+		CurrentByRegexp:    Utility.CompileRegex(REGEX_PUNCTUATION),
+		SetSubclassTo:      Token.Punctuation,
+		HasPrefix:          []string{ `/^[^\s]+$/` },
+		HasSuffix:          []string{ string(Token.Termination) },
 	}, {
 		// Silent Symbols
-		Current:       `/^[^.@#$%&+=~0-9\sa-zA-Z]$/`,
-		SetSubclassTo: Token.None,
-		SetIsInactiveTo: true,
+		CurrentByRegexp:    Utility.CompileRegex(`/^[^.@#$%&+=~0-9\/\sa-zA-Z]$/`),
+		SetSubclassTo:      Token.None,
+		SetIsInactiveTo:    true,
 	},
 	//! abbreviations
 	//! PERIODS IN BETWEEN ACRYONMS

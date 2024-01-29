@@ -2,12 +2,9 @@
 
 
 ## TODO
-- Convert "heelo (food) nice" -> "hello, food, nice"
 - Ensure Bullet points work
 - Tranformation
-    - Currency
-    - Number Year
-    - Number Currency
+    - Currency ($ and Euro)
     - Phone
     - Date
     - Special - Email, URL, HashTag (Chuncking - de-camelcase)
@@ -15,14 +12,14 @@
 - Implement Abbreivations (Classify, Tranformation)
 - Implement Initialism w/ period (Classify)
 - Implement Initialism w/o periods (Classify, Tranformation)
+- Lemmenizer - https://github.com/aaaton/golem
 - Word De-camelcase
-- Groupings (Spaces don't matter)
-    - math equations
-    - unit
-    - dollars
-    - ()
-    - nouns and posessive roman numerals
 - CLI
+- coloclio terms
+    - 9/11
+    - ww1
+    - ww2
+- Convert "heelo (food) nice" -> "hello, food, nice" consider "foo (food)." -> "foo, food"
 
 
 ## Process
@@ -86,6 +83,7 @@
 - https://huggingface.co/google/flan-t5-base
 - https://github.com/neurosnap/sentences?tab=readme-ov-file
 - https://tomaarsen.github.io/SpanMarkerNER/index.html
+
 
 ## Chat GPT
 ```
