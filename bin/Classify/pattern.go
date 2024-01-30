@@ -63,11 +63,30 @@ var PATTERNS = []*Pattern {
 		CurrentByRegexp:    Utility.CompileRegex("/^[0-9]{5,}$/"),
 		SetSubclassTo:      Token.NumberNominal,
 	}, {
-		// Number Year
+		// Number Nominal - Next to word (Left)
+		CurrentByClass:     Token.Number,
+		HasPrefix:          []string{ string(Token.Word) },
+		SetSubclassTo:      Token.NumberNominal,
+	}, {
+		// Number Nominal - Next to word (right)
+		CurrentByClass:     Token.Number,
+		HasSuffix:          []string{ string(Token.Word) },
+		SetSubclassTo:      Token.NumberNominal,
+	}, {
+		// Number Year (4-Digit)
 		CurrentByRegexp:    Utility.CompileRegex("/^[0-9]{4}$/"),
 		SetSubclassTo:      Token.NumberYear,
 	}, {
-		// Quote Short - Start (1-2 Words)
+		// Number Year (Others)
+		CurrentByClass:     Token.Number,
+		ScanAfter: &PatternScan{
+			Exists: []string{ "ad", "bc", "bce", "ce" },
+			Range: 1,
+			IgnoreSpaces: true,
+		},
+		SetSubclassTo:      Token.NumberYear,
+	}, {
+		// Quote Short - Start (1-2 Words)Ne
 		CurrentByRegexp:    Utility.CompileRegex(REGEX_QUOTE),
 		HasSuffix: 	        []string{ string(Token.Word) },
 		ScanAfter: &PatternScan{
@@ -131,6 +150,11 @@ var PATTERNS = []*Pattern {
 		HasSuffix:          []string{ IGNORE_SPACES, string(Token.Number) },
 		SetSubclassTo:      Token.MathOperation,
 	}, {
+		// Dashes
+		CurrentByWords:     []string{ "-" },
+		HasPrefix:          []string{ string(Token.Word) },
+		SetIsInactiveTo:    true,
+	}, {
 		// Number Prefixes
 		CurrentByWords:     []string{ "-", "+"},
 		HasSuffix:          []string{ IGNORE_SPACES, string(Token.Number) },
@@ -177,6 +201,11 @@ var PATTERNS = []*Pattern {
 		HasPrefix:          []string{ string(Token.Punctuation) },
 		SetSubclassTo:      Token.NewParagraph,
 	}, {
+		// New Pharagraph (Bullet Points)
+		CurrentByRegexp:    Utility.CompileRegex(`/^-$/`),
+		HasPrefix:          []string{ `/^\s*\n\s*$/` },
+		SetSubclassTo:      Token.NewParagraph,
+	}, {
 		// Punctuation
 		CurrentByRegexp:    Utility.CompileRegex(REGEX_PUNCTUATION),
 		SetSubclassTo:      Token.Punctuation,
@@ -189,13 +218,34 @@ var PATTERNS = []*Pattern {
 		HasPrefix:          []string{ `/^[^\s]+$/` },
 		HasSuffix:          []string{ string(Token.Termination) },
 	}, {
+		// Pause for Parentheses - Start (Space)
+		CurrentByClass:     Token.Space,
+		HasPrefix:          []string{ string(Token.Word) },
+		HasSuffix:          []string{ `/^\($/` },
+		SetIsInactiveTo:    true,
+	}, {
+		// Pause for Parentheses - Start (Parentheses)
+		CurrentByRegexp:    Utility.CompileRegex(`/^\($/`),
+		HasPrefix:          []string{ string(Token.Word), string(Token.Space) },
+		SetSubclassTo:      Token.Punctuation,
+	}, {
+		// Pause for Parentheses - End (Parentheses)
+		CurrentByRegexp:    Utility.CompileRegex(`/^\)$/`),
+		HasPrefix:          []string{ string(Token.Word) },
+		HasSuffix:          []string{ string(Token.Space) },
+		SetSubclassTo:      Token.Punctuation,
+	}, {
 		// Silent Symbols
 		CurrentByRegexp:    Utility.CompileRegex(`/^[^.@#$%&+=~0-9\/\sa-zA-Z]$/`),
 		SetSubclassTo:      Token.None,
 		SetIsInactiveTo:    true,
 	}, {
+		// Initialism (w/ Periods)
+		CurrentByRegexp:    Utility.CompileRegex(`/^([A-Z]\.)+([A-Z])(\.)/`),
+		SetSubclassTo:      Token.Initialism,
+	}, {
 		// Initialism
-		CurrentByRegexp:    Utility.CompileRegex(`/^[A-Z]{2,}$/`),
+		CurrentByRegexp:    Utility.CompileRegex(`/^[A-Z]{2,}(s)?$/`),
 		Filter: func (text string) bool {
 			return Utility.IsInitialism(text);
 		},

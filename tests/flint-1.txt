@@ -164,13 +164,13 @@ In September 1991 bosses decided that the main Radio 4 service would be on FM as
 ------OUTPUT------
 In September nineteen ninety-one bosses decided that the main Radio four service would be on F M as F M coverage had by now been extended to cover almost all of the U K.
 ------INPUT------
-At this point, opt-outs were transferred to long wave, which are currently Test Match Special, extra shipping forecasts, The Daily Service and Yesterday in Parliament.
+At this point, opt-outs were transferred to long wave, which are currently Test Match Special, extra shipping forecasts, The Daily Service, and Yesterday in Parliament.
 ------OUTPUT------
 At this point, opt-outs were transferred to long wave, which are currently Test Match Special, extra shipping forecasts, The Daily Service, and Yesterday in Parliament.
 ------INPUT------
 Long wave also very occasionally opts out at other times, such as to broadcast special services, the most recent being when the Pope visited Britain in 2010.
 ------OUTPUT------
-Long wave also very occasionally opts out at other times, such as to broadcast special services, the most recent being when the Pope visited Britain in twenty and ten.
+Long wave also very occasionally opts out at other times, such as to broadcast special services, the most recent being when the Pope visited Britain in twenty ten.
 ------INPUT------
 Radio 4 is part of the Royal Navy's system of Last Resort Letters. In the event of a suspected catastrophic attack on the United Kingdom, submarine commanders, in addition to carrying out other checks, would check for a broadcast signal from Radio 4to verify the annihilation of civilisation in the United Kingdom.
 ------OUTPUT------
@@ -182,7 +182,7 @@ Section three programmes and schedules. Section three point one daily schedule. 
 ------INPUT------
 The five-minute Radio 4 UK Theme (composed by Fritz Spiegl) followed this for 28 years until April 2006.
 ------OUTPUT------
-The five minute Radio four U K Theme composed by Fritz Spiegl followed this for twenty-eight years until April two thousand and six.
+The five-minute Radio four U K Theme composed by Fritz Spiegl followed this for twenty-eight years until April two thousand and six.
 ------INPUT------
 It was replaced by an extension to the early news bulletin, despite some public opposition and a campaign to save it.
 ------OUTPUT------
@@ -198,7 +198,7 @@ On weekdays, Farming Today, which deals with news of relevance to the agricultur
 ------INPUT------
 After the Today programme, the schedule is then determined by the day of the week, though on every weekday there are 'fixtures': Woman's Hour at 10:00, You and Yours at 12:00, The World at One and a repeat of the previous day's The Archers at 2:00 pm, followed by the Afternoon Play at 2:15 pm.
 ------OUTPUT------
-After the Today programme, the schedule is then determined by the day of the week, though on every weekday there are fixtures: Woman's Hour at ten o'clock, You and Yours at twelve o'clock, The World at One and a repeat of the previous day's The Archers at two o'clock pm, followed by the Afternoon Play at two fifteen pm.
+After the Today programme, the schedule is then determined by the day of the week, though on every weekday there are fixtures': Woman's Hour at ten o'clock, You and Yours at twelve o'clock, The World at One and a repeat of the previous day's The Archers at two o'clock pm, followed by the Afternoon Play at two fifteen pm.
 ------INPUT------
 At 5:00 pm another current affairs programme, PM, is broadcast.
 ------OUTPUT------

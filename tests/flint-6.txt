@@ -83,7 +83,7 @@ The isotopes 65Zn, 71Zn, 77Zn, and 78Zn each have only one excited state.
 ------OUTPUT------
 The isotopes sixty-five Zn, seventy-one Zn, seventy-seven Zn, and seventy-eight Zn each have only one excited state.
 ------INPUT------
-The most common decay mode of a radioisotope of zinc with a mass number lower than 66is electron capture.
+The most common decay mode of a radioisotope of zinc with a mass number lower than 66 is electron capture.
 ------OUTPUT------
 The most common decay mode of a radioisotope of zinc with a mass number lower than sixty-six is electron capture.
 ------INPUT------
@@ -91,7 +91,7 @@ The decay product resulting from electron capture is an isotope of copper.
 ------OUTPUT------
 The decay product resulting from electron capture is an isotope of copper.
 ------INPUT------
-The most common decay mode of a radioisotope of zinc with mass number higher than 66is beta decay (_–), which produces an isotope of gallium.
+The most common decay mode of a radioisotope of zinc with mass number higher than 66 is beta decay (_–), which produces an isotope of gallium.
 ------OUTPUT------
 The most common decay mode of a radioisotope of zinc with mass number higher than sixty-six is beta decay, which produces an isotope of gallium.
 ------INPUT------
@@ -147,9 +147,9 @@ This allows for the formation of four covalent bonds by accepting four electron 
 ------OUTPUT------
 This allows for the formation of four covalent bonds by accepting four electron pairs and thus obeying the octet rule.
 ------INPUT------
-The stereochemistry is therefore tetrahedral and the bonds may be described as being formed from sp3 hybrid orbitals on the zinc ion.
+The stereochemistry is therefore tetrahedral and the bonds may be described as being formed from SP3 hybrid orbitals on the zinc ion.
 ------OUTPUT------
-The stereochemistry is therefore tetrahedral and the bonds may be described as being formed from s p three hybrid orbitals on the zinc ion.
+The stereochemistry is therefore tetrahedral and the bonds may be described as being formed from S P three hybrid orbitals on the zinc ion.
 ------INPUT------
 In aqueous solution an octahedral complex, [Zn(H2O) 6]2+ is the predominant species.
 ------OUTPUT------
@@ -169,7 +169,7 @@ Calculations indicate that a zinc compound with the oxidation state of positive 
 ------INPUT------
 Zinc chemistry is similar to the chemistry of the late first-row transition metals nickel and copper, though it has a filled d-shell, so its compounds are diamagnetic and mostly colorless.
 ------OUTPUT------
-Zinc chemistry is similar to the chemistry of the late first row transition metals nickel and copper, though it has a filled d-shell, so its compounds are diamagnetic and mostly colorless.
+Zinc chemistry is similar to the chemistry of the late first-row transition metals nickel and copper, though it has a filled d-shell, so its compounds are diamagnetic and mostly colorless.
 ------INPUT------
 The ionic radii of zinc and magnesium happen to be nearly identical.
 ------OUTPUT------
@@ -195,6 +195,6 @@ See also Clemmensen reduction.
 ------OUTPUT------
 See also Clemmensen reduction.
 ------INPUT------
-Section 3.2 Compounds Binary compounds of zinc are known for most of the metalloids and all the nonmetals except the noble gases.
+Section 3.2 Compounds. Binary compounds of zinc are known for most of the metalloids and all the nonmetals except the noble gases.
 ------OUTPUT------
-Section three point two. Compounds. Binary compounds of zinc are known for most of the metalloids and all the nonmetals except the noble gases.
+Section three point two Compounds. Binary compounds of zinc are known for most of the metalloids and all the nonmetals except the noble gases.

@@ -10,10 +10,13 @@ import (
 
 
 var WORDS = getWords();
-var INITIALISM_OVERRIDE = []string{ "AD" };
+var INITIALISM_OVERRIDE = []string{ "AD", "US" };
 
 
 func IsInitialism(text string) bool {
+	if strings.HasSuffix(text, "s") {
+		text = strings.TrimSuffix(text, "s")
+	}
 	if Contains(INITIALISM_OVERRIDE, strings.ToUpper(text)) {
 		return true
 	}

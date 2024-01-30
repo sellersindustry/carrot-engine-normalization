@@ -19,7 +19,7 @@ As of 2014, some websites were setting cookies readable for over 100 third-party
 ------OUTPUT------
 As of twenty fourteen, some websites were setting cookies readable for over one hundred third-party domains.
 ------INPUT------
-On average, a single website was setting 10 cookies, with maximum number of cookies (first and third-party) reaching over 800.
+On average, a single website was setting 10 cookies, with the maximum number of cookies (first and third-party) reaching over 800.
 ------OUTPUT------
 On average, a single website was setting ten cookies, with the maximum number of cookies, first and third-party, reaching over eight hundred.
 ------INPUT------
@@ -61,7 +61,7 @@ Two such quote on quote supercookie mechanisms were found on Microsoft websites:
 ------INPUT------
 Zombie cookie. Some cookies are automatically recreated after a user has deleted them; these are called zombie cookies.
 ------OUTPUT------
-Zombie cookie. Some cookies are automatically recreated after a user has deleted them. These are called zombie cookies.
+Zombie cookie. Some cookies are automatically recreated after a user has deleted them; these are called zombie cookies.
 ------INPUT------
 This is accomplished by a script storing the content of the cookie in some other locations, such as the local storage available to Flash content, HTML5 storages and other client-side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.
 ------OUTPUT------
@@ -77,7 +77,7 @@ Tracking Tracking cookies may be used to track internet users web browsing.
 ------INPUT------
 This can also be done in part by using the IP address of the computer requesting the page or the referrer field of the HTTP request header, but cookies allow for greater precision.
 ------OUTPUT------
-This can also be done in part by using the IP address of the computer requesting the page or the referrer field of the HTTP request header, but cookies allow for greater precision.
+This can also be done in part by using the I P address of the computer requesting the page or the referrer field of the H T T P request header, but cookies allow for greater precision.
 ------INPUT------
 This can be demonstrated as follows: If the user requests a page of the site, but the request contains no cookie, the server presumes that this is the first page visited by the user; the server creates a random string and sends it as a cookie back to the browser together with the requested page; From this point on, the cookie will automatically be sent by the browser to the server every time a new page from the site is requested; the server sends the page as usual, but also stores the URL of the requested page, the date/time of the request, and the cookie in a log file.
 ------OUTPUT------
@@ -105,7 +105,7 @@ This packet may contain lines requesting the browser to store cookies: The serve
 ------INPUT------
 Set-Cookie is a directive for the browser to store the cookie and send it back in future requests to the server (subject to expiration time or other cookie attributes), if the browser supports cookies and cookies are enabled.
 ------OUTPUT------
-Set Cookie is a directive for the browser to store the cookie and send it back in future requests to the server, subject to expiration time or other cookie attributes, if the browser supports cookies and cookies are enabled.
+Set-Cookie is a directive for the browser to store the cookie and send it back in future requests to the server, subject to expiration time or other cookie attributes, if the browser supports cookies and cookies are enabled.
 ------INPUT------
 For example, the browserrequests the page http://www.example.org/spec.html by sending the server www.example.org a request like the following: This is a request for another page from the same server, and differs from the first one above because it contains the string that the server has previously sent to the browser.
 ------OUTPUT------

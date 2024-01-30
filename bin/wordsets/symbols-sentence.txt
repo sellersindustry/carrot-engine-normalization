@@ -2,7 +2,7 @@
 $		dollars
 %		precent
 &		and
-=		is
+=		equals
 .		dot
 ~		about
 #		hashtag

@@ -5,11 +5,11 @@ The oxide ZnO is a white powder that is nearly insoluble in neutral aqueous solu
 ------INPUT------
 The other chalcogenides (ZnS, ZnSe, and ZnTe) have varied applications in electronics and optics.
 ------OUTPUT------
-The other chalcogenides, zinc sulfide, zinc selenide, and zinc telluride, have varied applications in electronics and optics.
+The other chalcogenides, ZnS, ZnSe, and ZnTe, have varied applications in electronics and optics.
 ------INPUT------
 HTTP COOKIE HTTP cookie A cookie, also known as an HTTP cookie, web cookie, Internet cookie, or browser cookie, is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website.
 ------OUTPUT------
-HTTP cookie. HTTP cookie. A cookie, also known as an HTTP cookie, web cookie, Internet cookie, or browser cookie, is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website.
+H T T P COOKIE H T T P cookie A cookie, also known as an H T T P cookie, web cookie, Internet cookie, or browser cookie, is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website.
 ------INPUT------
 Every time the user loads the website, the browser sends the cookie back to the server to notify the website of the user's previous activity.
 ------OUTPUT------
@@ -21,7 +21,7 @@ Cookies were designed to be a reliable mechanism for websites to remember statef
 ------INPUT------
 Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories-apotential privacy concern that prompted European and U.S. law makers to take action in 2011.
 ------OUTPUT------
-Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long term records of individuals' browsing histories apotential privacy concern that prompted European and U S lawmakers to take action in twenty eleven.
+Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long term records of individuals browsing histories apotential privacy concern that prompted European and U S lawmakers to take action in twenty eleven.
 ------INPUT------
 Cookies can also store passwords and form content a user has previously entered, such as a credit card number or an address. Other kinds of cookies perform essential functions in the modern web.
 ------OUTPUT------
@@ -129,7 +129,7 @@ In February nineteen ninety-six, the working group identified third-party cookie
 ------INPUT------
 The specification produced by the group was eventually published as RFC 2109 in February 1997.
 ------OUTPUT------
-The specification produced by the group was eventually published as R F C twenty-nine sixty-five in February nineteen ninety-seven.
+The specification produced by the group was eventually published as R F C twenty-one o nine in February nineteen ninety-seven.
 ------INPUT------
 It specifies that third-party cookies were either not allowed at all, or at least not enabled by default.
 ------OUTPUT------
@@ -161,7 +161,7 @@ Web browsers normally delete session cookies when the user closes the browser.
 ------INPUT------
 Secure cookie A secure cookie has the secure attribute enabled and is only used via HTTPS, ensuring that the cookie is always encrypted when transmitting from client to server.
 ------OUTPUT------
-A secure cookie has the secure attribute enabled and is only used via H T T P S, ensuring that the cookie is always encrypted when transmitting from client to server.
+Secure cookie A secure cookie has the secure attribute enabled and is only used via H T T P S, ensuring that the cookie is always encrypted when transmitting from client to server.
 ------INPUT------
 This makes the cookie less likely to be exposed to cookie theft via eaves dropping.
 ------OUTPUT------
@@ -177,7 +177,7 @@ On a supported browser, an H T T P only session cookie will be used only when tr
 ------INPUT------
 This restriction mitigates but does not eliminate the threat of session cookie theft via cross-site scripting (XSS).
 ------OUTPUT------
-This restriction mitigates but does not eliminate the threat of session cookie theft via cross-site scripting, XSS.
+This restriction mitigates but does not eliminate the threat of session cookie theft via cross-site scripting, X S S.
 ------INPUT------
 Third-party cookie First-party cookies are cookies that belong to the same domain that is shown in the browser's address bar (or that belong to the sub domain of the domain in the address bar).
 ------OUTPUT------

@@ -25,7 +25,7 @@ Timing is considered sacrosanct on the channel.
 ------INPUT------
 Running over the hour, except in special circumstances or occasional scheduled instance, is unheard of, and even interrupting the Greenwich Time Signal on the hour (known as 'crashing the pips') is frowned upon.
 ------OUTPUT------
-Running over the hour, except in special circumstances or occasional scheduled instance, is unheard of, and even interrupting the Greenwich Time Signal on the hour, known as quote on quote crashing the pips, is frowned upon.
+Running over the hour, except in special circumstances or occasional scheduled instance, is unheard of, and even interrupting the Greenwich Time Signal on the hour, known as quote crashing the pips end quote is frowned upon.
 ------INPUT------
 An online schedule page lists the running order of programmes.
 ------OUTPUT------
@@ -37,7 +37,7 @@ Section three point two Production. Many Radio four programmes are pre-recorded.
 ------INPUT------
 Programmes transmitted live include daily programmes such as Today, magazine programme Woman's Hour, consumer affairs programme You and Yours, and (often) the music, film, books, arts and culture programme Front Row.
 ------OUTPUT------
-Programmes transmitted live include daily programmes such as Today, magazine programme Woman's Hour, consumer affairs programme You and Yours, and often the music, film, books, arts and culture programme Front Row.
+Programmes transmitted live include daily programmes such as Today, magazine programme Woman's Hour, consumer affairs programme You and Yours, and, often, the music, film, books, arts and culture programme Front Row.
 ------INPUT------
 Continuity is generally managed from BBC Broadcasting House whilst news bulletins, including the hourly summaries and longer programmes such as the Six O'Clock News and Midnight News, and news programmes such as Today, The World at One and PM come from the BBC Television Centre in White City.
 ------OUTPUT------
@@ -57,7 +57,7 @@ The Time Signal, known as the pips, is broadcast every hour to herald the news b
 ------INPUT------
 Section 3.3 Programmes Radio 4 is distinguished by its long-running programmes, many of which have been broadcast for over 40 years.
 ------OUTPUT------
-Section three point three Programmes Radio Four is distinguished by its long-running programmes, many of which have been broadcast for over forty years.
+Section three point three Programmes Radio four is distinguished by its long-running programmes, many of which have been broadcast for over forty years.
 ------INPUT------
 Most programmes are available for a week after broadcast as streaming audio from Radio 4's listen again page and via BBC iPlayer.
 ------OUTPUT------
@@ -69,9 +69,9 @@ A selection of programmes is also available as podcasts or downloadable audio fi
 ------INPUT------
 Many comedy and drama programmes from the Radio 4 archives are rebroadcast on BBC Radio 4 Extra (formerly BBC Radio 7).
 ------OUTPUT------
-Many comedy and drama programmes from the Radio four archives are rebroadcast on BBC Radio four Extra, formerly BBC Radio seven.
+Many comedy and drama programmes from the Radio four archives are rebroadcast on B B C Radio four Extra, formerly B B C Radio seven
 ------INPUT------
-Section 4. Continuity announcers and newsreaders Announcers link programmes and read trails for programmes and for the Shipping Forecast.
+Section 4. Continuity announcers and newsreaders. Announcers link programmes and read trails for programmes and for the Shipping Forecast.
 ------OUTPUT------
 Section four. Continuity announcers and newsreaders. Announcers link programmes and read trails for programmes and for the Shipping Forecast.
 ------INPUT------
@@ -93,7 +93,7 @@ There have been criticisms voiced by newspapers in recent years over a perceived
 ------INPUT------
 Conversely, the controversial Muslim journalist Mehdi Hasan, has criticised the station for an overtly "socially and culturally conservative" approach.
 ------OUTPUT------
-Conversely, the controversial Muslim journalist Mehdi Hasan, has criticized the station for an overtly quote on quote socially and culturally conservative end quote approach.
+Conversely, the controversial Muslim journalist Mehdi Hasan, has criticised the station for an overtly quote socially and culturally conservative end quote approach.
 ------INPUT------
 500 euro note The five hundred euro note (€ 500) is the highest value euro banknote and has been used since the introduction of the euro (in its cash form) in 2002.
 ------OUTPUT------
@@ -101,11 +101,11 @@ Five hundred euro note. The five hundred euro note, five hundred euro, is the hi
 ------INPUT------
 It is one of the highest value banknotes in the world, worth around 670 USD, 4,300 CNY, 51,300 JPY, 600 CHF or 430 GBP.
 ------OUTPUT------
-It is one of the highest value banknotes in the world, worth around six hundred and seventy dollars, four thousand three hundred Chinese yuan, fifty one thousand three hundred Japanese yen, six hundred Swiss francs or four hundred and thirty British pounds.
+It is one of the highest value banknotes in the world, worth around six hundred and seventy U S D, four thousand three hundred C N Y, fifty-one thousand three hundred J P Y, six hundred C H F or four hundred and thirty G B P.
 ------INPUT------
 The note is used in the 22 countries which have it as their sole currency (with 20 legally adopting it); with a population of about 332 million.
 ------OUTPUT------
-The note is used in the twenty-two countries which have it as their sole currency (with twenty legally adopting it); with a population of about three hundred and thirty-two million.
+The note is used in the twenty-two countries which have it as their sole currency, with twenty legally adopting it; with a population of about three hundred and thirty-two million.
 ------INPUT------
 It is the largest note measuring 160 x 82 mm and has a purple colour scheme.
 ------OUTPUT------
@@ -125,7 +125,7 @@ In October two thousand and eleven, there were approximately five hundred ninety
 ------INPUT------
 Table of contents Section 1 History Legally, both the European Central Bank and the NCBs of the eurozone countries' National Central Banks have received the right to issue the 7 different euro notes from the ECB.
 ------OUTPUT------
-Table of contents Section one History Legally, both the European Central Bank and the NCBs of the eurozone countries' National Central Banks have received the right to issue the seven different euro notes from the ECB.
+Table of contents Section one History Legally, both the European Central Bank and the N C Bs of the eurozone countries National Central Banks have received the right to issue the seven different euro notes from the E C B.
 ------INPUT------
 In practice, the NCBs of the zone issue and withdraw euro notes.
 ------OUTPUT------
@@ -137,7 +137,7 @@ The European Central Bank does not own an office containing cash and has not bee
 ------INPUT------
 Before the introduction, the euro was founded at the date of January 1st 1999, after which it began being the currency of over 300 million Europeans.
 ------OUTPUT------
-Before the introduction, the euro was founded at the date of January first, nineteen ninety-nine, after which it began being the currency of over three hundred million Europeans.
+Before the introduction, the euro was founded at the date of January first nineteen ninety-nine, after which it began being the currency of over three hundred million Europeans.
 ------INPUT------
 For the first three years of its existence it was a currency which was used only in accounting.
 ------OUTPUT------
@@ -145,11 +145,11 @@ For the first three years of its existence it was a currency which was used only
 ------INPUT------
 Euro banknotes and coins were introduced on January 1st 2002, and on that day it replaced the former cash of the eurozone 12 , as it was then, national currencies like the Irish Pound and the Austrian schilling.
 ------OUTPUT------
-Euro banknotes and coins were introduced on January first two thousand and two, and on that day it replaced the former cash of the eurozone twelve, as it was then, national currencies like the Irish Pound and the Austrian schilling.
+Euro banknotes and coins were introduced on January first two thousand and two, and on that day it replaced the former cash of the eurozone twelve as it was then, national currencies like the Irish Pound and the Austrian schilling.
 ------INPUT------
-After the introduction, The changeover period during which the former currencies' notes and coins were exchanged for those of the euro lasted about two months, until 28February 2002.
+After the introduction, The changeover period during which the former currencies' notes and coins were exchanged for those of the euro lasted about two months, until 28 February 2002.
 ------OUTPUT------
-After the introduction, the changeover period during which the former currencies' notes and coins were exchanged for those of the euro lasted about two months, until twenty-eighth February two thousand and two.
+After the introduction, the changeover period during which the former currencies notes and coins were exchanged for those of the euro lasted about two months, until twenty-eighth February two thousand and two.
 ------INPUT------
 The official date on which the national currencies ceased to be legal tender varied from member state to member state.
 ------OUTPUT------
@@ -165,7 +165,7 @@ Even after the old currencies ceased to be legal tender, they continued to be ac
 ------INPUT------
 Changes There has so far only been one series of euro notes, however a new series similar to the current one is to be issued from 2011.
 ------OUTPUT------
-Changes. There has so far only been one series of euro notes, however a new series similar to the current one is to be issued from two thousand and eleven.
+Changes There has so far only been one series of euro notes, however a new series similar to the current one is to be issued from twenty eleven.
 ------INPUT------
 The initial issue of notes bears the signature of the first president of the European Central Bank, Wim Duisenberg, who was replaced on November 1st 2003 by Jean-Claude Trichet, whose signature appears on subsequent issues.
 ------OUTPUT------
@@ -177,13 +177,13 @@ Design The five hundred euro note measures at one hundred and sixty millimetres 
 ------INPUT------
 All bank notes depict bridges and arches/doorways in a different historical European style; the five hundred euro note shows Modern architecture (around the 20th century).
 ------OUTPUT------
-All bank notes depict bridges and arches or doorways in a different historical European style. The five hundred euro note shows Modern architecture, around the twentieth century.
+All bank notes depict bridges and arches slash doorways in a different historical European style; the five hundred euro note shows Modern architecture, around the twentieth century.
 ------INPUT------
 Although Robert Kalina's original designs were intended to show real monuments, for political reasons the bridge and art are merely hypothetical examples of the architectural era.
 ------OUTPUT------
 Although Robert Kalina's original designs were intended to show real monuments, for political reasons the bridge and art are merely hypothetical examples of the architectural era.
 ------INPUT------
-Like all euro notes, it contains the denomination, the EU flag, the signature of the president of the ECB and the initials of said bank in different EU languages, a depiction of EU territories overseas, the stars from the EU flag and twelve security features as listed below.
+Like all euro notes, it contains the denomination, the EU flag, the signature of the president of the ECB and the initials of said bank in different EU languages, a depiction of EU territories overseas, the stars from the EU flag, and twelve security features as listed below.
 ------OUTPUT------
 Like all euro notes, it contains the denomination, the E U flag, the signature of the president of the E C B and the initials of said bank in different E U languages, a depiction of E U territories overseas, the stars from the E U flag, and twelve security features as listed below.
 ------INPUT------

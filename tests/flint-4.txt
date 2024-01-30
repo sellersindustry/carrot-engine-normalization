@@ -21,7 +21,7 @@ The River Frome estuary runs through this weak rock, and its many tributaries ha
 ------INPUT------
 At the mouth of the estuary sand spits have been deposited turning the estuary into Poole Harbour, the second largest natural harbour in the world (after Sydney Harbour, though Sydney's claim is disputed).
 ------OUTPUT------
-At the mouth of the estuary sand spits have been deposited turning the estuary into Poole Harbour, the second largest natural harbour in the world, quote on quote after Sydney Harbour, though Sydney's claim is disputed.
+At the mouth of the estuary sand spits have been deposited turning the estuary into Poole Harbour, the second largest natural harbour in the world, after Sydney Harbour, though Sydney's claim is disputed.
 ------INPUT------
 The harbour is very shallow in places and contains a number of islands, notably Brownsea Island, famous for its Red Squirrel sanctuary and as the birthplace of the Scouting movement.
 ------OUTPUT------
@@ -33,7 +33,7 @@ The harbour, and the chalk and limestone hills of the Purbecks to the south, lie
 ------INPUT------
 The field, operated by BP from Wytch Farm, produces a high-quality oil and boasts the world's oldest continuously pumping well (Kimmeridge, since the early 1960s) and longest horizontal drill (5 miles, ending underneath Bournemouth pier).
 ------OUTPUT------
-The field, operated by B P from Wytch Farm, produces a high-quality oil and boasts the world's oldest continuously pumping well (Kimmeridge, since the early nineteen sixties) and longest horizontal drill (five miles, ending underneath Bournemouth pier).
+The field, operated by B P from Wytch Farm, produces a high-quality oil and boasts the world's oldest continuously pumping well, Kimmeridge, since the early nineteen sixties, and longest horizontal drill, five miles, ending underneath Bournemouth pier.
 ------INPUT------
 The clay pottery produced by Poole Pottery from the local clays is famous for its quality.
 ------OUTPUT------

@@ -69,7 +69,7 @@ By twenty seventeen, renewable energy sources had become more economically viabl
 ------INPUT------
 In 2021, the development of mRNA vaccines played a crucial role in managing the COVID-19 pandemic.
 ------OUTPUT------
-In twenty twenty-one, the development of messenger RNA vaccines played a crucial role in managing the C O V I D nineteen pandemic.
+In twenty twenty-one, the development of mRNA vaccines played a crucial role in managing the C O V I D nineteen pandemic.
 ------INPUT------
 The 2027 inauguration of the first fully autonomous electric vehicle marked a milestone in transportation.
 ------OUTPUT------
@@ -85,7 +85,7 @@ In fifteen hundred, the Renaissance was in full swing, bringing about a cultural
 ------INPUT------
 The year 1558 marked the beginning of Queen Elizabeth I's reign, a period known as the Elizabethan Era.
 ------OUTPUT------
-The year fifteen fifty eight marked the beginning of Queen Elizabeth the first's reign, a period known as the Elizabethan Era.
+The year fifteen fifty-eight marked the beginning of Queen Elizabeth the first's reign, a period known as the Elizabethan Era.
 ------INPUT------
 By 1607, English settlers established the Jamestown colony in North America.
 ------OUTPUT------
@@ -109,7 +109,7 @@ In seventeen fifty-four, tensions between European powers ignited the Seven Year
 ------INPUT------
 The American Revolutionary War began in 1775, ultimately leading to the United States' independence in 1783.
 ------OUTPUT------
-The American Revolutionary War began in seventeen seventy-five, ultimately leading to the United States' independence in seventeen eighty-three.
+The American Revolutionary War began in seventeen seventy-five, ultimately leading to the United States independence in seventeen eighty-three.
 ------INPUT------
 The French Revolution, starting in 1789, marked a period of radical political and social upheaval in France.
 ------OUTPUT------
@@ -165,7 +165,7 @@ In five hundred B C, the Persian Empire under Darius the Great reached its zenit
 ------INPUT------
 The construction of the Great Wall of China began around 214 BC during the Qin Dynasty.
 ------OUTPUT------
-The construction of the Great Wall of China began around two hundred and fourteen B C during the Qin Dynasty.
+The construction of the Great Wall of China began around two fourteen B C during the Qin Dynasty.
 ------INPUT------
 Julius Caesar was assassinated in 44 BC, marking a pivotal moment in Roman history.
 ------OUTPUT------
@@ -201,11 +201,11 @@ In four seventy-six A D, the Western Roman Empire officially fell, marking the e
 ------INPUT------
 The founding of the city of Baghdad in 762 AD marked the beginning of the Islamic Golden Age.
 ------OUTPUT------
-The founding of the city of Baghdad in seven hundred and sixty-two A D marked the beginning of the Islamic Golden Age.
+The founding of the city of Baghdad in seven sixty-two A D marked the beginning of the Islamic Golden Age.
 ------INPUT------
 The Viking raids on Lindisfarne in 793 AD are often considered the start of the Viking Age.
 ------OUTPUT------
-The Viking raids on Lindisfarne in seven hundred and ninety-three A D are often considered the start of the Viking Age.
+The Viking raids on Lindisfarne in seven ninety-three A D are often considered the start of the Viking Age.
 ------INPUT------
 In 1066 AD, the Battle of Hastings resulted in the Norman conquest of England.
 ------OUTPUT------

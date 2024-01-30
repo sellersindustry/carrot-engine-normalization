@@ -3,7 +3,7 @@ Thus a large monetary value can be concentrated into a small volume of notes.
 ------OUTPUT------
 Thus a large monetary value can be concentrated into a small volume of notes.
 ------INPUT------
-This facilitates crimes which deal in cash, including money laundering, drug dealing and tax evasion.
+This facilitates crimes which deal in cash, including money laundering, drug dealing, and tax evasion.
 ------OUTPUT------
 This facilitates crimes which deal in cash, including money laundering, drug dealing, and tax evasion.
 ------INPUT------
@@ -21,7 +21,7 @@ Spain in particular now has a quarter of all these high-value bills within its b
 ------INPUT------
 This is far more than expected for an economy of its size and they are rarely seen in every-day commerce – they have been nicknamed "bin Ladens" by the populace (as everyone knows they are there and what they look like but they have never seen them).
 ------OUTPUT------
-This is far more than expected for an economy of its size and they are rarely seen in everyday commerce. They have been nicknamed "bin Ladens" by the populace, as everyone knows they are there and what they look like but they have never seen them.
+This is far more than expected for an economy of its size and they are rarely seen in every-day commerce they have been nicknamed quote on quote bin Ladens by the populace, as everyone knows they are there and what they look like but they have never seen them.
 ------INPUT------
 British and Spanish police are using the bills to track money laundering.
 ------OUTPUT------
@@ -177,7 +177,7 @@ This pattern is repeated at the national level.
 ------INPUT------
 Before the dissolution of Parliament for the 2005 general election Dorset South was represented by Labour MP Jim Knight, though this constituency was Labour's smallest majority and is one of the most fiercely contested seats in the election.
 ------OUTPUT------
-Before the dissolution of Parliament for the two thousand and five general election Dorset South was represented by Labour Member of Parliament Jim Knight, though this constituency was Labour's smallest majority and is one of the most fiercely contested seats in the election.
+Before the dissolution of Parliament for the two thousand and five general election Dorset South was represented by Labour M P Jim Knight, though this constituency was Labour's smallest majority and is one of the most fiercely contested seats in the election.
 ------INPUT------
 In all other Dorset constituencies, the Conservatives and Liberal Democrats are the most successful parties, with Mid-Dorset and North Poole being represented by the Liberal Democrats, and West Dorset, Christchurch and North Dorset by the Conservatives.
 ------OUTPUT------

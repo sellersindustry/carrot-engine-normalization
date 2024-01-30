@@ -28,15 +28,12 @@ var PATTERNS = []*Pattern {
 	}, {
 		Subclass: Token.NumberCurrency,
 		Function: func (index int, tokens *[]Token.Model) string {
-			for offset := 1; offset <= 3; offset++ {
-				if offset > 0 {
-					continue;
-				}
-				if (*tokens)[index - offset].Original == "$" {
+			if index != 0 {
+				if (*tokens)[index - 1].Original == "$" {
 					return Wordify.NumberCurrency((*tokens)[index].Original, "$");
 				}
-				if (*tokens)[index - offset].Original == "€" {
-					return Wordify.NumberCurrency((*tokens)[index].Original, "$");
+				if (*tokens)[index - 1].Original == "€" {
+					return Wordify.NumberCurrency((*tokens)[index].Original, "€");
 				}
 			}
 			return Wordify.NumberCurrency((*tokens)[index].Original, "");
@@ -130,7 +127,17 @@ var PATTERNS = []*Pattern {
 	}, {
 		Subclass: Token.Initialism,
 		Function: func (index int, tokens *[]Token.Model) string {
-			return strings.Join(strings.Split((*tokens)[index].Original, ""), " ");
+			text := (*tokens)[index].Original;
+			if strings.HasSuffix((*tokens)[index].Original, "s") {
+				text = strings.TrimSuffix(text, "s");
+			}
+			text = strings.ReplaceAll(text, ".", "");
+
+			buffer := strings.Join(strings.Split(text, ""), " ")
+			if strings.HasSuffix((*tokens)[index].Original, "s") {
+				buffer += "s";
+			}
+			return buffer;
 		},
 	}, {
 		Class: Token.Special,
@@ -143,13 +150,14 @@ var PATTERNS = []*Pattern {
 			return "{{PAUSE}}";
 		},
 	}, {
-		Class: Token.Space,
-		Function: func (index int, tokens *[]Token.Model) string {
-			return " ";
-		},
-	}, {
 		Subclass: Token.Punctuation,
 		Function: func (index int, tokens *[]Token.Model) string {
+			if ((*tokens)[index].Original == "(") {
+				return ",";
+			}
+			if ((*tokens)[index].Original == ")") {
+				return ",";
+			}
 			return (*tokens)[index].Original;
 		},
 	}, {

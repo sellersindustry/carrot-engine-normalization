@@ -49,7 +49,7 @@ The research study involved a sample size of one thousand participants.
 ------INPUT------
 The recipe called for 0.5 cups of olive oil.
 ------OUTPUT------
-The recipe called for half a cup of olive oil.
+The recipe called for zero point five cups of olive oil.
 ------INPUT------
 The winning team scored a total of 78 points in the basketball game.
 ------OUTPUT------
@@ -121,7 +121,7 @@ The smartphone's screen resolution is one thousand and eighty by two thousand th
 ------INPUT------
 The recipe calls for 1.5 teaspoons of vanilla extract.
 ------OUTPUT------
-The recipe calls for one and a half teaspoons of vanilla extract.
+The recipe calls for one point five teaspoons of vanilla extract.
 ------INPUT------
 The winning team scored a total of 78 points in the game.
 ------OUTPUT------
