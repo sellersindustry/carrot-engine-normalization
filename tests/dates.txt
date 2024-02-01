@@ -1,0 +1,140 @@
+------INPUT------
+The meeting is scheduled for 2/15/2024.
+------OUTPUT------
+The meeting is scheduled for two fifteen twenty twenty-four.
+------INPUT------
+He was born on 11-5-98.
+------OUTPUT------
+He was born on eleven five ninety-eight.
+------INPUT------
+The event is set for 6/7/2023.
+------OUTPUT------
+The event is set for six seven twenty twenty-three.
+------INPUT------
+The deadline is 07.03.2025.
+------OUTPUT------
+The deadline is seven three twenty twenty-five.
+------INPUT------
+Her birthday is on 12.10.2000.
+------OUTPUT------
+Her birthday is on twelve ten two thousand.
+------INPUT------
+They got married on 1/1/05.
+------OUTPUT------
+They got married on one one o five.
+------INPUT------
+The project started on 9-30-2022.
+------OUTPUT------
+The project started on nine thirty twenty twenty-two.
+------INPUT------
+The concert is on 10.10.25.
+------OUTPUT------
+The concert is on ten ten twenty-five.
+------INPUT------
+The lease expires on 04/12/2023.
+------OUTPUT------
+The lease expires on four twelve twenty twenty-three.
+------INPUT------
+The registration deadline is 3/25/2024.
+------OUTPUT------
+The registration deadline is three twenty-five twenty twenty-four.
+------INPUT------
+The festival will be held on 8-16-2023.
+------OUTPUT------
+The festival will be held on eight sixteen twenty twenty-three.
+------INPUT------
+The release date is 02.08.25.
+------OUTPUT------
+The release date is two eight twenty-five.
+------INPUT------
+The anniversary is on 5-1-2023.
+------OUTPUT------
+The anniversary is on five one twenty twenty-three.
+------INPUT------
+The deadline is 10/05/2024.
+------OUTPUT------
+The deadline is ten five twenty twenty-four.
+------INPUT------
+The conference is scheduled for 11.15.25.
+------OUTPUT------
+The conference is scheduled for eleven fifteen twenty-five.
+------INPUT------
+She was born on 8/7/99.
+------OUTPUT------
+She was born on eight seven ninety-nine.
+------INPUT------
+The event will take place on 9-1-23.
+------OUTPUT------
+The event will take place on nine one twenty-three.
+------INPUT------
+The lease expires on 02/28/2023.
+------OUTPUT------
+The lease expires on two twenty-eight twenty twenty-three.
+------INPUT------
+The concert is on 6-22-2024.
+------OUTPUT------
+The concert is on six twenty-two twenty twenty-four.
+------INPUT------
+The registration deadline is 11.10.23.
+------OUTPUT------
+The registration deadline is eleven ten twenty-three.
+------INPUT------
+The festival will be held on 3/14/2025.
+------OUTPUT------
+The festival will be held on three fourteen twenty twenty-five.
+------INPUT------
+The release date is 09-05-24.
+------OUTPUT------
+The release date is nine five twenty-four.
+------INPUT------
+The anniversary is on 12/1/2022.
+------OUTPUT------
+The anniversary is on twelve one twenty twenty-two.
+------INPUT------
+The deadline is 7/31/2023.
+------OUTPUT------
+The deadline is seven thirty-one twenty twenty-three.
+------INPUT------
+The conference is scheduled for 8.25.2024.
+------OUTPUT------
+The conference is scheduled for eight twenty-five twenty twenty-four.
+------INPUT------
+She was born on 10-5-97.
+------OUTPUT------
+She was born on ten five ninety-seven.
+------INPUT------
+The event will take place on 5.12.2023.
+------OUTPUT------
+The event will take place on five twelve twenty twenty-three.
+------INPUT------
+The lease expires on 02/29/2024.
+------OUTPUT------
+The lease expires on two twenty-nine twenty twenty-four.
+------INPUT------
+The concert is on 9/3/2025.
+------OUTPUT------
+The concert is on nine three twenty twenty-five.
+------INPUT------
+The registration deadline is 12.7.2022.
+------OUTPUT------
+The registration deadline is twelve seven twenty twenty-two.
+------INPUT------
+The festival will be held on 4/16/2023.
+------OUTPUT------
+The festival will be held on four sixteen twenty twenty-three.
+------INPUT------
+The release date is 08-20-25.
+------OUTPUT------
+The release date is eight twenty twenty-five.
+------INPUT------
+The anniversary is on 11.2.2024.
+------OUTPUT------
+The anniversary is on eleven two twenty twenty-four.
+------INPUT------
+The deadline is 5/9/2023.
+------OUTPUT------
+The deadline is five nine twenty twenty-three.
+------INPUT------
+The conference is scheduled for 6.15.2025.
+------OUTPUT------
+The conference is scheduled for six fifteen twenty twenty-five.

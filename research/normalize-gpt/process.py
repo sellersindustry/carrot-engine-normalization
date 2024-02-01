@@ -18,4 +18,4 @@ def process_file(input, output):
     inputFile.close()
 
 
-process_file("../../tests/numbers.txt", "../../tests/numbers-output.txt")
+process_file("../../tests/dates.txt", "../../tests/dates-output.txt")

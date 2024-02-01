@@ -3,20 +3,18 @@ package Token
 type Class string
 type Subclass string
 
-
 const (
-	Control        Class = "{{CLASS:CONTROL}}"
-	Space          Class = "{{CLASS:SPACE}}"
-	Date           Class = "{{CLASS:DATE}}"
-	Time           Class = "{{CLASS:TIME}}"
-	Special        Class = "{{CLASS:SPECIAL}}"
-	Phone          Class = "{{CLASS:PHONE}}"
-	Number         Class = "{{CLASS:NUMBER}}"
-	Word           Class = "{{CLASS:WORD}}"
-	Symbol         Class = "{{CLASS:SYMBOL}}"
-	Termination    Class = "{{CLASS:TERMINATION}}"
+	Control     Class = "{{CLASS:CONTROL}}"
+	Space       Class = "{{CLASS:SPACE}}"
+	Date        Class = "{{CLASS:DATE}}"
+	Time        Class = "{{CLASS:TIME}}"
+	Special     Class = "{{CLASS:SPECIAL}}"
+	Phone       Class = "{{CLASS:PHONE}}"
+	Number      Class = "{{CLASS:NUMBER}}"
+	Word        Class = "{{CLASS:WORD}}"
+	Symbol      Class = "{{CLASS:SYMBOL}}"
+	Termination Class = "{{CLASS:TERMINATION}}"
 )
-
 
 const (
 	None                   Subclass = "{{SUBCLASS:NONE}}"
@@ -36,8 +34,7 @@ const (
 	Per                    Subclass = "{{SUBCLASS:PER}}"
 	QuoteStart             Subclass = "{{SUBCLASS:QUOTE_START}}"
 	QuoteStartShort        Subclass = "{{SUBCLASS:QUOTE_SHORT}}"
-	QuoteEnd	           Subclass = "{{SUBCLASS:QUOTE_END}}"
+	QuoteEnd               Subclass = "{{SUBCLASS:QUOTE_END}}"
 	MathPrefix             Subclass = "{{SUBCLASS:MATH_PREFIX}}"
 	MathOperation          Subclass = "{{SUBCLASS:MATH_OPERATION}}"
 )
-
