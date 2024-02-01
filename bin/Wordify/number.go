@@ -67,22 +67,6 @@ func NumberYear(text string) string {
 		return Number(strconv.Itoa(secondHalf));
 	}
 	return Number(strconv.Itoa(firstHalf)) + " " + Number(strconv.Itoa(secondHalf));
-
-	// if len(text) != 4 {
-	// 	return Number(text);
-	// }
-	// firstHalf  := parseInt(text[0:2]);
-	// secondHalf := parseInt(text[2:4]);
-	// if firstHalf == 20 && secondHalf >= 0 && secondHalf <= 9 {
-	// 	return Number(text);
-	// }
-	// if firstHalf > 10 && secondHalf >= 0 && secondHalf <= 9 {
-	// 	return Number(strconv.Itoa(firstHalf)) + " o " + Number(strconv.Itoa(secondHalf));
-	// }
-	// if firstHalf > 0 && secondHalf == 0 {
-	// 	return Number(strconv.Itoa(firstHalf)) + " hundred";
-	// }
-	// return Number(strconv.Itoa(firstHalf)) + " " + Number(strconv.Itoa(secondHalf));
 }
 
 

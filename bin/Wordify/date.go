@@ -14,8 +14,7 @@ func Date(text string) string {
 
 	for i, part := range parts {
 		if _, err := strconv.Atoi(part); err == nil {
-			switch i {
-			case 2:
+			if i == 2 {
 				if len(part) == 4 {
 					normalizedDate = append(normalizedDate, NumberYear(part))
 				} else if len(part) == 2 && strings.HasPrefix(part, "0") {
@@ -23,7 +22,7 @@ func Date(text string) string {
 				} else {
 					normalizedDate = append(normalizedDate, Number(part))
 				}
-			default:
+			} else {
 				normalizedDate = append(normalizedDate, Number(part))
 			}
 		} else {

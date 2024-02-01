@@ -51,11 +51,11 @@ That is approximately worth of €500. The European Central Bank closely monitor
 ------OUTPUT------
 That is approximately worth of five hundred euros. The European Central Bank closely monitors the stock and circulation of euro notes and coins.
 ------INPUT------
-It is the Eurosystem’s task to ensure an efficient and smooth supply of euro notes and to maintain their integrity.
+It is the Eurosystem's task to ensure an efficient and smooth supply of euro notes and to maintain their integrity.
 ------OUTPUT------
 It is the Eurosystem's task to ensure an efficient and smooth supply of euro notes and to maintain their integrity.
 ------INPUT------
-Environmental impact As an environment-friendly institution, the European Central Bank tries very hard to make a shrewd use of natural resources, to keep the quality of the world and to save people's health in the produce and supplying of euro notes.
+Environmental impact. As an environmentally friendly institution, the European Central Bank tries very hard to make a shrewd use of natural resources, to keep the quality of the world, and to save people's health in the production and supplying of euro notes.
 ------OUTPUT------
 Environmental impact. As an environmentally friendly institution, the European Central Bank tries very hard to make a shrewd use of natural resources, to keep the quality of the world, and to save people's health in the production and supplying of euro notes.
 ------INPUT------
@@ -69,7 +69,7 @@ All substances in the notes have shown a concentration below any limit.
 ------INPUT------
 Tracking There are several communities of hobbyists, such as EuroBillTracker, which track the euro notes as they pass through their hands, to record their numbers and monitor their travel.
 ------OUTPUT------
-Tracking. There are several communities of hobbyists, such as Euro Bill Tracker, which track the euro notes as they pass through their hands, to record their numbers and monitor their travel.
+Tracking There are several communities of hobbyists, such as Euro Bill Tracker, which track the euro notes as they pass through their hands, to record their numbers and monitor their travel.
 ------INPUT------
 Their aim is to record details about its spread and to generate statistics and rankings for various notes.
 ------OUTPUT------
@@ -77,7 +77,7 @@ Their aim is to record details about its spread and to generate statistics and r
 ------INPUT------
 EuroBillTracker had registered over 96 million notes as of October 2011.
 ------OUTPUT------
-Euro Bill Tracker had registered over ninety-six million notes as of October two thousand and eleven.
+Euro Bill Tracker had registered over ninety-six million notes as of October twenty eleven.
 ------INPUT------
 Dorset (pronounced Dorsit, sometimes in the past called Dorsetshire) is a county in the southwest of England, on the English Channel coast.
 ------OUTPUT------

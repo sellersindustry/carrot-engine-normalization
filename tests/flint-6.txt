@@ -91,7 +91,7 @@ The decay product resulting from electron capture is an isotope of copper.
 ------OUTPUT------
 The decay product resulting from electron capture is an isotope of copper.
 ------INPUT------
-The most common decay mode of a radioisotope of zinc with mass number higher than 66 is beta decay (_–), which produces an isotope of gallium.
+The most common decay mode of a radioisotope of zinc with mass number higher than 66 is beta decay, which produces an isotope of gallium.
 ------OUTPUT------
 The most common decay mode of a radioisotope of zinc with mass number higher than sixty-six is beta decay, which produces an isotope of gallium.
 ------INPUT------

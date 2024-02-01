@@ -69,7 +69,7 @@ A selection of programmes is also available as podcasts or downloadable audio fi
 ------INPUT------
 Many comedy and drama programmes from the Radio 4 archives are rebroadcast on BBC Radio 4 Extra (formerly BBC Radio 7).
 ------OUTPUT------
-Many comedy and drama programmes from the Radio four archives are rebroadcast on B B C Radio four Extra, formerly B B C Radio seven
+Many comedy and drama programmes from the Radio four archives are rebroadcast on B B C Radio four Extra, formerly B B C Radio seven.
 ------INPUT------
 Section 4. Continuity announcers and newsreaders. Announcers link programmes and read trails for programmes and for the Shipping Forecast.
 ------OUTPUT------

@@ -1,11 +1,11 @@
 ------INPUT------
 The oxide ZnO is a white powder that is nearly insoluble in neutral aqueous solutions, but is amphoteric, dissolving in both strong basic and acidic solutions.
 ------OUTPUT------
-The oxide ZnO is a white powder that is nearly insoluble in neutral aqueous solutions, but is amphoteric, dissolving in both strong basic and acidic solutions.
+The oxide Zn O is a white powder that is nearly insoluble in neutral aqueous solutions, but is amphoteric, dissolving in both strong basic and acidic solutions.
 ------INPUT------
 The other chalcogenides (ZnS, ZnSe, and ZnTe) have varied applications in electronics and optics.
 ------OUTPUT------
-The other chalcogenides, ZnS, ZnSe, and ZnTe, have varied applications in electronics and optics.
+The other chalcogenides, Zn S, Zn Se, and Zn Te, have varied applications in electronics and optics.
 ------INPUT------
 HTTP COOKIE HTTP cookie A cookie, also known as an HTTP cookie, web cookie, Internet cookie, or browser cookie, is a small piece of data sent from a website and stored in a user's web browser while the user is browsing that website.
 ------OUTPUT------
@@ -51,9 +51,9 @@ Magic cookies were already used in computing when computer programmer Lou Montul
 ------OUTPUT------
 Magic cookies were already used in computing when computer programmer Lou Montulli had the idea of using them in web communications in June nineteen ninety-four.
 ------INPUT------
-At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for MCI.
+At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for MCIP.
 ------OUTPUT------
-At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for M C I.
+At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for M C I P.
 ------INPUT------
 Vint Cerf and John Klensin represented MCI in technical discussions with Netscape Communications.
 ------OUTPUT------
@@ -167,13 +167,13 @@ This makes the cookie less likely to be exposed to cookie theft via eaves droppi
 ------OUTPUT------
 This makes the cookie less likely to be exposed to cookie theft via eaves dropping.
 ------INPUT------
-HttpOnly cookie The HTTP Only attribute is supported by most modern browsers.
+HttpOnly cookie. The HTTP only attribute is supported by most modern browsers.
 ------OUTPUT------
-Http only cookie. The H T T P only attribute is supported by most modern browsers.
+Http Only cookie. The H T T P only attribute is supported by most modern browsers.
 ------INPUT------
 On a supported browser, an HTTP Only session cookie will be used only when transmitting HTTP (or HTTPS) requests, thus restricting access from other, non-HTTP APIs such as JavaScript.
 ------OUTPUT------
-On a supported browser, an H T T P only session cookie will be used only when transmitting HTTP or HTTPS requests, thus restricting access from other, non-HTTP APIs such as JavaScript.
+On a supported browser, an H T T P Only session cookie will be used only when transmitting H T T P, or H T T P S, requests, thus restricting access from other, non-H T T P A P Is such as Java Script.
 ------INPUT------
 This restriction mitigates but does not eliminate the threat of session cookie theft via cross-site scripting (XSS).
 ------OUTPUT------

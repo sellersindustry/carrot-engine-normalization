@@ -57,7 +57,7 @@ Supercookie, other uses. The term quote on quote supercookie is sometimes used f
 ------INPUT------
 Two such "supercookie" mechanisms were found on Microsoft websites: cookie syncing that respawned MUID (Machine Unique Identifier) cookies, and ETag cookies. Due to media attention, Microsoft later disabled this code.
 ------OUTPUT------
-Two such quote on quote supercookie mechanisms were found on Microsoft websites: cookie syncing that respawned MUID quote on quote Machine Unique Identifier cookies, and ETag cookies. Due to media attention, Microsoft later disabled this code.
+Two such quote on quote supercookie mechanisms were found on Microsoft websites: cookie syncing that respawned M U I D, Machine Unique Identifier, cookies, and E Tag cookies. Due to media attention, Microsoft later disabled this code.
 ------INPUT------
 Zombie cookie. Some cookies are automatically recreated after a user has deleted them; these are called zombie cookies.
 ------OUTPUT------
@@ -121,7 +121,7 @@ The server answers by sending the requested page, possibly adding other cookies 
 ------INPUT------
 The value of a cookie can be modified by the server by sending a new Set-Cookie: name=newvalue line in response of a page request.
 ------OUTPUT------
-The value of a cookie can be modified by the server by sending a new quote Set-Cookie: name is new value end quote line in response of a page request.
+The value of a cookie can be modified by the server by sending a new Set-Cookie: name equals newvalue line in response of a page request.
 ------INPUT------
 The browser then replaces the old value with the new one.
 ------OUTPUT------

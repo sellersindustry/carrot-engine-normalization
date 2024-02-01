@@ -2,6 +2,7 @@ package Transform
 
 import (
 	"github.com/sellersindustry/normalization-tts/bin/Token"
+	"github.com/sellersindustry/normalization-tts/bin/Utility"
 )
 
 
@@ -18,7 +19,11 @@ func transform(index int, tokens *[]Token.Model) {
 			return
 		}
 	}
-	(*tokens)[index].Text = (*tokens)[index].Original;
+	if (*tokens)[index].Subclass == Token.None {
+		(*tokens)[index].Text = Utility.Decamelize((*tokens)[index].Original);
+	} else {
+		(*tokens)[index].Text = (*tokens)[index].Original
+	}
 }
 
 

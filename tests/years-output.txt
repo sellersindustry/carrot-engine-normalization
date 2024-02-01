@@ -57,7 +57,7 @@ The two thousand and two Winter Olympics were held in Salt Lake City, showcasing
 ------INPUT------
 2007 marked the release of the first iPhone, transforming the way people interacted with technology.
 ------OUTPUT------
-two thousand and seven marked the release of the first iPhone, transforming the way people interacted with technology.
+two thousand and seven marked the release of the first i Phone, transforming the way people interacted with technology.
 ------INPUT------
 The year 2012 saw the successful landing of NASA's Curiosity rover on Mars.
 ------OUTPUT------
@@ -69,7 +69,7 @@ By twenty seventeen, renewable energy sources had become more economically viabl
 ------INPUT------
 In 2021, the development of mRNA vaccines played a crucial role in managing the COVID-19 pandemic.
 ------OUTPUT------
-In twenty twenty-one, the development of mRNA vaccines played a crucial role in managing the C O V I D nineteen pandemic.
+In twenty twenty-one, the development of m R N A vaccines played a crucial role in managing the C O V I D nineteen pandemic.
 ------INPUT------
 The 2027 inauguration of the first fully autonomous electric vehicle marked a milestone in transportation.
 ------OUTPUT------

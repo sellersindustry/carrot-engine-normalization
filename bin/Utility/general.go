@@ -1,6 +1,9 @@
 package Utility
 
-import "strings"
+import (
+	"strings"
+	"unicode"
+)
 
 
 func KeywordMapping(buffer string, keys []string, values []string, caseSensitive bool) string {
@@ -38,3 +41,29 @@ func Contains(s []string, str string) bool {
 	}
 	return false
 }
+
+
+func Decamelize(word string) string {
+	if !ContainsOnlyLetters(word) || strings.ToUpper(word) == word {
+		return word
+	}
+	var result strings.Builder
+	for i, letter := range word {
+		if i > 0 && unicode.IsUpper(letter) && unicode.IsLetter(rune(word[i-1])) {
+			result.WriteRune(' ')
+		}
+		result.WriteRune(letter)
+	}
+	return result.String()
+}
+
+
+func ContainsOnlyLetters(word string) bool {
+	for _, letter := range word {
+		if !unicode.IsLetter(letter) {
+			return false
+		}
+	}
+	return true
+}
+
