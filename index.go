@@ -4,28 +4,25 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sellersindustry/normalization-tts/bin"
+	Normalize "github.com/sellersindustry/normalization-tts/bin"
 )
 
-
-var text = "Zombie cookie. Some cookies are automatically recreated after a user has deleted them; these are called zombie cookies."
-var isTest = true;
-
+var text = ""
+var isTest = true
 
 func main() {
 	if isTest {
-		Normalize.ExecuteTests();
+		Normalize.ExecuteTests()
 	} else {
-		output := Normalize.Process(text, false);
+		output := Normalize.Process(text, false)
 		for _, _token := range output.Tokens {
-			fmt.Println(_token);
+			fmt.Println(_token)
 		}
 
-		fmt.Println("\n");
-		fmt.Println(text);
-		fmt.Println(strings.Join(output.Sentences, " "));
+		fmt.Println("\n")
+		fmt.Println(text)
+		fmt.Println(strings.Join(output.Sentences, " "))
 	}
 }
 
-
-// FAIL 117
+// FAIL 116

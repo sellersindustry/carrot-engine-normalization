@@ -1,0 +1,16 @@
+------INPUT------
++1 234-456-7890
+------OUTPUT------
+one, two three four, four five six, seven eight nine zero
+------INPUT------
++13 234-456-7890
+------OUTPUT------
+one three, two three four, four five six, seven eight nine zero
+------INPUT------
+(234)456-7890
+------OUTPUT------
+two three four, four five six, seven eight nine zero
+------INPUT------
+234.456.7890
+------OUTPUT------
+two three four, four five six, seven eight nine zero
