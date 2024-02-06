@@ -17,7 +17,7 @@ He borrowed fifty thousand dollars from the bank.
 ------INPUT------
 The budget is $2m-3m.
 ------OUTPUT------
-The budget is two to three million dollars.
+The budget is two million dollars to three million dollars.
 ------INPUT------
 They invested $3 billion in the project.
 ------OUTPUT------
@@ -25,7 +25,7 @@ They invested three billion dollars in the project.
 ------INPUT------
 The price varies from $10 to $20.
 ------OUTPUT------
-The price varies from ten to twenty dollars.
+The price varies from ten dollars to twenty dollars.
 ------INPUT------
 She received a grant of $100,000.
 ------OUTPUT------
@@ -41,7 +41,7 @@ They spent one point five million dollars on advertising.
 ------INPUT------
 The salary ranges from $40k to $60k.
 ------OUTPUT------
-The salary ranges from forty thousand to sixty thousand dollars.
+The salary ranges from forty thousand dollars to sixty thousand dollars.
 ------INPUT------
 The house is listed for $750,000.
 ------OUTPUT------
@@ -53,7 +53,7 @@ He donated twenty-five million dollars to charity.
 ------INPUT------
 The grant amount is $2-3 million.
 ------OUTPUT------
-The grant amount is two to three million dollars.
+The grant amount is two million dollars to three million dollars.
 ------INPUT------
 The investment is expected to be $100-200 billion.
 ------OUTPUT------
@@ -77,7 +77,7 @@ The contract is worth thirty million dollars.
 ------INPUT------
 The project budget is $20m-30m.
 ------OUTPUT------
-The project budget is twenty to thirty million dollars.
+The project budget is twenty million dollars to thirty million dollars.
 ------INPUT------
 He invested $1.2 billion in stocks.
 ------OUTPUT------
@@ -89,7 +89,7 @@ The prize money is fifty thousand dollars.
 ------INPUT------
 The grant ranges from $1-5 million.
 ------OUTPUT------
-The grant ranges from one to five million dollars.
+The grant ranges from one million dollars to five million dollars.
 ------INPUT------
 The donation amount is $25-50k.
 ------OUTPUT------
@@ -109,7 +109,7 @@ They received a donation of one billion dollars.
 ------INPUT------
 The budget for the event is $50k-100k.
 ------OUTPUT------
-The budget for the event is fifty thousand to one hundred thousand dollars.
+The budget for the event is fifty thousand dollars to one hundred thousand dollars.
 ------INPUT------
 The investment is expected to be $20-30 million.
 ------OUTPUT------
@@ -117,4 +117,4 @@ The investment is expected to be twenty to thirty million dollars.
 ------INPUT------
 The salary range is $60k-80k.
 ------OUTPUT------
-The salary range is sixty thousand to eighty thousand dollars.
+The salary range is sixty thousand dollars to eighty thousand dollars.
