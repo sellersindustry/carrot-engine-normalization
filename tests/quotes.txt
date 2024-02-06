@@ -9,11 +9,11 @@ He replied, quote I'm fine, thank you. end quote
 ------INPUT------
 "Where are you going?" she asked.
 ------OUTPUT------
-quote Where are you going? end quote she asked
+quote Where are you going? end quote she asked.
 ------INPUT------
 "I'm going to the store," he answered.
 ------OUTPUT------
-quote I'm going to the store, end quote he answered
+quote I'm going to the store, end quote he answered.
 ------INPUT------
 The teacher said, "Please open your books to page 10."
 ------OUTPUT------
@@ -21,7 +21,7 @@ The teacher said, quote Please open your books to page 10. end quote
 ------INPUT------
 "Can you help me with this?" she inquired.
 ------OUTPUT------
-quote Can you help me with this? end quote she inquired
+quote Can you help me with this? end quote she inquired.
 ------INPUT------
 He shouted, "Get out of here!"
 ------OUTPUT------
@@ -29,11 +29,11 @@ He shouted, quote Get out of here! end quote
 ------INPUT------
 "Wait for me," she pleaded.
 ------OUTPUT------
-quote Wait for me, end quote she pleaded
+quote Wait for me, end quote she pleaded.
 ------INPUT------
 "Stop right there!" he yelled.
 ------OUTPUT------
-quote Stop right there! end quote he yelled
+quote Stop right there! end quote he yelled.
 ------INPUT------
 She whispered, "I love you."
 ------OUTPUT------
@@ -41,7 +41,7 @@ She whispered, quote I love you. end quote
 ------INPUT------
 "Please don't go," she begged.
 ------OUTPUT------
-quote Please don't go, end quote she begged
+quote Please don't go, end quote she begged.
 ------INPUT------
 He asked, "What time is it?"
 ------OUTPUT------
@@ -49,15 +49,15 @@ He asked, quote What time is it? end quote
 ------INPUT------
 "Let's go for a walk," she suggested.
 ------OUTPUT------
-quote Let's go for a walk, end quote she suggested
+quote Let's go for a walk, end quote she suggested.
 ------INPUT------
 "I'll be there in a minute," he promised.
 ------OUTPUT------
-quote I'll be there in a minute, end quote he promised
+quote I'll be there in a minute, end quote he promised.
 ------INPUT------
 "Would you like some coffee?" he offered.
 ------OUTPUT------
-quote Would you like some coffee? end quote he offered
+quote Would you like some coffee? end quote he offered.
 ------INPUT------
 She murmured, "I'm sorry."
 ------OUTPUT------
@@ -65,7 +65,7 @@ She murmured, quote I'm sorry. end quote
 ------INPUT------
 "Watch out!" she warned.
 ------OUTPUT------
-quote Watch out! end quote she warned
+quote Watch out! end quote she warned.
 ------INPUT------
 He mumbled, "I don't know."
 ------OUTPUT------
@@ -73,7 +73,7 @@ He mumbled, quote I don't know. end quote
 ------INPUT------
 "Are you coming with us?" they asked.
 ------OUTPUT------
-quote Are you coming with us? end quote they asked
+quote Are you coming with us? end quote they asked.
 ------INPUT------
 She questioned, "What do you mean?"
 ------OUTPUT------
@@ -81,7 +81,7 @@ She questioned, quote What do you mean? end quote
 ------INPUT------
 "Let me think about it," he pondered.
 ------OUTPUT------
-quote Let me think about it, end quote he pondered
+quote Let me think about it, end quote he pondered.
 ------INPUT------
 He suggested, "We should leave now."
 ------OUTPUT------
@@ -89,11 +89,11 @@ He suggested, quote We should leave now. end quote
 ------INPUT------
 "Shh, be quiet," she whispered.
 ------OUTPUT------
-quote Shh, be quiet, end quote she whispered
+quote Shh, be quiet, end quote she whispered.
 ------INPUT------
 "Goodbye, see you later," he said.
 ------OUTPUT------
-quote Goodbye, see you later, end quote he said
+quote Goodbye, see you later, end quote he said.
 ------INPUT------
 She exclaimed, "I won!"
 ------OUTPUT------
@@ -101,7 +101,7 @@ She exclaimed, quote I won! end quote
 ------INPUT------
 "Let's eat dinner," she suggested.
 ------OUTPUT------
-quote Let's eat dinner, end quote she suggested
+quote Let's eat dinner, end quote she suggested.
 ------INPUT------
 He stated, "This is the last time."
 ------OUTPUT------
