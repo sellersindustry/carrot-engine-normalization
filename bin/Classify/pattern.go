@@ -219,7 +219,7 @@ var PATTERNS = []*Pattern{
 		SetSubclassTo:  Token.Per,
 	}, {
 		// AM and PM	
-		CurrentByWords: []string{ "am", "pm" },
+		CurrentByWords: []string{ "am", "pm", "AM", "PM" },
 		HasPrefix:      []string{IGNORE_SPACES, string(Token.Time)},
 		SetSubclassTo:  Token.Initialism,
 	}, {
