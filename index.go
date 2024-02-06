@@ -25,4 +25,14 @@ func main() {
 	}
 }
 
-// FAIL 116
+
+// FAIL 117
+// FAIL 114
+// FAIL 111
+// FAIL 109
+// FAIL 110
+// FAIL 83
+// FAIL 76
+// FAIL 74
+// FAIL 69
+// FAIL 37

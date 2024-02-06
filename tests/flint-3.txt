@@ -13,13 +13,13 @@ There have been calls to withdraw the note for this reason.
 ------INPUT------
 However, some of the replaced currencies had widely-used high-value notes, including 10,000 Belgian francs, 5000 Austrian schillings, 1000 Dutch guilders, and 1000 Deutsche Marks.
 ------OUTPUT------
-However, some of the replaced currencies had widely-used high-value notes, including ten thousand Belgian francs, five thousand Austrian schillings, one thousand Dutch guilders, and one thousand Deutsche Marks.
+However, some of the replaced currencies had widely-used high-value notes, including ten thousand Belgian francs, fifty hundred Austrian schillings, ten hundred Dutch guilders, and ten hundred Deutsche Marks.
 ------INPUT------
 Spain in particular now has a quarter of all these high-value bills within its borders.
 ------OUTPUT------
 Spain in particular now has a quarter of all these high-value bills within its borders.
 ------INPUT------
-This is far more than expected for an economy of its size and they are rarely seen in every-day commerce – they have been nicknamed "bin Ladens" by the populace (as everyone knows they are there and what they look like but they have never seen them).
+This is far more than expected for an economy of its size and they are rarely seen in every-day commerce - they have been nicknamed "bin Ladens" by the populace (as everyone knows they are there and what they look like but they have never seen them).
 ------OUTPUT------
 This is far more than expected for an economy of its size and they are rarely seen in every-day commerce they have been nicknamed quote on quote bin Ladens by the populace, as everyone knows they are there and what they look like but they have never seen them.
 ------INPUT------
@@ -35,21 +35,21 @@ The Serious Organised Crime Agency claimed that "90% of all €500 sold in the U
 ------OUTPUT------
 The Serious Organised Crime Agency claimed that quote ninety percent of all five hundred euros sold in the U K are in the hands of organised crime end quote, revealed during an eight month analysis.
 ------INPUT------
-The € 500 note is worth in the region of £430 depending on exchange rates (more than eight times the value of the Bank of England's largest publicly-circulated note), and had become the currency choice for gangs to hide their profits.
+The € 500 note is worth in the region of $430 depending on exchange rates (more than eight times the value of the Bank of England's largest publicly-circulated note), and had become the currency choice for gangs to hide their profits.
 ------OUTPUT------
-The five hundred euro note is worth in the region of four hundred and thirty pounds depending on exchange rates (more than eight times the value of the Bank of England's largest publicly circulated note), and had become the currency choice for gangs to hide their profits.
+The five hundred euro note is worth in the region of four hundred and thirty dollars depending on exchange rates (more than eight times the value of the Bank of England's largest publicly circulated note), and had become the currency choice for gangs to hide their profits.
 ------INPUT------
 The EU directive 2005/06 ECon the prevention of the use of the financial system for the purpose of money laundering and terrorist financing tries to prevent such crime by requiring banks, real estate agents and many more companies to investigate and report usage of cash in excess of € 15,000.
 ------OUTPUT------
 The European Union directive two thousand and five slash zero six E C on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing tries to prevent such crime by requiring banks, real estate agents and many more companies to investigate and report usage of cash in excess of fifteen thousand euros.
 ------INPUT------
-Circulation As of October 2011, there were approximately 594,833,600 €500 in circulation around the Eurozone, therefore it is the second-least circulated banknote in the Eurozone.
+Circulation As of October 2011, there were approximately 594,833,600 $500 in circulation around the Eurozone, therefore it is the second-least circulated banknote in the Eurozone.
 ------OUTPUT------
-Circulation As of October two thousand and eleven, there were approximately five hundred ninety-four million eight hundred thirty-three thousand six hundred five hundred euro in circulation around the Eurozone, therefore it is the second-least circulated banknote in the Eurozone.
+Circulation As of October twenty eleven, there were approximately five hundred and ninety-four million eight hundred and thirty-three thousand six hundred five hundred dollars in circulation around the Eurozone, therefore it is the second-least circulated banknote in the Eurozone.
 ------INPUT------
-That is approximately worth of €500. The European Central Bank closely monitors the stock and circulation of euro notes and coins.
+That is approximately worth of $500. The European Central Bank closely monitors the stock and circulation of euro notes and coins.
 ------OUTPUT------
-That is approximately worth of five hundred euros. The European Central Bank closely monitors the stock and circulation of euro notes and coins.
+That is approximately worth of five hundred dollars. The European Central Bank closely monitors the stock and circulation of euro notes and coins.
 ------INPUT------
 It is the Eurosystem's task to ensure an efficient and smooth supply of euro notes and to maintain their integrity.
 ------OUTPUT------
@@ -89,7 +89,7 @@ The county town is Dorchester, centred in the south of the county at fifty degre
 ------INPUT------
 At the widest points, the county is 50 miles (80km) from east to west and 40 miles (64km) from north south, with an area of 1024square miles(2653km²).
 ------OUTPUT------
-At the widest points, the county is fifty miles (eighty kilometers) from east to west and forty miles (sixty-four kilometers) from north to south, with an area of one thousand and twenty-four square miles (two thousand six hundred and fifty-three square kilometers).
+At the widest points, the county is fifty miles, eighty kilometers, from east to west and forty miles, sixty-four kilometers, from north south, with an area of ten twenty-four square miles twenty-six fifty-three kilometers.
 ------INPUT------
 The county borders Devon to the west, Somerset to the north-west, Wiltshire to the north-east, and Hampshire to the east.
 ------OUTPUT------
@@ -139,7 +139,7 @@ ninety-eight point eight percent are indigenous, an extreme example of the dispr
 ------OUTPUT------
 seventy-eight percent of the population are Christian, thirteen point seven percent are not religious.
 ------INPUT------
-Dorset has the second highest proportion of elderly people of any county in Britain, second only to East Sussex, with 25.9% of the population over 65 and 13.9% of the 16–74 age range retired.
+Dorset has the second highest proportion of elderly people of any county in Britain, second only to East Sussex, with 25.9% of the population over 65 and 13.9% of the 16-74 age range retired.
 ------OUTPUT------
 Dorset has the second highest proportion of elderly people of any county in Britain, second only to East Sussex, with twenty-five point nine percent of the population over sixty-five and thirteen point nine percent of the sixteen to seventy-four age range retired.
 ------INPUT------

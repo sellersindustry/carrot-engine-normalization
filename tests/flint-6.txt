@@ -11,7 +11,7 @@ Chalcophiles formed as the crust solidified under the reducing conditions of the
 ------OUTPUT------
 Chalcophiles formed as the crust solidified under the reducing conditions of the early Earth's atmosphere.
 ------INPUT------
-Sphalerite, which is a form of zinc sulfide, is the most heavily mined zinc-containing ore because its concentrate contains 60–62% zinc.
+Sphalerite, which is a form of zinc sulfide, is the most heavily mined zinc-containing ore because its concentrate contains 60-62% zinc.
 ------OUTPUT------
 Sphalerite, which is a form of zinc sulfide, is the most heavily mined zinc-containing ore because its concentrate contains sixty to sixty-two percent zinc.
 ------INPUT------
@@ -41,7 +41,7 @@ Section one point three Isotopes Five isotopes of zinc occur in nature.
 ------INPUT------
 64 Zn is the most abundant isotope (48.63%natural abundance).
 ------OUTPUT------
-Sixty-four Zn is the most abundant isotope, with a natural abundance of forty-eight point six three percent.
+sixty-four Zn is the most abundant isotope, forty-eight point six three percent natural abundance.
 ------INPUT------
 This isotope has such a long half-life, at 4.3x10^18 years, that its radioactivity can be ignored.
 ------OUTPUT------
@@ -51,13 +51,13 @@ Similarly, 70Zn (0.6%), with a half-life of 1.3x10^16 years is not usually consi
 ------OUTPUT------
 Similarly, seventy Zn (zero point six percent), with a half-life of one point three times ten to the power of sixteen years is not usually considered to be radioactive.
 ------INPUT------
-The other isotopes found in nature are 66Zn (28%), 67Zn (4%) and 68Zn (19%).
+The other isotopes found in nature are 66Zn (28%), 67Zn (4%), and 68Zn (19%).
 ------OUTPUT------
 The other isotopes found in nature are sixty-six Zn, twenty-eight percent, sixty-seven Zn, four percent, and sixty-eight Zn, nineteen percent.
 ------INPUT------
 Several dozen radioisotopes have been characterized. 65Zn, which has a half-life of 243.66 days, is the most long-lived isotope, followed by 72Zn with a half-life of 46.5 hours.
 ------OUTPUT------
-Several dozen radioisotopes have been characterized. Sixty-five Zn, which has a half-life of two hundred and forty-three point six six days, is the most long-lived isotope, followed by seventy-two Zn with a half-life of forty-six point five hours.
+Several dozen radioisotopes have been characterized. sixty-five Zn, which has a half-life of two hundred and forty-three point six six days, is the most long-lived isotope, followed by seventy-two Zn with a half-life of forty-six point five hours.
 ------INPUT------
 Zinc has 10 nuclear isomers.
 ------OUTPUT------
@@ -77,7 +77,7 @@ The nucleus of a metastable isotope is in an excited state and will return to th
 ------INPUT------
 61Zn has three excited states and 73Zn has two.
 ------OUTPUT------
-sixty-one Zn has three excited states and seventy-three zinc has two.
+sixty-one Zn has three excited states and seventy-three Zn has two.
 ------INPUT------
 The isotopes 65Zn, 71Zn, 77Zn, and 78Zn each have only one excited state.
 ------OUTPUT------
@@ -105,7 +105,7 @@ The stable form of zinc is created in supernovas via the r-process.
 ------INPUT------
 Section 3 Compounds and chemistry Section 3.1 Reactivity Zinc has an electron configuration of [Ar]3d104s2 and is a member of the group 12of the periodic table.
 ------OUTPUT------
-Section three compounds and chemistry. Section three point one reactivity. Zinc has an electron configuration of argon, three d ten, four s two, and is a member of the group twelve of the periodic table.
+Section three Compounds and chemistry Section three point one Reactivity Zinc has an electron configuration of Ar three d one hundred and fours two and is a member of the group twelve of the periodic table.
 ------INPUT------
 It is a moderately reactive metal and strong reducing agent.
 ------OUTPUT------
@@ -113,7 +113,7 @@ It is a moderately reactive metal and strong reducing agent.
 ------INPUT------
 The surface of the pure metal tarnishes quickly, eventually forming a protective passivating layer of the basic zinc carbonate, Zn 5(OH) 6(CO 3) 2, by reaction with atmospheric carbon dioxide.
 ------OUTPUT------
-The surface of the pure metal tarnishes quickly, eventually forming a protective passivating layer of the basic zinc carbonate, Zn five open parenthesis OH close parenthesis six open parenthesis CO three close parenthesis two, by reaction with atmospheric carbon dioxide.
+The surface of the pure metal tarnishes quickly, eventually forming a protective passivating layer of the basic zinc carbonate, Zn five OH, six C O three two, by reaction with atmospheric carbon dioxide.
 ------INPUT------
 This layer helps prevent further reaction with air and water.
 ------OUTPUT------
@@ -141,7 +141,7 @@ The chemistry of zinc is dominated by the positive two oxidation state.
 ------INPUT------
 When compounds in this oxidation state are formed, the outer shell's electrons are lost, which yields a bare zinc ion with the electronic configuration [Ar]3d10.
 ------OUTPUT------
-When compounds in this oxidation state are formed, the outer shell's electrons are lost, which yields a bare zinc ion with the electronic configuration argon three d ten.
+When compounds in this oxidation state are formed, the outer shell's electrons are lost, which yields a bare zinc ion with the electronic configuration Ar three d ten.
 ------INPUT------
 This allows for the formation of four covalent bonds by accepting four electron pairs and thus obeying the octet rule.
 ------OUTPUT------
@@ -153,11 +153,11 @@ The stereochemistry is therefore tetrahedral and the bonds may be described as b
 ------INPUT------
 In aqueous solution an octahedral complex, [Zn(H2O) 6]2+ is the predominant species.
 ------OUTPUT------
-In aqueous solution, an octahedral complex, zinc hexaaqua ion, is the predominant species.
+In aqueous solution an octahedral complex, Zn H two O, six two plus is the predominant species.
 ------INPUT------
 The volatilization of zinc in combination with zinc chloride at temperatures above 285°C indicates the formation of Zn2Cl2, a zinc compound with a +1oxidation state.
 ------OUTPUT------
-The volatilization of zinc in combination with zinc chloride at temperatures above two hundred and eighty-five degrees Celsius indicates the formation of Zn two Cl two, a zinc compound with a plus one oxidation state.
+The volatilization of zinc in combination with zinc chloride at temperatures above two hundred and eighty-five degrees Celsius indicates the formation of Zn two Cl two, a zinc compound with a positive one oxidation state.
 ------INPUT------
 No compounds of zinc in oxidation states other than +1 or +2 are known.
 ------OUTPUT------

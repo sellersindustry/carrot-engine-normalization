@@ -55,7 +55,7 @@ In the west of the county, the chalk and clay of south-east England begin to giv
 ------OUTPUT------
 In the west of the county, the chalk and clay of south-east England begin to give way to the marl and granite of neighboring Devon.
 ------INPUT------
-Pilsdon Pen, the highest hill in Dorset at 909ft (277m), is situated here. History
+Pilsdon Pen, the highest hill in Dorset at 909ft (277m), is situated here. History.
 ------OUTPUT------
 Pilsdon Pen, the highest hill in Dorset at nine hundred and nine feet, two hundred and seventy-seven meters, is situated here. History.
 ------INPUT------
@@ -65,7 +65,7 @@ The earliest recorded use of the name was in A.D. nine hundred and forty as Dors
 ------INPUT------
 The first known settlement of Dorset was by Mesolithic hunters, from around 8000 BCE.
 ------OUTPUT------
-The first known settlement of Dorset was by Mesolithic hunters, from around eight thousand BCE.
+The first known settlement of Dorset was by Mesolithic hunters, from around eighty hundred B C E.
 ------INPUT------
 Their populations were small and concentrated along the coast in the Isle of Purbeck, Weymouth and Chesil Beach, and along the Stour valley.
 ------OUTPUT------
@@ -163,9 +163,9 @@ Sheep and pig farming has declined in a similar fashion. Tourism has grown as a 
 ------OUTPUT------
 Sheep and pig farming has declined in a similar fashion. Tourism has grown as a major industry in Dorset since the early nineteenth century.
 ------INPUT------
-4.2 million British tourists and 260000 foreign tourists visited the county in 2002, spending a combined total of £768 million.
+4.2 million British tourists and 260,000 foreign tourists visited the county in 2002, spending a combined total of $768 million.
 ------OUTPUT------
-Four point two million British tourists and two hundred and sixty thousand foreign tourists visited the county in two thousand and two, spending a combined total of seven hundred and sixty-eight million pounds.
+four point two million British tourists and two hundred and sixty thousand foreign tourists visited the county in two thousand and two, spending a combined total of seven hundred and sixty-eight million dollars.
 ------INPUT------
 Foreign tourism declined in 1999 (310000, down from 410000 in 1998), and again in 2002 (down from 320000), the latter decline being blamed on the effects of the global economy and security at that time.
 ------OUTPUT------
@@ -173,7 +173,7 @@ Foreign tourism declined in nineteen ninety-nine (three hundred and ten thousand
 ------INPUT------
 Dorset has little manufacturing industry, at 14.6% of employment (compared to 18.8% for the UK), and is ranked 30th out the 34English counties.
 ------OUTPUT------
-Dorset has little manufacturing industry, at fourteen point six percent of employment (compared to eighteen point eight percent for the United Kingdom), and is ranked thirtieth out of the thirty-four English counties.
+Dorset has little manufacturing industry, at fourteen point six percent of employment, compared to eighteen point eight percent for the U K, and is ranked thirtieth out the thirty-four English counties.
 ------INPUT------
 The gross domestic product for the county is 84% that of the national average.
 ------OUTPUT------

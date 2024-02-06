@@ -117,7 +117,7 @@ The river's width is approximately one hundred and fifty meters.
 ------INPUT------
 The smartphone's screen resolution is 1080 x 2340 pixels.
 ------OUTPUT------
-The smartphone's screen resolution is one thousand and eighty by two thousand three hundred and forty pixels.
+The smartphone's screen resolution is ten eighty by twenty-three forty pixels.
 ------INPUT------
 The recipe calls for 1.5 teaspoons of vanilla extract.
 ------OUTPUT------

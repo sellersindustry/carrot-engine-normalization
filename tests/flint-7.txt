@@ -21,7 +21,7 @@ Cookies were designed to be a reliable mechanism for websites to remember statef
 ------INPUT------
 Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals' browsing histories-apotential privacy concern that prompted European and U.S. law makers to take action in 2011.
 ------OUTPUT------
-Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long term records of individuals browsing histories apotential privacy concern that prompted European and U S lawmakers to take action in twenty eleven.
+Although cookies cannot carry viruses, and cannot install malware on the host computer, tracking cookies and especially third-party tracking cookies are commonly used as ways to compile long-term records of individuals browsing histories-apotential privacy concern that prompted European and U S law makers to take action in twenty eleven.
 ------INPUT------
 Cookies can also store passwords and form content a user has previously entered, such as a credit card number or an address. Other kinds of cookies perform essential functions in the modern web.
 ------OUTPUT------
@@ -55,13 +55,13 @@ At the time, he was an employee of Netscape Communications, which was developing
 ------OUTPUT------
 At the time, he was an employee of Netscape Communications, which was developing an e-commerce application for M C I P.
 ------INPUT------
-Vint Cerf and John Klensin represented MCI in technical discussions with Netscape Communications.
+Vint Cerf and John Klensin represented MCIG in technical discussions with Netscape Communications.
 ------OUTPUT------
-Vint Cerf and John Klensin represented M C I in technical discussions with Netscape Communications.
+Vint Cerf and John Klensin represented M C I G in technical discussions with Netscape Communications.
 ------INPUT------
-Not wanting the MCI servers to have to retain partial transaction states led to MCI's request to Netscape to find a way to store that state in each user's computer.
+Not wanting the MCIF servers to have to retain partial transaction states led to MCIFs request to Netscape to find a way to store that state in each user's computer.
 ------OUTPUT------
-Not wanting the M C I servers to have to retain partial transaction states led to M C I's request to Netscape to find a way to store that state in each user's computer.
+Not wanting the M C I F servers to have to retain partial transaction states led to M C I Fs request to Netscape to find a way to store that state in each user's computer.
 ------INPUT------
 Cookies provided a solution to the problem of reliably implementing a virtual shopping cart.
 ------OUTPUT------
@@ -143,17 +143,17 @@ The recommendation about third-party cookies of RFC 2109 was not followed by Net
 ------OUTPUT------
 The recommendation about third-party cookies of R F C twenty-one o nine was not followed by Netscape and Internet Explorer.
 ------INPUT------
-RFC 2109 was superseded by RFC 2965in October 2000.
+RFC 2109 was superseded by RFC 2965 in October 2000.
 ------OUTPUT------
-R F C two one zero nine was superseded by RFC two nine six five in October two thousand.
+R F C twenty-one o nine was superseded by R F C twenty-nine sixty-five in October two thousand.
 ------INPUT------
 A definitive specification for cookies as used in the real world was published as RFC 6265 in April 2011.
 ------OUTPUT------
-A definitive specification for cookies as used in the real world was published as R F C sixty-two sixty-five in April two thousand and eleven.
+A definitive specification for cookies as used in the real world was published as R F C sixty-two sixty-five in April twenty eleven.
 ------INPUT------
-Session cookie. A session cookie, also known as an in-memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
+Session cookie. A session cookie, also known as an in memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
 ------OUTPUT------
-Session cookie. A session cookie, also known as an in-memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
+Session cookie. A session cookie, also known as an in memory cookie or transient cookie, exists only in temporary memory while the user navigates the website.
 ------INPUT------
 Web browsers normally delete session cookies when the user closes the browser.
 ------OUTPUT------
@@ -171,9 +171,9 @@ HttpOnly cookie. The HTTP only attribute is supported by most modern browsers.
 ------OUTPUT------
 Http Only cookie. The H T T P only attribute is supported by most modern browsers.
 ------INPUT------
-On a supported browser, an HTTP Only session cookie will be used only when transmitting HTTP (or HTTPS) requests, thus restricting access from other, non-HTTP APIs such as JavaScript.
+On a supported browser, an HTTP Only session cookie will be used only when transmitting HTTP (or HTTPS) requests, thus restricting access from other, non HTTP APIs such as JavaScript.
 ------OUTPUT------
-On a supported browser, an H T T P Only session cookie will be used only when transmitting H T T P, or H T T P S, requests, thus restricting access from other, non-H T T P A P Is such as Java Script.
+On a supported browser, an H T T P Only session cookie will be used only when transmitting H T T P, or H T T P S, requests, thus restricting access from other, non H T T P A P Is such as Java Script.
 ------INPUT------
 This restriction mitigates but does not eliminate the threat of session cookie theft via cross-site scripting (XSS).
 ------OUTPUT------

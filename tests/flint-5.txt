@@ -31,7 +31,7 @@ The largest town is the south-east coastal conurbation consisting of the seaside
 ------OUTPUT------
 The largest town is the south-east coastal conurbation consisting of the seaside resort of Bournemouth, the historic port of Poole, and the town of Christchurch plus many villages.
 ------INPUT------
-The conurbation is the only settlement in Dorset that could be described as a city (though it does not legally have city status), but in the mid19thcentury there was little more than a small town on Poole quay.
+The conurbation is the only settlement in Dorset that could be described as a city (though it does not legally have city status), but in the mid 19th century there was little more than a small town on Poole quay.
 ------OUTPUT------
 The conurbation is the only settlement in Dorset that could be described as a city, though it does not legally have city status, but in the mid nineteenth century there was little more than a small town on Poole quay.
 ------INPUT------
@@ -49,7 +49,7 @@ Bournemouth and Christchurch were added to the county from Hampshire in the coun
 ------INPUT------
 The other two major settlements in the county are Dorchester, the county town, and Weymouth, one of the first tourist towns, frequented by George III, and still popular. Blandford Forum, Sherborne, Gillingham, Shaftesbury and Sturminster Newton are historical market towns which serve the farms and villages of the Blackmore Vale (Hardy's Vale of the Little Dairies).
 ------OUTPUT------
-The other two major settlements in the county are Dorchester, the county town, and Weymouth, one of the first tourist towns, frequented by George the third, and still popular. Blandford Forum, Sherborne, Gillingham, Shaftesbury and Sturminster Newton are historical market towns which serve the farms and villages of the Blackmore Vale (Hardy's Vale of the Little Dairies).
+The other two major settlements in the county are Dorchester, the county town, and Weymouth, one of the first tourist towns, frequented by George the third, and still popular. Blandford Forum, Sherborne, Gillingham, Shaftesbury and Sturminster Newton are historical market towns which serve the farms and villages of the Blackmore Vale, Hardy's Vale of the Little Dairies.
 ------INPUT------
 Blandford is home to the Badger brewery of Hall and Woodhouse.
 ------OUTPUT------
@@ -69,7 +69,7 @@ The suburb is designed to integrate residential and retail buildings and counter
 ------INPUT------
 Zinc Zinc, or spelter (which may also refer to zinc alloys), is a metallic chemical element; it has the symbol Zn and atomic number 30.
 ------OUTPUT------
-Zinc Zinc, or spelter (which may also refer to zinc alloys), is a metallic chemical element; it has the symbol Zn and atomic number thirty.
+Zinc Zinc, or spelter, which may also refer to zinc alloys, is a metallic chemical element; it has the symbol Zn and atomic number thirty.
 ------INPUT------
 It is the first element in group 12 of the periodic table.
 ------OUTPUT------
@@ -129,7 +129,7 @@ Other applications are in batteries and alloys, such as brass.
 ------INPUT------
 A variety of zinc compounds are commonly used, such as zinc carbonate and zinc gluconate (as dietary supplements), zinc chloride (in deodorants), zinc pyrithione (anti-dandruff shampoos), zinc sulfide (in luminescent paints), and zinc methyl or zinc diethyl in the organic laboratory.
 ------OUTPUT------
-A variety of zinc compounds are commonly used, such as zinc carbonate and zinc gluconate as dietary supplements, zinc chloride in deodorants, zinc pyrithione in anti-dandruff shampoos, zinc sulfide in luminescent paints, and zinc methyl or zinc diethyl in the organic laboratory.
+A variety of zinc compounds are commonly used, such as zinc carbonate and zinc gluconate, as dietary supplements, zinc chloride, in deodorants, zinc pyrithione, anti-dandruff shampoos, zinc sulfide, in luminescent paints, and zinc methyl or zinc diethyl in the organic laboratory.
 ------INPUT------
 Zinc is an essential mineral of exceptional biological and public health importance.
 ------OUTPUT------
@@ -149,7 +149,7 @@ Enzymes with a zinc atom in the reactive center are widespread in biochemistry, 
 ------INPUT------
 Consumption of excess zinc can cause ataxia, lethargy and copper deficiency. Section 1 Characteristics Section 1.1 Physical properties Zinc, also referred to in nonscientific contexts as spelter, is a bluish-white, lustrous, diamagnetic metal, though most common commercial grades of the metal have a dull finish.
 ------OUTPUT------
-Consumption of excess zinc can cause ataxia, lethargy, and copper deficiency. Section one Characteristics. Section one point one Physical properties. Zinc, also referred to in nonscientific contexts as spelter, is a bluish white, lustrous, diamagnetic metal, though most common commercial grades of the metal have a dull finish.
+Consumption of excess zinc can cause ataxia, lethargy and copper deficiency. Section one Characteristics Section one point one Physical properties Zinc, also referred to in nonscientific contexts as spelter, is a bluish-white, lustrous, diamagnetic metal, though most common commercial grades of the metal have a dull finish.
 ------INPUT------
 It is somewhat less dense than iron and has a hexagonal crystal structure.
 ------OUTPUT------
@@ -169,7 +169,7 @@ Zinc is a fair conductor of electricity.
 ------INPUT------
 For a metal, zinc has relatively low melting (419.5°C, 787.1F) and boiling points (907°C).
 ------OUTPUT------
-For a metal, zinc has relatively low melting (four hundred and nineteen point five degrees Celsius, seven hundred and eighty-seven point one degrees Fahrenheit) and boiling points (nine hundred and seven degrees Celsius).
+For a metal, zinc has relatively low melting, four hundred and nineteen point five degrees Celsius, seven hundred and eighty-seven point one Fahrenheit, and boiling points, nine hundred and seven degrees Celsius.
 ------INPUT------
 Its melting point is the lowest of all the transition metals aside from mercury and cadmium.
 ------OUTPUT------
@@ -185,16 +185,16 @@ Other metals long known to form binary alloys with zinc are aluminium, antimony,
 ------INPUT------
 While neither zinc nor zirconium are ferromagnetic, their alloy ZrZn2exhibits ferromagnetism below 35K.
 ------OUTPUT------
-While neither zinc nor zirconium are ferromagnetic, their alloy ZrZn2 exhibits ferromagnetism below thirty-five Kelvin.
+While neither zinc nor zirconium are ferromagnetic, their alloy Zr Zn two exhibits ferromagnetism below thirty-five kelvin.
 ------INPUT------
 Section 1.1O ccurrence Zinc makes up about 75ppm (0.0075%) of the Earth's crust, making it the 24th most abundant element.
 ------OUTPUT------
-Section one point one O ccurrence Zinc makes up about seventy-five parts per million, zero point zero zero seven five percent, of the Earth's crust, making it the twenty-fourth most abundant element.
+Section one point one O ccurrence Zinc makes up about seventy-five parts per million, zero point zero zero seven five percent of the Earth's crust, making it the twenty fourth most abundant element.
 ------INPUT------
-Soil contains 5–770 ppm of zinc with an average of 64ppm.
+Soil contains 5-770 ppm of zinc with an average of 64ppm.
 ------OUTPUT------
 Soil contains five to seven hundred and seventy parts per million of zinc with an average of sixty-four parts per million.
 ------INPUT------
-Seawater has only 30ppb zinc and the atmosphere contains 0.1–4 µg/m3.
+Seawater has only 30ppb zinc and the atmosphere contains 0.1-4 µg/m3.
 ------OUTPUT------
 Seawater has only thirty parts per billion zinc and the atmosphere contains zero point one to four micrograms per cubic meter.

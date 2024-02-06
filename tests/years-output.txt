@@ -83,9 +83,9 @@ In 1500, the Renaissance was in full swing, bringing about a cultural rebirth ac
 ------OUTPUT------
 In fifteen hundred, the Renaissance was in full swing, bringing about a cultural rebirth across Europe.
 ------INPUT------
-The year 1558 marked the beginning of Queen Elizabeth I's reign, a period known as the Elizabethan Era.
+The year 1558 marked the beginning of Queen Elizabeth II's reign, a period known as the Elizabethan Era.
 ------OUTPUT------
-The year fifteen fifty-eight marked the beginning of Queen Elizabeth the first's reign, a period known as the Elizabethan Era.
+The year fifteen fifty-eight marked the beginning of Queen Elizabeth the second's reign, a period known as the Elizabethan Era.
 ------INPUT------
 By 1607, English settlers established the Jamestown colony in North America.
 ------OUTPUT------

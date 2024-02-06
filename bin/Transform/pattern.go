@@ -27,15 +27,15 @@ var PATTERNS = []*Pattern{
 	}, {
 		Subclass: Token.NumberCurrency,
 		Function: func(index int, tokens *[]Token.Model) string {
-			if index != 0 {
-				if (*tokens)[index-1].Original == "$" {
-					return Wordify.NumberCurrency((*tokens)[index].Original, "$")
-				}
-				if (*tokens)[index-1].Original == "€" {
-					return Wordify.NumberCurrency((*tokens)[index].Original, "€")
-				}
+			isCurrency, currency := isBefore(index, tokens, 5, []string{ "$", "£", "€" });
+			if !isCurrency {
+				return Wordify.NumberCurrency((*tokens)[index].Original, "", "")
 			}
-			return Wordify.NumberCurrency((*tokens)[index].Original, "")
+			isScale, scale := isAfter(index, tokens, 2, []string{ "k", "thousand", "m", "million", "b", "billion", "t", "trillion" });
+			if !isScale {
+				return Wordify.NumberCurrency((*tokens)[index].Original, currency, "");
+			}
+			return Wordify.NumberCurrency((*tokens)[index].Original, currency, scale);
 		},
 	}, {
 		Subclass: Token.NumberYear,
@@ -49,14 +49,11 @@ var PATTERNS = []*Pattern{
 			return Utility.KeywordMapping((*tokens)[index].Original, keys, values, true)
 		},
 	}, {
-		Subclass: Token.Scale,
-		Function: func(index int, tokens *[]Token.Model) string {
-			keys, values := Utility.GetWordset("./bin/wordsets/scales.txt")
-			return Utility.KeywordMapping((*tokens)[index].Original, keys, values, false)
-		},
-	}, {
 		Subclass: Token.Range,
 		Function: func(index int, tokens *[]Token.Model) string {
+			if (*tokens)[index].Original == "x" {
+				return "by"
+			}
 			return "to"
 		},
 	}, {

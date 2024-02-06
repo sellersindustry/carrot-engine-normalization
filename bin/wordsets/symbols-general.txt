@@ -1,0 +1,14 @@
+@		at
+$		dollars
+%		precent
+&		and
+=		equals
+.		dot
+~		about
+#		hashtag
++		plus
+/		slash
+\		back slash
+-		dash
+_		underscore
+:		colon

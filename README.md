@@ -3,8 +3,9 @@
 
 ## TODO
 - Fix Euro VS Pound
+- Fix AM and PM after time
 - Generate Test
-    - currency ($ and Euro)
+    - currency ($ and Euro, pounds) and ranges and millions
     - Quotes
     - Math Questions
     - Time

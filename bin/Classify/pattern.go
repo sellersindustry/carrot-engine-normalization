@@ -7,9 +7,10 @@ import (
 
 var REGEX_QUOTE = "/^\"|'$/"
 var REGEX_ROMAN_NUM = "/^(([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)|(III)|(II))$/"
-var REGEX_CURRENCY = "/^[$£]$/"
+var REGEX_CURRENCY = "/^[$£€]$/"
 var REGEX_OPERATIONS = "/^[\\+\\-\\^\\*\\/\\=x]$/"
 var REGEX_PUNCTUATION = "/^[\\.,\\?\\!\\:\\;]$/"
+
 
 var PATTERNS = []*Pattern{
 	{
@@ -34,6 +35,36 @@ var PATTERNS = []*Pattern{
 		HasPrefix:       []string{string(Token.Number)},
 		SetSubclassTo:   Token.Unit,
 		SetIsInactiveTo: true,
+	}, {
+		// Number Ordinal - Dates
+		CurrentByClass:  Token.Number,
+		Filter: func(text string) bool {
+			if len(text) <= 2 {
+				return true;
+			}
+			return false;
+		},
+		ScanBefore:      &PatternScan{
+			Exists:       []string{ "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december", "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "oct", "nov", "dec" },
+			Range:        2,
+			IgnoreSpaces: true,
+		},
+		SetSubclassTo:   Token.NumberOrdinal,
+	}, {
+		// Number Ordinal - Dates
+		CurrentByClass:  Token.Number,
+		Filter: func(text string) bool {
+			if len(text) <= 2 {
+				return true;
+			}
+			return false;
+		},
+		ScanAfter:      &PatternScan{
+			Exists:       []string{ "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december", "jan", "feb", "mar", "apr", "jun", "jul", "aug", "sep", "oct", "nov", "dec" },
+			Range:        2,
+			IgnoreSpaces: true,
+		},
+		SetSubclassTo:   Token.NumberOrdinal,
 	}, {
 		// Number Currency - Symbol
 		CurrentByRegexp: Utility.CompileRegex(REGEX_CURRENCY),
@@ -60,16 +91,6 @@ var PATTERNS = []*Pattern{
 		// Number Nominal - Address, Phone, Large Number
 		CurrentByRegexp: Utility.CompileRegex("/^[0-9]{5,}$/"),
 		SetSubclassTo:   Token.NumberNominal,
-	}, {
-		// Number Nominal - Next to word (Left)
-		CurrentByClass: Token.Number,
-		HasPrefix:      []string{string(Token.Word)},
-		SetSubclassTo:  Token.NumberNominal,
-	}, {
-		// Number Nominal - Next to word (right)
-		CurrentByClass: Token.Number,
-		HasSuffix:      []string{string(Token.Word)},
-		SetSubclassTo:  Token.NumberNominal,
 	}, {
 		// Number Year (4-Digit)
 		CurrentByRegexp: Utility.CompileRegex("/^[0-9]{4}$/"),
@@ -127,9 +148,9 @@ var PATTERNS = []*Pattern{
 		SetSubclassTo: Token.QuoteEnd,
 	}, {
 		// Range
-		CurrentByWords: []string{"-"},
-		HasPrefix:      []string{IGNORE_SPACES, string(Token.Number)},
-		HasSuffix:      []string{IGNORE_SPACES, string(Token.Number)},
+		CurrentByWords:  []string{ "-" },
+		HasPrefix:       []string{IGNORE_SPACES, string(Token.Number)},
+		HasSuffix:       []string{IGNORE_SPACES, string(Token.Number)},
 		ScanBefore: &PatternScan{
 			NotExists:    []string{REGEX_OPERATIONS},
 			Range:        2,
@@ -142,16 +163,38 @@ var PATTERNS = []*Pattern{
 		},
 		SetSubclassTo: Token.Range,
 	}, {
+		// Range (per)
+		CurrentByWords:  []string{ "x" },
+		HasPrefix:       []string{IGNORE_SPACES, string(Token.Number)},
+		HasSuffix:       []string{IGNORE_SPACES, string(Token.Number)},
+		ScanBefore: &PatternScan{
+			NotExists:    []string{REGEX_OPERATIONS},
+			Range:        2,
+			IgnoreSpaces: true,
+		},
+		ScanAfter: &PatternScan{
+			NotExists:    []string{REGEX_OPERATIONS},
+			Range:        2,
+			IgnoreSpaces: true,
+		},
+		SetSubclassTo:   Token.Range,
+	}, {
+		// Range (per)
+		CurrentByWords:  []string{ "-" },
+		HasPrefix:       []string{IGNORE_SPACES, string(Token.Number)},
+		HasSuffix:       []string{IGNORE_SPACES, string(Token.Number), "/", string(Token.Word)},
+		SetSubclassTo:   Token.Range,
+	}, {
 		// Math Operation
-		CurrentByWords: []string{"-"},
-		HasPrefix:      []string{IGNORE_SPACES, string(Token.Number)},
-		HasSuffix:      []string{IGNORE_SPACES, string(Token.Number)},
-		SetSubclassTo:  Token.MathOperation,
+		CurrentByWords:  []string{ "-", "+", "/", "*", "x", "^" },
+		HasPrefix:       []string{IGNORE_SPACES, string(Token.Number)},
+		HasSuffix:       []string{IGNORE_SPACES, string(Token.Number)},
+		SetSubclassTo:   Token.MathOperation,
 	}, {
 		// Dashes
-		CurrentByWords:  []string{"-"},
+		CurrentByWords:  []string{ "-" },
 		HasPrefix:       []string{string(Token.Word)},
-		SetIsInactiveTo: true,
+		SetIsInactiveTo:  true,
 	}, {
 		// Number Prefixes
 		CurrentByWords: []string{"-", "+"},
@@ -176,9 +219,9 @@ var PATTERNS = []*Pattern{
 		SetSubclassTo:  Token.Per,
 	}, {
 		// Number Currency Scale
-		CurrentByWords: []string{"k", "m", "b", "t"},
+		CurrentByWords: []string{"k", "thousand", "m", "million", "b", "billion", "t", "trillion"},
 		HasPrefix:      []string{IGNORE_SPACES, string(Token.NumberCurrency)},
-		SetSubclassTo:  Token.Scale,
+		SetIsInactiveTo: true,
 	}, {
 		// Roman Numeral Possessive
 		CurrentByRegexp: Utility.CompileRegex(REGEX_ROMAN_NUM),
@@ -243,7 +286,7 @@ var PATTERNS = []*Pattern{
 		SetSubclassTo:   Token.Initialism,
 	}, {
 		// Initialism
-		CurrentByRegexp: Utility.CompileRegex(`/^[A-Z]{2,}(s)?$/`),
+		CurrentByRegexp: Utility.CompileRegex(`/^[A-Z]{2,}(\')?(s)?$/`),
 		Filter: func(text string) bool {
 			return Utility.IsInitialism(text)
 		},

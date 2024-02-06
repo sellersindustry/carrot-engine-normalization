@@ -70,7 +70,37 @@ func NumberYear(text string) string {
 }
 
 
-func NumberCurrency(text string, currency string) string {
+func NumberCurrency(text string, currency string, scale string) string {
+	if scale == "" {
+		return numberCurrency(text, currency);
+	}
+	if currency == "$" {
+		return Number(text) + " " + numberCurrencyScale(scale) + " dollars";
+	} else if currency == "£" {
+		return Number(text) + " " + numberCurrencyScale(scale) + " pounds";
+	} else if currency == "€" {
+		return Number(text) + " " + numberCurrencyScale(scale) + " euros";
+	}
+	return Number(text);
+}
+
+
+func numberCurrencyScale(scale string) string {
+	scale = strings.ToLower(scale)
+	if scale == "k" || scale == "thousand" {
+		return "thousand";
+	} else if scale == "m" || scale == "million" {
+		return "million";
+	} else if scale == "b" || scale == "billion" {
+		return "billion";
+	} else if scale == "t" || scale == "trillion" {
+		return "trillion";
+	}
+	return "";
+}
+
+
+func numberCurrency(text string, currency string) string {
 	if currency == "$" {
 		if strings.Contains(text, ".") {
 			dollars := strings.Split(text, ".")[0]
@@ -86,6 +116,14 @@ func NumberCurrency(text string, currency string) string {
 			return Number(pounds) + " pounds and " + Number(pence) + " pence";
 		} else {
 			return Number(text) + " pounds";
+		}
+	} else if currency == "€" {
+		if strings.Contains(text, ".") {
+			pounds := strings.Split(text, ".")[0]
+			pence  := strings.Split(text, ".")[1]
+			return Number(pounds) + " euros and " + Number(pence) + " cents";
+		} else {
+			return Number(text) + " euros";
 		}
 	}
 	return Number(text);

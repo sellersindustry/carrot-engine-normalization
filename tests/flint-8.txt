@@ -25,7 +25,7 @@ On average, a single website was setting ten cookies, with the maximum number of
 ------INPUT------
 Supercookie A "supercookie" is a cookie with an origin of a Top-Level Domain (such as .com) or a Public Suffix (such as .co.uk).
 ------OUTPUT------
-Supercookie A quote on quote supercookie is a cookie with an origin of a Top-Level Domain, such as dot com, or a Public Suffix, such as dot co dot uk.
+Supercookie A quote on quote supercookie is a cookie with an origin of a Top-Level Domain, such as dot com, or a Public Suffix, such as dot co dot u k.
 ------INPUT------
 It is important that supercookies are blocked by browsers, due to the security holes they introduce.
 ------OUTPUT------
@@ -81,7 +81,7 @@ This can also be done in part by using the I P address of the computer requestin
 ------INPUT------
 This can be demonstrated as follows: If the user requests a page of the site, but the request contains no cookie, the server presumes that this is the first page visited by the user; the server creates a random string and sends it as a cookie back to the browser together with the requested page; From this point on, the cookie will automatically be sent by the browser to the server every time a new page from the site is requested; the server sends the page as usual, but also stores the URL of the requested page, the date/time of the request, and the cookie in a log file.
 ------OUTPUT------
-This can be demonstrated as follows: If the user requests a page of the site, but the request contains no cookie, the server presumes that this is the first page visited by the user. The server creates a random string and sends it as a cookie back to the browser together with the requested page. From this point on, the cookie will automatically be sent by the browser to the server every time a new page from the site is requested. The server sends the page as usual, but also stores the URL of the requested page, the date and time of the request, and the cookie in a log file.
+This can be demonstrated as follows: If the user requests a page of the site, but the request contains no cookie, the server presumes that this is the first page visited by the user; the server creates a random string and sends it as a cookie back to the browser together with the requested page; From this point on, the cookie will automatically be sent by the browser to the server every time a new page from the site is requested; the server sends the page as usual, but also stores the U R L of the requested page, the date slash time of the request, and the cookie in a log file.
 ------INPUT------
 By analyzing the log file collected in the process, it is then possible to find out which pages the user has visited, in what sequence, and for how long.
 ------OUTPUT------
@@ -97,7 +97,7 @@ Regardless of cookies, browsers request a page from web servers by sending them 
 ------INPUT------
 For example, to access the page http://www.example.org/index.html, browsers connect to the server www.example.org sending it a request that looks like the following one: The server replies by sending the requested page preceded by a similar packet of text, called 'HTTP response'.
 ------OUTPUT------
-For example, to access the page http colon slash slash www dot example dot org slash index dot html, browsers connect to the server www dot example dot org sending it a request that looks like the following one: The server replies by sending the requested page preceded by a similar packet of text, called quote HTTP response end quote.
+For example, to access the page h t t p colon slash slash w w w dot example dot org slash index dot h t m l, browsers connect to the server w w w dot example dot org sending it a request that looks like the following one: The server replies by sending the requested page preceded by a similar packet of text, called quote on quote H T T P response.
 ------INPUT------
 This packet may contain lines requesting the browser to store cookies: The server sends lines of Set-Cookie only if the server wishes the browser to store cookies.
 ------OUTPUT------
@@ -107,9 +107,9 @@ Set-Cookie is a directive for the browser to store the cookie and send it back i
 ------OUTPUT------
 Set-Cookie is a directive for the browser to store the cookie and send it back in future requests to the server, subject to expiration time or other cookie attributes, if the browser supports cookies and cookies are enabled.
 ------INPUT------
-For example, the browserrequests the page http://www.example.org/spec.html by sending the server www.example.org a request like the following: This is a request for another page from the same server, and differs from the first one above because it contains the string that the server has previously sent to the browser.
+For example, the browser requests the page http://www.example.org/spec.html by sending the server www.example.org a request like the following: This is a request for another page from the same server, and differs from the first one above because it contains the string that the server has previously sent to the browser.
 ------OUTPUT------
-For example, the browser requests the page http colon slash slash www dot example dot org slash spec dot html by sending the server www dot example dot org a request like the following: This is a request for another page from the same server, and differs from the first one above because it contains the string that the server has previously sent to the browser.
+For example, the browser requests the page h t t p colon slash slash w w w dot example dot org slash spec dot h t m l by sending the server w w w dot example dot org a request like the following: This is a request for another page from the same server, and differs from the first one above because it contains the string that the server has previously sent to the browser.
 ------INPUT------
 This way, the server knows that this request is related to the previous one.
 ------OUTPUT------
@@ -127,17 +127,13 @@ The browser then replaces the old value with the new one.
 ------OUTPUT------
 The browser then replaces the old value with the new one.
 ------INPUT------
-The value of a cookie may consist of any printable ASCII character (! through ~, unicode \u0021 through \u007E) excluding , and ; and excluding whitespace.
-------OUTPUT------
-The value of a cookie may consist of any printable ASCII character, excluding comma and semicolon, and excluding whitespace.
-------INPUT------
 The name of the cookie also excludes = as that is the delimiter between the name and value.
 ------OUTPUT------
 The name of the cookie also excludes equals as that is the delimiter between the name and value.
 ------INPUT------
 The cookie standard RFC2965 is more limiting but not implemented by browsers.
 ------OUTPUT------
-The cookie standard R F C two nine six five is more limiting but not implemented by browsers.
+The cookie standard R F C twenty-nine sixty-five is more limiting but not implemented by browsers.
 ------INPUT------
 The term "cookie crumb" is sometimes used to refer to the name-value pair.
 ------OUTPUT------

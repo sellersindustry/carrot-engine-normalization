@@ -29,7 +29,6 @@ const (
 	Punctuation            Subclass = "{{SUBCLASS:PUNCTUATION}}"
 	Initialism             Subclass = "{{SUBCLASS:INITIALISM}}"
 	Unit                   Subclass = "{{SUBCLASS:UNIT}}"
-	Scale                  Subclass = "{{SUBCLASS:SCALE}}"
 	Range                  Subclass = "{{SUBCLASS:RANGE}}"
 	Per                    Subclass = "{{SUBCLASS:PER}}"
 	QuoteStart             Subclass = "{{SUBCLASS:QUOTE_START}}"

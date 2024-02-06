@@ -53,7 +53,7 @@ var PATTERNS = []*Pattern {
 		Class:       Token.Word,
 	}, {
 		// Word
-		DetectRegexp: Utility.CompileRegex(`/^[A-zÀ-ú]+(\-[A-zÀ-ú]+)*(\'[A-zÀ-ú]+)?/`),
+		DetectRegexp: Utility.CompileRegex(`/^[A-Za-zÀ-ÖØ-öø-ÿ]+(\-[A-Za-zÀ-ÖØ-öø-ÿ]+)*(\'[A-Za-zÀ-ÖØ-öø-ÿ]+)?/`),
 		Class:        Token.Word,
 	},
 }

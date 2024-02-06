@@ -49,7 +49,7 @@ func detectCurrentBy(index int, tokens *[]Token.Model, pattern *Pattern) bool {
 	} else if string(pattern.CurrentBySubclass) != "" {
 		return pattern.CurrentBySubclass == (*tokens)[index].Subclass
 	} else if pattern.CurrentByWords != nil {
-		return Utility.Contains(pattern.CurrentByWords, strings.ToLower((*tokens)[index].Original))
+		return Utility.Contains(pattern.CurrentByWords, (*tokens)[index].Original)
 	}
 	return false;
 }

@@ -2,6 +2,7 @@
 °C		degrees Celsius
 °F		degrees Fahrenheit
 F		Fahrenheit
+°		degrees
 °Re		degrees Reaumur
 amu		atomic mass units
 atm		atmospheres
@@ -87,7 +88,6 @@ hl		hectolitres
 hPa		hectopascals
 hp		horsepower
 hZ		hertz
-in		inches
 in²		square inches
 in2		square inches
 in^2		square inches

@@ -4,6 +4,7 @@ import (
 	"strings"
 
 	"github.com/sellersindustry/normalization-tts/bin/Token"
+	"github.com/sellersindustry/normalization-tts/bin/Utility"
 )
 
 
@@ -33,8 +34,9 @@ func getNextToken(buffer string, patterns []*Pattern) *Token.Model {
 func extractByPattern(buffer string, pattern *Pattern) *Token.Model {
 	if (pattern.DetectWords != nil) {
 		for _, word := range pattern.DetectWords {
-			if strings.EqualFold(buffer, word) {
-				return Token.NewGeneral(buffer, pattern.Class)
+			wordPattern := Utility.CompileRegex("/^" + strings.ToLower(word) + "\\b/")
+			if wordPattern.MatchString(strings.ToLower(buffer)) {
+				return Token.NewGeneral(buffer[0:len(word)], pattern.Class)
 			}
 		}
 	}
