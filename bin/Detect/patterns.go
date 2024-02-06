@@ -5,8 +5,7 @@ import (
 	"github.com/sellersindustry/normalization-tts/bin/Utility"
 )
 
-
-var PATTERNS = []*Pattern {
+var PATTERNS = []*Pattern{
 	{
 		// Control
 		DetectRegexp: Utility.CompileRegex(`/^(\{\{)[\w\=\-\s]+(\}\})/`),

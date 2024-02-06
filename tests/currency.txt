@@ -1,0 +1,120 @@
+------INPUT------
+The laptop costs $500.
+------OUTPUT------
+The laptop costs five hundred dollars.
+------INPUT------
+She earned $2.5 million last year.
+------OUTPUT------
+She earned two point five million dollars last year.
+------INPUT------
+The rent ranges from $800-$1200.
+------OUTPUT------
+The rent ranges from eight hundred to twelve hundred dollars.
+------INPUT------
+He borrowed $50k from the bank.
+------OUTPUT------
+He borrowed fifty thousand dollars from the bank.
+------INPUT------
+The budget is $2m-3m.
+------OUTPUT------
+The budget is two million dollars to three million dollars.
+------INPUT------
+They invested $3 billion in the project.
+------OUTPUT------
+They invested three billion dollars in the project.
+------INPUT------
+The price varies from $10 to $20.
+------OUTPUT------
+The price varies from ten dollars to twenty dollars.
+------INPUT------
+She received a grant of $100,000.
+------OUTPUT------
+She received a grant of one hundred thousand dollars.
+------INPUT------
+The company is valued at $15 billion.
+------OUTPUT------
+The company is valued at fifteen billion dollars.
+------INPUT------
+They spent $1.5 million on advertising.
+------OUTPUT------
+They spent one point five million dollars on advertising.
+------INPUT------
+The salary ranges from $40k to $60k.
+------OUTPUT------
+The salary ranges from forty thousand dollars to sixty thousand dollars.
+------INPUT------
+The house is listed for $750,000.
+------OUTPUT------
+The house is listed for seven hundred fifty thousand dollars.
+------INPUT------
+He donated $25 million to charity.
+------OUTPUT------
+He donated twenty-five million dollars to charity.
+------INPUT------
+The grant amount is $2-3 million.
+------OUTPUT------
+The grant amount is two million dollars to three million dollars.
+------INPUT------
+The investment is expected to be $100-200 billion.
+------OUTPUT------
+The investment is expected to be one hundred to two hundred billion dollars.
+------INPUT------
+The fundraiser aims to raise $1 million.
+------OUTPUT------
+The fundraiser aims to raise one million dollars.
+------INPUT------
+The annual budget is $5 billion.
+------OUTPUT------
+The annual budget is five billion dollars.
+------INPUT------
+She received a bonus of $10k.
+------OUTPUT------
+She received a bonus of ten thousand dollars.
+------INPUT------
+The contract is worth $30 million.
+------OUTPUT------
+The contract is worth thirty million dollars.
+------INPUT------
+The project budget is $20m-30m.
+------OUTPUT------
+The project budget is twenty million dollars to thirty million dollars.
+------INPUT------
+He invested $1.2 billion in stocks.
+------OUTPUT------
+He invested one point two billion dollars in stocks.
+------INPUT------
+The prize money is $50,000.
+------OUTPUT------
+The prize money is fifty thousand dollars.
+------INPUT------
+The grant ranges from $1-5 million.
+------OUTPUT------
+The grant ranges from one million dollars to five million dollars.
+------INPUT------
+The donation amount is $25-50k.
+------OUTPUT------
+The donation amount is twenty-five to fifty thousand dollars.
+------INPUT------
+The loan amount is $500,000.
+------OUTPUT------
+The loan amount is five hundred thousand dollars.
+------INPUT------
+The project requires funding of $10 million.
+------OUTPUT------
+The project requires funding of ten million dollars.
+------INPUT------
+They received a donation of $1 billion.
+------OUTPUT------
+They received a donation of one billion dollars.
+------INPUT------
+The budget for the event is $50k-100k.
+------OUTPUT------
+The budget for the event is fifty thousand dollars to one hundred thousand dollars.
+------INPUT------
+The investment is expected to be $20-30 million.
+------OUTPUT------
+The investment is expected to be twenty to thirty million dollars.
+------INPUT------
+The salary range is $60k-80k.
+------OUTPUT------
+The salary range is sixty thousand dollars to eighty thousand dollars.
