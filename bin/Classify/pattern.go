@@ -264,6 +264,12 @@ var PATTERNS = []*Pattern{
 		HasPrefix:       []string{`/^[^\s]+$/`},
 		HasSuffix:       []string{string(Token.Termination)},
 	}, {
+		// Punctuation - End of Text
+		CurrentByRegexp: Utility.CompileRegex(REGEX_PUNCTUATION),
+		SetSubclassTo:   Token.Punctuation,
+		HasPrefix:       []string{`/^[^\s]+$/`},
+		HasSuffix:       []string{"\""},
+	}, {
 		// Pause for Parentheses - Start (Space)
 		CurrentByClass:  Token.Space,
 		HasPrefix:       []string{string(Token.Word)},
