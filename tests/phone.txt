@@ -14,3 +14,15 @@ two three four, four five six, seven eight nine zero
 234.456.7890
 ------OUTPUT------
 two three four, four five six, seven eight nine zero
+------INPUT------
+Bob's phone number is 234.456.7890 and you can reach him at any time.
+------OUTPUT------
+Bob's phone number is two three four, four five six, seven eight nine zero and you can reach him at any time.
+------INPUT------
+You can reach the manager with +1 (234)456-7890
+------OUTPUT------
+You can reach the manager with one, two three four, four five six, seven eight nine zero
+------INPUT------
+My phone number is +13 (234)456-7890
+------OUTPUT------
+My phone number is one three, two three four, four five six, seven eight nine zero
