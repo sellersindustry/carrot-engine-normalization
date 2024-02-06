@@ -14,6 +14,9 @@ var INITIALISM_OVERRIDE = []string{ "AD", "US" };
 
 
 func IsInitialism(text string) bool {
+	if strings.HasSuffix(text, "'s") {
+		text = strings.TrimSuffix(text, "'s")
+	}
 	if strings.HasSuffix(text, "s") {
 		text = strings.TrimSuffix(text, "s")
 	}

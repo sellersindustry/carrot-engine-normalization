@@ -7,8 +7,8 @@ import (
 	Normalize "github.com/sellersindustry/normalization-tts/bin"
 )
 
-var text = ""
-var isTest = true
+var text = "At 6:30am"
+var isTest = true;
 
 func main() {
 	if isTest {
@@ -36,3 +36,5 @@ func main() {
 // FAIL 74
 // FAIL 69
 // FAIL 37
+// FAIL 32
+// FAIL 23

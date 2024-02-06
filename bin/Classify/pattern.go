@@ -218,6 +218,11 @@ var PATTERNS = []*Pattern{
 		HasSuffix:      []string{string(Token.Word)},
 		SetSubclassTo:  Token.Per,
 	}, {
+		// AM and PM	
+		CurrentByWords: []string{ "am", "pm" },
+		HasPrefix:      []string{IGNORE_SPACES, string(Token.Time)},
+		SetSubclassTo:  Token.Initialism,
+	}, {
 		// Number Currency Scale
 		CurrentByWords: []string{"k", "thousand", "m", "million", "b", "billion", "t", "trillion"},
 		HasPrefix:      []string{IGNORE_SPACES, string(Token.NumberCurrency)},

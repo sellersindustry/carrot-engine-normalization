@@ -115,13 +115,9 @@ The county has a long history of human settlement and some notable archaeology, 
 ------OUTPUT------
 The county has a long history of human settlement and some notable archaeology, including the hill forts of Maiden Castle and Hod Hill.
 ------INPUT------
-Table of contents Demographics Dorset has a population of 390980, plus 163444 in Bournemouth and 138288in Poole (total 692712).
+Table of contents Demographics Dorset has a population of 390,980, plus 163,444 in Bournemouth and 138,288 in Poole (total 692,712).
 ------OUTPUT------
-Table of contents
-
-Demographics
-
-Dorset has a population of three hundred and ninety thousand nine hundred and eighty, plus one hundred and sixty-three thousand four hundred and forty-four in Bournemouth and one hundred and thirty-eight thousand two hundred and eighty-eight in Poole (total six hundred and ninety-two thousand seven hundred and twelve).
+Table of contents Demographics Dorset has a population of three hundred and ninety thousand nine hundred and eighty, plus one hundred and sixty-three thousand four hundred and forty-four in Bournemouth and one hundred and thirty-eight thousand two hundred and eighty-eight in Poole, total six hundred and ninety-two thousand seven hundred and twelve.
 ------INPUT------
 The following statistics exclude Poole and Bournemouth, which are no longer part of the administrative county.
 ------OUTPUT------
@@ -153,7 +149,7 @@ It has the third highest mortality rate, behind East Sussex and Devon.
 ------INPUT------
 In 1996, deaths exceeded births by 1056, giving a natural population decline of 2.7per 1000, however, in 1997 there were 7200 migrants moving to Dorset and the Poole-Bournemouth conurbation, giving Dorset the second highest net population-growth, behind Cambridgeshire, at 17.3%.
 ------OUTPUT------
-In nineteen ninety-six, deaths exceeded births by one thousand and fifty six, giving a natural population decline of two point seven per one thousand. However, in nineteen ninety-seven, there were seven thousand two hundred migrants moving to Dorset and the Poole-Bournemouth conurbation, giving Dorset the second highest net population growth, behind Cambridgeshire, at seventeen point three percent.
+In nineteen ninety-six, deaths exceeded births by ten fifty-six, giving a natural population decline of two point seven per ten hundred, however, in nineteen ninety-seven there were seventy-two hundred migrants moving to Dorset and the Poole-Bournemouth conurbation, giving Dorset the second highest net population-growth, behind Cambridgeshire, at seventeen point three percent.
 ------INPUT------
 Data taken from the 2001 census and the Dorset Keyfacts.
 ------OUTPUT------

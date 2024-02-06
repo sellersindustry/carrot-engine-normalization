@@ -49,7 +49,7 @@ This isotope has such a long half-life, at four point three times ten to the pow
 ------INPUT------
 Similarly, 70Zn (0.6%), with a half-life of 1.3x10^16 years is not usually considered to be radioactive.
 ------OUTPUT------
-Similarly, seventy Zn (zero point six percent), with a half-life of one point three times ten to the power of sixteen years is not usually considered to be radioactive.
+Similarly, seventy Zn, zero point six percent, with a half-life of one point three times ten to the power of sixteen years is not usually considered to be radioactive.
 ------INPUT------
 The other isotopes found in nature are 66Zn (28%), 67Zn (4%), and 68Zn (19%).
 ------OUTPUT------

@@ -61,7 +61,7 @@ Pilsdon Pen, the highest hill in Dorset at nine hundred and nine feet, two hundr
 ------INPUT------
 The earliest recorded use of the name was in A.D.940 as Dorseteschire meaning the dwellers (saete) of Dornuuarana (Dorchester), the place of fisticuffs (Celtic: Dwrn, "fist" and gwarae, "play").
 ------OUTPUT------
-The earliest recorded use of the name was in A.D. nine hundred and forty as Dorseteshire meaning the dwellers of Dornuuarana, the place of fisticuffs. Celtic: Dwrn, quote on quote fist and gwarae, quote on quote play.
+The earliest recorded use of the name was in A D nine hundred and forty as Dorseteschire meaning the dwellers, saete, of Dornuuarana, Dorchester, the place of fisticuffs, Celtic: Dwrn, quote on quote fist and gwarae, quote on quote play.
 ------INPUT------
 The first known settlement of Dorset was by Mesolithic hunters, from around 8000 BCE.
 ------OUTPUT------
@@ -155,9 +155,9 @@ In 2002, 1903km² of the county was in agricultural use, down from 1986km² in 1
 ------OUTPUT------
 In two thousand and two, one thousand nine hundred and three square kilometers of the county was in agricultural use, down from one thousand nine hundred and eighty-six square kilometers in one thousand nine hundred and eighty-nine, although the figure has fluctuated somewhat.
 ------INPUT------
-Cattle, the principal animal stock in the county, fell from 240413 to 178328 in the same period, the dairy herds falling from 102589 - 73476.
+Cattle, the principal animal stock in the county, fell from 240,413 to 178,328 in the same period, the dairy herds falling from 102,589 - 73,476.
 ------OUTPUT------
-Cattle, the principal animal stock in the county, fell from two hundred and forty thousand four hundred and thirteen to one hundred and seventy-eight thousand three hundred and twenty eight in the same period, the dairy herds falling from one hundred and two thousand five hundred and eighty-nine to seventy-three thousand four hundred and seventy-six.
+Cattle, the principal animal stock in the county, fell from two hundred and forty thousand four hundred and thirteen to one hundred and seventy-eight thousand three hundred and twenty-eight in the same period, the dairy herds falling from one hundred and two thousand five hundred and eighty-nine to seventy-three thousand four hundred and seventy-six.
 ------INPUT------
 Sheep and pig farming has declined in a similar fashion. Tourism has grown as a major industry in Dorset since the early 19th century.
 ------OUTPUT------
@@ -167,7 +167,7 @@ Sheep and pig farming has declined in a similar fashion. Tourism has grown as a 
 ------OUTPUT------
 four point two million British tourists and two hundred and sixty thousand foreign tourists visited the county in two thousand and two, spending a combined total of seven hundred and sixty-eight million dollars.
 ------INPUT------
-Foreign tourism declined in 1999 (310000, down from 410000 in 1998), and again in 2002 (down from 320000), the latter decline being blamed on the effects of the global economy and security at that time.
+Foreign tourism declined in 1999 (310,000, down from 410,000 in 1998), and again in 2002 (down from 320,000), the latter decline being blamed on the effects of the global economy and security at that time.
 ------OUTPUT------
 Foreign tourism declined in nineteen ninety-nine (three hundred and ten thousand, down from four hundred and ten thousand in nineteen ninety-eight), and again in two thousand and two (down from three hundred and twenty thousand), the latter decline being blamed on the effects of the global economy and security at that time.
 ------INPUT------

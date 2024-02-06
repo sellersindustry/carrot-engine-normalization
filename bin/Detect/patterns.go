@@ -21,7 +21,7 @@ var PATTERNS = []*Pattern {
 		Class:        Token.Date,
 	}, {
 		// Time
-		DetectRegexp: Utility.CompileRegex(`/^[0-9]{1,2}:[0-9]{2}\b/`),
+		DetectRegexp: Utility.CompileRegex(`/^[0-9]{1,2}:[0-9]{2}/`),
 		Class:        Token.Time,
 	}, {
 		// Phone

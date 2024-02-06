@@ -38,7 +38,7 @@ London and the South of England. The station recorded its highest ever audience
 of 11 million listeners in May 2011 and was named "UK Radio Station of the Year"
 at the 2003, 2004 and 2008 Sony Radio Academy Awards.
 ------OUTPUT------
-Table of contents Section one Outline Radio four is the second most popular British domestic radio station by total hours, after Radio two and the most popular in London and the South of England. The station recorded its highest ever audience of eleven million listeners in May two thousand and eleven and was named "UK Radio Station of the Year" at the two thousand and three, two thousand and four, and two thousand and eight Sony Radio Academy Awards.
+Table of contents Section one Outline Radio four is the second most popular British domestic radio station by total hours, after Radio two and the most popular in London and the South of England. The station recorded its highest ever audience of eleven million listeners in May twenty eleven and was named quote U K Radio Station of the Year end quote at the two thousand and three, two thousand and four and two thousand and eight Sony Radio Academy Awards.
 ------INPUT------
 Costing $71.4 million (2005/6), it is the BBC's most expensive national radio
 network and is considered by many to be the corporation's flagship. There is no
@@ -91,7 +91,7 @@ Radio 4 has carried these regular weather forecasts for shipping and gale
 warnings since its move to the Long Wave frequency in 1978 because the long-wave
 service can be received clearly at sea around the coasts of Britain and Ireland.
 ------OUTPUT------
-Radio four has carried these regular weather forecasts for shipping and gale warnings since its move to the long wave frequency in nineteen seventy-eight because the long wave service can be received clearly at sea around the coasts of Britain and Ireland.
+Radio four has carried these regular weather forecasts for shipping and gale warnings since its move to the Long wave frequency in nineteen seventy-eight because the long-wave service can be received clearly at sea around the coasts of Britain and Ireland.
 ------INPUT------
 The station has also been designated as the UK's national broadcaster in times
 of national emergency such as a war: if all other radio stations were forced to
@@ -155,7 +155,7 @@ The launch of Radio fifth in September nineteen ninety saw the removal of all th
 ------INPUT------
 However, between 17 January 1991 and 2 March 1991, the FM broadcasts were replaced by a continuous news service devoted to the Gulf War, nicknamed "Scud FM", again with the main Radio 4 service being exclusively on long wave.
 ------OUTPUT------
-However, between seventeen January nineteen ninety-one and two March nineteen ninety-one, the F M broadcasts were replaced by a continuous news service devoted to the Gulf War, nicknamed quote on quote Scud F M, again with the main Radio four service being exclusively on long wave.
+However, between seventeenth January nineteen ninety-one and second March nineteen ninety-one, the F M broadcasts were replaced by a continuous news service devoted to the Gulf War, nicknamed quote on quote Scud F M, again with the main Radio four service being exclusively on long wave.
 ------INPUT------
 In September 1991 bosses decided that the main Radio 4 service would be on FM as FM coverage had by now been extended to cover almost all of the UK.
 ------OUTPUT------
@@ -187,7 +187,7 @@ It was replaced by an extension to the early news bulletin, despite some public 
 ------INPUT------
 After a continuity link and programme trail there is a shipping forecast, weather reports from coastal stations for 04:00 GMT and the inshore waters forecasts, followed at 05:30 by a news bulletin, a review of British and international newspapers, and a business report.
 ------OUTPUT------
-After a continuity link and programme trail, there is a shipping forecast, weather reports from coastal stations for four o'clock Greenwich Mean Time, and the inshore waters forecasts, followed at five thirty by a news bulletin, a review of British and international newspapers, and a business report.
+After a continuity link and programme trail there is a shipping forecast, weather reports from coastal stations for four o'clock G M T and the inshore waters forecasts, followed at five thirty by a news bulletin, a review of British and international newspapers, and a business report.
 ------INPUT------
 On weekdays, Farming Today, which deals with news of relevance to the agricultural sector, is followed by the Today programme from 06:00 to 09:00.
 ------OUTPUT------
@@ -195,15 +195,15 @@ On weekdays, Farming Today, which deals with news of relevance to the agricultur
 ------INPUT------
 After the Today programme, the schedule is then determined by the day of the week, though on every weekday there are 'fixtures': Woman's Hour at 10:00, You and Yours at 12:00, The World at One and a repeat of the previous day's The Archers at 2:00 pm, followed by the Afternoon Play at 2:15 pm.
 ------OUTPUT------
-After the Today programme, the schedule is then determined by the day of the week, though on every weekday there are fixtures': Woman's Hour at ten o'clock, You and Yours at twelve o'clock, The World at One and a repeat of the previous day's The Archers at two o'clock pm, followed by the Afternoon Play at two fifteen pm.
+After the Today programme, the schedule is then determined by the day of the week, though on every weekday there are quote on quote fixtures: Woman's Hour at ten o'clock, You and Yours at twelve o'clock, The World at One and a repeat of the previous day's The Archers at two o'clock p m, followed by the Afternoon Play at two fifteen p m.
 ------INPUT------
 At 5:00 pm another current affairs programme, PM, is broadcast.
 ------OUTPUT------
-At five o'clock in the evening, another current affairs programme, P M, is broadcast.
+At five o'clock in p m the evening, another current affairs programme, P M, is broadcast.
 ------INPUT------
 At 6:30 pm there is a regular comedy 'slot', followed by The Archers.
 ------OUTPUT------
-At six thirty in the evening there is a regular comedy slot, followed by The Archers.
+At six thirty p m there is a regular comedy quote on quote slot, followed by The Archers.
 ------INPUT------
 At weekends the schedule is different, but also has its 'fixtures' at various times.
 ------OUTPUT------
@@ -211,7 +211,7 @@ At weekends the schedule is different, but also has its quote on quote fixtures 
 ------INPUT------
 On or after the hour, a news bulletin is broadcast. This is sometimes a two-minute summary, a longer piece as part of a current affairs programme, or a 30 minute broadcast on weekdays at 18:00 and midnight.
 ------OUTPUT------
-On or after the hour, a news bulletin is broadcast. This is sometimes a two-minute summary, a longer piece as part of a current affairs programme, or a thirty minute broadcast on weekdays at twelve o'clock and midnight.
+On or after the hour, a news bulletin is broadcast. This is sometimes a two-minute summary, a longer piece as part of a current affairs programme, or a thirty minute broadcast on weekdays at six o'clock and midnight.
 ------INPUT------
 At 12:00, FM has a four-minute bulletin while long wave has the headlines and then the Shipping Forecast; for the same reason, long wave leaves PM on weekdays at 17:54.------OUTPUT------
 ------OUTPUT------

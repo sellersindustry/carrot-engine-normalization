@@ -56,10 +56,12 @@ func sentenize(tokens *[]Token.Model, hasControls bool) []string {
 		if len(sentences[len(sentences)-1]) != 0 && (*tokens)[index].Subclass != Token.Punctuation {
 			sentences[len(sentences)-1] += " "
 		}
-		sentences[len(sentences)-1] += (*tokens)[index].Text
 		if isSentenceEnd(&(*tokens)[index]) {
 			sentences[len(sentences)-1] = trimAllSpace(sentences[len(sentences)-1])
+			sentences[len(sentences)-1] += (*tokens)[index].Text
 			sentences = append(sentences, "")
+		} else {
+			sentences[len(sentences)-1] += (*tokens)[index].Text
 		}
 	}
 	sentences[len(sentences)-1] = trimAllSpace(sentences[len(sentences)-1])

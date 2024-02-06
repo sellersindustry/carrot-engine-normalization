@@ -81,6 +81,7 @@
 
 
 ## Notes
+- https://www.kaggle.com/datasets/google-nlu/text-normalization (DATAPOINTS)
 - https://huggingface.co/google/flan-t5-base
 - https://github.com/neurosnap/sentences?tab=readme-ov-file
 - https://tomaarsen.github.io/SpanMarkerNER/index.html
