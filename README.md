@@ -13,7 +13,6 @@
 - Implement Abbreivations (Classify, Tranformation)
 - Tranformation
     - Phone
-    - Date
     - Special - Email, URL, HashTag (Chuncking - de-camelcase)
 - Classify ranges to use contextual words
 - CLI

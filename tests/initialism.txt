@@ -1,0 +1,104 @@
+------INPUT------
+She works for NASA.
+------OUTPUT------
+She works for NASA.
+------INPUT------
+He is a member of FBI.
+------OUTPUT------
+He is a member of F B I.
+------INPUT------
+The project is sponsored by NATO.
+------OUTPUT------
+The project is sponsored by NATO.
+------INPUT------
+They discussed the plan with CIA.
+------OUTPUT------
+They discussed the plan with C I A.
+------INPUT------
+The report mentions WHO.
+------OUTPUT------
+The report mentions WHO.
+------INPUT------
+She received funding from IMF.
+------OUTPUT------
+She received funding from I M F.
+------INPUT------
+He is involved in UNESCO.
+------OUTPUT------
+He is involved in UNESCO.
+------INPUT------
+The organization is affiliated with UNICEF.
+------OUTPUT------
+The organization is affiliated with UNICEF.
+------INPUT------
+She works as a consultant for IBM.
+------OUTPUT------
+She works as a consultant for I B M.
+------INPUT------
+The company uses ERP.
+------OUTPUT------
+The company uses E R P.
+------INPUT------
+He received a grant from NIH.
+------OUTPUT------
+He received a grant from N I H.
+------INPUT------
+She is a member of WTO.
+------OUTPUT------
+She is a member of W T O.
+------INPUT------
+The project is part of EU.
+------OUTPUT------
+The project is part of E U.
+------INPUT------
+The team collaborated with OPEC.
+------OUTPUT------
+The team collaborated with OPEC.
+------INPUT------
+She works in IT.
+------OUTPUT------
+She works in I T.
+------INPUT------
+He attended a seminar on AI.
+------OUTPUT------
+He attended a seminar on A I.
+------INPUT------
+The company specializes in SEO.
+------OUTPUT------
+The company specializes in S E O.
+------INPUT------
+They discussed the plan with FDA.
+------OUTPUT------
+They discussed the plan with F D A.
+------INPUT------
+She is a member of ACLU.
+------OUTPUT------
+She is a member of A C L U.
+------INPUT------
+The report mentions CDC.
+------OUTPUT------
+The report mentions C D C.
+------INPUT------
+He received funding from DARPA.
+------OUTPUT------
+He received funding from DARPA.
+------INPUT------
+She is involved in ISP.
+------OUTPUT------
+She is involved in I S P.
+------INPUT------
+The organization is affiliated with ILO.
+------OUTPUT------
+The organization is affiliated with I L O.
+------INPUT------
+She works as a consultant for NGO.
+------OUTPUT------
+She works as a consultant for N G O.
+------INPUT------
+The company uses ERP.
+------OUTPUT------
+The company uses E R P.
+------INPUT------
+He received a grant from EPA.
+------OUTPUT------
+He received a grant from E P A.

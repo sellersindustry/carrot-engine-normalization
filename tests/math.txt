@@ -1,0 +1,108 @@
+------INPUT------
+The equation is 2 + 3 = 5.
+------OUTPUT------
+The equation is two plus three equals five.
+------INPUT------
+What is 4 - 2?
+------OUTPUT------
+What is four minus two?
+------INPUT------
+She solved 3 × 6 = 18.
+------OUTPUT------
+She solved three times six equals eighteen.
+------INPUT------
+The result of 10 ÷ 2 is 5.
+------OUTPUT------
+The result of ten divided by two is five.
+------INPUT------
+He calculated 7 + 8 - 2 = 13.
+------OUTPUT------
+He calculated seven plus eight minus two equals thirteen.
+------INPUT------
+What is 9 × 3?
+------OUTPUT------
+What is nine times three?
+------INPUT------
+The sum of 12 ÷ 3 is 4.
+------OUTPUT------
+The sum of twelve divided by three is four.
+------INPUT------
+She asked, "What is 5 + 3?"
+------OUTPUT------
+She asked, quote What is five plus three? unquote
+------INPUT------
+The answer to 8 - 5 is 3.
+------OUTPUT------
+The answer to eight minus five is three.
+------INPUT------
+He solved 6 × 4 = 24.
+------OUTPUT------
+He solved six times four equals twenty-four.
+------INPUT------
+What is 15 ÷ 3?
+------OUTPUT------
+What is fifteen divided by three?
+------INPUT------
+The result of 10 + 5 - 2 is 13.
+------OUTPUT------
+The result of ten plus five minus two is thirteen.
+------INPUT------
+She calculated 2 × 9 = 18.
+------OUTPUT------
+She calculated two times nine equals eighteen.
+------INPUT------
+The sum of 20 ÷ 4 is 5.
+------OUTPUT------
+The sum of twenty divided by four is five.
+------INPUT------
+He asked, "What is 7 - 2?"
+------OUTPUT------
+He asked, quote What is seven minus two? unquote
+------INPUT------
+The answer to 9 + 4 is 13.
+------OUTPUT------
+The answer to nine plus four is thirteen.
+------INPUT------
+She solved 5 × 5 = 25.
+------OUTPUT------
+She solved five times five equals twenty-five.
+------INPUT------
+What is 18 ÷ 6?
+------OUTPUT------
+What is eighteen divided by six?
+------INPUT------
+The result of 12 + 6 - 3 is 15.
+------OUTPUT------
+The result of twelve plus six minus three is fifteen.
+------INPUT------
+He calculated 3 × 8 = 24.
+------OUTPUT------
+He calculated three times eight equals twenty-four.
+------INPUT------
+What is 20 ÷ 5?
+------OUTPUT------
+What is twenty divided by five?
+------INPUT------
+The sum of 15 ÷ 3 is 5.
+------OUTPUT------
+The sum of fifteen divided by three is five.
+------INPUT------
+She asked, "What is 9 - 4?"
+------OUTPUT------
+She asked, quote What is nine minus four? unquote
+------INPUT------
+The answer to 8 + 7 is 15.
+------OUTPUT------
+The answer to eight plus seven is fifteen.
+------INPUT------
+She solved 4 × 7 = 28.
+------OUTPUT------
+She solved four times seven equals twenty-eight.
+------INPUT------
+What is 24 ÷ 6?
+------OUTPUT------
+What is twenty-four divided by six?
+------INPUT------
+The result of 15 + 5 - 3 is 17.
+------OUTPUT------
+The result of fifteen plus five minus three is seventeen.

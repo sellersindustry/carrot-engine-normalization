@@ -1,0 +1,100 @@
+------INPUT------
+The meeting is scheduled for 2:30 PM.
+------OUTPUT------
+The meeting is scheduled for two thirty P M.
+------INPUT------
+We'll meet at 14:45.
+------OUTPUT------
+We'll meet at two forty-five.
+------INPUT------
+The event starts at 10:00 AM.
+------OUTPUT------
+The event starts at ten o'clock A M.
+------INPUT------
+She arrives at 8:15 PM.
+------OUTPUT------
+She arrives at eight fifteen P M.
+------INPUT------
+The train departs at 09:30.
+------OUTPUT------
+The train departs at nine thirty.
+------INPUT------
+The presentation begins at 3:00 PM.
+------OUTPUT------
+The presentation begins at three o'clock P M.
+------INPUT------
+The movie starts at 18:45.
+------OUTPUT------
+The movie starts at six forty-five.
+------INPUT------
+The flight leaves at 7:30 AM.
+------OUTPUT------
+The flight leaves at seven thirty A M.
+------INPUT------
+He wakes up at 06:00.
+------OUTPUT------
+He wakes up at six o'clock.
+------INPUT------
+The conference begins at 9:45 AM.
+------OUTPUT------
+The conference begins at nine forty-five A M.
+------INPUT------
+The party starts at 20:00.
+------OUTPUT------
+The party starts at eight o'clock.
+------INPUT------
+The meeting is at 11:30 AM.
+------OUTPUT------
+The meeting is at eleven thirty A M.
+------INPUT------
+They arrive at 13:15.
+------OUTPUT------
+They arrive at one fifteen.
+------INPUT------
+The event starts at 4:45 PM.
+------OUTPUT------
+The event starts at four forty-five P M.
+------INPUT------
+The show begins at 22:30.
+------OUTPUT------
+The show begins at ten thirty.
+------INPUT------
+She wakes up at 7:00 AM.
+------OUTPUT------
+She wakes up at seven o'clock A M.
+------INPUT------
+The game starts at 16:00.
+------OUTPUT------
+The game starts at four o'clock.
+------INPUT------
+He arrives at 12:15 PM.
+------OUTPUT------
+He arrives at twelve fifteen P M.
+------INPUT------
+The meeting is at 9:00 AM.
+------OUTPUT------
+The meeting is at nine o'clock A M.
+------INPUT------
+They leave at 17:30.
+------OUTPUT------
+They leave at five thirty.
+------INPUT------
+The presentation starts at 15:45.
+------OUTPUT------
+The presentation starts at three forty-five.
+------INPUT------
+The event begins at 6:30 PM.
+------OUTPUT------
+The event begins at six thirty P M.
+------INPUT------
+She wakes up at 05:00 AM.
+------OUTPUT------
+She wakes up at five o'clock A M.
+------INPUT------
+The flight departs at 10:15.
+------OUTPUT------
+The flight departs at ten fifteen.
+------INPUT------
+He arrives at 11:45 PM.
+------OUTPUT------
+He arrives at eleven forty-five P M.
