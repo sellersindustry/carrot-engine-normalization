@@ -17,7 +17,7 @@ quote I'm going to the store, end quote he answered.
 ------INPUT------
 The teacher said, "Please open your books to page 10."
 ------OUTPUT------
-The teacher said, quote Please open your books to page 10. end quote
+The teacher said, quote Please open your books to page ten. end quote
 ------INPUT------
 "Can you help me with this?" she inquired.
 ------OUTPUT------

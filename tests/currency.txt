@@ -45,7 +45,7 @@ The salary ranges from forty thousand dollars to sixty thousand dollars.
 ------INPUT------
 The house is listed for $750,000.
 ------OUTPUT------
-The house is listed for seven hundred fifty thousand dollars.
+The budget is two million dollars to three million dollars.
 ------INPUT------
 He donated $25 million to charity.
 ------OUTPUT------

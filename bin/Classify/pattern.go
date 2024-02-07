@@ -8,7 +8,7 @@ import (
 var REGEX_QUOTE = "/^\"|'$/"
 var REGEX_ROMAN_NUM = "/^(([MDCLXVI]*[MDCLXV]+[MDCLXVI]*)|(III)|(II))$/"
 var REGEX_CURRENCY = "/^[$£€]$/"
-var REGEX_OPERATIONS = "/^[\\+\\-\\^\\*\\/\\=x]$/"
+var REGEX_OPERATIONS = "/^[\\+\\-\\^\\*\\/\\=x÷]$/"
 var REGEX_PUNCTUATION = "/^[\\.,\\?\\!\\:\\;]$/"
 
 
@@ -186,7 +186,7 @@ var PATTERNS = []*Pattern{
 		SetSubclassTo:   Token.Range,
 	}, {
 		// Math Operation
-		CurrentByWords:  []string{ "-", "+", "/", "*", "x", "^" },
+		CurrentByWords:  []string{ "-", "+", "/", "*", "x", "^", "÷" },
 		HasPrefix:       []string{IGNORE_SPACES, string(Token.Number)},
 		HasSuffix:       []string{IGNORE_SPACES, string(Token.Number)},
 		SetSubclassTo:   Token.MathOperation,

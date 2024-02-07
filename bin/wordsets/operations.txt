@@ -3,5 +3,6 @@
 *		times
 x		times
 /		divided by
+÷		divided by
 ^		to the power of
 =		equals

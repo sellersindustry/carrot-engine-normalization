@@ -111,7 +111,7 @@ The development of the formal cookie specifications was already ongoing.
 ------OUTPUT------
 The development of the formal cookie specifications was already ongoing.
 ------INPUT------
-In particular, the first discussions about a formal specification started in April 1995 on the www-talk mailing list.
+In particular, the first discussions about a formal specification started in April 1995 on the WWW talk mailing list.
 ------OUTPUT------
 In particular, the first discussions about a formal specification started in April nineteen ninety-five on the W W W talk mailing list.
 ------INPUT------

@@ -1,11 +1,11 @@
 ------INPUT------
-This web site contains an advert from ad.foxytracking.com, which, when downloaded, sets a cookie belonging to the advert's domain (ad.foxytracking.com).
+This web site contains an advert from ad.apple.com, which, when downloaded, sets a cookie belonging to the advert's domain (ad.next.com).
 ------OUTPUT------
-This web site contains an advert from ad dot foxytracking dot com, which, when downloaded, sets a cookie belonging to the advert's domain, ad dot foxytracking dot com.
+This web site contains an advert from ad dot apple dot com, which, when downloaded, sets a cookie belonging to the advert's domain, ad dot next dot com.
 ------INPUT------
-Then, the user visits another website, www.example2.com, which also contains an advert from ad.foxytracking.com, and which also sets a cookie belonging to that domain (ad.foxytracking.com).
+Then, the user visits another website, www.example2.com, which also contains an advert from ad.rose-hulman.edu, and which also sets a cookie belonging to that domain (ad.foxyTracking.com).
 ------OUTPUT------
-Then, the user visits another website, www dot example two dot com, which also contains an advert from ad dot foxytracking dot com, and which also sets a cookie belonging to that domain, ad dot foxytracking dot com.
+Then, the user visits another website, w w w dot example two dot com, which also contains an advert from ad dot rose dash hulman dot e d u, and which also sets a cookie belonging to that domain, ad dot foxy Tracking dot com.
 ------INPUT------
 Eventually, both of these cookies will be sent to the advertiser when loading their ads or visiting their website.
 ------OUTPUT------

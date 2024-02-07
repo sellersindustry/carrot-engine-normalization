@@ -10,7 +10,8 @@ import (
 
 
 var WORDS = getWords();
-var INITIALISM_OVERRIDE = []string{ "AD", "US" };
+var ACRONYM_OVERRIDE    = []string{ "DARPA", "OPEC", "NATO", "UNESCO", "UNICEF" };
+var INITIALISM_OVERRIDE = []string{ "AD", "US", "AI", "IT" };
 
 
 func IsInitialism(text string) bool {
@@ -21,7 +22,10 @@ func IsInitialism(text string) bool {
 		text = strings.TrimSuffix(text, "s")
 	}
 	if Contains(INITIALISM_OVERRIDE, strings.ToUpper(text)) {
-		return true
+		return true;
+	}
+	if Contains(ACRONYM_OVERRIDE, strings.ToUpper(text)) {
+		return false;
 	}
 	return !wordExists(lemmatize(text));
 }

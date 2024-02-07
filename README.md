@@ -79,6 +79,18 @@
     - nouns and posessive roman numerals
 
 
+## Known Issues
+- Recognizing Unicode Characters like (×, ÷, ², ³, ½, ‐ (dashes), “, Ⅻ)
+- Differation between "3 - 4" and if it's "three minus four" or "three to four"
+- Differation between "3 x 4" and if it's "three time four" or "three by four"
+- Differation between initialism and roman numerals
+- Differation between initialism and acryonym
+- Differation between 1 and I
+- Differation between in and inches
+- Differation between (m) million and meters
+- Chunking Domains
+
+
 ## Notes
 - https://www.kaggle.com/datasets/google-nlu/text-normalization (DATAPOINTS)
 - https://huggingface.co/google/flan-t5-base

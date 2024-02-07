@@ -91,7 +91,7 @@ Radio 4 has carried these regular weather forecasts for shipping and gale
 warnings since its move to the Long Wave frequency in 1978 because the long-wave
 service can be received clearly at sea around the coasts of Britain and Ireland.
 ------OUTPUT------
-Radio four has carried these regular weather forecasts for shipping and gale warnings since its move to the Long wave frequency in nineteen seventy-eight because the long-wave service can be received clearly at sea around the coasts of Britain and Ireland.
+Radio four has carried these regular weather forecasts for shipping and gale warnings since its move to the Long Wave frequency in nineteen seventy-eight because the long-wave service can be received clearly at sea around the coasts of Britain and Ireland.
 ------INPUT------
 The station has also been designated as the UK's national broadcaster in times
 of national emergency such as a war: if all other radio stations were forced to
@@ -199,7 +199,7 @@ After the Today programme, the schedule is then determined by the day of the wee
 ------INPUT------
 At 5:00 pm another current affairs programme, PM, is broadcast.
 ------OUTPUT------
-At five o'clock in p m the evening, another current affairs programme, P M, is broadcast.
+At five o'clock p m the evening, another current affairs programme, P M, is broadcast.
 ------INPUT------
 At 6:30 pm there is a regular comedy 'slot', followed by The Archers.
 ------OUTPUT------
