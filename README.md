@@ -2,19 +2,7 @@
 
 
 ## TODO
-- Fix Euro VS Pound
-- Fix AM and PM after time
-- Generate Test
-    - currency ($ and Euro, pounds) and ranges and millions
-    - Quotes
-    - Math Questions
-    - Time
-    - Initialism
-- Implement Abbreivations (Classify, Tranformation)
-- Tranformation
-    - Phone
-    - Special - Email, URL, HashTag (Chuncking - de-camelcase)
-- Classify ranges to use contextual words
+- abbreviations
 - CLI
 - coloclio terms
     - 9/11
@@ -79,8 +67,9 @@
     - nouns and posessive roman numerals
 
 
-## Known Issues
+## Known Issues and Futures Notes
 - Recognizing Unicode Characters like (×, ÷, ², ³, ½, ‐ (dashes), “, Ⅻ)
+- Recognizing Unicode Characters for euro and pounds
 - Differation between "3 - 4" and if it's "three minus four" or "three to four"
 - Differation between "3 x 4" and if it's "three time four" or "three by four"
 - Differation between initialism and roman numerals
@@ -89,6 +78,15 @@
 - Differation between in and inches
 - Differation between (m) million and meters
 - Chunking Domains
+- In the future...
+    - would split at spaces and puncuations to prevent errors like...
+        - 4's
+        - 4s
+        - IX's
+        - IXs
+    - Detection can classify both class and subclass
+    - Detection can detect ranges, currency (with millions), exponential numbers, times
+    - Classify just has the ability to rewrite based on context
 
 
 ## Notes

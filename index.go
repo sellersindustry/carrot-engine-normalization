@@ -7,7 +7,7 @@ import (
 	Normalize "github.com/sellersindustry/normalization-tts/bin"
 )
 
-var text = "At 6:30am"
+var text = "5 / 2 = 3"
 var isTest = true;
 
 func main() {

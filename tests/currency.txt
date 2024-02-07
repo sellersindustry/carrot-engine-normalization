@@ -7,7 +7,7 @@ She earned $2.5 million last year.
 ------OUTPUT------
 She earned two point five million dollars last year.
 ------INPUT------
-The rent ranges from $800-$1200.
+The rent ranges from $800-1200.
 ------OUTPUT------
 The rent ranges from eight hundred to twelve hundred dollars.
 ------INPUT------
@@ -15,9 +15,9 @@ He borrowed $50k from the bank.
 ------OUTPUT------
 He borrowed fifty thousand dollars from the bank.
 ------INPUT------
-The budget is $2m-3m.
+The budget is $2-3m.
 ------OUTPUT------
-The budget is two million dollars to three million dollars.
+The budget is two to three million dollars.
 ------INPUT------
 They invested $3 billion in the project.
 ------OUTPUT------
@@ -45,7 +45,7 @@ The salary ranges from forty thousand dollars to sixty thousand dollars.
 ------INPUT------
 The house is listed for $750,000.
 ------OUTPUT------
-The budget is two million dollars to three million dollars.
+The house is listed for seven hundred and fifty thousand dollars.
 ------INPUT------
 He donated $25 million to charity.
 ------OUTPUT------
@@ -53,7 +53,7 @@ He donated twenty-five million dollars to charity.
 ------INPUT------
 The grant amount is $2-3 million.
 ------OUTPUT------
-The grant amount is two million dollars to three million dollars.
+The grant amount is two to three million dollars.
 ------INPUT------
 The investment is expected to be $100-200 billion.
 ------OUTPUT------
@@ -89,7 +89,7 @@ The prize money is fifty thousand dollars.
 ------INPUT------
 The grant ranges from $1-5 million.
 ------OUTPUT------
-The grant ranges from one million dollars to five million dollars.
+The grant ranges from one to five million dollars.
 ------INPUT------
 The donation amount is $25-50k.
 ------OUTPUT------
@@ -107,9 +107,9 @@ They received a donation of $1 billion.
 ------OUTPUT------
 They received a donation of one billion dollars.
 ------INPUT------
-The budget for the event is $50k-100k.
+The budget for the event is $50-100k.
 ------OUTPUT------
-The budget for the event is fifty thousand dollars to one hundred thousand dollars.
+The budget for the event is fifty to one hundred thousand dollars.
 ------INPUT------
 The investment is expected to be $20-30 million.
 ------OUTPUT------
