@@ -213,6 +213,6 @@ On or after the hour, a news bulletin is broadcast. This is sometimes a two-minu
 ------OUTPUT------
 On or after the hour, a news bulletin is broadcast. This is sometimes a two-minute summary, a longer piece as part of a current affairs programme, or a thirty minute broadcast on weekdays at six o'clock and midnight.
 ------INPUT------
-At 12:00, FM has a four-minute bulletin while long wave has the headlines and then the Shipping Forecast; for the same reason, long wave leaves PM on weekdays at 17:54.------OUTPUT------
+At 12:00, FM has a four-minute bulletin while long wave has the headlines and then the Shipping Forecast; for the same reason, long wave leaves PM on weekdays at 17:54.
 ------OUTPUT------
 At twelve o'clock, FM has a four minute bulletin while long wave has the headlines and then the Shipping Forecast; for the same reason, long wave leaves PM on weekdays at seventeen fifty-four.
